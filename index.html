@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kinoprogramm — Berlin</title>
+<title>Berlin Cinema Programme</title>
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-192.png">
@@ -74,6 +74,35 @@
     background:var(--teal); margin-right:6px;
     box-shadow:0 0 8px var(--teal);
   }
+
+  /* ---- Date picker ---- */
+  .dates{
+    display:flex; gap:8px; overflow-x:auto;
+    margin-bottom:16px; padding-bottom:4px;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+  }
+  .dates::-webkit-scrollbar{display:none;}
+  .date-chip{
+    flex:0 0 auto;
+    font-family:var(--mono);
+    font-size:12.5px;
+    padding:10px 14px;
+    border-radius:9px;
+    border:1px solid var(--hairline);
+    background:var(--panel);
+    color:var(--muted);
+    cursor:pointer;
+    text-align:center;
+    line-height:1.3;
+    user-select:none;
+    transition:all .15s ease;
+  }
+  .date-chip .top{display:block; font-size:10px; text-transform:uppercase; letter-spacing:.06em;}
+  .date-chip .bottom{display:block; font-weight:700; color:var(--text); font-size:13px;}
+  .date-chip:hover{border-color:var(--amber-dim);}
+  .date-chip.active{background:var(--amber); border-color:var(--amber);}
+  .date-chip.active .top, .date-chip.active .bottom{color:#161616;}
 
   /* ---- Controls ---- */
   .controls{
@@ -203,29 +232,31 @@
 
   <header>
     <div class="brand">
-      <span class="kicker">Kinoprogramm · Berlin</span>
-      <h1>Was läuft, wo, in welcher Sprache</h1>
+      <span class="kicker">Cinema Programme · Berlin</span>
+      <h1>What's on, where, and in which language</h1>
     </div>
     <div class="status" id="status">
-      <span class="dot"></span>Lade …
+      <span class="dot"></span>Loading…
     </div>
   </header>
 
+  <div class="dates" id="date-chips"></div>
+
   <div class="controls">
-    <input class="search" id="search" type="text" placeholder="Film suchen (z. B. Spider-Man) …">
+    <input class="search" id="search" type="text" placeholder="Search for a film (e.g. Spider-Man)…">
     <div class="chips" id="lang-chips">
-      <div class="chip active" data-lang="all">Alle</div>
+      <div class="chip active" data-lang="all">All</div>
       <div class="chip" data-lang="ov">OV</div>
       <div class="chip" data-lang="omu">OmU</div>
-      <div class="chip" data-lang="de">Deutsch</div>
+      <div class="chip" data-lang="de">German dub</div>
     </div>
   </div>
 
   <div id="results"></div>
 
   <footer>
-    Quelle: automatisch von kino.veranstaltungen-in-berlin.de zusammengetragen · nicht-kommerziell, keine Werbung, keine Ticketlinks<br>
-    Stand der angezeigten Daten: <span id="generated-at">—</span> · <span id="data-source-note"></span>
+    Source: automatically compiled from kino.veranstaltungen-in-berlin.de and yorck.de · non-commercial, no ads, no ticket links<br>
+    Data last updated: <span id="generated-at">—</span> · <span id="data-source-note"></span>
   </footer>
 
 </div>
@@ -261,6 +292,77 @@ const DEMO_DATA = {
 
 let DATA = null;
 let activeLang = "all";
+let activeDate = null; // ISO string, set once index.json (or fallback) is known
+let availableDates = [];
+const TODAY_ISO = new Date().toISOString().slice(0, 10);
+const WEEKDAY_NAMES = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+const MONTH_NAMES = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+function formatDateChip(iso){
+  const d = new Date(iso + "T00:00:00");
+  const diffDays = Math.round((d - new Date(TODAY_ISO + "T00:00:00")) / 86400000);
+  const top = diffDays === 0 ? "Today" : diffDays === 1 ? "Tomorrow" : WEEKDAY_NAMES[d.getDay()];
+  const bottom = `${d.getDate()} ${MONTH_NAMES[d.getMonth()]}`;
+  return { top, bottom };
+}
+
+function renderDateChips(){
+  const wrap = document.getElementById('date-chips');
+  wrap.innerHTML = "";
+  for (const iso of availableDates){
+    const { top, bottom } = formatDateChip(iso);
+    const chip = document.createElement('div');
+    chip.className = 'date-chip' + (iso === activeDate ? ' active' : '');
+    chip.innerHTML = `<span class="top">${top}</span><span class="bottom">${bottom}</span>`;
+    chip.addEventListener('click', () => {
+      if (iso === activeDate) return;
+      activeDate = iso;
+      renderDateChips();
+      loadDateData(iso);
+    });
+    wrap.appendChild(chip);
+  }
+}
+
+async function loadDateData(iso){
+  const statusEl = document.getElementById('status');
+  const noteEl = document.getElementById('data-source-note');
+  statusEl.innerHTML = `<span class="dot"></span>Loading…`;
+  try{
+    const res = await fetch(`data/${iso}.json`, {cache:"no-store"});
+    if (!res.ok) throw new Error("no data for this date");
+    DATA = await res.json();
+    statusEl.innerHTML = `<span class="dot"></span>Live data loaded`;
+    noteEl.textContent = `Source: data/${iso}.json (generated by the scraper)`;
+  }catch(e){
+    if (iso === TODAY_ISO){
+      DATA = DEMO_DATA;
+      statusEl.innerHTML = `<span class="dot" style="background:var(--amber);box-shadow:0 0 8px var(--amber);"></span>Demo data (no live feed connected yet)`;
+      noteEl.textContent = "Demo data for Spider-Man: Brand New Day, 01.08.2026 — run scraper.py to load every film live";
+    } else {
+      DATA = { date: iso, generated_at: null, screenings: [] };
+      statusEl.innerHTML = `<span class="dot" style="background:var(--red);box-shadow:0 0 8px var(--red);"></span>No data yet for this date`;
+      noteEl.textContent = "The scraper hasn't produced a file for this date yet";
+    }
+  }
+  document.getElementById('generated-at').textContent = DATA.generated_at || DATA.date || "—";
+  render();
+}
+
+async function loadData(){
+  try{
+    const res = await fetch('data/index.json', {cache:"no-store"});
+    if (!res.ok) throw new Error("no index");
+    const index = await res.json();
+    availableDates = index.dates;
+  }catch(e){
+    // No live index yet — fall back to just today, backed by demo data.
+    availableDates = [TODAY_ISO];
+  }
+  activeDate = availableDates.includes(TODAY_ISO) ? TODAY_ISO : availableDates[0];
+  renderDateChips();
+  loadDateData(activeDate);
+}
 
 function classifyLang(tags){
   const t = tags.map(x => x.toLowerCase());
@@ -292,7 +394,7 @@ function render(){
   }
 
   if (byFilm.size === 0){
-    container.innerHTML = `<div class="empty">Keine Vorstellungen gefunden — anderen Filmtitel oder Sprache probieren.</div>`;
+    container.innerHTML = `<div class="empty">No screenings found — try a different film title or language filter.</div>`;
     return;
   }
 
@@ -302,7 +404,7 @@ function render(){
 
     const head = document.createElement('div');
     head.className = 'film-head';
-    head.innerHTML = `<h2>${film}</h2><span class="count">${rows.length} Kino${rows.length===1?'':'s'}</span>`;
+    head.innerHTML = `<h2>${film}</h2><span class="count">${rows.length} cinema${rows.length===1?'':'s'}</span>`;
     group.appendChild(head);
 
     for (const row of rows){
@@ -323,24 +425,6 @@ function render(){
     }
     container.appendChild(group);
   }
-}
-
-async function loadData(){
-  const statusEl = document.getElementById('status');
-  const noteEl = document.getElementById('data-source-note');
-  try{
-    const res = await fetch('data/latest.json', {cache:"no-store"});
-    if (!res.ok) throw new Error("no live feed");
-    DATA = await res.json();
-    statusEl.innerHTML = `<span class="dot"></span>Live-Daten geladen`;
-    noteEl.textContent = "Quelle: data/latest.json (vom Scraper erzeugt)";
-  }catch(e){
-    DATA = DEMO_DATA;
-    statusEl.innerHTML = `<span class="dot" style="background:var(--amber);box-shadow:0 0 8px var(--amber);"></span>Demo-Daten (kein Live-Feed verbunden)`;
-    noteEl.textContent = "Demo-Daten für Spider-Man: Brand New Day, 01.08.2026 — scraper.py ausführen, um alle Filme live zu laden";
-  }
-  document.getElementById('generated-at').textContent = DATA.generated_at || DATA.date || "—";
-  render();
 }
 
 document.getElementById('search').addEventListener('input', render);
