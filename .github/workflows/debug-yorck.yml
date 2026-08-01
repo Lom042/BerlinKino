@@ -1,0 +1,25 @@
+name: Debug Yorck scraper
+
+# Manual-only — run this from the Actions tab when we want to see exactly
+# what the Yorck scraper sees on the real page, to fix its selectors
+# properly. Doesn't touch your live data.
+
+on:
+  workflow_dispatch:
+    inputs:
+      cinema_slug:
+        description: "Yorck cinema slug to inspect (e.g. delphi-lux, odeon, rollberg)"
+        required: true
+        default: "delphi-lux"
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install playwright
+      - run: playwright install --with-deps chromium
+      - run: python scraper_yorck.py --debug ${{ github.event.inputs.cinema_slug }}
