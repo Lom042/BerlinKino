@@ -121,6 +121,20 @@ def extract_screenings_from_text(cinema_slug: str, page_text: str, date_lookup: 
             continue
 
         if not TIME_RE.fullmatch(line) and re.search(r"[A-Za-zÀ-ÿ]{3,}", line):
+            # Reject lines that look like promotional blurbs/review quotes
+            # rather than film titles — this is the exact failure mode
+            # observed in real output: lines like `"A brilliant lawyer's
+            # plea..." (Manon Garcia)` were being mistaken for titles.
+            looks_like_quote = (
+                line[:1] in ('"', "'", "\u201c", "\u2018", "\u00ab")
+                or re.search(r"\([A-Z][a-zà-ÿ]+ [A-Z][a-zà-ÿ]+\)\s*$", line)  # "(First Last)" attribution
+                or len(line) > 70  # real film titles are short; blurbs run long
+                or line.count(".") >= 2  # multi-sentence blurb
+            )
+            if looks_like_quote:
+                i += 1
+                continue
+
             times = []
             j = i + 1
             while j < len(lines) and j < i + 4:
