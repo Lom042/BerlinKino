@@ -6,22 +6,32 @@ Scrapes kino.veranstaltungen-in-berlin.de — a site that already aggregates
 showtimes for ~50+ cinemas across Berlin & Potsdam into one paginated feed,
 per day. This is the "communal" source the frontend runs on.
 
-Output: data/YYYY-MM-DD.json, containing every screening for that day:
-    {
-      "date": "2026-08-01",
-      "generated_at": "2026-08-01T09:00:00",
-      "screenings": [
+Scrapes a *range* of days (today + the next few), not just today, so the
+app can offer a date picker.
+
+Output:
+    data/YYYY-MM-DD.json   — one file per day:
         {
-          "cinema": "Zoo Palast",
-          "address": "Hardenbergstr. 29a, 10623 Berlin",
-          "film": "Spider-Man: Brand New Day",
-          "format_tags": ["OV"],       # OV, OmU, 3D, IMAX, Atmos, D-Box, UkrF, dubbed (none)...
-          "times": ["16:15"],
-          "film_url": "http://kino.veranstaltungen-in-berlin.de/..."
-        },
-        ...
-      ]
-    }
+          "date": "2026-08-01",
+          "generated_at": "2026-08-01T09:00:00",
+          "screenings": [
+            {
+              "cinema": "Zoo Palast",
+              "address": "Hardenbergstr. 29a, 10623 Berlin",
+              "film": "Spider-Man: Brand New Day",
+              "format_tags": ["OV"],
+              "times": ["16:15"],
+              "film_url": "http://kino.veranstaltungen-in-berlin.de/..."
+            },
+            ...
+          ]
+        }
+    data/index.json        — which dates are available, for the frontend's
+                              date picker:
+        {
+          "generated_at": "2026-08-01T09:00:00",
+          "dates": ["2026-08-01", "2026-08-02", ..., "2026-08-07"]
+        }
 
 NOTE FROM CLAUDE: I built this against the page structure I could see through
 a text-mode fetch (I don't have live network access in the sandbox I'm
@@ -35,15 +45,16 @@ and I can fix it in seconds.
 
 Usage:
     pip install requests beautifulsoup4 --break-system-packages
-    python scraper.py                  # scrapes today
-    python scraper.py 2026-08-02       # scrapes a specific date
+    python scraper.py                  # scrapes today + next DAYS_AHEAD days
+    python scraper.py 2026-08-02        # scrapes one specific date only
+    python scraper.py --debug           # diagnostic dump for today
 """
 
 import re
 import sys
 import json
 import time
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import requests
@@ -57,6 +68,7 @@ HEADERS = {
 }
 REQUEST_DELAY = 1.0  # seconds between requests — be gentle, this is someone's small site
 PAGE_SIZE = 100  # the site's own pagination offset step (?os=0, 100, 200, ...)
+DAYS_AHEAD = 6  # scrape today + this many future days (7 days total)
 
 FORMAT_WORDS = {"OV", "OmU", "3D", "IMAX", "Atmos", "D-Box", "UkrF", "OmenglU"}
 
@@ -200,35 +212,51 @@ def parse_day(target_date: date) -> list[dict]:
     return screenings
 
 
-def main():
-    target = date.today()
-    args = [a for a in sys.argv[1:] if a != "--debug"]
-    if args:
-        target = datetime.strptime(args[0], "%Y-%m-%d").date()
-
-    if "--debug" in sys.argv:
-        debug_dump(target)
-        return
-
+def scrape_and_write_day(target: date, out_dir: Path) -> int:
     screenings = parse_day(target)
-
-    out_dir = Path(__file__).parent / "data"
-    out_dir.mkdir(exist_ok=True)
     out_path = out_dir / f"{target.isoformat()}.json"
-
     payload = {
         "date": target.isoformat(),
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "screenings": screenings,
     }
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-
-    # Also write/overwrite a stable "latest.json" the frontend always reads
-    (out_dir / "latest.json").write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-
     print(f"Wrote {len(screenings)} screenings for {target.isoformat()} -> {out_path}")
+    return len(screenings)
+
+
+def main():
+    out_dir = Path(__file__).parent / "data"
+    out_dir.mkdir(exist_ok=True)
+
+    if "--debug" in sys.argv:
+        args = [a for a in sys.argv[1:] if a != "--debug"]
+        target = datetime.strptime(args[0], "%Y-%m-%d").date() if args else date.today()
+        debug_dump(target)
+        return
+
+    args = sys.argv[1:]
+    if args:
+        # Single specific date requested — scrape just that one day.
+        target = datetime.strptime(args[0], "%Y-%m-%d").date()
+        scrape_and_write_day(target, out_dir)
+        return
+
+    # Default: today + the next DAYS_AHEAD days.
+    dates = [date.today() + timedelta(days=i) for i in range(DAYS_AHEAD + 1)]
+    for i, d in enumerate(dates):
+        scrape_and_write_day(d, out_dir)
+        if i < len(dates) - 1:
+            time.sleep(REQUEST_DELAY)
+
+    index_payload = {
+        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "dates": [d.isoformat() for d in dates],
+    }
+    (out_dir / "index.json").write_text(
+        json.dumps(index_payload, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    print(f"Wrote index.json covering {dates[0].isoformat()} .. {dates[-1].isoformat()}")
 
 
 if __name__ == "__main__":
