@@ -1,0 +1,16 @@
+{
+  "name": "Kinoprogramm Berlin",
+  "short_name": "Kino Berlin",
+  "description": "Was läuft, wo, in welcher Sprache — alle Berliner Kinos an einem Ort.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#121319",
+  "theme_color": "#121319",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

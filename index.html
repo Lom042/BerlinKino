@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kinoprogramm — Berlin</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="theme-color" content="#121319">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Kino Berlin">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#121319;
+    --panel:#1B1D26;
+    --panel-raised:#22242F;
+    --amber:#FFB627;
+    --amber-dim:#8a6a1f;
+    --teal:#4ECDC4;
+    --red:#E4572E;
+    --text:#F2F0E9;
+    --muted:#8A8D99;
+    --hairline:#2C2E3A;
+    --mono: 'JetBrains Mono', monospace;
+    --sans: 'Inter', sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:var(--sans);
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:920px;margin:0 auto;padding:28px 20px 80px;}
+
+  /* ---- Header : departure-board header plate ---- */
+  header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:16px;
+    margin-bottom:22px;
+    padding-bottom:18px;
+    border-bottom:1px solid var(--hairline);
+    flex-wrap:wrap;
+  }
+  .brand{display:flex; flex-direction:column; gap:2px;}
+  .brand .kicker{
+    font-family:var(--mono);
+    font-size:11px;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    color:var(--amber);
+  }
+  .brand h1{
+    margin:0;
+    font-size:28px;
+    font-weight:700;
+    letter-spacing:-0.01em;
+  }
+  .status{
+    font-family:var(--mono);
+    font-size:12px;
+    color:var(--muted);
+    text-align:right;
+  }
+  .status .dot{
+    display:inline-block;width:7px;height:7px;border-radius:50%;
+    background:var(--teal); margin-right:6px;
+    box-shadow:0 0 8px var(--teal);
+  }
+
+  /* ---- Controls ---- */
+  .controls{
+    display:flex; gap:10px; flex-wrap:wrap; align-items:center;
+    margin-bottom:24px;
+  }
+  .search{
+    flex:1 1 220px;
+    background:var(--panel);
+    border:1px solid var(--hairline);
+    border-radius:8px;
+    padding:11px 14px;
+    color:var(--text);
+    font-family:var(--sans);
+    font-size:14px;
+    outline:none;
+  }
+  .search::placeholder{color:var(--muted);}
+  .search:focus{border-color:var(--amber-dim);}
+  .chips{display:flex; gap:6px; flex-wrap:wrap;}
+  .chip{
+    font-family:var(--mono);
+    font-size:12px;
+    padding:9px 13px;
+    border-radius:8px;
+    border:1px solid var(--hairline);
+    background:var(--panel);
+    color:var(--muted);
+    cursor:pointer;
+    transition:all .15s ease;
+    user-select:none;
+  }
+  .chip:hover{border-color:var(--amber-dim); color:var(--text);}
+  .chip.active{
+    background:var(--amber);
+    border-color:var(--amber);
+    color:#161616;
+    font-weight:700;
+  }
+
+  /* ---- Film group ---- */
+  .film-group{
+    margin-bottom:26px;
+    background:var(--panel);
+    border:1px solid var(--hairline);
+    border-radius:10px;
+    overflow:hidden;
+  }
+  .film-head{
+    display:flex; justify-content:space-between; align-items:baseline;
+    padding:14px 18px;
+    background:var(--panel-raised);
+    border-bottom:1px solid var(--hairline);
+  }
+  .film-head h2{
+    margin:0; font-size:16px; font-weight:700; letter-spacing:-0.01em;
+  }
+  .film-head .count{
+    font-family:var(--mono); font-size:11px; color:var(--muted);
+  }
+
+  .cinema-row{
+    display:flex; justify-content:space-between; gap:14px;
+    padding:13px 18px;
+    border-bottom:1px solid var(--hairline);
+    flex-wrap:wrap;
+    align-items:center;
+  }
+  .cinema-row:last-child{border-bottom:none;}
+  .cinema-info{min-width:180px;}
+  .cinema-name{font-size:14px; font-weight:600;}
+  .cinema-addr{font-size:11.5px; color:var(--muted); margin-top:1px;}
+
+  .times{display:flex; gap:8px; flex-wrap:wrap; justify-content:flex-end;}
+  .time-chip{
+    font-family:var(--mono);
+    font-size:13px;
+    padding:6px 10px;
+    background:var(--bg);
+    border:1px solid var(--hairline);
+    border-radius:6px;
+    display:flex; align-items:center; gap:7px;
+    overflow:hidden;
+  }
+  .time-chip .digits{
+    display:inline-block;
+    animation: flip-in .5s cubic-bezier(.2,.9,.3,1) both;
+  }
+  @keyframes flip-in{
+    0%{ transform: rotateX(90deg); opacity:0; }
+    60%{ transform: rotateX(-8deg); opacity:1; }
+    100%{ transform: rotateX(0); }
+  }
+  .lang-tag{
+    font-family:var(--mono);
+    font-size:9.5px;
+    letter-spacing:.04em;
+    padding:2px 5px;
+    border-radius:4px;
+    text-transform:uppercase;
+    font-weight:700;
+  }
+  .lang-tag.ov, .lang-tag.omu{ background:rgba(78,205,196,.18); color:var(--teal); }
+  .lang-tag.de{ background:rgba(138,141,153,.18); color:var(--muted); }
+  .lang-tag.other{ background:rgba(228,87,46,.18); color:var(--red); }
+
+  .empty{
+    text-align:center; color:var(--muted); padding:60px 20px;
+    font-family:var(--mono); font-size:13px;
+  }
+
+  footer{
+    margin-top:40px; padding-top:18px; border-top:1px solid var(--hairline);
+    font-size:11.5px; color:var(--muted); font-family:var(--mono);
+    line-height:1.6;
+  }
+  footer a{color:var(--teal); text-decoration:none;}
+
+  @media (max-width:520px){
+    .cinema-row{flex-direction:column; align-items:flex-start;}
+    .times{justify-content:flex-start;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">
+      <span class="kicker">Kinoprogramm · Berlin</span>
+      <h1>Was läuft, wo, in welcher Sprache</h1>
+    </div>
+    <div class="status" id="status">
+      <span class="dot"></span>Lade …
+    </div>
+  </header>
+
+  <div class="controls">
+    <input class="search" id="search" type="text" placeholder="Film suchen (z. B. Spider-Man) …">
+    <div class="chips" id="lang-chips">
+      <div class="chip active" data-lang="all">Alle</div>
+      <div class="chip" data-lang="ov">OV</div>
+      <div class="chip" data-lang="omu">OmU</div>
+      <div class="chip" data-lang="de">Deutsch</div>
+    </div>
+  </div>
+
+  <div id="results"></div>
+
+  <footer>
+    Quelle: automatisch von kino.veranstaltungen-in-berlin.de zusammengetragen · nicht-kommerziell, keine Werbung, keine Ticketlinks<br>
+    Stand der angezeigten Daten: <span id="generated-at">—</span> · <span id="data-source-note"></span>
+  </footer>
+
+</div>
+
+<script>
+// ---- Real demo data: Spider-Man: Brand New Day, Berlin, Sat 01.08.2026 ----
+// (pulled live for this build — see scraper.py for how a full daily feed,
+// covering every film, is generated automatically)
+const DEMO_DATA = {
+  date: "2026-08-01",
+  generated_at: "2026-08-01T09:00:00",
+  screenings: [
+    { cinema: "Zoo Palast", address: "Hardenbergstr. 29a, 10623 Berlin", film: "Spider-Man: Brand New Day", format_tags: [], times: ["13:00","14:15","16:45","17:30","20:45"] },
+    { cinema: "Zoo Palast", address: "Hardenbergstr. 29a, 10623 Berlin", film: "Spider-Man: Brand New Day", format_tags: ["OV"], times: ["16:15"] },
+    { cinema: "Kino in der Kulturbrauerei", address: "Schönhauser Allee 36, 10435 Berlin", film: "Spider-Man: Brand New Day", format_tags: ["OmU"], times: ["11:30","14:00","16:45","19:30","22:20"] },
+    { cinema: "CineStar CUBIX Filmpalast Alexanderplatz", address: "Rathausstr. 1, 10178 Berlin", film: "Spider-Man: Brand New Day", format_tags: [], times: ["11:00","13:15","22:45"] },
+    { cinema: "CineStar CUBIX Filmpalast Alexanderplatz", address: "Rathausstr. 1, 10178 Berlin", film: "Spider-Man: Brand New Day", format_tags: ["OV"], times: ["11:15","13:30","16:50","19:00","22:20"] },
+    { cinema: "CineStar CUBIX Filmpalast Alexanderplatz", address: "Rathausstr. 1, 10178 Berlin", film: "Spider-Man: Brand New Day", format_tags: ["3D","OV"], times: ["20:30"] },
+    { cinema: "Cineplex Titania Palast", address: "Schloßstr. 5-6, 12163 Berlin", film: "Spider-Man: Brand New Day", format_tags: [], times: ["10:00","13:10","14:00","16:30","19:50","23:20"] },
+    { cinema: "Cineplex Titania Palast", address: "Schloßstr. 5-6, 12163 Berlin", film: "Spider-Man: Brand New Day", format_tags: ["OV"], times: ["16:00","20:15","23:00"] },
+    { cinema: "Cineplex Titania Palast", address: "Schloßstr. 5-6, 12163 Berlin", film: "Spider-Man: Brand New Day", format_tags: ["3D"], times: ["10:30","16:10","19:30"] },
+    { cinema: "Cineplex Spandau", address: "Havelstr. 20, 13597 Berlin", film: "Spider-Man: Brand New Day", format_tags: [], times: ["10:00","11:55","13:05","14:45","16:30","19:50","23:05"] },
+    { cinema: "Cineplex Neukölln Arcaden", address: "Karl-Marx-Str. 66, 12043 Berlin", film: "Spider-Man: Brand New Day", format_tags: [], times: ["12:15","14:00","16:30","19:50"] },
+    { cinema: "Cineplex Neukölln Arcaden", address: "Karl-Marx-Str. 66, 12043 Berlin", film: "Spider-Man: Brand New Day", format_tags: ["OV"], times: ["12:00","14:30","17:00","20:15"] },
+    { cinema: "Cineplex Alhambra", address: "Seestr. 94, 13353 Berlin", film: "Spider-Man: Brand New Day", format_tags: ["OV"], times: ["13:50","17:00","20:15"] },
+    { cinema: "UCI East Side Gallery", address: "Mildred-Harnack-Str. 13, 10243 Berlin", film: "Spider-Man: Brand New Day", format_tags: [], times: ["14:00","16:30"] },
+    { cinema: "UCI East Side Gallery", address: "Mildred-Harnack-Str. 13, 10243 Berlin", film: "Spider-Man: Brand New Day", format_tags: ["OV"], times: ["15:30"] },
+    { cinema: "UCI Kinowelt am Eastgate", address: "Märkische Allee 176-178, 12679 Berlin", film: "Spider-Man: Brand New Day", format_tags: [], times: ["14:00","20:10"] },
+    { cinema: "CineStar Hellersdorf", address: "Stendaler Str. 25, 12627 Berlin", film: "Spider-Man: Brand New Day", format_tags: [], times: ["11:05","14:00","16:55","20:00"] },
+    { cinema: "CineStar Tegel", address: "Am Borsigturm 2, 13507 Berlin", film: "Spider-Man: Brand New Day", format_tags: [], times: ["11:30","14:00","16:00","19:30","22:30"] },
+  ]
+};
+
+let DATA = null;
+let activeLang = "all";
+
+function classifyLang(tags){
+  const t = tags.map(x => x.toLowerCase());
+  if (t.includes("ov")) return "ov";
+  if (t.includes("omu")) return "omu";
+  if (t.length === 0) return "de";
+  return "other"; // UkrF, etc — shown but not filterable into OV/OmU/DE
+}
+
+function langLabel(tags){
+  if (tags.length === 0) return { cls:"de", text:"DE" };
+  const cls = classifyLang(tags);
+  return { cls, text: tags.join(" · ") };
+}
+
+function render(){
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const container = document.getElementById('results');
+  container.innerHTML = "";
+
+  // group by film
+  const byFilm = new Map();
+  for (const s of DATA.screenings){
+    if (q && !s.film.toLowerCase().includes(q)) continue;
+    const lang = classifyLang(s.format_tags);
+    if (activeLang !== "all" && lang !== activeLang) continue;
+    if (!byFilm.has(s.film)) byFilm.set(s.film, []);
+    byFilm.get(s.film).push(s);
+  }
+
+  if (byFilm.size === 0){
+    container.innerHTML = `<div class="empty">Keine Vorstellungen gefunden — anderen Filmtitel oder Sprache probieren.</div>`;
+    return;
+  }
+
+  for (const [film, rows] of [...byFilm.entries()].sort((a,b)=>a[0].localeCompare(b[0]))){
+    const group = document.createElement('div');
+    group.className = 'film-group';
+
+    const head = document.createElement('div');
+    head.className = 'film-head';
+    head.innerHTML = `<h2>${film}</h2><span class="count">${rows.length} Kino${rows.length===1?'':'s'}</span>`;
+    group.appendChild(head);
+
+    for (const row of rows){
+      const r = document.createElement('div');
+      r.className = 'cinema-row';
+      const timesHtml = row.times.map(t => {
+        const {cls, text} = langLabel(row.format_tags);
+        return `<span class="time-chip"><span class="digits">${t}</span><span class="lang-tag ${cls}">${text}</span></span>`;
+      }).join("");
+      r.innerHTML = `
+        <div class="cinema-info">
+          <div class="cinema-name">${row.cinema}</div>
+          <div class="cinema-addr">${row.address}</div>
+        </div>
+        <div class="times">${timesHtml}</div>
+      `;
+      group.appendChild(r);
+    }
+    container.appendChild(group);
+  }
+}
+
+async function loadData(){
+  const statusEl = document.getElementById('status');
+  const noteEl = document.getElementById('data-source-note');
+  try{
+    const res = await fetch('data/latest.json', {cache:"no-store"});
+    if (!res.ok) throw new Error("no live feed");
+    DATA = await res.json();
+    statusEl.innerHTML = `<span class="dot"></span>Live-Daten geladen`;
+    noteEl.textContent = "Quelle: data/latest.json (vom Scraper erzeugt)";
+  }catch(e){
+    DATA = DEMO_DATA;
+    statusEl.innerHTML = `<span class="dot" style="background:var(--amber);box-shadow:0 0 8px var(--amber);"></span>Demo-Daten (kein Live-Feed verbunden)`;
+    noteEl.textContent = "Demo-Daten für Spider-Man: Brand New Day, 01.08.2026 — scraper.py ausführen, um alle Filme live zu laden";
+  }
+  document.getElementById('generated-at').textContent = DATA.generated_at || DATA.date || "—";
+  render();
+}
+
+document.getElementById('search').addEventListener('input', render);
+document.querySelectorAll('.chip').forEach(chip => {
+  chip.addEventListener('click', () => {
+    document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    activeLang = chip.dataset.lang;
+    render();
+  });
+});
+
+loadData();
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  });
+}
+</script>
+</body>
+</html>
