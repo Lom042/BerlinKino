@@ -1,0 +1,5466 @@
+{
+  "date": "2026-08-01",
+  "generated_at": "2026-08-01T12:48:10",
+  "screenings": [
+    {
+      "cinema": "babylon-kreuzberg",
+      "address": "",
+      "film": "Pedro Almodóvar's dramedy in the Cannes Film Festival competition. (More)",
+      "format_tags": [],
+      "times": [
+        "15:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "babylon-kreuzberg",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "babylon-kreuzberg",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "babylon-kreuzberg",
+      "address": "",
+      "film": "Thrilling sci-fi dystopia in a world without a future. (More)",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "babylon-kreuzberg",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "babylon-kreuzberg",
+      "address": "",
+      "film": "Erotic thriller with Jessica Chastain. (More)",
+      "format_tags": [],
+      "times": [
+        "15:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "blauer-stern",
+      "address": "",
+      "film": "In the presence of Lars Jessen and Charly Hübner",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "blauer-stern",
+      "address": "",
+      "film": "Christopher Nolan's epic adaptation of the greek myth. (More)",
+      "format_tags": [],
+      "times": [
+        "16:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "blauer-stern",
+      "address": "",
+      "film": "Based on a true story. (More)",
+      "format_tags": [],
+      "times": [
+        "20:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "blauer-stern",
+      "address": "",
+      "film": "The next installment in the popular Pixar series. (More)",
+      "format_tags": [],
+      "times": [
+        "15:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "blauer-stern",
+      "address": "",
+      "film": "On women in German television in the 1990s and 2000s. (More)",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "capitol-dahlem",
+      "address": "",
+      "film": "In the presence of director Jürgen Haase and lead actor Karl-Heinz Bomberg",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "capitol-dahlem",
+      "address": "",
+      "film": "Olivia Wilde, Edward Norton, Penélope Cruz and Seth Rogen. (More)",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "capitol-dahlem",
+      "address": "",
+      "film": "On women in German television in the 1990s and 2000s. (More)",
+      "format_tags": [],
+      "times": [
+        "17:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "cinema-paris",
+      "address": "",
+      "film": "In the presence of directors Benji and Jono Bergmann as well as cast & crew",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "cinema-paris",
+      "address": "",
+      "film": "Director Lars Becker presents his new book \"Es wird Steine regnen\"",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "cinema-paris",
+      "address": "",
+      "film": "Burlesque live show followed by a film screening",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "cinema-paris",
+      "address": "",
+      "film": "Pedro Almodóvar's dramedy in the Cannes Film Festival competition. (More)",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-filmpalast",
+      "address": "",
+      "film": "Christopher Nolan's epic adaptation of the greek myth. (More)",
+      "format_tags": [],
+      "times": [
+        "15:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-filmpalast",
+      "address": "",
+      "film": "70mmOmU",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "In the presence of director Florian Karner",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "Olivia Wilde, Edward Norton, Penélope Cruz and Seth Rogen. (More)",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "Pedro Almodóvar's dramedy in the Cannes Film Festival competition. (More)",
+      "format_tags": [],
+      "times": [
+        "15:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "Based on a true story. (More)",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "On women in German television in the 1990s and 2000s. (More)",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "A true crime story . (More)",
+      "format_tags": [],
+      "times": [
+        "14:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "Book adaptation starring Claire Foy and Brendan Gleeson. (More)",
+      "format_tags": [],
+      "times": [
+        "14:50"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "Be careful what you wish for. (More)",
+      "format_tags": [],
+      "times": [
+        "20:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "The coven just clocked in. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "I found something... it's massive in there. And it just goes on and on.. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "An artful documentary starring Sandra Hüller. (More)",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "About a women's unit fighting against ISIS. (More)",
+      "format_tags": [],
+      "times": [
+        "16:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "By IVO-Director Eva Trobisch. (More)",
+      "format_tags": [],
+      "times": [
+        "18:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "Leo Woodall, Dustin Hoffman and Havana Rose Liu in pitch perfect thriller. (More)",
+      "format_tags": [],
+      "times": [
+        "20:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "I blink. I twitch. I jump. I click. I whistle. I shout.. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "Spielberg's dystopian Thriller with Josh O'Connor and Emily Blunt. (More)",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "Erotic thriller with Jessica Chastain. (More)",
+      "format_tags": [],
+      "times": [
+        "17:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "delphi-lux",
+      "address": "",
+      "film": "Galician tradition with a modern twist . (More)",
+      "format_tags": [],
+      "times": [
+        "15:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "filmtheater-am-friedrichshain",
+      "address": "",
+      "film": "Followed by a discussion",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "filmtheater-am-friedrichshain",
+      "address": "",
+      "film": "In the presence of director Annekatrin Hendel and the film crew",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "filmtheater-am-friedrichshain",
+      "address": "",
+      "film": "Olivia Wilde, Edward Norton, Penélope Cruz and Seth Rogen. (More)",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "filmtheater-am-friedrichshain",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "filmtheater-am-friedrichshain",
+      "address": "",
+      "film": "Christopher Nolan's epic adaptation of the greek myth. (More)",
+      "format_tags": [],
+      "times": [
+        "15:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "filmtheater-am-friedrichshain",
+      "address": "",
+      "film": "Tom Holland and Zendaya are back in the Spider-Verse. (More)",
+      "format_tags": [],
+      "times": [
+        "17:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "filmtheater-am-friedrichshain",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "filmtheater-am-friedrichshain",
+      "address": "",
+      "film": "Pedro Almodóvar's dramedy in the Cannes Film Festival competition. (More)",
+      "format_tags": [],
+      "times": [
+        "16:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "filmtheater-am-friedrichshain",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "filmtheater-am-friedrichshain",
+      "address": "",
+      "film": "The next installment in the popular Pixar series. (More)",
+      "format_tags": [],
+      "times": [
+        "16:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "filmtheater-am-friedrichshain",
+      "address": "",
+      "film": "On women in German television in the 1990s and 2000s. (More)",
+      "format_tags": [],
+      "times": [
+        "14:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "filmtheater-am-friedrichshain",
+      "address": "",
+      "film": "Be careful what you wish for. (More)",
+      "format_tags": [],
+      "times": [
+        "21:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Olivia Wilde, Edward Norton, Penélope Cruz and Seth Rogen. (More)",
+      "format_tags": [],
+      "times": [
+        "20:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "11:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "12:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:50"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:50"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:50"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:50"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Christopher Nolan's epic adaptation of the greek myth. (More)",
+      "format_tags": [],
+      "times": [
+        "20:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "70mmOmU",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "70mmDE",
+      "format_tags": [],
+      "times": [
+        "15:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "70mmDE",
+      "format_tags": [],
+      "times": [
+        "15:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "70mmDE",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "70mmOV",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "70mmOV",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "70mmOV",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "70mmOV",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "70mmOV",
+      "format_tags": [],
+      "times": [
+        "15:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "11:50"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "12:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Tom Holland and Zendaya are back in the Spider-Verse. (More)",
+      "format_tags": [],
+      "times": [
+        "20:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "13:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "13:50"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "13:50"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Pedro Almodóvar's dramedy in the Cannes Film Festival competition. (More)",
+      "format_tags": [],
+      "times": [
+        "15:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmeU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmeU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmeU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmeU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmeU",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "11:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "11:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Based on a true story. (More)",
+      "format_tags": [],
+      "times": [
+        "20:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "13:50"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "On women in German television in the 1990s and 2000s. (More)",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "The next installment in the popular Pixar series. (More)",
+      "format_tags": [],
+      "times": [
+        "15:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Leo Woodall, Dustin Hoffman and Havana Rose Liu in pitch perfect thriller. (More)",
+      "format_tags": [],
+      "times": [
+        "20:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "11:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "11:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Be careful what you wish for. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Book adaptation starring Claire Foy and Brendan Gleeson. (More)",
+      "format_tags": [],
+      "times": [
+        "17:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:50"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "The coven just clocked in. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "I found something... it's massive in there. And it just goes on and on.. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Thrilling sci-fi dystopia in a world without a future. (More)",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "12:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "An artful documentary starring Sandra Hüller. (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A true crime story . (More)",
+      "format_tags": [],
+      "times": [
+        "14:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Erotic thriller with Jessica Chastain. (More)",
+      "format_tags": [],
+      "times": [
+        "15:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A surprise film ahead of its official German release.. (More)",
+      "format_tags": [],
+      "times": [
+        "22:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A new breed of mystery. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Zendaya and Robert Pattinson are getting married. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "I blink. I twitch. I jump. I click. I whistle. I shout.. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmeU",
+      "format_tags": [],
+      "times": [
+        "14:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "By IVO-Director Eva Trobisch. (More)",
+      "format_tags": [],
+      "times": [
+        "18:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A life changing hike through the summery french countryside. (More)",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "The secrets that stay hidden across generations. (More)",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Bi Gan's monumental work that spans the history of cinema. (More)",
+      "format_tags": [],
+      "times": [
+        "12:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmeU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmeU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmeU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "About a women's unit fighting against ISIS. (More)",
+      "format_tags": [],
+      "times": [
+        "16:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "16:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Spielberg's dystopian Thriller with Josh O'Connor and Emily Blunt. (More)",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "With a climax that changed the world of film. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Award-winning drama by Paweł Pawlikowski, director of FATHERLAND. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "With Ryan Gosling and Sandra Hüller. (More)",
+      "format_tags": [],
+      "times": [
+        "20:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "11:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A love story of a different kind. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "12:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Music film from France. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "12:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "French classic by Jacques Tati. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "12:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "With supporting film “Schuldner”. (More)",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "\"Wenn jeder so tanzen würde wie er wollte, na!\", \"Rock'n'Roll\" and \"Ansichten\". (More)",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "With supporting film \"Der A57\". (More)",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "\"Dietrichs Methode\", \"Red Traffic Lights\" and \"Rotweinrock und Lammfellmantel\". (More)",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "With supporting film \"Modekiste\". (More)",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A journey through the last century. (More)",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "We sneak our favorite movies from 100 years of cinema history. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Winner of the Un Certain Regard section at Cannes. (More)",
+      "format_tags": [],
+      "times": [
+        "15:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmeU",
+      "format_tags": [],
+      "times": [
+        "15:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "The ordinary family life of an ex-Yakuza – and his talking plant. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "John Woo's landmark Hong Kong action film, restored in 4K. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Jack Burton's in for some serious trouble and you're in for some serious fun.. (More)",
+      "format_tags": [],
+      "times": [
+        "22:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "22:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Poetic drama, shot on 16mm. (More)",
+      "format_tags": [],
+      "times": [
+        "21:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Documentary about one of the world's best international music collectives. (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Galician tradition with a modern twist . (More)",
+      "format_tags": [],
+      "times": [
+        "15:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "15:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Let's make Christmas Fettuccine and have a jolly good time. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "His whole life was a million-to-one shot.. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Innocence has a power evil cannot imagine.. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "If you have what it takes, you can have it all.. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Your future is in its hands.. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Sensitive feature film debut. (More)",
+      "format_tags": [],
+      "times": [
+        "12:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Documentary narrated by Katharina Thalbach. (More)",
+      "format_tags": [],
+      "times": [
+        "12:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Based on the novel by Tiziano Scarpa. (More)",
+      "format_tags": [],
+      "times": [
+        "12:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "The Surf Film Night comes in a double pack: two great films in one evening!. (More)",
+      "format_tags": [],
+      "times": [
+        "20:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Queer classic with Patrick Swayze, Wesley Snipes and John Leguizamo. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Awarded Best Director and Best Actor at Cannes. (More)",
+      "format_tags": [],
+      "times": [
+        "20:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Starring Sandra Hüller. (More)",
+      "format_tags": [],
+      "times": [
+        "20:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Dream big. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Oscar winner with Timothée Chalamet. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Coming-of-age comedy based on novel. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Docu about the humanitarian catastrophe at Europe's external borders. (More)",
+      "format_tags": [],
+      "times": [
+        "20:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A crime drama told in reverse, exploring revenge and lost memories. (More)",
+      "format_tags": [],
+      "times": [
+        "21:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "She's everything. He's just Ken. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Memory burns in this deeply affecting and Award-winning film from Charlotte Wells.. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Don't judge a book by its hair color!. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "There are angels on the streets of Berlin.. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Meryl Streep is back as Miranda Priestly!. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Paul Thomas Anderson's new film starring Leonardo DiCaprio. (More)",
+      "format_tags": [],
+      "times": [
+        "21:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "From Oscar® winner Chloé Zhao (Nomadland) with Paul Mescal and Jessie Buckley . (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Musical cult classic with Nicole Kidman and Ewan McGregor. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Gillian Anderson and Hannah Einbinder are gay . (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Who you gonna call? Ghostbusters!. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Music, politics and personal struggles. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "The desire to see the world without losing one's home. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "This is the totally true story of how the Minions conquered Hollywood. (More)",
+      "format_tags": [],
+      "times": [
+        "13:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "An Afghan love story. (More)",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Autobiographical war film by Konrad Wolf. (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "From the RuPaul Universe – The greatest trainwreck in herstory. (More)",
+      "format_tags": [],
+      "times": [
+        "21:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Vibrate dance docu about the ballroom and voguing scene in Thailand. (More)",
+      "format_tags": [],
+      "times": [
+        "21:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Kurt Maetzig's socially critical drama remained banned until 1990. (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "One of the first post-World War II German films. (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "80 years of DEFA at Kino International. (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Freedom, diversity, and fetish – you'll find it all at KitKat. (More)",
+      "format_tags": [],
+      "times": [
+        "21:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Winner of the Teddy Jury Award 2026. (More)",
+      "format_tags": [],
+      "times": [
+        "21:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Frank Beyer's film was banned only three days after the premiere. (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Legal thriller with a highly topical theme. (More)",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "The Ultimate Trip.. (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "All's fair in love and basketball. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A movie about empowering women (the hot ones). (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "It all begins... with a choice. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "\"this is the smartest movie ever made like the wolf of wall street wishes.\". (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "\"Aside from that random straight subplot it's so gay\". (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Lesbian Christmas Movie Hallelujah. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Is Mac and Me really Simply the Worst?. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Biopic about war photographer Lee Miller with Kate Winslet . (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Shirtless Ryan Gosling for Valentine's Day. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Is Angelina Jolies first movie really Simply the Worst?. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Is the sequel to Breakin' actually Simply the Worst?. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "You don't get to 500 million friends without making a few enemies.. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Orson Welles' groundbreaking masterpiece. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Is the last Batman movie from the 90ies really Simply the Worst?. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "How a Hostage Crisis Forever Changed TV News. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Family drama set in the Chilean desert. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Is the original He-Man movie Simply the Worst?. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "This is what dreams are made of. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Five short films of the Berlinale 2026. (More)",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Thriller by Pedro Almodóvar with Antonio Banderas. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Atmospheric drama about guilt and loss. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Highlight of the midnight section at Cannes. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Documentary on prison conditions in the GDR. (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Like a quiet dream with your eyes open – mysterious and full of beauty. (More)",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Marilyn Monroe in steamy comedy . (More)",
+      "format_tags": [],
+      "times": [
+        "11:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "15th anniversary of Nicolas Winding Refn’s neon-lit thriller and love story. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Hitchcock's masterpiece about an obsession with a dead woman. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Sidney Lumet's NYC epic about a cop fighting corruption within his own ranks. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Cher, Winona Ryder und Christina Ricci in Klassikern der 90er Jahre. (More)",
+      "format_tags": [],
+      "times": [
+        "11:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Musical comedy starring Marilyn Monroe and Jane Russell. (More)",
+      "format_tags": [],
+      "times": [
+        "11:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Film noir meets occult horror, starring Mickey Rourke as a private investigator. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A radical police film by Fritz Lang from the gritty late phase of film noir. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Melancholic noir starring Humphrey Bogart as a screenwriter suspected of murder. (More)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "He has no strings to hold him back now.. (More)",
+      "format_tags": [],
+      "times": [
+        "22:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Science fiction classic. (More)",
+      "format_tags": [],
+      "times": [
+        "22:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A hangout noir with private detective Marlowe in the rundown L.A. of the 1970s. (More)",
+      "format_tags": [],
+      "times": [
+        "20:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Terror is the same on any planet.. (More)",
+      "format_tags": [],
+      "times": [
+        "22:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Beware the children.. (More)",
+      "format_tags": [],
+      "times": [
+        "22:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Rock'n'Roll, magic guitars and lots and lots of fur. (More)",
+      "format_tags": [],
+      "times": [
+        "21:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Into the heart. Into the soul.. (More)",
+      "format_tags": [],
+      "times": [
+        "16:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Audience Award Documentary at the Max Ophüls Festival. (More)",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Documentation based on interviews with contemporary witnesses. (More)",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A gentle return to Fiji – starring Tilda Swinton. (More)",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Sultry, long nights under the neon lights of Bangkok. (More)",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Documentary on relationship between beople and AI chatbots. (More)",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Sandra Hüller's award winning performance. (More)",
+      "format_tags": [],
+      "times": [
+        "12:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Join us as we go on a quest for answers: Do films with a bad reputation really live up to their infamy, or were... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "STECKERLFISCHFIASKO, the tenth film adaptation of author Rita Falk's popular Eberhofer series, will premiere on... (More)",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "STECKERLFISCHFIASKO, the tenth film adaptation of author Rita Falk's popular Eberhofer series, will premiere in... (More)",
+      "format_tags": [],
+      "times": [
+        "19:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Two films about a thirst for adventure, discovery, and the courage to make dreams come true. The Surf Film Nigh... (More)",
+      "format_tags": [],
+      "times": [
+        "20:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "With THE DRAMA, the star-studded third film by Norwegian director Kristoffer Borgli (SICK OF MYSELF, DREAM SCEN... (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Did the curtain just move by itself? Why is the popcorn gone again? What was that floating past the screen? Has... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "The documentary NOGA follows Israeli pop sensation Noga Erez as she stands on the threshold of international su... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A gripping thriller with powerful imagery: raw, fast-paced, and breathless, written by director Lars Becker. La... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "In A STROLL TO SYRACUSE, director Lars Jessen (MITTAGSSTUNDE) tells a story of insatiable longing and great cou... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "In HIDDENSEE, award-winning director Annekatrin Hendel weaves together landscape, history, and personal stories... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "What happens if a female camerawoman’s headscarf slips during an interview with a Taliban member? What do women... (More)",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "In HIDDENSEE, award-winning director Annekatrin Hendel weaves together landscape, history, and personal stories... (More)",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "DEFA is celebrating its 80th anniversary this year. Since 1946, the East German state film studio has been a pl... (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "“A brilliant lawyer’s plea not to leave the task of curbing violence to the courts.” (Manon Garcia) ‎‎ “Chris... (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Every year, Jella Haase, Albrecht Schuch, and Marion Brasch come together to perform Thomas Brasch’s poem “Der ... (More)",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A new story that we desperately need: Luzia grows up in a loving household that serves as a refuge for a divers... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Thanks to his classic \"A Christmas Carol\", Charles Dickens is inextricably linked to Christmas like no other. ... (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Stop Protecting Perpetrators! „Wer hat euch erlaubt, Frauen so zu hassen? Für eine Gesellschaft, in der alle si... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Every year, Jella Haase, Albrecht Schuch, and Marion Brasch come together to perform Thomas Brasch’s poem “Der ... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "DEFA is celebrating its 80th anniversary this year. Since 1946, the East German state film studio has been a pl... (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "DEFA is celebrating its 80th anniversary this year. Since 1946, the East German state film studio has been a pl... (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "As a child, Don Pablo Mulemba—the son of an Angolan contract worker and an East German woman—was constantly for... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "DEFA is celebrating its 80th anniversary this year. Since 1946, the East German state film studio has been a pl... (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Iris Berben and Oliver Masucci read from “After So Much Pain and Suffering: First Letters After the Holocaust”.... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A new vision of the apocalypse featuring Florentina Holzinger – a film about women, muscle cars and global coll... (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "DEFA is celebrating its 80th anniversary this year. Since 1946, the East German state film studio has been a pl... (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Following his multi-award-winning debut film FUTUR DREI, director Faraz Shariat presents PROSECUTION, an intens... (More)",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "My Girlfriend, Russia, Ukraine, and Me. Christiane Hoffmann discusses her new book about the loss of personal a... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Stanley Kubrick’s 2001: A SPACE ODYSSEE is a classic – not only because of its visionary visual language and it... (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Is love enough when doubt sets in? Ruth-Maria Thomas’s new novel tells the story of Michelle and Henry, of thei... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A collection of poetic and political essays on borders, colonialism, tourism, and Western violence against the ... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Bis(s) zum Abspann is no longer just about vampires. We will dedicate ourselves to all the creatures of the nig... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "We are delighted to present the third edition of the **Usina Berlin Ibero-American Short Film Festival**, featu... (More)",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "With EVERYTIME, director Sandra Wollner has created an atmospheric, deeply poetic drama about loss and guilt, w... (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "There were 17 Stasi remand prisons and over 70 juvenile work camps in the GDR. The 45-minute documentary SPLITT... (More)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "In the autobiographical documentary EINE KRANKHEIT WIE EIN GEDICHT, director Jelena Ilić tells a story – full o... (More)",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "A powerful documentary that uses interviews with contemporary witnesses to shed light on what remains unsaid in... (More)",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Slow Cinema – cinema that takes the time to capture the world in all its depth, rather than condensing it into ... (More)",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "Slow Cinema – cinema that takes the time to capture the world in all its depth, rather than condensing it into ... (More)",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "international",
+      "address": "",
+      "film": "The documentary FINDING CONNECTION profiles several people around the world who have formed an emotional bond w... (More)",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "kant-kino",
+      "address": "",
+      "film": "Preview before theatrical release",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "kant-kino",
+      "address": "",
+      "film": "In the presence of the main cast",
+      "format_tags": [],
+      "times": [
+        "19:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "kant-kino",
+      "address": "",
+      "film": "Olivia Wilde, Edward Norton, Penélope Cruz and Seth Rogen. (More)",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "kant-kino",
+      "address": "",
+      "film": "Christopher Nolan's epic adaptation of the greek myth. (More)",
+      "format_tags": [],
+      "times": [
+        "15:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "kant-kino",
+      "address": "",
+      "film": "Based on a true story. (More)",
+      "format_tags": [],
+      "times": [
+        "14:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "kant-kino",
+      "address": "",
+      "film": "Leo Woodall, Dustin Hoffman and Havana Rose Liu in pitch perfect thriller. (More)",
+      "format_tags": [],
+      "times": [
+        "17:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "kant-kino",
+      "address": "",
+      "film": "The next installment in the popular Pixar series. (More)",
+      "format_tags": [],
+      "times": [
+        "14:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "kant-kino",
+      "address": "",
+      "film": "A life changing hike through the summery french countryside. (More)",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "kant-kino",
+      "address": "",
+      "film": "Book adaptation starring Claire Foy and Brendan Gleeson. (More)",
+      "format_tags": [],
+      "times": [
+        "17:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "kant-kino",
+      "address": "",
+      "film": "A new breed of mystery. (More)",
+      "format_tags": [],
+      "times": [
+        "14:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "neues-off",
+      "address": "",
+      "film": "Christopher Nolan's epic adaptation of the greek myth. (More)",
+      "format_tags": [],
+      "times": [
+        "16:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "neues-off",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "odeon",
+      "address": "",
+      "film": "So good it hurts",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "odeon",
+      "address": "",
+      "film": "Christopher Nolan's epic adaptation of the greek myth. (More)",
+      "format_tags": [],
+      "times": [
+        "16:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "odeon",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "passage",
+      "address": "",
+      "film": "In the presence of Sandra Wollner and Birgit Minichmayr",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "passage",
+      "address": "",
+      "film": "The short film festival for contemporary Ibero-American cinema",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "passage",
+      "address": "",
+      "film": "Olivia Wilde, Edward Norton, Penélope Cruz and Seth Rogen. (More)",
+      "format_tags": [],
+      "times": [
+        "15:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "passage",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:50"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "passage",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "passage",
+      "address": "",
+      "film": "Zendaya and Robert Pattinson are getting married. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "passage",
+      "address": "",
+      "film": "I found something... it's massive in there. And it just goes on and on.. (More)",
+      "format_tags": [],
+      "times": [
+        "21:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "passage",
+      "address": "",
+      "film": "Book adaptation starring Claire Foy and Brendan Gleeson. (More)",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "passage",
+      "address": "",
+      "film": "The secrets that stay hidden across generations. (More)",
+      "format_tags": [],
+      "times": [
+        "18:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "passage",
+      "address": "",
+      "film": "Leo Woodall, Dustin Hoffman and Havana Rose Liu in pitch perfect thriller. (More)",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "passage",
+      "address": "",
+      "film": "Bi Gan's monumental work that spans the history of cinema. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "passage",
+      "address": "",
+      "film": "I blink. I twitch. I jump. I click. I whistle. I shout.. (More)",
+      "format_tags": [],
+      "times": [
+        "14:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "passage",
+      "address": "",
+      "film": "Winner of the Un Certain Regard section at Cannes. (More)",
+      "format_tags": [],
+      "times": [
+        "15:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "passage",
+      "address": "",
+      "film": "An artful documentary starring Sandra Hüller. (More)",
+      "format_tags": [],
+      "times": [
+        "16:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "rollberg",
+      "address": "",
+      "film": "Tom Holland and Zendaya are back in the Spider-Verse. (More)",
+      "format_tags": [],
+      "times": [
+        "17:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "rollberg",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "rollberg",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "17:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "rollberg",
+      "address": "",
+      "film": "The next installment in the popular Pixar series. (More)",
+      "format_tags": [],
+      "times": [
+        "16:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "rollberg",
+      "address": "",
+      "film": "The coven just clocked in. (More)",
+      "format_tags": [],
+      "times": [
+        "17:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "rollberg",
+      "address": "",
+      "film": "Be careful what you wish for. (More)",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "rollberg",
+      "address": "",
+      "film": "Jack Burton's in for some serious trouble and you're in for some serious fun.. (More)",
+      "format_tags": [],
+      "times": [
+        "22:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "rollberg",
+      "address": "",
+      "film": "OmU",
+      "format_tags": [],
+      "times": [
+        "22:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "rollberg",
+      "address": "",
+      "film": "Into the heart. Into the soul.. (More)",
+      "format_tags": [],
+      "times": [
+        "16:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "yorck",
+      "address": "",
+      "film": "Christopher Nolan's epic adaptation of the greek myth. (More)",
+      "format_tags": [],
+      "times": [
+        "15:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "yorck",
+      "address": "",
+      "film": "On women in German television in the 1990s and 2000s. (More)",
+      "format_tags": [],
+      "times": [
+        "16:00"
+      ],
+      "film_url": ""
+    }
+  ]
+}
