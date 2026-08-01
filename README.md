@@ -78,13 +78,19 @@ delphi LUX, Odeon, Passage, Rollberg, Kant Kino, Kino International,
 Capitol Dahlem, Casablanca-adjacent arthouse venues, and more — roughly 14
 cinemas, and the ones most likely to show OV/OmU. The main aggregator
 doesn't include them at all, which is a real gap given what you're using
-this for. But Yorck's site is a JavaScript app, so this scraper needs a
-real headless browser (Playwright) rather than a simple HTML fetch — and
-I could not execute or render JavaScript from where I built this, so I
-could not verify this one against the live, rendered page. It's a
-reasonable first attempt (built to be structure-agnostic rather than
-relying on exact CSS classes), but budget one round of "run `--debug
-<cinema-slug>`, paste me what it prints, I fix it" before trusting it.
+this for.
+
+**Currently paused in the live workflow.** First real-world test showed it
+mistaking promotional blurbs/review quotes on Yorck's pages for actual
+film titles — bad enough that showing it was worse than not showing it, so
+it's commented out in `.github/workflows/update-showtimes.yml` for now.
+I've tightened the filtering logic based on that real failure, but haven't
+been able to verify it live. To help fix it for good: go to the **Actions**
+tab → **Debug Yorck scraper** → **Run workflow**, pick a cinema slug (e.g.
+`delphi-lux`), run it, and paste me the log output — that's real output
+from the real page, and I can get the selectors exactly right from it, no
+more guessing. Once it's solid, uncomment the Yorck steps in the main
+workflow file to bring it back online.
 
 **Still not covered by either:** a handful of very small independents and
 seasonal open-air cinemas (Sinema Transtopia, Moviemento, Wolf Kino,
