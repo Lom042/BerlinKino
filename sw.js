@@ -1,4 +1,4 @@
-const CACHE_NAME = "kino-berlin-v1";
+const CACHE_NAME = "kino-berlin-v2";
 const CORE_ASSETS = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (event) => {
@@ -17,13 +17,13 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
-// Network-first for the live data feed (so you always see fresh showtimes
-// when online), cache-first for everything else (so the app still opens
-// instantly offline, just with last-seen data).
+// Network-first for the live data feeds (index + each date's file), so you
+// always see fresh showtimes when online; cache-first for everything else
+// (so the app still opens instantly offline, just with last-seen data).
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
 
-  if (url.pathname.endsWith("/data/latest.json")) {
+  if (/\/data\/(index|\d{4}-\d{2}-\d{2})\.json$/.test(url.pathname)) {
     event.respondWith(
       fetch(event.request)
         .then((res) => {
