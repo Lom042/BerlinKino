@@ -1,0 +1,19 @@
+name: Debug main scraper
+
+# Manual-only — run this from the Actions tab when the main scraper is
+# coming back empty, to see exactly what it finds on the real page.
+# Doesn't touch your live data.
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - run: python scraper.py --debug
