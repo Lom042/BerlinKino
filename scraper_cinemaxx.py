@@ -42,9 +42,18 @@ CINEMA_ADDRESS = "Potsdamer Straße 5, 10785 Berlin"
 
 TIME_PAIR_RE = re.compile(r"^(\d{1,2}:\d{2})(\d{1,2}:\d{2})$")
 PRICE_RE = re.compile(r"^\d+,\d{2}\s?€$")
-LANGUAGE_TAGS = {
-    "Englisch": "OV",
-    "Japanisch mit deutschen Untertiteln": "OmU",
+def classify_language_line(line: str) -> str | None:
+    """Maps a language-marker line to a format tag. Handles both the plain
+    'Englisch' / 'Japanisch mit deutschen Untertiteln' lines and the
+    combined 'dt. UT - Englisch - OmU' style line (English audio with
+    German subtitles) — confirmed from real output, both mean OmU."""
+    if "OmU" in line:
+        return "OmU"
+    if line == "Englisch":
+        return "OV"
+    if line == "Japanisch mit deutschen Untertiteln":
+        return "OmU"
+    return None,
 }
 DAY_MARKER = "HEUTE"
 SHOW_ALL_TEXT = "ZEIGE ALLE FILMZEITEN"
@@ -106,9 +115,11 @@ def parse_cinemaxx_text(text: str) -> list[dict]:
                     k += 1
                 if k < len(lines) and PRICE_RE.match(lines[k]):
                     k += 1
-                    if k < len(lines) and lines[k] in LANGUAGE_TAGS:
-                        tag = LANGUAGE_TAGS[lines[k]]
-                        k += 1
+                    if k < len(lines):
+                        classified = classify_language_line(lines[k])
+                        if classified:
+                            tag = classified
+                            k += 1
 
                 tags = [tag] if tag else []
                 existing = next(
