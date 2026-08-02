@@ -190,6 +190,26 @@
   .cinema-link:hover{ text-decoration:underline; opacity:1; }
   .film-head .cinema-link{ margin-top:0; margin-left:8px; font-size:10.5px; font-weight:700; }
 
+  /* ---- Distance (postcode) feature ---- */
+  .postcode-input{ max-width:230px; flex:0 1 230px; }
+  .chip.disabled{ opacity:.35; cursor:not-allowed; }
+  .chip.disabled:hover{ border-color:var(--hairline); color:var(--muted); }
+  .distance-hint{
+    font-family:var(--mono); font-size:11px; color:var(--red);
+    flex-basis:100%;
+  }
+  .distance-tag{
+    font-family:var(--mono);
+    font-size:10px;
+    font-weight:700;
+    color:var(--amber);
+    background:rgba(255,182,39,.14);
+    padding:2px 6px;
+    border-radius:4px;
+    white-space:nowrap;
+  }
+  .film-head .distance-tag{ margin-left:6px; }
+
   .times{display:flex; gap:8px; flex-wrap:wrap; justify-content:flex-end;}
   .time-chip{
     font-family:var(--mono);
@@ -278,6 +298,14 @@
       <div class="chip" data-lang="omu">OmU</div>
       <div class="chip" data-lang="de">German dub</div>
     </div>
+  </div>
+
+  <div class="controls">
+    <input class="search postcode-input" id="postcode" type="text" inputmode="numeric" maxlength="5" placeholder="Your postcode (optional) — e.g. 10115">
+    <div class="chips">
+      <div class="chip disabled" id="distance-toggle">Nearest first</div>
+    </div>
+    <span class="distance-hint" id="distance-hint"></span>
   </div>
 
   <div class="chips" id="view-chips" style="margin-bottom:20px;">
@@ -483,6 +511,78 @@ function cinemaLinkHtml(name, extraClass){
   return `<a class="${cls}" href="${url}" target="_blank" rel="noopener noreferrer">Website ↗</a>`;
 }
 
+// ---- "Nearest first" (postcode-based distance) ----
+// Real Berlin postcode centre-points, not guessed — sourced from a public
+// German-postcode geocoordinate dataset (WZB Social Science Center,
+// geocoded via Google's geocoding API), filtered to Berlin's real postcode
+// range (10115-14199) and trimmed to 4 decimal places (~11m precision,
+// plenty for "which cinema is nearest" — this was never meant to be
+// exact-to-the-metre). Three entries that dataset had wildly wrong
+// (a duplicated failed-geocode value ~400km away, for postcodes that are
+// non-geographic institutional codes) were dropped rather than kept wrong.
+const BERLIN_PLZ_COORDS = {
+  "10115":[52.5326,13.3777],"10117":[52.5155,13.3848],"10119":[52.5307,13.4058],"10178":[52.5222,13.4093],"10179":[52.5121,13.4140],"10243":[52.5147,13.4386],"10245":[52.5019,13.4554],"10247":[52.5173,13.4631],"10249":[52.5239,13.4412],"10315":[52.5155,13.5145],"10317":[52.4985,13.4847],"10318":[52.4810,13.5186],"10319":[52.4958,13.5137],"10365":[52.5191,13.4950],"10367":[52.5205,13.4800],"10369":[52.5285,13.4668],"10405":[52.5342,13.4230],"10407":[52.5345,13.4561],"10409":[52.5434,13.4414],"10435":[52.5385,13.4096],"10437":[52.5455,13.4073],"10439":[52.5517,13.4123],"10551":[52.5317,13.3386],"10553":[52.5282,13.3214],"10555":[52.5225,13.3360],"10557":[52.5232,13.3653],"10559":[52.5319,13.3483],"10585":[52.5151,13.3053],"10587":[52.5171,13.3237],"10589":[52.5299,13.3067],"10623":[52.5070,13.3284],"10625":[52.5087,13.3138],"10627":[52.5074,13.3015],"10629":[52.5018,13.3027],"10707":[52.4950,13.3148],"10709":[52.4922,13.3037],"10711":[52.4990,13.2916],"10713":[52.4869,13.3137],"10715":[52.4837,13.3305],"10717":[52.4908,13.3281],"10719":[52.4993,13.3246],"10777":[52.4972,13.3429],"10779":[52.4921,13.3404],"10781":[52.4934,13.3526],"10783":[52.4977,13.3625],"10785":[52.5069,13.3651],"10787":[52.5094,13.3431],"10789":[52.5012,13.3381],"10823":[52.4857,13.3488],"10825":[52.4840,13.3403],"10827":[52.4830,13.3543],"10829":[52.4804,13.3597],"10961":[52.4931,13.3969],"10963":[52.4986,13.3784],"10965":[52.4854,13.3989],"10967":[52.4909,13.4161],"10969":[52.5027,13.4017],"10997":[52.5004,13.4334],"10999":[52.4957,13.4272],"12043":[52.4777,13.4415],"12045":[52.4867,13.4344],"12047":[52.4901,13.4283],"12049":[52.4773,13.4220],"12051":[52.4668,13.4303],"12053":[52.4760,13.4330],"12055":[52.4713,13.4500],"12057":[52.4686,13.4621],"12059":[52.4805,13.4526],"12099":[52.4591,13.4033],"12101":[52.4762,13.3963],"12103":[52.4639,13.3729],"12105":[52.4453,13.3795],"12107":[52.4334,13.3907],"12109":[52.4467,13.4020],"12157":[52.4658,13.3448],"12159":[52.4737,13.3352],"12161":[52.4694,13.3254],"12163":[52.4632,13.3204],"12165":[52.4574,13.3118],"12167":[52.4500,13.3285],"12169":[52.4555,13.3398],"12203":[52.4426,13.3103],"12205":[52.4332,13.2980],"12207":[52.4212,13.3076],"12209":[52.4182,13.3288],"12247":[52.4395,13.3434],"12249":[52.4273,13.3491],"12277":[52.4107,13.3757],"12279":[52.4111,13.3488],"12305":[52.4052,13.3999],"12307":[52.3825,13.3994],"12309":[52.3901,13.4166],"12347":[52.4506,13.4300],"12349":[52.4279,13.4150],"12351":[52.4342,13.4561],"12353":[52.4228,13.4574],"12355":[52.4075,13.4976],"12357":[52.4276,13.4882],"12359":[52.4480,13.4520],"12435":[52.4840,13.4698],"12437":[52.4609,13.4815],"12439":[52.4496,13.5241],"12459":[52.4609,13.5280],"12487":[52.4383,13.5129],"12489":[52.4370,13.5471],"12524":[52.4127,13.5465],"12526":[52.3997,13.5747],"12527":[52.3922,13.6291],"12529":[52.3691,13.5016],"12555":[52.4622,13.5868],"12557":[52.4268,13.5884],"12559":[52.4169,13.6493],"12587":[52.4614,13.6406],"12589":[52.4485,13.7040],"12619":[52.5243,13.5906],"12621":[52.5051,13.5884],"12623":[52.5033,13.6073],"12627":[52.5379,13.6130],"12629":[52.5404,13.5918],"12679":[52.5480,13.5617],"12681":[52.5546,13.5398],"12683":[52.4982,13.5582],"12685":[52.5380,13.5664],"12687":[52.5564,13.5640],"12689":[52.5645,13.5719],"13051":[52.5820,13.4913],"13053":[52.5559,13.5055],"13055":[52.5383,13.4986],"13057":[52.5731,13.5451],"13059":[52.5786,13.5207],"13086":[52.5546,13.4466],"13088":[52.5593,13.4761],"13089":[52.5687,13.4420],"13125":[52.6326,13.4776],"13127":[52.6111,13.4281],"13129":[52.5933,13.4583],"13156":[52.5819,13.3981],"13158":[52.5917,13.3836],"13159":[52.6247,13.4038],"13187":[52.5721,13.4127],"13189":[52.5601,13.4222],"13347":[52.5497,13.3643],"13349":[52.5588,13.3437],"13351":[52.5503,13.3391],"13353":[52.5411,13.3509],"13355":[52.5421,13.3901],"13357":[52.5505,13.3787],"13359":[52.5592,13.3830],"13403":[52.5741,13.3186],"13405":[52.5583,13.3098],"13407":[52.5737,13.3514],"13409":[52.5693,13.3715],"13435":[52.6019,13.3421],"13437":[52.5875,13.3346],"13439":[52.5951,13.3542],"13465":[52.6324,13.2881],"13467":[52.6142,13.3055],"13469":[52.6130,13.3398],"13503":[52.6106,13.2418],"13505":[52.5884,13.2464],"13507":[52.5747,13.2707],"13509":[52.5891,13.3033],"13581":[52.5299,13.1871],"13583":[52.5416,13.1834],"13585":[52.5467,13.2068],"13587":[52.5727,13.1924],"13589":[52.5658,13.1581],"13591":[52.5349,13.1432],"13593":[52.5186,13.1696],"13595":[52.5077,13.1917],"13597":[52.5296,13.2139],"13599":[52.5485,13.2386],"13627":[52.5410,13.3045],"13629":[52.5400,13.2653],"14050":[52.5195,13.2727],"14052":[52.5127,13.2595],"14053":[52.5206,13.2275],"14055":[52.5027,13.2355],"14057":[52.5065,13.2856],"14059":[52.5213,13.2871],"14089":[52.4741,13.1523],"14109":[52.4151,13.1469],"14129":[52.4307,13.2006],"14163":[52.4480,13.2397],"14165":[52.4160,13.2588],"14167":[52.4194,13.2759],"14169":[52.4422,13.2653],"14193":[52.4675,13.2107],"14195":[52.4533,13.2885],"14197":[52.4721,13.3144],"14199":[52.4768,13.2962]
+};
+
+let userPostcodeCoord = null; // [lat, lon] once a recognized postcode is entered, else null
+let distanceSortEnabled = false;
+
+function haversineKm(a, b){
+  const R = 6371;
+  const dLat = (b[0]-a[0]) * Math.PI/180;
+  const dLon = (b[1]-a[1]) * Math.PI/180;
+  const lat1 = a[0] * Math.PI/180;
+  const lat2 = b[0] * Math.PI/180;
+  const x = Math.sin(dLat/2)**2 + Math.cos(lat1)*Math.cos(lat2)*Math.sin(dLon/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(x), Math.sqrt(1-x));
+}
+
+function extractPostcode(address){
+  const m = address && address.match(/\b(\d{5})\b/);
+  return m ? m[1] : null;
+}
+
+// Distance in km, or null if we can't work it out (no user postcode set,
+// or this cinema's address doesn't resolve to a known Berlin postcode).
+function cinemaDistanceKm(address){
+  if (!userPostcodeCoord) return null;
+  const plz = extractPostcode(address);
+  if (!plz || !BERLIN_PLZ_COORDS[plz]) return null;
+  return haversineKm(userPostcodeCoord, BERLIN_PLZ_COORDS[plz]);
+}
+
+// For sorting: unresolvable distances go last, never first.
+function distanceSortValue(address){
+  const km = cinemaDistanceKm(address);
+  return km === null ? Infinity : km;
+}
+
+function distanceBadgeHtml(address){
+  if (!distanceSortEnabled || !userPostcodeCoord) return '';
+  const km = cinemaDistanceKm(address);
+  return km === null
+    ? `<span class="distance-tag">—</span>`
+    : `<span class="distance-tag">${km < 10 ? km.toFixed(1) : Math.round(km)} km</span>`;
+}
+
+function updatePostcode(){
+  const raw = document.getElementById('postcode').value.trim();
+  const toggle = document.getElementById('distance-toggle');
+  const hint = document.getElementById('distance-hint');
+  if (/^\d{5}$/.test(raw) && BERLIN_PLZ_COORDS[raw]){
+    userPostcodeCoord = BERLIN_PLZ_COORDS[raw];
+    toggle.classList.remove('disabled');
+    hint.textContent = '';
+  } else {
+    userPostcodeCoord = null;
+    toggle.classList.add('disabled');
+    toggle.classList.remove('active');
+    distanceSortEnabled = false;
+    hint.textContent = raw ? 'Postcode not recognized (Berlin postcodes only)' : '';
+  }
+  render();
+}
+
 function getFilteredScreenings(){
   const qRaw = document.getElementById('search').value.trim();
   const q = normalizeForSearch(qRaw);
@@ -540,19 +640,27 @@ function renderByFilm(filtered, container){
     if (!byFilm.has(s.film)) byFilm.set(s.film, []);
     byFilm.get(s.film).push(s);
   }
-  for (const [film, rows] of [...byFilm.entries()].sort((a,b)=>a[0].localeCompare(b[0]))){
+  const nearest = distanceSortEnabled && userPostcodeCoord;
+  const filmEntries = [...byFilm.entries()];
+  filmEntries.sort((a,b) => nearest
+    ? Math.min(...a[1].map(r=>distanceSortValue(r.address))) - Math.min(...b[1].map(r=>distanceSortValue(r.address)))
+    : a[0].localeCompare(b[0]));
+  for (const [film, rows] of filmEntries){
     const group = document.createElement('div');
     group.className = 'film-group';
     const head = document.createElement('div');
     head.className = 'film-head';
     head.innerHTML = `<h2>${film}</h2><span class="count">${rows.length} cinema${rows.length===1?'':'s'}</span>`;
     group.appendChild(head);
-    for (const row of rows.sort((a,b)=>a.cinema.localeCompare(b.cinema))){
+    const sortedRows = rows.sort((a,b) => nearest
+      ? distanceSortValue(a.address) - distanceSortValue(b.address)
+      : a.cinema.localeCompare(b.cinema));
+    for (const row of sortedRows){
       const r = document.createElement('div');
       r.className = 'cinema-row';
       r.innerHTML = `
         <div class="cinema-info">
-          <div class="cinema-name">${row.cinema}</div>
+          <div class="cinema-name">${row.cinema} ${distanceBadgeHtml(row.address)}</div>
           <div class="cinema-addr">${row.address}</div>
           ${cinemaLinkHtml(row.cinema)}
         </div>
@@ -570,12 +678,17 @@ function renderByCinema(filtered, container){
     if (!byCinema.has(s.cinema)) byCinema.set(s.cinema, {address: s.address, rows: []});
     byCinema.get(s.cinema).rows.push(s);
   }
-  for (const [cinema, data] of [...byCinema.entries()].sort((a,b)=>a[0].localeCompare(b[0]))){
+  const nearest = distanceSortEnabled && userPostcodeCoord;
+  const cinemaEntries = [...byCinema.entries()];
+  cinemaEntries.sort((a,b) => nearest
+    ? distanceSortValue(a[1].address) - distanceSortValue(b[1].address)
+    : a[0].localeCompare(b[0]));
+  for (const [cinema, data] of cinemaEntries){
     const group = document.createElement('div');
     group.className = 'film-group';
     const head = document.createElement('div');
     head.className = 'film-head';
-    head.innerHTML = `<h2>${cinema}${cinemaLinkHtml(cinema)}</h2><span class="count">${data.address}</span>`;
+    head.innerHTML = `<h2>${cinema}${cinemaLinkHtml(cinema)}${distanceBadgeHtml(data.address)}</h2><span class="count">${data.address}</span>`;
     group.appendChild(head);
     for (const row of data.rows.sort((a,b)=>a.film.localeCompare(b.film))){
       const r = document.createElement('div');
@@ -599,7 +712,14 @@ function renderByTime(filtered, container){
       flat.push({time: t, film: s.film, cinema: s.cinema, address: s.address, tags: s.format_tags});
     }
   }
-  flat.sort((a,b) => a.time.localeCompare(b.time) || a.film.localeCompare(b.film));
+  const nearest = distanceSortEnabled && userPostcodeCoord;
+  flat.sort((a,b) => {
+    const timeCompare = a.time.localeCompare(b.time);
+    if (timeCompare !== 0) return timeCompare;
+    return nearest
+      ? distanceSortValue(a.address) - distanceSortValue(b.address)
+      : a.film.localeCompare(b.film);
+  });
   for (const item of flat){
     const {cls, text} = langLabel(item.tags);
     const row = document.createElement('div');
@@ -608,7 +728,7 @@ function renderByTime(filtered, container){
       <span class="time-chip"><span class="digits">${item.time}</span><span class="lang-tag ${cls}">${text}</span></span>
       <div class="flat-info">
         <div class="flat-film">${item.film}</div>
-        <div class="flat-cinema">${item.cinema} · ${item.address} · ${cinemaLinkHtml(item.cinema)}</div>
+        <div class="flat-cinema">${item.cinema} · ${item.address} · ${cinemaLinkHtml(item.cinema)} ${distanceBadgeHtml(item.address)}</div>
       </div>
     `;
     container.appendChild(row);
@@ -632,6 +752,14 @@ document.querySelectorAll('#view-chips .chip').forEach(chip => {
     activeView = chip.dataset.view;
     render();
   });
+});
+
+document.getElementById('postcode').addEventListener('input', updatePostcode);
+document.getElementById('distance-toggle').addEventListener('click', function(){
+  if (this.classList.contains('disabled')) return;
+  distanceSortEnabled = !distanceSortEnabled;
+  this.classList.toggle('active', distanceSortEnabled);
+  render();
 });
 
 loadData();
