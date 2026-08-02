@@ -499,7 +499,7 @@ function renderByTime(filtered, container){
   const flat = [];
   for (const s of filtered){
     for (const t of s.times){
-      flat.push({time: t, film: s.film, cinema: s.cinema, tags: s.format_tags});
+      flat.push({time: t, film: s.film, cinema: s.cinema, address: s.address, tags: s.format_tags});
     }
   }
   flat.sort((a,b) => a.time.localeCompare(b.time) || a.film.localeCompare(b.film));
@@ -511,7 +511,7 @@ function renderByTime(filtered, container){
       <span class="time-chip"><span class="digits">${item.time}</span><span class="lang-tag ${cls}">${text}</span></span>
       <div class="flat-info">
         <div class="flat-film">${item.film}</div>
-        <div class="flat-cinema">${item.cinema}</div>
+        <div class="flat-cinema">${item.cinema} · ${item.address}</div>
       </div>
     `;
     container.appendChild(row);
