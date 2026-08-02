@@ -315,7 +315,20 @@ let activeLang = "all";
 let activeView = "film";
 let activeDate = null; // ISO string, set once index.json (or fallback) is known
 let availableDates = [];
-const TODAY_ISO = new Date().toISOString().slice(0, 10);
+function getBerlinDateISO(){
+  const parts = new Intl.DateTimeFormat('en-CA', {timeZone:'Europe/Berlin', year:'numeric', month:'2-digit', day:'2-digit'}).formatToParts(new Date());
+  const y = parts.find(p=>p.type==='year').value;
+  const m = parts.find(p=>p.type==='month').value;
+  const d = parts.find(p=>p.type==='day').value;
+  return `${y}-${m}-${d}`;
+}
+function getBerlinNowMinutes(){
+  const parts = new Intl.DateTimeFormat('en-GB', {timeZone:'Europe/Berlin', hour:'2-digit', minute:'2-digit', hour12:false}).formatToParts(new Date());
+  const h = parseInt(parts.find(p=>p.type==='hour').value, 10);
+  const mi = parseInt(parts.find(p=>p.type==='minute').value, 10);
+  return h*60 + mi;
+}
+const TODAY_ISO = getBerlinDateISO();
 const WEEKDAY_NAMES = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 const MONTH_NAMES = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 
@@ -412,6 +425,22 @@ function getFilteredScreenings(){
     const lang = classifyLang(s.format_tags);
     if (activeLang !== "all" && lang !== activeLang) continue;
     out.push(s);
+  }
+  return hidePastTimesIfToday(out);
+}
+
+function hidePastTimesIfToday(screenings){
+  if (activeDate !== TODAY_ISO) return screenings;
+  const nowMinutes = getBerlinNowMinutes();
+  const out = [];
+  for (const s of screenings){
+    const upcoming = s.times.filter(t => {
+      const [h, m] = t.split(':').map(Number);
+      return (h*60 + m) >= nowMinutes;
+    });
+    if (upcoming.length > 0){
+      out.push({...s, times: upcoming});
+    }
   }
   return out;
 }
