@@ -51,7 +51,7 @@
   }
   .brand{display:flex; flex-direction:column; gap:2px;}
   .brand .kicker{
-    font-family:var(--mono);
+    font-family:var(--sans);
     font-size:11px;
     letter-spacing:.18em;
     text-transform:uppercase;
@@ -210,6 +210,14 @@
   }
   .film-head .distance-tag{ margin-left:6px; }
 
+  .lang-caption{
+    font-family:var(--mono);
+    font-size:10.5px;
+    color:var(--muted);
+    margin:8px 0 22px;
+    line-height:1.5;
+  }
+
   .times{display:flex; gap:8px; flex-wrap:wrap; justify-content:flex-end;}
   .time-chip{
     font-family:var(--mono);
@@ -291,16 +299,7 @@
   <div class="dates" id="date-chips"></div>
 
   <div class="controls">
-    <input class="search" id="search" type="text" placeholder="Search for a film (e.g. Spider-Man)…">
-    <div class="chips" id="lang-chips">
-      <div class="chip active" data-lang="all">All</div>
-      <div class="chip" data-lang="ov">OV</div>
-      <div class="chip" data-lang="omu">OmU</div>
-      <div class="chip" data-lang="de">German dub</div>
-    </div>
-  </div>
-
-  <div class="controls">
+    <input class="search" id="search" type="text" placeholder="Search for a film…">
     <input class="search postcode-input" id="postcode" type="text" inputmode="numeric" maxlength="5" placeholder="Your postcode (optional) — e.g. 10115">
     <div class="chips">
       <div class="chip disabled" id="distance-toggle">Nearest first</div>
@@ -308,10 +307,25 @@
     <span class="distance-hint" id="distance-hint"></span>
   </div>
 
-  <div class="chips" id="view-chips" style="margin-bottom:20px;">
+  <div class="chips" id="lang-chips">
+    <div class="chip active" data-lang="all">All</div>
+    <div class="chip" data-lang="ov">OV</div>
+    <div class="chip" data-lang="omu">OmU</div>
+    <div class="chip" data-lang="de">German dub</div>
+  </div>
+  <div class="lang-caption">OV = original language, no subtitles &middot; OmU = original language, German subtitles &middot; German dub = dubbed into German</div>
+
+  <div class="chips" id="view-chips" style="margin-bottom:12px;">
     <div class="chip active" data-view="film">By film</div>
     <div class="chip" data-view="cinema">By cinema</div>
     <div class="chip" data-view="time">By time</div>
+  </div>
+
+  <div class="chips" id="time-sort-chips" style="display:none; margin-bottom:20px;">
+    <div class="chip active" data-sort="soonest">Soonest</div>
+    <div class="chip disabled" data-sort="nearest">Nearest</div>
+    <div class="chip" data-sort="cinema">Cinema</div>
+    <div class="chip disabled" data-sort="bestofboth">Best of both</div>
   </div>
 
   <div id="results"></div>
@@ -529,7 +543,8 @@ const BERLIN_PLZ_COORDS = {
 };
 
 let userPostcodeCoord = null; // [lat, lon] once a recognized postcode is entered, else null
-let distanceSortEnabled = false;
+let distanceSortEnabled = false; // "Nearest first" toggle — used by By film / By cinema
+let timeSortMode = "soonest";    // "soonest" | "nearest" | "cinema" | "bestofboth" — By time's own sort choice
 
 function haversineKm(a, b){
   const R = 6371;
@@ -569,19 +584,41 @@ function distanceBadgeHtml(address){
     : `<span class="distance-tag">${km < 10 ? km.toFixed(1) : Math.round(km)} km</span>`;
 }
 
+// Same as above but not gated behind the "Nearest first" toggle — used in
+// By time, where distance is just useful context regardless of which sort
+// mode is currently chosen there.
+function distanceBadgeHtmlAlways(address){
+  if (!userPostcodeCoord) return '';
+  const km = cinemaDistanceKm(address);
+  return km === null
+    ? `<span class="distance-tag">—</span>`
+    : `<span class="distance-tag">${km < 10 ? km.toFixed(1) : Math.round(km)} km</span>`;
+}
+
 function updatePostcode(){
   const raw = document.getElementById('postcode').value.trim();
   const toggle = document.getElementById('distance-toggle');
   const hint = document.getElementById('distance-hint');
+  const nearestChip = document.querySelector('#time-sort-chips [data-sort="nearest"]');
+  const bothChip = document.querySelector('#time-sort-chips [data-sort="bestofboth"]');
   if (/^\d{5}$/.test(raw) && BERLIN_PLZ_COORDS[raw]){
     userPostcodeCoord = BERLIN_PLZ_COORDS[raw];
     toggle.classList.remove('disabled');
+    nearestChip.classList.remove('disabled');
+    bothChip.classList.remove('disabled');
     hint.textContent = '';
   } else {
     userPostcodeCoord = null;
     toggle.classList.add('disabled');
     toggle.classList.remove('active');
     distanceSortEnabled = false;
+    nearestChip.classList.add('disabled');
+    bothChip.classList.add('disabled');
+    if (timeSortMode === 'nearest' || timeSortMode === 'bestofboth'){
+      timeSortMode = 'soonest';
+      document.querySelectorAll('#time-sort-chips .chip').forEach(c => c.classList.remove('active'));
+      document.querySelector('#time-sort-chips [data-sort="soonest"]').classList.add('active');
+    }
     hint.textContent = raw ? 'Postcode not recognized (Berlin postcodes only)' : '';
   }
   render();
@@ -716,14 +753,26 @@ function renderByTime(filtered, container){
       flat.push({time: t, film: s.film, cinema: s.cinema, address: s.address, tags: s.format_tags});
     }
   }
-  const nearest = distanceSortEnabled && userPostcodeCoord;
-  flat.sort((a,b) => {
-    const timeCompare = a.time.localeCompare(b.time);
-    if (timeCompare !== 0) return timeCompare;
-    return nearest
-      ? distanceSortValue(a.address) - distanceSortValue(b.address)
-      : a.film.localeCompare(b.film);
-  });
+
+  if (timeSortMode === "bestofboth" && userPostcodeCoord){
+    // Rank every showing twice — once by time, once by distance — and add
+    // the two ranks together. Best of both wins; extreme-on-one-axis
+    // showings (very soon but very far, or very near but very late) get
+    // pulled down even though they'd top a single-axis sort.
+    const byTime = [...flat].sort((a,b)=>a.time.localeCompare(b.time) || a.film.localeCompare(b.film));
+    const timeRank = new Map(byTime.map((item,i)=>[item,i]));
+    const byDist = [...flat].sort((a,b)=>distanceSortValue(a.address)-distanceSortValue(b.address));
+    const distRank = new Map(byDist.map((item,i)=>[item,i]));
+    flat.forEach(item => { item._combinedRank = timeRank.get(item) + distRank.get(item); });
+    flat.sort((a,b) => a._combinedRank - b._combinedRank);
+  } else if (timeSortMode === "nearest" && userPostcodeCoord){
+    flat.sort((a,b) => distanceSortValue(a.address) - distanceSortValue(b.address) || a.time.localeCompare(b.time));
+  } else if (timeSortMode === "cinema"){
+    flat.sort((a,b) => a.cinema.localeCompare(b.cinema) || a.time.localeCompare(b.time));
+  } else {
+    flat.sort((a,b) => a.time.localeCompare(b.time) || a.film.localeCompare(b.film));
+  }
+
   for (const item of flat){
     const {cls, text} = langLabel(item.tags);
     const row = document.createElement('div');
@@ -732,7 +781,7 @@ function renderByTime(filtered, container){
       <span class="time-chip"><span class="digits">${item.time}</span><span class="lang-tag ${cls}">${text}</span></span>
       <div class="flat-info">
         <div class="flat-film">${item.film}</div>
-        <div class="flat-cinema">${item.cinema} · ${item.address} · ${cinemaLinkHtml(item.cinema)} ${distanceBadgeHtml(item.address)}</div>
+        <div class="flat-cinema">${item.cinema} · ${item.address} · ${cinemaLinkHtml(item.cinema)} ${distanceBadgeHtmlAlways(item.address)}</div>
       </div>
     `;
     container.appendChild(row);
@@ -749,11 +798,32 @@ document.querySelectorAll('#lang-chips .chip').forEach(chip => {
   });
 });
 
+// "Nearest first" (a simple on/off toggle) drives sorting in By film /
+// By cinema. By time has its own richer 4-way sort choice instead, so the
+// two controls swap visibility depending which view is active, rather
+// than showing two different distance controls at once.
+function updateViewSpecificControls(){
+  const isTime = activeView === "time";
+  document.getElementById('time-sort-chips').style.display = isTime ? 'flex' : 'none';
+  document.getElementById('distance-toggle').style.display = isTime ? 'none' : '';
+}
+
 document.querySelectorAll('#view-chips .chip').forEach(chip => {
   chip.addEventListener('click', () => {
     document.querySelectorAll('#view-chips .chip').forEach(c => c.classList.remove('active'));
     chip.classList.add('active');
     activeView = chip.dataset.view;
+    updateViewSpecificControls();
+    render();
+  });
+});
+
+document.querySelectorAll('#time-sort-chips .chip').forEach(chip => {
+  chip.addEventListener('click', () => {
+    if (chip.classList.contains('disabled')) return;
+    document.querySelectorAll('#time-sort-chips .chip').forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    timeSortMode = chip.dataset.sort;
     render();
   });
 });
