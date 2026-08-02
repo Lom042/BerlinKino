@@ -214,6 +214,20 @@
     font-family:var(--mono); font-size:13px;
   }
 
+  /* ---- Flat 'by time' rows ---- */
+  .flat-row{
+    display:flex; align-items:center; gap:14px;
+    padding:12px 16px;
+    background:var(--panel);
+    border:1px solid var(--hairline);
+    border-radius:8px;
+    margin-bottom:8px;
+  }
+  .flat-row .time-chip{ flex:0 0 auto; }
+  .flat-row .flat-info{ flex:1 1 auto; min-width:0; }
+  .flat-row .flat-film{ font-size:14px; font-weight:600; }
+  .flat-row .flat-cinema{ font-size:11.5px; color:var(--muted); margin-top:1px; }
+
   footer{
     margin-top:40px; padding-top:18px; border-top:1px solid var(--hairline);
     font-size:11.5px; color:var(--muted); font-family:var(--mono);
@@ -250,6 +264,12 @@
       <div class="chip" data-lang="omu">OmU</div>
       <div class="chip" data-lang="de">German dub</div>
     </div>
+  </div>
+
+  <div class="chips" id="view-chips" style="margin-bottom:20px;">
+    <div class="chip active" data-view="film">By film</div>
+    <div class="chip" data-view="cinema">By cinema</div>
+    <div class="chip" data-view="time">By time</div>
   </div>
 
   <div id="results"></div>
@@ -292,6 +312,7 @@ const DEMO_DATA = {
 
 let DATA = null;
 let activeLang = "all";
+let activeView = "film";
 let activeDate = null; // ISO string, set once index.json (or fallback) is known
 let availableDates = [];
 const TODAY_ISO = new Date().toISOString().slice(0, 10);
@@ -378,48 +399,67 @@ function langLabel(tags){
   return { cls, text: tags.join(" · ") };
 }
 
-function render(){
-  const q = document.getElementById('search').value.trim().toLowerCase();
-  const container = document.getElementById('results');
-  container.innerHTML = "";
+function normalizeForSearch(s){
+  return s.toLowerCase().replace(/[^a-z0-9À-ÿ]/g, "");
+}
 
-  // group by film
-  const byFilm = new Map();
+function getFilteredScreenings(){
+  const qRaw = document.getElementById('search').value.trim();
+  const q = normalizeForSearch(qRaw);
+  const out = [];
   for (const s of DATA.screenings){
-    if (q && !s.film.toLowerCase().includes(q)) continue;
+    if (q && !normalizeForSearch(s.film).includes(q)) continue;
     const lang = classifyLang(s.format_tags);
     if (activeLang !== "all" && lang !== activeLang) continue;
-    if (!byFilm.has(s.film)) byFilm.set(s.film, []);
-    byFilm.get(s.film).push(s);
+    out.push(s);
   }
+  return out;
+}
 
-  if (byFilm.size === 0){
+function renderTimeChips(times, tags){
+  const {cls, text} = langLabel(tags);
+  return times.map(t =>
+    `<span class="time-chip"><span class="digits">${t}</span><span class="lang-tag ${cls}">${text}</span></span>`
+  ).join("");
+}
+
+function render(){
+  const container = document.getElementById('results');
+  container.innerHTML = "";
+  const filtered = getFilteredScreenings();
+
+  if (filtered.length === 0){
     container.innerHTML = `<div class="empty">No screenings found — try a different film title or language filter.</div>`;
     return;
   }
 
+  if (activeView === "film") renderByFilm(filtered, container);
+  else if (activeView === "cinema") renderByCinema(filtered, container);
+  else renderByTime(filtered, container);
+}
+
+function renderByFilm(filtered, container){
+  const byFilm = new Map();
+  for (const s of filtered){
+    if (!byFilm.has(s.film)) byFilm.set(s.film, []);
+    byFilm.get(s.film).push(s);
+  }
   for (const [film, rows] of [...byFilm.entries()].sort((a,b)=>a[0].localeCompare(b[0]))){
     const group = document.createElement('div');
     group.className = 'film-group';
-
     const head = document.createElement('div');
     head.className = 'film-head';
     head.innerHTML = `<h2>${film}</h2><span class="count">${rows.length} cinema${rows.length===1?'':'s'}</span>`;
     group.appendChild(head);
-
-    for (const row of rows){
+    for (const row of rows.sort((a,b)=>a.cinema.localeCompare(b.cinema))){
       const r = document.createElement('div');
       r.className = 'cinema-row';
-      const timesHtml = row.times.map(t => {
-        const {cls, text} = langLabel(row.format_tags);
-        return `<span class="time-chip"><span class="digits">${t}</span><span class="lang-tag ${cls}">${text}</span></span>`;
-      }).join("");
       r.innerHTML = `
         <div class="cinema-info">
           <div class="cinema-name">${row.cinema}</div>
           <div class="cinema-addr">${row.address}</div>
         </div>
-        <div class="times">${timesHtml}</div>
+        <div class="times">${renderTimeChips(row.times, row.format_tags)}</div>
       `;
       group.appendChild(r);
     }
@@ -427,12 +467,72 @@ function render(){
   }
 }
 
+function renderByCinema(filtered, container){
+  const byCinema = new Map();
+  for (const s of filtered){
+    if (!byCinema.has(s.cinema)) byCinema.set(s.cinema, {address: s.address, rows: []});
+    byCinema.get(s.cinema).rows.push(s);
+  }
+  for (const [cinema, data] of [...byCinema.entries()].sort((a,b)=>a[0].localeCompare(b[0]))){
+    const group = document.createElement('div');
+    group.className = 'film-group';
+    const head = document.createElement('div');
+    head.className = 'film-head';
+    head.innerHTML = `<h2>${cinema}</h2><span class="count">${data.address}</span>`;
+    group.appendChild(head);
+    for (const row of data.rows.sort((a,b)=>a.film.localeCompare(b.film))){
+      const r = document.createElement('div');
+      r.className = 'cinema-row';
+      r.innerHTML = `
+        <div class="cinema-info">
+          <div class="cinema-name">${row.film}</div>
+        </div>
+        <div class="times">${renderTimeChips(row.times, row.format_tags)}</div>
+      `;
+      group.appendChild(r);
+    }
+    container.appendChild(group);
+  }
+}
+
+function renderByTime(filtered, container){
+  const flat = [];
+  for (const s of filtered){
+    for (const t of s.times){
+      flat.push({time: t, film: s.film, cinema: s.cinema, tags: s.format_tags});
+    }
+  }
+  flat.sort((a,b) => a.time.localeCompare(b.time) || a.film.localeCompare(b.film));
+  for (const item of flat){
+    const {cls, text} = langLabel(item.tags);
+    const row = document.createElement('div');
+    row.className = 'flat-row';
+    row.innerHTML = `
+      <span class="time-chip"><span class="digits">${item.time}</span><span class="lang-tag ${cls}">${text}</span></span>
+      <div class="flat-info">
+        <div class="flat-film">${item.film}</div>
+        <div class="flat-cinema">${item.cinema}</div>
+      </div>
+    `;
+    container.appendChild(row);
+  }
+}
+
 document.getElementById('search').addEventListener('input', render);
-document.querySelectorAll('.chip').forEach(chip => {
+document.querySelectorAll('#lang-chips .chip').forEach(chip => {
   chip.addEventListener('click', () => {
-    document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+    document.querySelectorAll('#lang-chips .chip').forEach(c => c.classList.remove('active'));
     chip.classList.add('active');
     activeLang = chip.dataset.lang;
+    render();
+  });
+});
+
+document.querySelectorAll('#view-chips .chip').forEach(chip => {
+  chip.addEventListener('click', () => {
+    document.querySelectorAll('#view-chips .chip').forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    activeView = chip.dataset.view;
     render();
   });
 });
