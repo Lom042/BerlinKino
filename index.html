@@ -371,7 +371,10 @@ function getBerlinNowMinutes(){
   const mi = parseInt(parts.find(p=>p.type==='minute').value, 10);
   return h*60 + mi;
 }
-const TODAY_ISO = getBerlinDateISO();
+// Not a const: needs to roll over automatically at Berlin midnight for
+// anyone who leaves the tab open (see refreshTodayIfNeeded below), rather
+// than only updating on a manual page reload.
+let TODAY_ISO = getBerlinDateISO();
 const WEEKDAY_NAMES = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 const MONTH_NAMES = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 
@@ -387,6 +390,7 @@ function renderDateChips(){
   const wrap = document.getElementById('date-chips');
   wrap.innerHTML = "";
   for (const iso of availableDates){
+    if (iso < TODAY_ISO) continue; // never show a day that's already over
     const { top, bottom } = formatDateChip(iso);
     const chip = document.createElement('div');
     chip.className = 'date-chip' + (iso === activeDate ? ' active' : '');
@@ -763,6 +767,29 @@ document.getElementById('distance-toggle').addEventListener('click', function(){
 });
 
 loadData();
+
+// Handles the case where someone leaves the page open across midnight —
+// re-checks what "today" is in Berlin every minute. If the day has
+// rolled over, drops yesterday from the date chips and, if the person
+// was viewing "today" (not one they'd deliberately picked ahead), moves
+// them forward to the new today automatically. If they'd already picked
+// a future day on purpose, this only relabels the chips (e.g. Tomorrow
+// becomes Today) without yanking them anywhere.
+function refreshTodayIfNeeded(){
+  const nowIso = getBerlinDateISO();
+  if (nowIso === TODAY_ISO) return;
+  const wasOnOldToday = (activeDate === TODAY_ISO);
+  TODAY_ISO = nowIso;
+  if (wasOnOldToday && availableDates.includes(TODAY_ISO)){
+    activeDate = TODAY_ISO;
+    renderDateChips();
+    loadDateData(activeDate);
+  } else {
+    renderDateChips();
+    render();
+  }
+}
+setInterval(refreshTodayIfNeeded, 60000);
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
