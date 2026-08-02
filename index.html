@@ -122,6 +122,34 @@
   }
   .search::placeholder{color:var(--muted);}
   .search:focus{border-color:var(--amber-dim);}
+
+  /* ---- Film search suggestions dropdown ---- */
+  .search-wrap{ position:relative; flex:1 1 220px; }
+  .search-wrap .search{ width:100%; }
+  .film-suggestions{
+    display:none;
+    position:absolute;
+    top:calc(100% + 4px);
+    left:0;
+    right:0;
+    background:var(--panel-raised);
+    border:1px solid var(--hairline);
+    border-radius:8px;
+    max-height:260px;
+    overflow-y:auto;
+    z-index:20;
+  }
+  .film-suggestions.open{ display:block; }
+  .film-suggestion{
+    padding:9px 14px;
+    font-family:var(--sans);
+    font-size:13.5px;
+    color:var(--text);
+    cursor:pointer;
+    border-bottom:1px solid var(--hairline);
+  }
+  .film-suggestion:last-child{ border-bottom:none; }
+  .film-suggestion:hover{ background:var(--amber); color:#161616; font-weight:600; }
   .chips{display:flex; gap:6px; flex-wrap:wrap;}
   .chip{
     font-family:var(--mono);
@@ -307,7 +335,10 @@
   <div class="dates" id="date-chips"></div>
 
   <div class="controls">
-    <input class="search" id="search" type="text" autocomplete="off" placeholder="Search for a film…">
+    <div class="search-wrap">
+      <input class="search" id="search" type="text" autocomplete="off" placeholder="Search for a film…">
+      <div class="film-suggestions" id="film-suggestions"></div>
+    </div>
     <input class="search postcode-input" id="postcode" type="text" inputmode="numeric" maxlength="5" autocomplete="off" placeholder="Your postcode (optional) — e.g. 10115">
     <div class="chips">
       <div class="chip disabled" id="distance-toggle">Nearest first</div>
@@ -797,7 +828,62 @@ function renderByTime(filtered, container){
   }
 }
 
-document.getElementById('search').addEventListener('input', render);
+// ---- Film search suggestions ----
+// Built live from whatever's actually in DATA for the currently selected
+// date — not a hardcoded list — so it stays correct automatically as the
+// programme changes week to week with no extra maintenance.
+function getFilmSuggestions(query){
+  if (!DATA || !query) return [];
+  const q = normalizeForSearch(query);
+  const seen = new Set();
+  const out = [];
+  for (const s of DATA.screenings){
+    if (seen.has(s.film)) continue;
+    if (normalizeForSearch(s.film).includes(q)){
+      seen.add(s.film);
+      out.push(s.film);
+    }
+  }
+  return out.sort((a, b) => a.localeCompare(b)).slice(0, 8);
+}
+
+function renderFilmSuggestions(){
+  const box = document.getElementById('film-suggestions');
+  const query = document.getElementById('search').value.trim();
+  const matches = getFilmSuggestions(query);
+  // Nothing useful to suggest — empty box, or the one match is already
+  // exactly what's typed.
+  if (!query || matches.length === 0 ||
+      (matches.length === 1 && normalizeForSearch(matches[0]) === normalizeForSearch(query))){
+    box.classList.remove('open');
+    box.innerHTML = '';
+    return;
+  }
+  box.innerHTML = matches.map(f => `<div class="film-suggestion">${f}</div>`).join('');
+  box.classList.add('open');
+}
+
+document.getElementById('search').addEventListener('input', () => {
+  render();
+  renderFilmSuggestions();
+});
+document.getElementById('search').addEventListener('focus', renderFilmSuggestions);
+document.getElementById('search').addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') document.getElementById('film-suggestions').classList.remove('open');
+});
+document.getElementById('film-suggestions').addEventListener('click', (e) => {
+  const item = e.target.closest('.film-suggestion');
+  if (!item) return;
+  document.getElementById('search').value = item.textContent;
+  document.getElementById('film-suggestions').classList.remove('open');
+  render();
+});
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.search-wrap')){
+    document.getElementById('film-suggestions').classList.remove('open');
+  }
+});
+
 document.querySelectorAll('#lang-chips .chip').forEach(chip => {
   chip.addEventListener('click', () => {
     document.querySelectorAll('#lang-chips .chip').forEach(c => c.classList.remove('active'));
