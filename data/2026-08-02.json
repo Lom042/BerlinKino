@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "generated_at": "2026-08-02T17:45:38",
+  "generated_at": "2026-08-02T18:58:05",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -6009,26 +6009,10 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Spider-Man: Brand New Day",
-      "format_tags": [],
-      "times": [
-        "19:30",
-        "20:00",
-        "20:15",
-        "20:30",
-        "22:40"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Spider-Man: Brand New Day",
       "format_tags": [
         "OV"
       ],
       "times": [
-        "20:30",
-        "20:40",
         "22:30",
         "22:50",
         "23:00"
@@ -6038,10 +6022,10 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Die Odyssee",
+      "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "20:10"
+        "22:40"
       ],
       "film_url": ""
     },
@@ -6053,7 +6037,6 @@
         "OV"
       ],
       "times": [
-        "20:15",
         "20:50",
         "21:45",
         "22:10"
@@ -6075,32 +6058,11 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Toy Story 5",
-      "format_tags": [],
-      "times": [
-        "19:30"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Obsession - Du Sollst Mich Lieben",
-      "format_tags": [],
-      "times": [
-        "20:00"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Obsession - Du Sollst Mich Lieben",
       "format_tags": [
         "OV"
       ],
       "times": [
-        "20:20",
         "22:50",
         "23:00"
       ],
