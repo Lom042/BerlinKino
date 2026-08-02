@@ -81,10 +81,11 @@ def fetch(url: str) -> BeautifulSoup:
 
 def debug_dump(target_date: date):
     """
-    Diagnostic helper: fetches page 1 for a date and prints the raw HTML of
-    the first cinema block it can find, plus counts of key elements. Run
-    this first (`python scraper.py --debug`) if the real scrape comes back
-    empty — paste the output back so the selectors can be corrected fast.
+    Diagnostic helper: fetches page 1 for a date and prints several views
+    of the real structure so we can see how cinema name / address / film
+    listings actually relate to each other. Run this
+    (`python scraper.py --debug`) if the real scrape comes back empty —
+    paste the output back so the selectors can be corrected fast.
     """
     date_str = target_date.strftime("%d.%m.%Y")
     url = f"{BASE}?kinos&date={date_str}"
@@ -96,22 +97,42 @@ def debug_dump(target_date: date):
     print(f"Found {len(h3s)} <h3> tags")
     film_links = soup.find_all("a", href=re.compile(r"-f\d+"))
     print(f"Found {len(film_links)} film-like links (href containing '-f<digits>')")
-    if h3s:
-        print("\n--- First <h3> block, raw HTML (first ~1500 chars) ---")
-        start = h3s[0]
-        chunk = str(start)
-        sib = start.find_next_sibling()
-        count = 0
-        while sib and count < 6:
-            chunk += str(sib)
-            sib = sib.find_next_sibling()
-            count += 1
-        print(chunk[:1500])
-    else:
-        print("\nNo <h3> tags found at all — the site's markup has likely "
-              "changed structure. Printing the first 1500 chars of the body:")
+
+    if not h3s:
+        print("\nNo <h3> tags found at all. First 1500 chars of body:")
         body = soup.find("body")
         print(str(body)[:1500] if body else resp.text[:1500])
+        return
+
+    first_h3 = h3s[0]
+
+    # View 1: how many ancestor levels up is the nearest element that also
+    # contains a film link? That tells us the real "cinema block" container.
+    print("\n--- Ancestor chain from the first <h3> up to <body> ---")
+    node = first_h3
+    depth = 0
+    common_ancestor = None
+    while node and node.name != "body" and depth < 8:
+        node = node.parent
+        depth += 1
+        if node is None:
+            break
+        has_film_link = bool(node.find("a", href=re.compile(r"-f\d+")))
+        tag_desc = f"<{node.name} class={node.get('class')}>" if node.name else str(node)[:40]
+        print(f"  level {depth}: {tag_desc}  (contains a film link: {has_film_link})")
+        if has_film_link and common_ancestor is None:
+            common_ancestor = node
+
+    if common_ancestor is not None:
+        print(f"\n--- Full HTML of the first container that holds both the "
+              f"cinema heading AND a film link (first ~3000 chars) ---")
+        print(str(common_ancestor)[:3000])
+    else:
+        print("\nNo ancestor within 8 levels contains both the heading and a "
+              "film link — structure is unusual, printing first 3000 chars "
+              "of <body> instead:")
+        body = soup.find("body")
+        print(str(body)[:3000] if body else resp.text[:3000])
 
 
 def parse_film_title(link_text: str):
