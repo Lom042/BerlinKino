@@ -16,10 +16,6 @@ not guessed. Confirmed real quirks handled here:
   - Per-showing language isn't in the title; it's a separate line
     ("Englisch" / "Japanisch mit deutschen Untertiteln") that only
     appears for non-German showings. No line = German dub (default).
-  - Some showings use a combined line like "dt. UT - Englisch - OmU"
-    (English audio, German subtitles) rather than the plain "Englisch"
-    line — confirmed from real output (see Die Odyssee's 22:15 showing).
-    That one also means OmU, not "untagged".
 
 Still scoped to TODAY only — the site's date tabs (Heute/Morgen/Di/...)
 mechanism (URL param vs. click-to-reload) isn't confirmed yet. Multi-day
@@ -46,22 +42,21 @@ CINEMA_ADDRESS = "Potsdamer Straße 5, 10785 Berlin"
 
 TIME_PAIR_RE = re.compile(r"^(\d{1,2}:\d{2})(\d{1,2}:\d{2})$")
 PRICE_RE = re.compile(r"^\d+,\d{2}\s?€$")
-DAY_MARKER = "HEUTE"
-SHOW_ALL_TEXT = "ZEIGE ALLE FILMZEITEN"
-
-
-def classify_language_line(line: str) -> str | None:
-    """Maps a language-marker line to a format tag. Handles both the plain
-    'Englisch' / 'Japanisch mit deutschen Untertiteln' lines and the
-    combined 'dt. UT - Englisch - OmU' style line (English audio with
-    German subtitles) — confirmed from real output, both mean OmU."""
-    if "OmU" in line:
+def classify_language_line(line: str):
+    """
+    Real observed variants: "Englisch" (OV), "Japanisch mit deutschen
+    Untertiteln" (OmU), and "dt. UT - Englisch - OmU" (also OmU — German
+    subtitles on an English-language showing). Match by substring rather
+    than exact string so future variants with "OmU" or "Untertiteln" in
+    them are still caught.
+    """
+    if "OmU" in line or "Untertiteln" in line:
         return "OmU"
     if line == "Englisch":
         return "OV"
-    if line == "Japanisch mit deutschen Untertiteln":
-        return "OmU"
     return None
+DAY_MARKER = "HEUTE"
+SHOW_ALL_TEXT = "ZEIGE ALLE FILMZEITEN"
 
 
 def expand_and_get_text(page) -> str:
@@ -121,15 +116,16 @@ def parse_cinemaxx_text(text: str) -> list[dict]:
                 if k < len(lines) and PRICE_RE.match(lines[k]):
                     k += 1
                     if k < len(lines):
-                        classified = classify_language_line(lines[k])
-                        if classified:
-                            tag = classified
+                        lang = classify_language_line(lines[k])
+                        if lang:
+                            tag = lang
                             k += 1
 
                 tags = [tag] if tag else []
+                title_cased = title.title()
                 existing = next(
                     (s for s in screenings
-                     if s["cinema"] == CINEMA_NAME and s["film"] == title
+                     if s["cinema"] == CINEMA_NAME and s["film"] == title_cased
                      and s["format_tags"] == tags),
                     None,
                 )
@@ -140,7 +136,7 @@ def parse_cinemaxx_text(text: str) -> list[dict]:
                     screenings.append({
                         "cinema": CINEMA_NAME,
                         "address": CINEMA_ADDRESS,
-                        "film": title.title(),
+                        "film": title_cased,
                         "format_tags": tags,
                         "times": [start_time],
                         "film_url": "",
