@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "generated_at": "2026-08-02T12:34:44",
+  "generated_at": "2026-08-02T17:45:38",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -6011,12 +6011,9 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "14:30",
-        "15:20",
-        "16:00",
-        "17:00",
-        "19:15",
+        "19:30",
         "20:00",
+        "20:15",
         "20:30",
         "22:40"
       ],
@@ -6030,9 +6027,6 @@
         "OV"
       ],
       "times": [
-        "19:00",
-        "19:30",
-        "20:15",
         "20:30",
         "20:40",
         "22:30",
@@ -6045,19 +6039,9 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Die Odyssee",
-      "format_tags": [
-        "OV"
-      ],
+      "format_tags": [],
       "times": [
-        "15:10",
-        "16:40",
-        "17:00",
-        "18:00",
-        "18:50",
-        "20:15",
-        "20:50",
-        "21:45",
-        "22:10"
+        "20:10"
       ],
       "film_url": ""
     },
@@ -6065,11 +6049,14 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Die Odyssee",
-      "format_tags": [],
+      "format_tags": [
+        "OV"
+      ],
       "times": [
-        "18:00",
-        "19:10",
-        "20:10"
+        "20:15",
+        "20:50",
+        "21:45",
+        "22:10"
       ],
       "film_url": ""
     },
@@ -6091,78 +6078,7 @@
       "film": "Toy Story 5",
       "format_tags": [],
       "times": [
-        "14:45",
-        "17:30",
         "19:30"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Toy Story 5",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "16:50"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Minions & Monster",
-      "format_tags": [],
-      "times": [
-        "14:30",
-        "17:20",
-        "17:45"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Minions & Monster",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "15:00"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "The Invite",
-      "format_tags": [],
-      "times": [
-        "14:30",
-        "17:20"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Vaiana (Live Action)",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "14:20"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Vaiana (Live Action)",
-      "format_tags": [],
-      "times": [
-        "17:10"
       ],
       "film_url": ""
     },
@@ -6172,7 +6088,6 @@
       "film": "Obsession - Du Sollst Mich Lieben",
       "format_tags": [],
       "times": [
-        "17:40",
         "20:00"
       ],
       "film_url": ""
@@ -6206,31 +6121,10 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Chéri, Ich Komme! - Die Erfindung Der Lust",
-      "format_tags": [],
-      "times": [
-        "15:20",
-        "17:10"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Bitteres Fest",
-      "format_tags": [],
-      "times": [
-        "16:30"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Khali Balak Min Nafsak",
       "format_tags": [],
       "times": [
-        "17:50"
+        "23:00"
       ],
       "film_url": ""
     }
