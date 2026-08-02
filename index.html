@@ -176,6 +176,20 @@
   .cinema-name{font-size:14px; font-weight:600;}
   .cinema-addr{font-size:11.5px; color:var(--muted); margin-top:1px;}
 
+  /* ---- Cinema website link ---- */
+  .cinema-link{
+    display:inline-flex; align-items:center; gap:3px;
+    font-family:var(--mono);
+    font-size:10.5px;
+    font-weight:500;
+    color:var(--teal);
+    text-decoration:none;
+    margin-top:4px;
+    opacity:.9;
+  }
+  .cinema-link:hover{ text-decoration:underline; opacity:1; }
+  .film-head .cinema-link{ margin-top:0; margin-left:8px; font-size:10.5px; font-weight:700; }
+
   .times{display:flex; gap:8px; flex-wrap:wrap; justify-content:flex-end;}
   .time-chip{
     font-family:var(--mono);
@@ -226,7 +240,7 @@
   .flat-row .time-chip{ flex:0 0 auto; }
   .flat-row .flat-info{ flex:1 1 auto; min-width:0; }
   .flat-row .flat-film{ font-size:14px; font-weight:600; }
-  .flat-row .flat-cinema{ font-size:11.5px; color:var(--muted); margin-top:1px; }
+  .flat-row .flat-cinema{ font-size:11.5px; color:var(--muted); margin-top:1px; display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
 
   footer{
     margin-top:40px; padding-top:18px; border-top:1px solid var(--hairline);
@@ -275,7 +289,8 @@
   <div id="results"></div>
 
   <footer>
-    Source: automatically compiled from kino.veranstaltungen-in-berlin.de and yorck.de · non-commercial, no ads, no ticket links<br>
+    Source: automatically compiled from kino.veranstaltungen-in-berlin.de and yorck.de · non-commercial, no ads<br>
+    Cinema links go to each venue's own website — we don't sell tickets or handle any booking ourselves<br>
     Data last updated: <span id="generated-at">—</span> · <span id="data-source-note"></span>
   </footer>
 
@@ -416,6 +431,58 @@ function normalizeForSearch(s){
   return s.toLowerCase().replace(/[^a-z0-9À-ÿ]/g, "");
 }
 
+// ---- Cinema website links ----
+// Verified real domains (checked directly, not guessed) for the big chains.
+// A wrong guessed URL is worse than no link at all, so anything not
+// confidently matched below falls back to a plain Google search instead
+// of a made-up address.
+const CHAIN_WEBSITES = [
+  { test: n => n.startsWith("CineStar"), url: "https://www.cinestar.de" },
+  { test: n => n.startsWith("Cineplex"), url: "https://www.cineplex.de" },
+  { test: n => n.startsWith("UCI"),      url: "https://www.uci-kinowelt.de" },
+  { test: n => n.startsWith("CinemaxX"), url: "https://www.cinemaxx.de" },
+  { test: n => n.includes("Zoo Palast"), url: "https://zoopalast.premiumkino.de" },
+];
+
+// Yorck Kinogruppe venues — only names we can match unambiguously to one
+// of their known cinema-page slugs (see scraper_yorck.py's YORCK_CINEMAS
+// list, same source of truth). Anything not listed here (e.g. a bare
+// "Capitol" with no "Dahlem", which could be a different cinema entirely)
+// deliberately falls through to the search fallback rather than guess.
+const YORCK_WEBSITES = [
+  { test: n => /babylon\s*kreuzberg/i.test(n),              slug: "babylon-kreuzberg" },
+  { test: n => /blauer\s*stern/i.test(n),                    slug: "blauer-stern" },
+  { test: n => /capitol\s*dahlem/i.test(n),                  slug: "capitol-dahlem" },
+  { test: n => /^cinema\s*paris$/i.test(n) || /cinema paris/i.test(n), slug: "cinema-paris" },
+  { test: n => /delphi\s*filmpalast/i.test(n),               slug: "delphi-filmpalast" },
+  { test: n => /delphi\s*lux/i.test(n),                      slug: "delphi-lux" },
+  { test: n => /filmtheater\s*am\s*friedrichshain/i.test(n), slug: "filmtheater-am-friedrichshain" },
+  { test: n => /kant\s*kino/i.test(n),                       slug: "kant-kino" },
+  { test: n => /neues\s*off/i.test(n),                       slug: "neues-off" },
+  { test: n => /\bodeon\b/i.test(n),                         slug: "odeon" },
+  { test: n => /\bpassage\b/i.test(n),                       slug: "passage" },
+  { test: n => /\brollberg\b/i.test(n),                      slug: "rollberg" },
+  { test: n => /kino\s*international|^international$/i.test(n) && !/uci/i.test(n), slug: "international" },
+];
+
+function getCinemaWebsite(name){
+  for (const c of CHAIN_WEBSITES){
+    if (c.test(name)) return c.url;
+  }
+  for (const y of YORCK_WEBSITES){
+    if (y.test(name)) return `https://www.yorck.de/en/cinemas/${y.slug}`;
+  }
+  // Independent cinema we haven't verified a real URL for — a search is
+  // safer than a guessed domain.
+  return `https://www.google.com/search?q=${encodeURIComponent(name + " Kino Berlin")}`;
+}
+
+function cinemaLinkHtml(name, extraClass){
+  const url = getCinemaWebsite(name);
+  const cls = extraClass ? `cinema-link ${extraClass}` : "cinema-link";
+  return `<a class="${cls}" href="${url}" target="_blank" rel="noopener noreferrer">Website ↗</a>`;
+}
+
 function getFilteredScreenings(){
   const qRaw = document.getElementById('search').value.trim();
   const q = normalizeForSearch(qRaw);
@@ -487,6 +554,7 @@ function renderByFilm(filtered, container){
         <div class="cinema-info">
           <div class="cinema-name">${row.cinema}</div>
           <div class="cinema-addr">${row.address}</div>
+          ${cinemaLinkHtml(row.cinema)}
         </div>
         <div class="times">${renderTimeChips(row.times, row.format_tags)}</div>
       `;
@@ -507,7 +575,7 @@ function renderByCinema(filtered, container){
     group.className = 'film-group';
     const head = document.createElement('div');
     head.className = 'film-head';
-    head.innerHTML = `<h2>${cinema}</h2><span class="count">${data.address}</span>`;
+    head.innerHTML = `<h2>${cinema}${cinemaLinkHtml(cinema)}</h2><span class="count">${data.address}</span>`;
     group.appendChild(head);
     for (const row of data.rows.sort((a,b)=>a.film.localeCompare(b.film))){
       const r = document.createElement('div');
@@ -540,7 +608,7 @@ function renderByTime(filtered, container){
       <span class="time-chip"><span class="digits">${item.time}</span><span class="lang-tag ${cls}">${text}</span></span>
       <div class="flat-info">
         <div class="flat-film">${item.film}</div>
-        <div class="flat-cinema">${item.cinema} · ${item.address}</div>
+        <div class="flat-cinema">${item.cinema} · ${item.address} · ${cinemaLinkHtml(item.cinema)}</div>
       </div>
     `;
     container.appendChild(row);
