@@ -1,27 +1,25 @@
 #!/usr/bin/env python3
 """
-CinemaxX Berlin Scraper (NEW — needs a debug pass before going live)
-----------------------------------------------------------------------
-cinemaxx.de is a Vue.js app — showtimes are rendered client-side, not
-present in the raw HTML (confirmed: fetching the page statically returns
-no showtimes, just a loading placeholder). So, like the Yorck scraper,
-this needs a real headless browser (Playwright).
+CinemaxX Berlin Scraper
+--------------------------------------------------------------
+cinemaxx.de is a Vue.js app — showtimes are rendered client-side, so this
+needs a real headless browser (Playwright), not a simple fetch.
 
-CLAUDE'S HONESTY NOTE: I have not been able to render this page myself —
-same limitation as Yorck. I did confirm two things directly though: (1)
-the page is Vue-rendered (it says so in its own meta tags), and (2) their
-OV tag is written differently than the main site's — "[Originalfassung]"
-as a suffix, rather than "(OV)". The extraction logic below is built the
-same defensive, structure-agnostic way as the Yorck scraper (scanning
-rendered text for title-then-times patterns) rather than guessing exact
-CSS classes I can't see. Run `python scraper_cinemaxx.py --debug` first
-and send me the output before trusting this one.
+Parsing logic was rewritten against REAL rendered output (via --debug),
+not guessed. Confirmed real quirks handled here:
+  - Each showing's time is rendered as start+end concatenated with NO
+    separator, e.g. "10:0012:51" (10:00 start, 12:51 = start + runtime).
+    Only the first time is the actual start time.
+  - There's a "ZEIGE ALLE FILMZEITEN" (show all showtimes) button per
+    film — without clicking it, only a partial list of showings renders.
+    This scraper clicks every one of those before extracting text.
+  - Per-showing language isn't in the title; it's a separate line
+    ("Englisch" / "Japanisch mit deutschen Untertiteln") that only
+    appears for non-German showings. No line = German dub (default).
 
-Currently only handles TODAY — the site likely has a date picker for
-future days, but I don't know how it works (URL param? click-to-load?)
-without seeing it render, so this is scoped narrower on purpose rather
-than guessing. Multi-day support can follow once today's version is
-confirmed working.
+Still scoped to TODAY only — the site's date tabs (Heute/Morgen/Di/...)
+mechanism (URL param vs. click-to-reload) isn't confirmed yet. Multi-day
+can follow once this is verified working.
 
 Usage:
     pip install playwright --break-system-packages
@@ -42,65 +40,101 @@ URL = "https://www.cinemaxx.de/kinoprogramm/berlin/jetzt-im-kino"
 CINEMA_NAME = "CinemaxX Berlin"
 CINEMA_ADDRESS = "Potsdamer Straße 5, 10785 Berlin"
 
-FORMAT_WORDS = {"OV", "OmU", "3D", "IMAX", "Atmos", "D-Box", "OmenglU"}
-TIME_RE = re.compile(r"\b\d{1,2}:\d{2}\b")
+TIME_PAIR_RE = re.compile(r"^(\d{1,2}:\d{2})(\d{1,2}:\d{2})$")
+PRICE_RE = re.compile(r"^\d+,\d{2}\s?€$")
+LANGUAGE_TAGS = {
+    "Englisch": "OV",
+    "Japanisch mit deutschen Untertiteln": "OmU",
+}
+DAY_MARKER = "HEUTE"
+SHOW_ALL_TEXT = "ZEIGE ALLE FILMZEITEN"
 
 
-def split_tags(title_line: str):
-    """
-    Handles both suffix styles seen so far:
-        "Film Title (OmU)"
-        "Film Title [Originalfassung]"   -> normalized to tag "OV"
-    """
-    tags = []
-    text = title_line.strip()
-
-    m = re.search(r"\[Originalfassung\]\s*$", text, re.IGNORECASE)
-    if m:
-        tags.append("OV")
-        text = text[: m.start()].strip()
-        return text, tags
-
-    m = re.search(r"\(([A-Za-z]+)\)\s*$", text)
-    if m and m.group(1) in FORMAT_WORDS:
-        tags.append(m.group(1))
-        text = text[: m.start()].strip()
-
-    return text, tags
+def expand_and_get_text(page) -> str:
+    """Clicks every 'show all showtimes' button so nothing is hidden, then returns the full rendered body text."""
+    try:
+        buttons = page.get_by_text(SHOW_ALL_TEXT, exact=True)
+        count = buttons.count()
+        for idx in range(count):
+            try:
+                buttons.nth(idx).click(timeout=3000)
+                page.wait_for_timeout(300)
+            except Exception:
+                pass
+    except Exception:
+        pass
+    return page.inner_text("body")
 
 
-def extract_screenings_from_text(page_text: str) -> list[dict]:
-    """
-    Same defensive approach as the Yorck scraper: walk the rendered text,
-    treat a non-time line followed shortly by a run of HH:MM times as one
-    screening. Loose on purpose since the real DOM structure is unverified.
-    """
-    lines = [l.strip() for l in page_text.split("\n") if l.strip()]
+def parse_cinemaxx_text(text: str) -> list[dict]:
+    lines = [l.strip() for l in text.split("\n") if l.strip()]
     screenings = []
     i = 0
     while i < len(lines):
-        line = lines[i]
-        if not TIME_RE.fullmatch(line) and re.search(r"[A-Za-zÀ-ÿ]{3,}", line):
-            times = []
+        if lines[i] == "Besetzung" and i >= 2:
+            title = lines[i - 2]
+            # Sanity check: title lines are ALL CAPS in the real output.
+            if title != title.upper() or len(title) < 2:
+                i += 1
+                continue
+
+            # Walk forward to find this film's "HEUTE" showings marker.
             j = i + 1
-            while j < len(lines) and j < i + 4:
-                found = TIME_RE.findall(lines[j])
-                if found:
-                    times.extend(found)
-                    j += 1
-                    continue
-                break
-            if times:
-                title, tags = split_tags(line)
-                screenings.append({
-                    "cinema": CINEMA_NAME,
-                    "address": CINEMA_ADDRESS,
-                    "film": title,
-                    "format_tags": tags,
-                    "times": sorted(set(times)),
-                    "film_url": "",
-                })
+            while j < len(lines) and lines[j] != DAY_MARKER:
+                # Don't wander into the next film's section looking for it.
+                if lines[j] == "Besetzung":
+                    break
+                j += 1
+            if j >= len(lines) or lines[j] != DAY_MARKER:
+                i += 1
+                continue
+
+            k = j + 1
+            while k < len(lines):
+                m = TIME_PAIR_RE.match(lines[k].replace(" ", ""))
+                if not m:
+                    break  # end of this film's showings (hit "ZEIGE ALLE..." or next section)
+                start_time = m.group(1)
+                k += 1
+                tag = None
+                # Scan forward through this showing's attribute lines
+                # (Kino NN, 2D/3D, Laser, Ab, price) until the price line,
+                # then check the one line after it for a language marker.
+                while k < len(lines) and not PRICE_RE.match(lines[k]):
+                    if TIME_PAIR_RE.match(lines[k].replace(" ", "")):
+                        break  # malformed block, bail out
+                    k += 1
+                if k < len(lines) and PRICE_RE.match(lines[k]):
+                    k += 1
+                    if k < len(lines) and lines[k] in LANGUAGE_TAGS:
+                        tag = LANGUAGE_TAGS[lines[k]]
+                        k += 1
+
+                tags = [tag] if tag else []
+                existing = next(
+                    (s for s in screenings
+                     if s["cinema"] == CINEMA_NAME and s["film"] == title
+                     and s["format_tags"] == tags),
+                    None,
+                )
+                if existing:
+                    if start_time not in existing["times"]:
+                        existing["times"].append(start_time)
+                else:
+                    screenings.append({
+                        "cinema": CINEMA_NAME,
+                        "address": CINEMA_ADDRESS,
+                        "film": title.title(),
+                        "format_tags": tags,
+                        "times": [start_time],
+                        "film_url": "",
+                    })
+            i = k
+            continue
         i += 1
+
+    for s in screenings:
+        s["times"] = sorted(set(s["times"]))
     return screenings
 
 
@@ -109,9 +143,15 @@ def debug_dump():
         browser = p.chromium.launch()
         page = browser.new_page()
         page.goto(URL, wait_until="networkidle", timeout=30000)
-        print(f"--- Rendered text for {URL} ---\n")
-        print(page.inner_text("body")[:4000])
+        text = expand_and_get_text(page)
         browser.close()
+    print(f"--- Rendered text for {URL} (after expanding 'show all') ---\n")
+    print(text[:6000])
+    print(f"\n\n--- Parsed result ---")
+    screenings = parse_cinemaxx_text(text)
+    for s in screenings:
+        print(f"  {s['film']} {s['format_tags']} -> {s['times']}")
+    print(f"\nTotal: {len(screenings)} screenings")
 
 
 def main():
@@ -123,10 +163,10 @@ def main():
         browser = p.chromium.launch()
         page = browser.new_page()
         page.goto(URL, wait_until="networkidle", timeout=30000)
-        text = page.inner_text("body")
+        text = expand_and_get_text(page)
         browser.close()
 
-    screenings = extract_screenings_from_text(text)
+    screenings = parse_cinemaxx_text(text)
     print(f"Found {len(screenings)} screenings at {CINEMA_NAME}")
     for s in screenings:
         print(f"  {s['film']} {s['format_tags']} -> {s['times']}")
