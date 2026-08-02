@@ -23,22 +23,37 @@ Each film's block on the real page has this fixed shape:
     <rating, e.g. "FSK 12">
     <cast/synopsis blurb ending in "(More)">
     HH:MM               <- one line per showing
-    <format tag>?        <- optional, e.g. "OmU" — applies to that time only
+    <format tag>?        <- optional, e.g. "OmU" or "DF" — applies to that time only
     HH:MM
     <format tag>?
     ...
 The blurb line ending in "(More)" is the one fully reliable anchor, so
-parsing now works backward from that (title is always exactly 6 lines
-above it, with "|" always 2 and 4 lines above it) rather than guessing
-forward from a title line, which was missing the times entirely and
-instead mistaking cast-list lines for titles.
+parsing works backward from that (title is always exactly 6 lines above
+it, with "|" always 2 and 4 lines above it).
+
+Two further real bugs fixed after a second --debug pass:
+  - "DF" (Deutsche Fassung / German dub) is a real per-showing tag on this
+    site, distinct from OV/OmU/etc. Not recognizing it caused the scraper
+    to stop reading a film's showtimes the moment it hit a "DF" line,
+    silently dropping every showing after it. It's now recognized (so
+    reading continues) but normalized to "no format tag", matching the
+    convention the rest of this project uses elsewhere for German-dubbed
+    screenings (untagged = German dub).
+  - The page shows a row of date-tab labels near the top (Today, 02.08.,
+    Mon, 03.08., Tue, 04.08. ...) — these are just clickable buttons, not
+    sequential section headers. Treating them as headers (the previous
+    version's approach) walked through all of them and tagged every real
+    screening below with the LAST tab's date instead of today's. Since
+    this scraper doesn't actually click through to other days yet (no
+    tab-switching implemented), every screening it captures is for
+    `default_date` — today — full stop. Multi-day support is a real
+    future addition, not something to fake by misreading tab labels.
 
 Usage:
     pip install playwright --break-system-packages
     playwright install chromium
     python scraper_yorck.py                 # scrapes all known Yorck cinemas,
-                                              # for every date already listed
-                                              # in data/index.json
+                                              # for today only, into data/<today>.json
     python scraper_yorck.py --debug delphi-lux
 """
 
@@ -71,7 +86,15 @@ YORCK_CINEMAS = [
     "yorck",
 ]
 
+# Tags that genuinely describe the print's format/language, worth keeping.
 FORMAT_WORDS = {"OV", "OmU", "3D", "IMAX", "Atmos", "D-Box", "OmenglU"}
+# "Deutsche Fassung" (German dub) — a real per-showing tag line on this site,
+# but normalized away to "no tag" (this project's convention elsewhere for
+# German-dubbed screenings). Still needs recognizing so the parser doesn't
+# stop early on it.
+GERMAN_DUB_MARKERS = {"DF"}
+TAG_LINES = FORMAT_WORDS | GERMAN_DUB_MARKERS
+
 TIME_RE = re.compile(r"\b\d{1,2}:\d{2}\b")
 BLURB_SUFFIX = "(More)"
 
@@ -81,9 +104,10 @@ MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", 
 
 def build_date_lookup(today: date, days_ahead: int) -> dict:
     """
-    Maps the various ways a date might appear as a heading on Yorck's page
-    (e.g. "Sat 01 Aug", "01.08.", "Today", "Tomorrow") to an ISO date
-    string, for the date range we actually care about.
+    Kept for when day-tab clicking is actually implemented (so a future
+    version can map a clicked tab's label back to an ISO date). Not used
+    to infer dates from page text anymore — see the module note above on
+    why that was a real bug.
     """
     lookup = {}
     for i in range(days_ahead + 1):
@@ -113,24 +137,23 @@ def extract_screenings_from_text(cinema_slug: str, page_text: str, date_lookup: 
     — title sits exactly 6 lines above the blurb, with "|" always at
     offsets -2 and -4. We check those two "|" markers before trusting the
     offset, so an unexpected block shape is skipped rather than mined for
-    a wrong title (the old bug: cast blurbs were being picked up as titles
-    instead of the real ones, which were never reached at all).
+    a wrong title.
 
     Showtimes follow the blurb as one HH:MM line per screening, each
-    optionally followed by a format-tag line (OmU, OV, 3D, ...) that
-    applies to that one time only — not to the whole film.
+    optionally followed by a format-tag line (OmU, OV, DF, 3D, ...) that
+    applies to that one time only — not to the whole film. "DF" (German
+    dub) is recognized so reading doesn't stop early, but normalized to
+    "no tag" rather than kept as its own format_tags value.
+
+    `date_lookup` is accepted for signature compatibility but unused —
+    every screening found here is tagged with `default_date`, since this
+    scraper only ever reads the default ("today") tab; see module note.
     """
     lines = [l.strip() for l in page_text.split("\n") if l.strip()]
     screenings = []
-    current_date = default_date
     i = 0
     while i < len(lines):
         line = lines[i]
-
-        if line in date_lookup:
-            current_date = date_lookup[line]
-            i += 1
-            continue
 
         if (line.endswith(BLURB_SUFFIX) and i - 6 >= 0
                 and lines[i - 2] == "|" and lines[i - 4] == "|"):
@@ -145,9 +168,12 @@ def extract_screenings_from_text(cinema_slug: str, page_text: str, date_lookup: 
                 t = lines[j]
                 j += 1
                 tag = None
-                if j < len(lines) and lines[j] in FORMAT_WORDS:
-                    tag = lines[j]
+                if j < len(lines) and lines[j] in TAG_LINES:
+                    line_tag = lines[j]
                     j += 1
+                    if line_tag in FORMAT_WORDS:
+                        tag = line_tag
+                    # else: "DF" -> tag stays None (normalized to no-tag)
                 times_with_tags.append((t, tag))
 
             by_tag = {}
@@ -156,7 +182,7 @@ def extract_screenings_from_text(cinema_slug: str, page_text: str, date_lookup: 
 
             for key, times in by_tag.items():
                 screenings.append({
-                    "date": current_date,
+                    "date": default_date,
                     "cinema": cinema_slug,
                     "address": "",
                     "film": title,
@@ -208,7 +234,8 @@ def main():
     out_dir.mkdir(exist_ok=True)
 
     # Figure out which dates we're targeting from index.json if scraper.py
-    # has already run today; otherwise fall back to just today.
+    # has already run today; otherwise fall back to just today. (Yorck
+    # itself only ever produces today's date right now — see module note.)
     index_path = out_dir / "index.json"
     if index_path.exists():
         target_dates = json.loads(index_path.read_text(encoding="utf-8"))["dates"]
