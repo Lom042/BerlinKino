@@ -17,7 +17,11 @@ proper app-like icon (see "Installing it on your phone" below) — it does
 - **`scraper.py`** — scrapes `kino.veranstaltungen-in-berlin.de`, a site that
   already aggregates ~50+ Berlin/Potsdam cinemas into one feed (it's the
   closest thing to "the one communal source" — just poorly presented).
-  Writes `data/<date>.json` for today + the next 6 days, plus
+  Writes `data/<date>.json` for however many days ahead are actually
+  published (confirmed today+3 / 4 days total right now, but this adapts
+  automatically — it tries up to a week ahead each run and only keeps
+  whatever the site genuinely has, so it'll grow on its own once cinemas
+  publish further out, no code change needed), plus
   `data/index.json` listing which dates are available.
 - **`scraper_yorck.py`** — separately covers the Yorck Kinogruppe (see
   Coverage below), merging into the same per-date files.
@@ -50,7 +54,9 @@ browser chrome — without any of that.
    data updates).
 4. That's it. The Action in `.github/workflows/update-showtimes.yml` runs
    automatically at 08:00 and 16:00 Berlin time every day, scrapes the
-   current showtimes for every film in Berlin for today + the next 6 days,
+   current showtimes for every film in Berlin for however many days ahead
+   are genuinely published (today+3 right now; grows automatically as
+   cinemas publish further out — see note above),
    and commits `data/index.json` plus one `data/<date>.json` per day.
    Your GitHub Pages site picks it up on the next page load — no manual
    step, ever.
