@@ -218,6 +218,14 @@
     line-height:1.5;
   }
 
+  .view-caption{
+    font-family:var(--mono);
+    font-size:10.5px;
+    color:var(--muted);
+    margin:-2px 0 20px;
+    line-height:1.5;
+  }
+
   .times{display:flex; gap:8px; flex-wrap:wrap; justify-content:flex-end;}
   .time-chip{
     font-family:var(--mono);
@@ -324,9 +332,10 @@
   <div class="chips" id="time-sort-chips" style="display:none; margin-bottom:20px;">
     <div class="chip active" data-sort="soonest">Soonest</div>
     <div class="chip disabled" data-sort="nearest">Nearest</div>
-    <div class="chip" data-sort="cinema">Cinema</div>
     <div class="chip disabled" data-sort="bestofboth">Best of both</div>
   </div>
+
+  <div class="view-caption" id="view-caption"></div>
 
   <div id="results"></div>
 
@@ -544,7 +553,9 @@ const BERLIN_PLZ_COORDS = {
 
 let userPostcodeCoord = null; // [lat, lon] once a recognized postcode is entered, else null
 let distanceSortEnabled = false; // "Nearest first" toggle — used by By film / By cinema
-let timeSortMode = "soonest";    // "soonest" | "nearest" | "cinema" | "bestofboth" — By time's own sort choice
+let timeSortMode = "soonest";    // "soonest" | "nearest" | "bestofboth" — By time's own sort choice
+                                  // ("cinema" was dropped as an option here — By cinema already
+                                  // does that job, having it twice was just confusing)
 
 function haversineKm(a, b){
   const R = 6371;
@@ -767,8 +778,6 @@ function renderByTime(filtered, container){
     flat.sort((a,b) => a._combinedRank - b._combinedRank);
   } else if (timeSortMode === "nearest" && userPostcodeCoord){
     flat.sort((a,b) => distanceSortValue(a.address) - distanceSortValue(b.address) || a.time.localeCompare(b.time));
-  } else if (timeSortMode === "cinema"){
-    flat.sort((a,b) => a.cinema.localeCompare(b.cinema) || a.time.localeCompare(b.time));
   } else {
     flat.sort((a,b) => a.time.localeCompare(b.time) || a.film.localeCompare(b.film));
   }
@@ -802,10 +811,24 @@ document.querySelectorAll('#lang-chips .chip').forEach(chip => {
 // By cinema. By time has its own richer 4-way sort choice instead, so the
 // two controls swap visibility depending which view is active, rather
 // than showing two different distance controls at once.
+// By film / By cinema group things by name (or distance, if "Nearest
+// first" is on) — they were never meant to be chronological, only By
+// time is. That distinction wasn't obvious from the UI alone, so a
+// caption spells it out whenever one of those two views is active.
+const VIEW_CAPTIONS = {
+  film: 'Grouped by film — cinemas sorted by name (or by distance, if "Nearest first" is on). For a single chronological list, switch to By time.',
+  cinema: 'Grouped by cinema — sorted by name (or by distance, if "Nearest first" is on). For a single chronological list, switch to By time.',
+};
+
 function updateViewSpecificControls(){
   const isTime = activeView === "time";
   document.getElementById('time-sort-chips').style.display = isTime ? 'flex' : 'none';
   document.getElementById('distance-toggle').style.display = isTime ? 'none' : '';
+
+  const caption = document.getElementById('view-caption');
+  const text = VIEW_CAPTIONS[activeView] || '';
+  caption.textContent = text;
+  caption.style.display = text ? '' : 'none';
 }
 
 document.querySelectorAll('#view-chips .chip').forEach(chip => {
@@ -817,6 +840,8 @@ document.querySelectorAll('#view-chips .chip').forEach(chip => {
     render();
   });
 });
+
+updateViewSpecificControls(); // set the correct caption/controls for the default view on first load
 
 document.querySelectorAll('#time-sort-chips .chip').forEach(chip => {
   chip.addEventListener('click', () => {
