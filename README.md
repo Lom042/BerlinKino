@@ -94,13 +94,11 @@ workflow file to bring it back online.
 
 **`scraper_cinemaxx.py`** → `cinemaxx.de`, covering **CinemaxX Berlin**
 (Potsdamer Platz) — confirmed missing from the main aggregator entirely.
-Same situation as Yorck: it's a JavaScript app (Vue.js this time), so it
-needs Playwright, and I haven't been able to render it myself to verify
-the extraction logic. **Not yet added to the scheduled workflow** — run
-**Actions → Debug CinemaxX scraper → Run workflow**, send me the output,
-and once it looks right I'll wire it into `update-showtimes.yml`. Currently
-scoped to today only (their date-picker mechanism is unknown without
-seeing it render — multi-day can follow once the basics are confirmed).
+Verified through two rounds of real debug output and now **live in the
+scheduled workflow**. One real limitation to know about: it's scoped to
+**today only** — CinemaxX's date-tab mechanism (Heute/Morgen/Di/...) isn't
+confirmed yet, so CinemaxX showings will only appear on the "Today" date
+chip, not on tomorrow or later days, until multi-day support is added.
 
 **Still not covered by any of the three:** a handful of very small independents and
 seasonal open-air cinemas (Sinema Transtopia, Moviemento, Wolf Kino,
