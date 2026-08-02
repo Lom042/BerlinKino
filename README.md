@@ -92,7 +92,17 @@ from the real page, and I can get the selectors exactly right from it, no
 more guessing. Once it's solid, uncomment the Yorck steps in the main
 workflow file to bring it back online.
 
-**Still not covered by either:** a handful of very small independents and
+**`scraper_cinemaxx.py`** → `cinemaxx.de`, covering **CinemaxX Berlin**
+(Potsdamer Platz) — confirmed missing from the main aggregator entirely.
+Same situation as Yorck: it's a JavaScript app (Vue.js this time), so it
+needs Playwright, and I haven't been able to render it myself to verify
+the extraction logic. **Not yet added to the scheduled workflow** — run
+**Actions → Debug CinemaxX scraper → Run workflow**, send me the output,
+and once it looks right I'll wire it into `update-showtimes.yml`. Currently
+scoped to today only (their date-picker mechanism is unknown without
+seeing it render — multi-day can follow once the basics are confirmed).
+
+**Still not covered by any of the three:** a handful of very small independents and
 seasonal open-air cinemas (Sinema Transtopia, Moviemento, Wolf Kino,
 Freiluftkino Kreuzberg, and similar). Same pattern as Yorck — each is a
 small, separate addition rather than a blocker to using the app now.
