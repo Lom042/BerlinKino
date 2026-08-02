@@ -1,0 +1,20 @@
+name: Debug CinemaxX scraper
+
+# Manual-only — run this from the Actions tab to see exactly what the
+# CinemaxX scraper finds on the real (JS-rendered) page. Doesn't touch
+# your live data.
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install playwright
+      - run: playwright install --with-deps chromium
+      - run: python scraper_cinemaxx.py --debug
