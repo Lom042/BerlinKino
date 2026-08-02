@@ -13,14 +13,25 @@ Yorck's site (yorck.de) is a JavaScript app (Next.js) — the showtimes are
 not in the raw HTML, they're rendered client-side. That means this script
 needs a real headless browser (Playwright), not just requests+BeautifulSoup.
 
-CLAUDE'S HONESTY NOTE: I could not render or inspect this site's actual
-JavaScript output — my sandbox can fetch static HTML but can't execute a
-browser to iterate against the real rendered page. This script is a
-best-effort first draft: correct in approach (including the date-detection
-logic below, which is a guess at how Yorck's "what's on" page separates
-different days), unverified in the exact details. Run `python
-scraper_yorck.py --debug <cinema-slug>` first and, if the dates or times
-look wrong, paste me the output and I'll fix it in one pass.
+UPDATE (confirmed against real --debug output for delphi-lux):
+Each film's block on the real page has this fixed shape:
+    Title
+    Genre
+    "|"
+    "NNN min"
+    "|"
+    <rating, e.g. "FSK 12">
+    <cast/synopsis blurb ending in "(More)">
+    HH:MM               <- one line per showing
+    <format tag>?        <- optional, e.g. "OmU" — applies to that time only
+    HH:MM
+    <format tag>?
+    ...
+The blurb line ending in "(More)" is the one fully reliable anchor, so
+parsing now works backward from that (title is always exactly 6 lines
+above it, with "|" always 2 and 4 lines above it) rather than guessing
+forward from a title line, which was missing the times entirely and
+instead mistaking cast-list lines for titles.
 
 Usage:
     pip install playwright --break-system-packages
@@ -62,6 +73,7 @@ YORCK_CINEMAS = [
 
 FORMAT_WORDS = {"OV", "OmU", "3D", "IMAX", "Atmos", "D-Box", "OmenglU"}
 TIME_RE = re.compile(r"\b\d{1,2}:\d{2}\b")
+BLURB_SUFFIX = "(More)"
 
 WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -91,22 +103,22 @@ def build_date_lookup(today: date, days_ahead: int) -> dict:
     return lookup
 
 
-def split_tags(title_line: str):
-    tags = []
-    m = re.search(r"\(([A-Za-z]+)\)\s*$", title_line)
-    if m and m.group(1) in FORMAT_WORDS:
-        tags.append(m.group(1))
-        title_line = title_line[: m.start()].strip()
-    return title_line, tags
-
-
 def extract_screenings_from_text(cinema_slug: str, page_text: str, date_lookup: dict, default_date: str) -> list[dict]:
     """
-    Defensive, structure-agnostic extraction: walk the rendered text
-    top to bottom, tracking the most recent date heading we've seen, and
-    treating "film-title line, then a nearby run of HH:MM times" as one
-    screening under that date. Loose on purpose — the real DOM structure
-    is unverified, so over-matching slightly is safer than crashing.
+    Anchored on the one fully reliable marker in Yorck's real layout: each
+    film's metadata block ends with a cast/synopsis line suffixed "(More)",
+    immediately followed by its showtimes. Confirmed from real rendered
+    output (see --debug): the fixed shape right before that line is
+        Title / Genre / "|" / "NNN min" / "|" / <rating> / <blurb>(More)
+    — title sits exactly 6 lines above the blurb, with "|" always at
+    offsets -2 and -4. We check those two "|" markers before trusting the
+    offset, so an unexpected block shape is skipped rather than mined for
+    a wrong title (the old bug: cast blurbs were being picked up as titles
+    instead of the real ones, which were never reached at all).
+
+    Showtimes follow the blurb as one HH:MM line per screening, each
+    optionally followed by a format-tag line (OmU, OV, 3D, ...) that
+    applies to that one time only — not to the whole film.
     """
     lines = [l.strip() for l in page_text.split("\n") if l.strip()]
     screenings = []
@@ -120,41 +132,41 @@ def extract_screenings_from_text(cinema_slug: str, page_text: str, date_lookup: 
             i += 1
             continue
 
-        if not TIME_RE.fullmatch(line) and re.search(r"[A-Za-zÀ-ÿ]{3,}", line):
-            # Reject lines that look like promotional blurbs/review quotes
-            # rather than film titles — this is the exact failure mode
-            # observed in real output: lines like `"A brilliant lawyer's
-            # plea..." (Manon Garcia)` were being mistaken for titles.
-            looks_like_quote = (
-                line[:1] in ('"', "'", "\u201c", "\u2018", "\u00ab")
-                or re.search(r"\([A-Z][a-zà-ÿ]+ [A-Z][a-zà-ÿ]+\)\s*$", line)  # "(First Last)" attribution
-                or len(line) > 70  # real film titles are short; blurbs run long
-                or line.count(".") >= 2  # multi-sentence blurb
-            )
-            if looks_like_quote:
+        if (line.endswith(BLURB_SUFFIX) and i - 6 >= 0
+                and lines[i - 2] == "|" and lines[i - 4] == "|"):
+            title = lines[i - 6]
+            if not title or title == "|" or len(title) > 80:
                 i += 1
                 continue
 
-            times = []
             j = i + 1
-            while j < len(lines) and j < i + 4:
-                found = TIME_RE.findall(lines[j])
-                if found:
-                    times.extend(found)
+            times_with_tags = []
+            while j < len(lines) and TIME_RE.fullmatch(lines[j]):
+                t = lines[j]
+                j += 1
+                tag = None
+                if j < len(lines) and lines[j] in FORMAT_WORDS:
+                    tag = lines[j]
                     j += 1
-                    continue
-                break
-            if times:
-                title, tags = split_tags(line)
+                times_with_tags.append((t, tag))
+
+            by_tag = {}
+            for t, tag in times_with_tags:
+                by_tag.setdefault(tag or "", []).append(t)
+
+            for key, times in by_tag.items():
                 screenings.append({
                     "date": current_date,
                     "cinema": cinema_slug,
                     "address": "",
                     "film": title,
-                    "format_tags": tags,
+                    "format_tags": [key] if key else [],
                     "times": sorted(set(times)),
                     "film_url": "",
                 })
+            i = j
+            continue
+
         i += 1
     return screenings
 
@@ -165,9 +177,17 @@ def debug_dump(slug: str):
         browser = p.chromium.launch()
         page = browser.new_page()
         page.goto(url, wait_until="networkidle", timeout=30000)
-        print(f"--- Rendered text for {url} ---\n")
-        print(page.inner_text("body")[:3000])
+        text = page.inner_text("body")
         browser.close()
+    print(f"--- Rendered text for {url} ---\n")
+    print(text[:6000])
+    today = date.today()
+    date_lookup = build_date_lookup(today, 6)
+    screenings = extract_screenings_from_text(slug, text, date_lookup, today.isoformat())
+    print(f"\n\n--- Parsed result ---")
+    for s in screenings:
+        print(f"  {s['film']} {s['format_tags']} -> {s['times']} ({s['date']})")
+    print(f"\nTotal: {len(screenings)} screenings")
 
 
 def scrape_cinema(page, slug: str, date_lookup: dict, default_date: str) -> list[dict]:
