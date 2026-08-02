@@ -65,7 +65,11 @@ HEADERS = {
                   "contact: set-your-email-here)"
 }
 REQUEST_DELAY = 1.0  # seconds between requests — be gentle, this is someone's small site
-DAYS_AHEAD = 6  # scrape today + this many future days (7 days total)
+DAYS_AHEAD = 6  # upper bound to *try* — actual availability is
+                # auto-detected per date (see parse_day's backdatum check),
+                # so this just needs to be "generous enough," not exact.
+                # Confirmed today+3 is the site's current real window; this
+                # lets it grow automatically once cinemas publish further.
 
 FORMAT_WORDS = {"OV", "OmU", "3D", "IMAX", "Atmos", "D-Box", "UkrF", "OmenglU"}
 
@@ -210,7 +214,14 @@ def parse_page(soup: BeautifulSoup, screenings: list) -> None:
                 })
 
 
-def parse_day(target_date: date) -> list[dict]:
+def parse_day(target_date: date):
+    """
+    Returns a list of screenings, or None if this date isn't actually
+    published yet (the site silently falls back to a different date's
+    data rather than erroring — see the check below). None is distinct
+    from an empty list: [] means "available, just nothing on" (rare but
+    possible); None means "don't trust this, the site didn't have it."
+    """
     date_str = target_date.strftime("%d.%m.%Y")
     screenings = []
     seen_offsets = {0}
@@ -221,6 +232,18 @@ def parse_day(target_date: date) -> list[dict]:
         if offset:
             url += f"&os={offset}"
         soup = fetch(url)
+
+        if offset == 0:
+            # Safety check: confirmed behavior is that requesting a date
+            # beyond the site's real availability window silently returns
+            # a DIFFERENT date's data (today's) rather than an empty page
+            # or an error. Detect that by checking the "backdatum=" value
+            # in the page's own links actually matches what we asked for —
+            # if it doesn't, there's genuinely no data for this date yet.
+            if f"backdatum={date_str}" not in str(soup):
+                print(f"  (no data available yet for {date_str} — site "
+                      f"returned a different date's listings instead)")
+                return None
 
         if not soup.select("div.row.kinorow"):
             break
@@ -247,8 +270,11 @@ def parse_day(target_date: date) -> list[dict]:
     return screenings
 
 
-def scrape_and_write_day(target: date, out_dir: Path) -> int:
+def scrape_and_write_day(target: date, out_dir: Path):
+    """Returns True if this date was actually available (file written), False if not (nothing written)."""
     screenings = parse_day(target)
+    if screenings is None:
+        return False
     out_path = out_dir / f"{target.isoformat()}.json"
     payload = {
         "date": target.isoformat(),
@@ -257,7 +283,7 @@ def scrape_and_write_day(target: date, out_dir: Path) -> int:
     }
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Wrote {len(screenings)} screenings for {target.isoformat()} -> {out_path}")
-    return len(screenings)
+    return True
 
 
 def main():
@@ -277,21 +303,36 @@ def main():
         scrape_and_write_day(target, out_dir)
         return
 
-    # Default: today + the next DAYS_AHEAD days.
-    dates = [date.today() + timedelta(days=i) for i in range(DAYS_AHEAD + 1)]
-    for i, d in enumerate(dates):
-        scrape_and_write_day(d, out_dir)
-        if i < len(dates) - 1:
+    # Try today + the next DAYS_AHEAD days, but only keep — and only list
+    # in index.json — the ones that turn out to be genuinely available.
+    # This is what makes the date range adapt automatically: right now
+    # that might be today+3 (the site's current real window), but once
+    # cinemas publish further out, the same code picks up more days
+    # without needing DAYS_AHEAD raised or any other change.
+    candidate_dates = [date.today() + timedelta(days=i) for i in range(DAYS_AHEAD + 1)]
+    available_dates = []
+    for i, d in enumerate(candidate_dates):
+        if scrape_and_write_day(d, out_dir):
+            available_dates.append(d)
+        elif available_dates:
+            # Once we hit an unavailable date, later ones will be too
+            # (the window is contiguous from today) — stop early rather
+            # than keep hitting the site for dates we already expect to fail.
+            break
+        if i < len(candidate_dates) - 1:
             time.sleep(REQUEST_DELAY)
 
     index_payload = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
-        "dates": [d.isoformat() for d in dates],
+        "dates": [d.isoformat() for d in available_dates],
     }
     (out_dir / "index.json").write_text(
         json.dumps(index_payload, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    print(f"Wrote index.json covering {dates[0].isoformat()} .. {dates[-1].isoformat()}")
+    if available_dates:
+        print(f"Wrote index.json covering {available_dates[0].isoformat()} .. {available_dates[-1].isoformat()}")
+    else:
+        print("Wrote index.json — no dates were available at all (unexpected; check the site manually)")
 
 
 if __name__ == "__main__":
