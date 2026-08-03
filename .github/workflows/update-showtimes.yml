@@ -32,6 +32,16 @@ jobs:
       # film titles). Re-enable once fixed and verified; see scraper_yorck.py.
       # - run: python scraper_yorck.py
 
+      # Adds poster + rating info to every screening, via TMDb's free API
+      # (see enrich_tmdb.py for details). TMDB_API_KEY must be set as a
+      # repo secret (Settings -> Secrets and variables -> Actions) for this
+      # to do anything — if it's missing, the script just skips itself
+      # quietly and the site works fine without posters/ratings.
+      - name: Add posters + ratings (TMDb)
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: python enrich_tmdb.py
+
       - name: Commit updated data
         run: |
           git config user.name "showtimes-bot"
