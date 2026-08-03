@@ -410,6 +410,7 @@ const DEMO_DATA = {
 let DATA = null;
 let activeLang = "all";
 let activeView = "film";
+let filmExplicitlySelected = false; // true only after picking a dropdown suggestion, not just typing
 let activeDate = null; // ISO string, set once index.json (or fallback) is known
 let availableDates = [];
 function getBerlinDateISO(){
@@ -864,6 +865,10 @@ function renderFilmSuggestions(){
 }
 
 document.getElementById('search').addEventListener('input', () => {
+  if (filmExplicitlySelected){
+    filmExplicitlySelected = false;
+    updateFilmChipVisibility();
+  }
   render();
   renderFilmSuggestions();
 });
@@ -876,6 +881,8 @@ document.getElementById('film-suggestions').addEventListener('click', (e) => {
   if (!item) return;
   document.getElementById('search').value = item.textContent;
   document.getElementById('film-suggestions').classList.remove('open');
+  filmExplicitlySelected = true;
+  updateFilmChipVisibility();
   render();
 });
 document.addEventListener('click', (e) => {
@@ -905,6 +912,24 @@ const VIEW_CAPTIONS = {
   film: 'Grouped by film — cinemas sorted by name (or by distance, if "Nearest first" is on). For a single chronological list, switch to By time.',
   cinema: 'Grouped by cinema — sorted by name (or by distance, if "Nearest first" is on). For a single chronological list, switch to By time.',
 };
+
+function updateFilmChipVisibility(){
+  const filmChip = document.querySelector('#view-chips [data-view="film"]');
+  if (filmExplicitlySelected){
+    filmChip.style.display = 'none';
+    if (activeView === 'film'){
+      // Was grouping by film with only one film ever going to show —
+      // switch to the next most useful view rather than leave an active
+      // chip hidden with no way to tell which mode is even selected.
+      activeView = 'cinema';
+      document.querySelectorAll('#view-chips .chip').forEach(c => c.classList.remove('active'));
+      document.querySelector('#view-chips [data-view="cinema"]').classList.add('active');
+      updateViewSpecificControls();
+    }
+  } else {
+    filmChip.style.display = '';
+  }
+}
 
 function updateViewSpecificControls(){
   const isTime = activeView === "time";
