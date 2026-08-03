@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-03T16:00:07",
+  "generated_at": "2026-08-03T22:47:57",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -12,7 +12,9 @@
       "times": [
         "18:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/the-love-that-remains-f172340038_177_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/the-love-that-remains-f172340038_177_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/3L0mV5qfxRWCh5klCNps18VTepb.jpg",
+      "rating": 6.2
     },
     {
       "cinema": "Acud-Kino",
@@ -24,7 +26,9 @@
       "times": [
         "21:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/glennkill-ein-schafskrimi-f172118904_177_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/glennkill-ein-schafskrimi-f172118904_177_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/AsYAR08tFOhzyR4dsom0SdrgfAc.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Acud-Kino",
@@ -34,7 +38,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_177.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_177.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/qKJV8zX23FcoNM3Vx3jtU8S58F8.jpg",
+      "rating": 6.5
     },
     {
       "cinema": "Acud-Kino",
@@ -56,7 +62,9 @@
       "times": [
         "16:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-fluestern-der-waelder-f171705470_177.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-fluestern-der-waelder-f171705470_177.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/vqVy0aqpKtu7aMOOTKpPJKgYBzl.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Adria",
@@ -66,7 +74,9 @@
       "times": [
         "17:40"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_100.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_100.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "Adria",
@@ -96,7 +106,9 @@
       "times": [
         "10:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_143.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_143.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Astra Filmpalast",
@@ -106,7 +118,9 @@
       "times": [
         "10:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-legende-des-wuestenkindes-f172225021_143.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-legende-des-wuestenkindes-f172225021_143.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/xmiHMudY2Gg63NEzrSMGbo92PRL.jpg",
+      "rating": 7.6
     },
     {
       "cinema": "Astra Filmpalast",
@@ -126,7 +140,9 @@
       "times": [
         "10:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/plitsch-platsch-forever-f172392764_143.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/plitsch-platsch-forever-f172392764_143.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ytUMwwEVamxxIa6IvhdZbfG2okg.jpg",
+      "rating": null
     },
     {
       "cinema": "Astra Filmpalast",
@@ -146,7 +162,9 @@
       "times": [
         "12:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_143.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_143.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ye46Vv26Wvc3FWpOmWRZDy7tig1.jpg",
+      "rating": 7.5
     },
     {
       "cinema": "Astra Filmpalast",
@@ -178,7 +196,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_143.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_143.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "Astra Filmpalast",
@@ -188,7 +208,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_143.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_143.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Astra Filmpalast",
@@ -200,7 +222,9 @@
       "times": [
         "17:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_143_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_143_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Astra Filmpalast",
@@ -210,7 +234,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_143.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_143.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "b-ware!Ladenkino",
@@ -220,7 +246,9 @@
       "times": [
         "11:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_43655195.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_43655195.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "b-ware!Ladenkino",
@@ -254,7 +282,9 @@
       "times": [
         "11:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_43655195_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_43655195_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/7vB1MPcZTI9jX366sumg66fqvI9.jpg",
+      "rating": 7.2
     },
     {
       "cinema": "b-ware!Ladenkino",
@@ -266,7 +296,9 @@
       "times": [
         "14:40"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_43655195_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_43655195_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "b-ware!Ladenkino",
@@ -278,7 +310,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_43655195_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_43655195_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "b-ware!Ladenkino",
@@ -302,7 +336,9 @@
       "times": [
         "22:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/evil-dead-burn-f172392621_43655195_OV.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/evil-dead-burn-f172392621_43655195_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/fn0frXHFsRQ5XaHsLpQKAgOA8Dk.jpg",
+      "rating": 6.8
     },
     {
       "cinema": "b-ware!Ladenkino",
@@ -314,7 +350,9 @@
       "times": [
         "12:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/disclosure-day-der-tag-der-wahrheit-f172432668_43655195_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/disclosure-day-der-tag-der-wahrheit-f172432668_43655195_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/8aaV365bjSxPMZdT18RybAYGqSp.jpg",
+      "rating": 7.4
     },
     {
       "cinema": "b-ware!Ladenkino",
@@ -338,7 +376,9 @@
       "times": [
         "14:55"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/23-000-leben-f172679991_43655195_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/23-000-leben-f172679991_43655195_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/fl84ocsxe3Lib5BGUhO0lFjDbDK.jpg",
+      "rating": 5.7
     },
     {
       "cinema": "b-ware!Ladenkino",
@@ -362,7 +402,9 @@
       "times": [
         "17:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-wandelnde-schloss-f33938730_6439289_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-wandelnde-schloss-f33938730_6439289_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/tXB5bdKfLI3XGrmJqaEh0kTKmH6.jpg",
+      "rating": 8.4
     },
     {
       "cinema": "Babylon",
@@ -374,7 +416,9 @@
       "times": [
         "19:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/ghost-in-the-shell-1995-f29869_6439289_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/ghost-in-the-shell-1995-f29869_6439289_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ad2wSfaqj2ETGXV2SJLPSPEUZfT.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Babylon",
@@ -386,7 +430,9 @@
       "times": [
         "22:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/akira-f22332_6439289_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/akira-f22332_6439289_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/fDRZmPUPUHTxULsuSjPIqPHKjuE.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Babylon",
@@ -398,7 +444,9 @@
       "times": [
         "21:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cowboy-bebop-the-movie-tengoku-no-tobira-f19616270_6439289_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cowboy-bebop-the-movie-tengoku-no-tobira-f19616270_6439289_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/4iwcFGxdnsMWrvoqsgmU2TQfL6K.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "Babylon",
@@ -410,7 +458,9 @@
       "times": [
         "17:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/lucy-lost-f172941689_6439289_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/lucy-lost-f172941689_6439289_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/y89scf8jBRXBSIBRrF8mzDi6wMU.jpg",
+      "rating": null
     },
     {
       "cinema": "Babylon",
@@ -422,7 +472,9 @@
       "times": [
         "17:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/the-keeper-of-the-camphor-tree-f172941607_6439289_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/the-keeper-of-the-camphor-tree-f172941607_6439289_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/xkpgFVewjqtIRNTFh5yJXnNtFU4.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Babylon",
@@ -434,7 +486,9 @@
       "times": [
         "19:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/a-new-dawn-f171844239_6439289_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/a-new-dawn-f171844239_6439289_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/spDPMjZCG5Kz4p6guOMIAYmuL3z.jpg",
+      "rating": 6.0
     },
     {
       "cinema": "Babylon",
@@ -446,7 +500,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/toritsukare-otoko-the-obsessed-f172609087_6439289_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/toritsukare-otoko-the-obsessed-f172609087_6439289_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/vzNDv1Ts7GzlFJ2pgcMYev3BDCG.jpg",
+      "rating": null
     },
     {
       "cinema": "Babylon",
@@ -456,7 +512,9 @@
       "times": [
         "21:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/brave-cat-f172941618_6439289.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/brave-cat-f172941618_6439289.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/2OD1YPtyczGfEYp3es7C2JIJNPk.jpg",
+      "rating": null
     },
     {
       "cinema": "Babylon Kreuzberg",
@@ -468,7 +526,9 @@
       "times": [
         "18:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/children-of-men-f43462938_144_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/children-of-men-f43462938_144_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ylTP94REqRh3qANFTlKQtRmwxZh.jpg",
+      "rating": 7.6
     },
     {
       "cinema": "Babylon Kreuzberg",
@@ -480,7 +540,9 @@
       "times": [
         "21:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_144_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_144_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Babylon Kreuzberg",
@@ -492,7 +554,9 @@
       "times": [
         "18:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_144_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_144_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Bali",
@@ -502,7 +566,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_116.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_116.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/7vB1MPcZTI9jX366sumg66fqvI9.jpg",
+      "rating": 7.2
     },
     {
       "cinema": "Bali",
@@ -512,7 +578,9 @@
       "times": [
         "16:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_116.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_116.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Bali",
@@ -542,7 +610,9 @@
       "times": [
         "18:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_331.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_331.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Blauer Stern Pankow",
@@ -552,7 +622,9 @@
       "times": [
         "20:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_331.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_331.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "Blauer Stern Pankow",
@@ -582,7 +654,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_110.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_110.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/qKJV8zX23FcoNM3Vx3jtU8S58F8.jpg",
+      "rating": 6.5
     },
     {
       "cinema": "Bundesplatz-Kino",
@@ -592,7 +666,9 @@
       "times": [
         "18:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_113.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_113.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Bundesplatz-Kino",
@@ -612,7 +688,9 @@
       "times": [
         "17:40"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_117.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_117.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Capitol",
@@ -632,7 +710,9 @@
       "times": [
         "16:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-sommerbuch-f172561749_203.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-sommerbuch-f172561749_203.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/66ptdnJwV4mmhx0KabKkpJ70m40.jpg",
+      "rating": 7.3
     },
     {
       "cinema": "Casablanca",
@@ -642,7 +722,9 @@
       "times": [
         "18:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_203.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_203.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/qKJV8zX23FcoNM3Vx3jtU8S58F8.jpg",
+      "rating": 6.5
     },
     {
       "cinema": "Casablanca",
@@ -652,7 +734,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bibi-blocksberg-und-das-geheimnis-der-blauen-eulen-f22695554_203.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bibi-blocksberg-und-das-geheimnis-der-blauen-eulen-f22695554_203.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/tKd0RJaygLmp0TBPXEtso4HBc94.jpg",
+      "rating": 6.2
     },
     {
       "cinema": "Casablanca",
@@ -662,7 +746,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_203.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_203.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "Central Hackescher Markt",
@@ -686,7 +772,9 @@
       "times": [
         "17:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_295_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_295_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Cinema Paris",
@@ -696,7 +784,9 @@
       "times": [
         "15:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_6.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_6.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Cinema Paris",
@@ -748,7 +838,9 @@
       "times": [
         "14:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_2263266.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_2263266.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "CineMotion Hohenschönhausen",
@@ -758,7 +850,9 @@
       "times": [
         "14:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_2263266.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_2263266.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "CineMotion Hohenschönhausen",
@@ -768,7 +862,9 @@
       "times": [
         "20:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_2263266.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_2263266.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "CineMotion Hohenschönhausen",
@@ -778,7 +874,9 @@
       "times": [
         "14:40"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2263266.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2263266.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "CineMotion Hohenschönhausen",
@@ -790,7 +888,9 @@
       "times": [
         "16:40"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2263266_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2263266_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "CineMotion Hohenschönhausen",
@@ -880,7 +980,9 @@
       "times": [
         "11:50"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_107_D-Box.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_107_D-Box.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Cineplex Alhambra",
@@ -890,7 +992,9 @@
       "times": [
         "15:10"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_107.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_107.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Cineplex Alhambra",
@@ -900,7 +1004,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_107.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_107.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "Cineplex Alhambra",
@@ -912,7 +1018,9 @@
       "times": [
         "12:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_107_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_107_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Cineplex Alhambra",
@@ -934,7 +1042,9 @@
       "times": [
         "13:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_107_D-Box.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_107_D-Box.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Cineplex Alhambra",
@@ -946,7 +1056,9 @@
       "times": [
         "12:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_107_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_107_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Cineplex Alhambra",
@@ -959,7 +1071,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_107_Atmos, D-Box.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_107_Atmos, D-Box.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Cineplex Alhambra",
@@ -972,7 +1086,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_107_OV_D-Box.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_107_OV_D-Box.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Cineplex Alhambra",
@@ -995,7 +1111,9 @@
       "times": [
         "17:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_107.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_107.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1005,7 +1123,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-legende-des-wuestenkindes-f172225021_5414089.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-legende-des-wuestenkindes-f172225021_5414089.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/xmiHMudY2Gg63NEzrSMGbo92PRL.jpg",
+      "rating": 7.6
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1015,7 +1135,9 @@
       "times": [
         "14:10"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_5414089.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_5414089.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1079,7 +1201,9 @@
       "times": [
         "20:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_5414089.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_5414089.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1091,7 +1215,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/evil-dead-burn-f172392621_5414089_OV.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/evil-dead-burn-f172392621_5414089_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/fn0frXHFsRQ5XaHsLpQKAgOA8Dk.jpg",
+      "rating": 6.8
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1101,7 +1227,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_5414089.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_5414089.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ye46Vv26Wvc3FWpOmWRZDy7tig1.jpg",
+      "rating": 7.5
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1111,7 +1239,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_5414089.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_5414089.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1123,7 +1253,9 @@
       "times": [
         "14:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_5414089_OV.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_5414089_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1135,7 +1267,9 @@
       "times": [
         "14:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_5414089_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_5414089_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1145,7 +1279,9 @@
       "times": [
         "17:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_5414089.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_5414089.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "Cineplex Spandau",
@@ -1155,7 +1291,9 @@
       "times": [
         "10:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_336.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_336.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Cineplex Spandau",
@@ -1195,7 +1333,9 @@
       "times": [
         "09:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_336.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_336.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ye46Vv26Wvc3FWpOmWRZDy7tig1.jpg",
+      "rating": 7.5
     },
     {
       "cinema": "Cineplex Spandau",
@@ -1205,7 +1345,9 @@
       "times": [
         "09:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_336.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_336.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Cineplex Spandau",
@@ -1217,7 +1359,9 @@
       "times": [
         "16:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_336_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_336_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Cineplex Spandau",
@@ -1237,7 +1381,9 @@
       "times": [
         "17:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_336.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_336.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "Cineplex Titania Palast",
@@ -1257,7 +1403,9 @@
       "times": [
         "10:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_222.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_222.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Cineplex Titania Palast",
@@ -1313,7 +1461,9 @@
       "times": [
         "10:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_222_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_222_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Cineplex Titania Palast",
@@ -1323,7 +1473,9 @@
       "times": [
         "10:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_222.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_222.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Cineplex Titania Palast",
@@ -1335,7 +1487,9 @@
       "times": [
         "16:10"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_222_OV.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_222_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Cineplex Titania Palast",
@@ -1345,7 +1499,9 @@
       "times": [
         "17:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_222.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_222.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
@@ -1375,7 +1531,9 @@
       "times": [
         "11:10"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_111.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_111.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ye46Vv26Wvc3FWpOmWRZDy7tig1.jpg",
+      "rating": 7.5
     },
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
@@ -1385,7 +1543,9 @@
       "times": [
         "11:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-super-mario-galaxy-film-f171535159_111.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-super-mario-galaxy-film-f171535159_111.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/lggrFZlEDu3kmic1DnZl9c6bcD9.jpg",
+      "rating": 8.3
     },
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
@@ -1407,7 +1567,9 @@
       "times": [
         "11:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_111.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_111.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
@@ -1478,7 +1640,9 @@
       "times": [
         "11:10"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_111_OV.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_111_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
@@ -1488,7 +1652,9 @@
       "times": [
         "11:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_111.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_111.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
@@ -1500,7 +1666,9 @@
       "times": [
         "11:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_111_OV.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_111_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
@@ -1512,7 +1680,9 @@
       "times": [
         "16:10"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_111_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_111_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
@@ -1525,7 +1695,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_111_OV_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_111_OV_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
@@ -1537,7 +1709,9 @@
       "times": [
         "11:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_111_UkrF.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_111_UkrF.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
@@ -1573,7 +1747,9 @@
       "times": [
         "14:25"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_701251_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_701251_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "CineStar Hellersdorf",
@@ -1613,7 +1789,9 @@
       "times": [
         "11:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_701251.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_701251.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "CineStar Hellersdorf",
@@ -1645,7 +1823,9 @@
       "times": [
         "20:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_701251.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_701251.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "CineStar Hellersdorf",
@@ -1655,7 +1835,9 @@
       "times": [
         "11:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_701251.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_701251.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ye46Vv26Wvc3FWpOmWRZDy7tig1.jpg",
+      "rating": 7.5
     },
     {
       "cinema": "CineStar Hellersdorf",
@@ -1665,7 +1847,9 @@
       "times": [
         "11:10"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-wunderweltenbaum-f171970849_701251.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-wunderweltenbaum-f171970849_701251.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/3aB1LnHpNMLwZu8zcgyqsHeUUdM.jpg",
+      "rating": 6.2
     },
     {
       "cinema": "CineStar Hellersdorf",
@@ -1685,7 +1869,9 @@
       "times": [
         "11:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_701251.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_701251.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "CineStar Hellersdorf",
@@ -1697,7 +1883,9 @@
       "times": [
         "16:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_701251_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_701251_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "CineStar Hellersdorf",
@@ -1727,7 +1915,9 @@
       "times": [
         "11:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-wunderweltenbaum-f171970849_2775966.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-wunderweltenbaum-f171970849_2775966.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/3aB1LnHpNMLwZu8zcgyqsHeUUdM.jpg",
+      "rating": 6.2
     },
     {
       "cinema": "CineStar Tegel",
@@ -1737,7 +1927,9 @@
       "times": [
         "11:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_2775966.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_2775966.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ye46Vv26Wvc3FWpOmWRZDy7tig1.jpg",
+      "rating": 7.5
     },
     {
       "cinema": "CineStar Tegel",
@@ -1749,7 +1941,9 @@
       "times": [
         "13:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_2775966_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_2775966_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "CineStar Tegel",
@@ -1759,7 +1953,9 @@
       "times": [
         "11:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-super-mario-galaxy-film-f171535159_2775966.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-super-mario-galaxy-film-f171535159_2775966.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/lggrFZlEDu3kmic1DnZl9c6bcD9.jpg",
+      "rating": 8.3
     },
     {
       "cinema": "CineStar Tegel",
@@ -1779,7 +1975,9 @@
       "times": [
         "11:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_2775966.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_2775966.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "CineStar Tegel",
@@ -1833,7 +2031,9 @@
       "times": [
         "17:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_2775966.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_2775966.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "CineStar Tegel",
@@ -1843,7 +2043,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_2775966.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_2775966.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "CineStar Tegel",
@@ -1853,7 +2055,9 @@
       "times": [
         "11:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2775966.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2775966.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "CineStar Tegel",
@@ -1865,7 +2069,9 @@
       "times": [
         "15:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2775966_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2775966_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "CineStar Tegel",
@@ -1878,7 +2084,9 @@
       "times": [
         "19:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2775966_OV_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2775966_OV_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "CineStar Tegel",
@@ -1912,7 +2120,9 @@
       "times": [
         "18:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_317_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_317_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/7vB1MPcZTI9jX366sumg66fqvI9.jpg",
+      "rating": 7.2
     },
     {
       "cinema": "City Kino Wedding",
@@ -1924,7 +2134,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_317_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_317_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "Colosseum Filmtheater",
@@ -1934,7 +2146,9 @@
       "times": [
         "12:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/insekten-helden-im-verborgenen-f172470301_86.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/insekten-helden-im-verborgenen-f172470301_86.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/cV1xcGh5KIljaRGDJcFT6Pm9ZAN.jpg",
+      "rating": 6.5
     },
     {
       "cinema": "Colosseum Filmtheater",
@@ -1944,7 +2158,9 @@
       "times": [
         "12:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_86.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_86.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Colosseum Filmtheater",
@@ -1964,7 +2180,9 @@
       "times": [
         "19:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_86.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_86.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "Colosseum Filmtheater",
@@ -1974,7 +2192,9 @@
       "times": [
         "19:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_86.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_86.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Colosseum Filmtheater",
@@ -1994,7 +2214,9 @@
       "times": [
         "21:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_86.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_86.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "Colosseum Filmtheater",
@@ -2004,7 +2226,9 @@
       "times": [
         "17:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/couscous-und-geheimnisse-f171614066_86.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/couscous-und-geheimnisse-f171614066_86.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iGUHa0gkvMmOm7t7rSHgvNKgywC.jpg",
+      "rating": 6.9
     },
     {
       "cinema": "Colosseum Filmtheater",
@@ -2014,7 +2238,9 @@
       "times": [
         "13:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_86.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_86.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Cosima",
@@ -2024,7 +2250,9 @@
       "times": [
         "17:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/so-klingt-das-leben-f172382718_95.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/so-klingt-das-leben-f172382718_95.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oryWZcq1UDfWcQlhxfB57qEqUq4.jpg",
+      "rating": 7.4
     },
     {
       "cinema": "Cosima",
@@ -2034,7 +2262,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_95.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_95.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/7vB1MPcZTI9jX366sumg66fqvI9.jpg",
+      "rating": 7.2
     },
     {
       "cinema": "Cosima",
@@ -2078,7 +2308,9 @@
       "times": [
         "18:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_139115802.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_139115802.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/qKJV8zX23FcoNM3Vx3jtU8S58F8.jpg",
+      "rating": 6.5
     },
     {
       "cinema": "Delphi LUX",
@@ -2090,7 +2322,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_139115802_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_139115802_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "Delphi LUX",
@@ -2100,7 +2334,9 @@
       "times": [
         "15:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_139115802.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_139115802.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/7vB1MPcZTI9jX366sumg66fqvI9.jpg",
+      "rating": 7.2
     },
     {
       "cinema": "Delphi LUX",
@@ -2122,7 +2358,9 @@
       "times": [
         "18:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/etwas-ganz-besonderes-f171844294_139115802.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/etwas-ganz-besonderes-f171844294_139115802.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yInkf546G1I63g4Im3XvFCnmxsf.jpg",
+      "rating": 6.2
     },
     {
       "cinema": "Delphi LUX",
@@ -2146,7 +2384,9 @@
       "times": [
         "17:40"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/dreams-gefaehrliches-verlangen-f169407331_139115802_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/dreams-gefaehrliches-verlangen-f169407331_139115802_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/vdjyv2FWQurFvTXJbb4mYlzRiPP.jpg",
+      "rating": 6.1
     },
     {
       "cinema": "Delphi LUX",
@@ -2158,7 +2398,9 @@
       "times": [
         "16:10"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/to-my-sisters-f172659506_139115802_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/to-my-sisters-f172659506_139115802_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/drIsayy0YTOoKV6zr8Rrgfw2wvE.jpg",
+      "rating": 6.2
     },
     {
       "cinema": "Delphi LUX",
@@ -2170,7 +2412,9 @@
       "times": [
         "17:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_139115802_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_139115802_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/7vB1MPcZTI9jX366sumg66fqvI9.jpg",
+      "rating": 7.2
     },
     {
       "cinema": "Delphi LUX",
@@ -2182,7 +2426,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/verflucht-normal-f172204834_139115802_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/verflucht-normal-f172204834_139115802_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/2PoZYBlW5BaEUpKWz4phBQLBykX.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "Delphi LUX",
@@ -2194,7 +2440,9 @@
       "times": [
         "20:40"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_139115802_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_139115802_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "Delphi LUX",
@@ -2228,7 +2476,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_139115802.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_139115802.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Delphi LUX",
@@ -2238,7 +2488,9 @@
       "times": [
         "14:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-perfekte-schein-der-fall-bojarski-f172681576_139115802.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-perfekte-schein-der-fall-bojarski-f172681576_139115802.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/wXKBRgtnSgvqRkP8zhVMjNSPTx7.jpg",
+      "rating": 7.1
     },
     {
       "cinema": "Delphi LUX",
@@ -2250,7 +2502,9 @@
       "times": [
         "15:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_139115802_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_139115802_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Delphi LUX",
@@ -2262,7 +2516,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-perfekte-schein-der-fall-bojarski-f172681576_139115802_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-perfekte-schein-der-fall-bojarski-f172681576_139115802_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/wXKBRgtnSgvqRkP8zhVMjNSPTx7.jpg",
+      "rating": 7.1
     },
     {
       "cinema": "Delphi LUX",
@@ -2294,7 +2550,9 @@
       "times": [
         "15:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_114.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_114.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "Eva-Lichtspiele",
@@ -2304,7 +2562,9 @@
       "times": [
         "17:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_114.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_114.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Eva-Lichtspiele",
@@ -2314,7 +2574,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-perfekte-schein-der-fall-bojarski-f172681576_114.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-perfekte-schein-der-fall-bojarski-f172681576_114.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/wXKBRgtnSgvqRkP8zhVMjNSPTx7.jpg",
+      "rating": 7.1
     },
     {
       "cinema": "Filmkunst 66",
@@ -2324,7 +2586,9 @@
       "times": [
         "17:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/so-klingt-das-leben-f172382718_233.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/so-klingt-das-leben-f172382718_233.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oryWZcq1UDfWcQlhxfB57qEqUq4.jpg",
+      "rating": 7.4
     },
     {
       "cinema": "Filmkunst 66",
@@ -2354,7 +2618,9 @@
       "times": [
         "18:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/amore-und-basta-f172660586_228.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/amore-und-basta-f172660586_228.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/uvl6LcMAFt9ZWywhXPtJdO2SkSQ.jpg",
+      "rating": 5.9
     },
     {
       "cinema": "Filmkunst 66",
@@ -2364,7 +2630,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/dreams-gefaehrliches-verlangen-f169407331_228.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/dreams-gefaehrliches-verlangen-f169407331_228.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/vdjyv2FWQurFvTXJbb4mYlzRiPP.jpg",
+      "rating": 6.1
     },
     {
       "cinema": "Filmmuseum Potsdam",
@@ -2374,7 +2642,9 @@
       "times": [
         "10:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/plitsch-platsch-forever-f172392764_207.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/plitsch-platsch-forever-f172392764_207.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ytUMwwEVamxxIa6IvhdZbfG2okg.jpg",
+      "rating": null
     },
     {
       "cinema": "Filmmuseum Potsdam",
@@ -2384,7 +2654,9 @@
       "times": [
         "17:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-frau-weint-f171844408_207.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-frau-weint-f171844408_207.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/tAdDuoV8XTCuIWRa3G7cBQHVwYy.jpg",
+      "rating": 2.5
     },
     {
       "cinema": "Filmmuseum Potsdam",
@@ -2394,7 +2666,9 @@
       "times": [
         "19:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-drama-noch-mal-auf-anfang-f171717709_207.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-drama-noch-mal-auf-anfang-f171717709_207.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yojMKtExmL8a8TOyrT1im8pJF6M.jpg",
+      "rating": 6.9
     },
     {
       "cinema": "Filmrauschpalast",
@@ -2406,7 +2680,9 @@
       "times": [
         "20:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/etwas-ganz-besonderes-f171844294_930416_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/etwas-ganz-besonderes-f171844294_930416_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yInkf546G1I63g4Im3XvFCnmxsf.jpg",
+      "rating": 6.2
     },
     {
       "cinema": "Filmrauschpalast",
@@ -2418,7 +2694,9 @@
       "times": [
         "18:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/into-the-wild-f55335042_930416_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/into-the-wild-f55335042_930416_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/8T3CCV6sot8atyf4wjKjpkGmAFb.jpg",
+      "rating": 7.8
     },
     {
       "cinema": "Filmtheater am Friedrichshain",
@@ -2438,7 +2716,9 @@
       "times": [
         "14:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_322.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_322.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Filmtheater am Friedrichshain",
@@ -2472,7 +2752,9 @@
       "times": [
         "21:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_322_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_322_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "Filmtheater am Friedrichshain",
@@ -2484,7 +2766,9 @@
       "times": [
         "13:50"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_322_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_322_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Filmtheater am Friedrichshain",
@@ -2506,7 +2790,9 @@
       "times": [
         "16:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_322.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_322.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Filmtheater am Friedrichshain",
@@ -2518,7 +2804,9 @@
       "times": [
         "18:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_322_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_322_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Forest Cinema im Michelberger Hotel",
@@ -2530,7 +2818,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/mulholland-drive-strasse-der-finsternis-f10837247_107373423_OV.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/mulholland-drive-strasse-der-finsternis-f10837247_107373423_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6XpAFxwhVZ2t30Qtn8Wz8koKlaN.jpg",
+      "rating": 7.8
     },
     {
       "cinema": "Freiluftkino Friedrichshagen",
@@ -2540,7 +2830,9 @@
       "times": [
         "21:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/ich-einfach-unverbesserlich-f78675177_3138322.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/ich-einfach-unverbesserlich-f78675177_3138322.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/tgQAiavJYM1vGcNVeKZHr35F4WB.jpg",
+      "rating": 7.3
     },
     {
       "cinema": "Freiluftkino Hasenheide",
@@ -2550,7 +2842,9 @@
       "times": [
         "16:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/tonari-no-totoro-mein-nachbar-totoro-f18377385_185.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/tonari-no-totoro-mein-nachbar-totoro-f18377385_185.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/bPBYikmzC8vP1Njdm6iUQv8eTKD.jpg",
+      "rating": 8.1
     },
     {
       "cinema": "Freiluftkino Hasenheide",
@@ -2560,7 +2854,9 @@
       "times": [
         "18:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/prinzessin-mononoke-f1920274_185.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/prinzessin-mononoke-f1920274_185.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/vFRKcH8zDqEx4nUnm0cs5lh5wwj.jpg",
+      "rating": 8.3
     },
     {
       "cinema": "Freiluftkino Hasenheide",
@@ -2572,7 +2868,9 @@
       "times": [
         "21:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/no-other-choice-f170981535_185_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/no-other-choice-f170981535_185_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/r9IBYBthwVhrLtepz07JJMnilTf.jpg",
+      "rating": 7.5
     },
     {
       "cinema": "Freiluftkino Kreuzberg",
@@ -2584,7 +2882,9 @@
       "times": [
         "21:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-astronaut-project-hail-mary-f171534787_190_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-astronaut-project-hail-mary-f171534787_190_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1hJdqwEDES96CRZCaiOVuqWLJFX.jpg",
+      "rating": 8.7
     },
     {
       "cinema": "Freiluftkino Neue Zukunft",
@@ -2596,7 +2896,9 @@
       "times": [
         "21:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/sonne-und-beton-f162450783_167341714_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/sonne-und-beton-f162450783_167341714_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ddacirup8d3NJqyFvRaBllSFncr.jpg",
+      "rating": 7.0
     },
     {
       "cinema": "Freiluftkino Rehberge",
@@ -2618,7 +2920,9 @@
       "times": [
         "18:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_204_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_204_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/qKJV8zX23FcoNM3Vx3jtU8S58F8.jpg",
+      "rating": 6.5
     },
     {
       "cinema": "fsk am Oranienplatz",
@@ -2630,7 +2934,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/dreams-gefaehrliches-verlangen-f169407331_204_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/dreams-gefaehrliches-verlangen-f169407331_204_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/vdjyv2FWQurFvTXJbb4mYlzRiPP.jpg",
+      "rating": 6.1
     },
     {
       "cinema": "fsk am Oranienplatz",
@@ -2642,7 +2948,9 @@
       "times": [
         "17:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_204_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_204_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Hackesche Höfe Kino",
@@ -2652,7 +2960,9 @@
       "times": [
         "14:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_298.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_298.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Hackesche Höfe Kino",
@@ -2676,7 +2986,9 @@
       "times": [
         "15:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/wise-women-fuenf-hebammen-fuenf-kulturen-f172340232_298_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/wise-women-fuenf-hebammen-fuenf-kulturen-f172340232_298_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kSdXwwMumjbDHANepqaiqmNaSCp.jpg",
+      "rating": null
     },
     {
       "cinema": "Hackesche Höfe Kino",
@@ -2700,7 +3012,9 @@
       "times": [
         "17:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_298_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_298_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Hackesche Höfe Kino",
@@ -2712,7 +3026,9 @@
       "times": [
         "17:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/etwas-ganz-besonderes-f171844294_298_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/etwas-ganz-besonderes-f171844294_298_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yInkf546G1I63g4Im3XvFCnmxsf.jpg",
+      "rating": 6.2
     },
     {
       "cinema": "Hackesche Höfe Kino",
@@ -2724,7 +3040,9 @@
       "times": [
         "15:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_298_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_298_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Hackesche Höfe Kino",
@@ -2748,7 +3066,9 @@
       "times": [
         "22:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/dreams-gefaehrliches-verlangen-f169407331_298_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/dreams-gefaehrliches-verlangen-f169407331_298_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/vdjyv2FWQurFvTXJbb4mYlzRiPP.jpg",
+      "rating": 6.1
     },
     {
       "cinema": "Hackesche Höfe Kino",
@@ -2772,7 +3092,9 @@
       "times": [
         "17:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_298_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_298_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "International",
@@ -2804,7 +3126,9 @@
       "times": [
         "14:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_149.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_149.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "Kant Kino",
@@ -2814,7 +3138,9 @@
       "times": [
         "14:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/glennkill-ein-schafskrimi-f172118904_149.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/glennkill-ein-schafskrimi-f172118904_149.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/AsYAR08tFOhzyR4dsom0SdrgfAc.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Kant Kino",
@@ -2834,7 +3160,9 @@
       "times": [
         "19:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-camino-therapie-finde-deinen-weg-f172516893_149.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-camino-therapie-finde-deinen-weg-f172516893_149.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/gLJDQ0kO8JQUn2hvq7bqUeNLrCA.jpg",
+      "rating": 7.0
     },
     {
       "cinema": "Kant Kino",
@@ -2854,7 +3182,9 @@
       "times": [
         "17:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_149.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_149.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/7vB1MPcZTI9jX366sumg66fqvI9.jpg",
+      "rating": 7.2
     },
     {
       "cinema": "Kant Kino",
@@ -2886,7 +3216,9 @@
       "times": [
         "19:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/le-jardin-des-delices-de-jerome-bosch-f51633910_137006242_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/le-jardin-des-delices-de-jerome-bosch-f51633910_137006242_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/vBoa6WSIcN57KjgLAHudHUEHcvr.jpg",
+      "rating": 7.0
     },
     {
       "cinema": "Kino im Kulturhaus Spandau",
@@ -2906,7 +3238,9 @@
       "times": [
         "15:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_28701458.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_28701458.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "Kino im Kulturhaus Spandau",
@@ -2916,7 +3250,9 @@
       "times": [
         "17:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_28701458.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_28701458.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Kino im Zeiss-Großplanetarium",
@@ -2928,7 +3264,9 @@
       "times": [
         "10:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/afrika-das-magische-koenigreich-f117528335_37791198_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/afrika-das-magische-koenigreich-f117528335_37791198_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/fBjs9cN1cypFKax0CfjWeGucQQg.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "Kino im Zeiss-Großplanetarium",
@@ -2938,7 +3276,9 @@
       "times": [
         "12:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/plitsch-platsch-forever-f172392764_37791198.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/plitsch-platsch-forever-f172392764_37791198.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ytUMwwEVamxxIa6IvhdZbfG2okg.jpg",
+      "rating": null
     },
     {
       "cinema": "Kino in der Kulturbrauerei",
@@ -2968,7 +3308,9 @@
       "times": [
         "11:40"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_3685765.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_3685765.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Kino in der Kulturbrauerei",
@@ -3002,7 +3344,9 @@
       "times": [
         "14:05"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_3685765.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_3685765.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "Kino in der Kulturbrauerei",
@@ -3012,7 +3356,9 @@
       "times": [
         "11:40"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/so-klingt-das-leben-f172382718_3685765.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/so-klingt-das-leben-f172382718_3685765.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oryWZcq1UDfWcQlhxfB57qEqUq4.jpg",
+      "rating": 7.4
     },
     {
       "cinema": "Kino in der Kulturbrauerei",
@@ -3022,7 +3368,9 @@
       "times": [
         "11:55"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_3685765.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_3685765.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ye46Vv26Wvc3FWpOmWRZDy7tig1.jpg",
+      "rating": 7.5
     },
     {
       "cinema": "Kino in der Kulturbrauerei",
@@ -3044,7 +3392,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_3685765.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_3685765.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Kino in der Kulturbrauerei",
@@ -3068,7 +3418,9 @@
       "times": [
         "11:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_3685765_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_3685765_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Kino in der Kulturbrauerei",
@@ -3078,7 +3430,9 @@
       "times": [
         "14:25"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-perfekte-schein-der-fall-bojarski-f172681576_3685765.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-perfekte-schein-der-fall-bojarski-f172681576_3685765.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/wXKBRgtnSgvqRkP8zhVMjNSPTx7.jpg",
+      "rating": 7.1
     },
     {
       "cinema": "Kino in der Kulturbrauerei",
@@ -3098,7 +3452,9 @@
       "times": [
         "17:25"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_3685765.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_3685765.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Kino in der Kulturbrauerei",
@@ -3110,7 +3466,9 @@
       "times": [
         "20:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_3685765_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_3685765_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Kino in der Kulturbrauerei",
@@ -3154,7 +3512,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_55.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_55.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Kino Intimes",
@@ -3188,7 +3548,9 @@
       "times": [
         "19:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_55_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_55_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "Kino Intimes",
@@ -3212,7 +3574,9 @@
       "times": [
         "23:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/perfect-blue-f5051618_55_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/perfect-blue-f5051618_55_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/qfnSMoY3h3IRnjxlioWkS7ooFvK.jpg",
+      "rating": 8.3
     },
     {
       "cinema": "Kino Spreehöfe",
@@ -3242,7 +3606,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_1537722.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_1537722.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Kino Spreehöfe",
@@ -3262,7 +3628,9 @@
       "times": [
         "19:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_1537722.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_1537722.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "Kino Spreehöfe",
@@ -3272,7 +3640,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_1537722.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_1537722.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "Kino Spreehöfe",
@@ -3282,7 +3652,9 @@
       "times": [
         "14:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_1537722.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_1537722.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Kino Spreehöfe",
@@ -3294,7 +3666,9 @@
       "times": [
         "16:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_1537722_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_1537722_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Kino Spreehöfe",
@@ -3314,7 +3688,9 @@
       "times": [
         "18:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/scherbenland-f172300147_166346228.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/scherbenland-f172300147_166346228.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kyeI4fgTLyx77IgYpORpj6ewrqX.jpg",
+      "rating": null
     },
     {
       "cinema": "Kino Zukunft",
@@ -3338,7 +3714,9 @@
       "times": [
         "22:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/sirat-f170431470_166346228_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/sirat-f170431470_166346228_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/jWhr3veBAaHplq0uVL8Fl2azxaK.jpg",
+      "rating": 6.9
     },
     {
       "cinema": "KLICK Kino",
@@ -3350,7 +3728,9 @@
       "times": [
         "17:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-perfekte-schein-der-fall-bojarski-f172681576_119545456_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-perfekte-schein-der-fall-bojarski-f172681576_119545456_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/wXKBRgtnSgvqRkP8zhVMjNSPTx7.jpg",
+      "rating": 7.1
     },
     {
       "cinema": "KLICK Kino",
@@ -3362,7 +3742,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_119545456_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_119545456_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "Krokodil",
@@ -3372,7 +3754,9 @@
       "times": [
         "18:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_25708452.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_25708452.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/qKJV8zX23FcoNM3Vx3jtU8S58F8.jpg",
+      "rating": 6.5
     },
     {
       "cinema": "Krokodil",
@@ -3384,7 +3768,9 @@
       "times": [
         "20:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/transit-times-f172655391_25708452_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/transit-times-f172655391_25708452_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/v89Hdnj97Ju01ZVX5AMeRztiL1M.jpg",
+      "rating": null
     },
     {
       "cinema": "Lichtblick-Kino",
@@ -3408,7 +3794,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_341_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_341_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Lichtblick-Kino",
@@ -3420,7 +3808,9 @@
       "times": [
         "19:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/berlin-prenzlauer-berg-begegnungen-zwischen-dem-1-mai-und-dem-1-juli-1990-f23918_341_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/berlin-prenzlauer-berg-begegnungen-zwischen-dem-1-mai-und-dem-1-juli-1990-f23918_341_OmenglU.html",
+      "poster_url": null,
+      "rating": 7.0
     },
     {
       "cinema": "Moviemento",
@@ -3440,7 +3830,9 @@
       "times": [
         "16:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bibi-blocksberg-das-grosse-hexentreffen-f170980950_151.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bibi-blocksberg-das-grosse-hexentreffen-f170980950_151.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oRvcCizzdNrKu4GiSURL7eOGaGx.jpg",
+      "rating": 7.0
     },
     {
       "cinema": "Moviemento",
@@ -3464,7 +3856,9 @@
       "times": [
         "21:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_151_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_151_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "Moviemento",
@@ -3488,7 +3882,9 @@
       "times": [
         "18:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_151_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_151_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Moviemento",
@@ -3498,7 +3894,9 @@
       "times": [
         "17:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_151.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_151.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "Neues Off",
@@ -3534,7 +3932,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/ponyo-das-grosse-abenteuer-am-meer-f75947221_7389585_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/ponyo-das-grosse-abenteuer-am-meer-f75947221_7389585_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/wOQh7nZxNC6cEwrm9tP230MoVLz.jpg",
+      "rating": 7.8
     },
     {
       "cinema": "Open-Air Kino in der Stasi-Zentrale - Campus für Demokratie",
@@ -3580,7 +3980,9 @@
       "times": [
         "18:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_152_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_152_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/7vB1MPcZTI9jX366sumg66fqvI9.jpg",
+      "rating": 7.2
     },
     {
       "cinema": "Passage",
@@ -3592,7 +3994,9 @@
       "times": [
         "21:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-drama-noch-mal-auf-anfang-f171717709_152_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-drama-noch-mal-auf-anfang-f171717709_152_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yojMKtExmL8a8TOyrT1im8pJF6M.jpg",
+      "rating": 6.9
     },
     {
       "cinema": "Passage",
@@ -3616,7 +4020,9 @@
       "times": [
         "18:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/mit-leiser-stimme-f171804459_152_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/mit-leiser-stimme-f171804459_152_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/puKBqZ2l67BAMw10I41GEdBpYQM.jpg",
+      "rating": 7.5
     },
     {
       "cinema": "Passage",
@@ -3628,7 +4034,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resurrection-2025-f171449290_152_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resurrection-2025-f171449290_152_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/m4BIf9vqSXtpgatkQqfNMREAWBW.jpg",
+      "rating": null
     },
     {
       "cinema": "Radio EINS-Freiluftkino Friedrichshain",
@@ -3640,7 +4048,9 @@
       "times": [
         "20:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/22-bahnen-f170422719_184_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/22-bahnen-f170422719_184_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/jZJ7KHymYEB7j455CieCirYW2Y5.jpg",
+      "rating": 6.7
     },
     {
       "cinema": "Rollberg",
@@ -3664,7 +4074,9 @@
       "times": [
         "17:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_157_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_157_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "Rollberg",
@@ -3688,7 +4100,9 @@
       "times": [
         "17:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_157_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_157_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Rollberg",
@@ -3700,7 +4114,9 @@
       "times": [
         "17:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_157_OV.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_157_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Scala Kulturpalast Werder",
@@ -3710,7 +4126,9 @@
       "times": [
         "14:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_327.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_327.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Scala Kulturpalast Werder",
@@ -3730,7 +4148,9 @@
       "times": [
         "10:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_327.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_327.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ye46Vv26Wvc3FWpOmWRZDy7tig1.jpg",
+      "rating": 7.5
     },
     {
       "cinema": "Scala Kulturpalast Werder",
@@ -3752,7 +4172,9 @@
       "times": [
         "21:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_13390467_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_13390467_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "Sputnik (Höfe am Südstern)",
@@ -3764,7 +4186,9 @@
       "times": [
         "17:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_68_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_68_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/7vB1MPcZTI9jX366sumg66fqvI9.jpg",
+      "rating": 7.2
     },
     {
       "cinema": "Sputnik (Höfe am Südstern)",
@@ -3788,7 +4212,9 @@
       "times": [
         "21:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_68_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_68_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "Sputnik (Höfe am Südstern)",
@@ -3800,7 +4226,9 @@
       "times": [
         "19:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_68_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_68_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Sputnik (Höfe am Südstern)",
@@ -3812,7 +4240,9 @@
       "times": [
         "17:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_68_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_68_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Sputnik (Höfe am Südstern)",
@@ -3834,7 +4264,9 @@
       "times": [
         "15:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_156.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_156.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Thalia Babelsberg",
@@ -3874,7 +4306,9 @@
       "times": [
         "15:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_156.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_156.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "Thalia Babelsberg",
@@ -3894,7 +4328,9 @@
       "times": [
         "15:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_156.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_156.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Thalia Babelsberg",
@@ -3904,7 +4340,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_156.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_156.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Thalia Babelsberg",
@@ -3934,7 +4372,9 @@
       "times": [
         "10:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_154.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_154.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Thalia Movie Magic",
@@ -3944,7 +4384,9 @@
       "times": [
         "10:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-super-mario-galaxy-film-f171535159_154.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-super-mario-galaxy-film-f171535159_154.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/lggrFZlEDu3kmic1DnZl9c6bcD9.jpg",
+      "rating": 8.3
     },
     {
       "cinema": "Thalia Movie Magic",
@@ -3954,7 +4396,9 @@
       "times": [
         "12:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-wunderweltenbaum-f171970849_154.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-wunderweltenbaum-f171970849_154.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/3aB1LnHpNMLwZu8zcgyqsHeUUdM.jpg",
+      "rating": 6.2
     },
     {
       "cinema": "Thalia Movie Magic",
@@ -3974,7 +4418,9 @@
       "times": [
         "12:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_154.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_154.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ye46Vv26Wvc3FWpOmWRZDy7tig1.jpg",
+      "rating": 7.5
     },
     {
       "cinema": "Thalia Movie Magic",
@@ -4006,7 +4452,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_154.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_154.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Thalia Movie Magic",
@@ -4018,7 +4466,9 @@
       "times": [
         "17:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_154_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_154_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Thalia Movie Magic",
@@ -4028,7 +4478,9 @@
       "times": [
         "18:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/scary-movie-vi-f172118515_154.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/scary-movie-vi-f172118515_154.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/quKVGPffv7dTxqToe4084P7qVqj.jpg",
+      "rating": 4.3
     },
     {
       "cinema": "Tilsiter-Lichtspiele",
@@ -4038,7 +4490,9 @@
       "times": [
         "16:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/insekten-helden-im-verborgenen-f172470301_128.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/insekten-helden-im-verborgenen-f172470301_128.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/cV1xcGh5KIljaRGDJcFT6Pm9ZAN.jpg",
+      "rating": 6.5
     },
     {
       "cinema": "Tilsiter-Lichtspiele",
@@ -4058,7 +4512,9 @@
       "times": [
         "17:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_128.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_128.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/qKJV8zX23FcoNM3Vx3jtU8S58F8.jpg",
+      "rating": 6.5
     },
     {
       "cinema": "Tilsiter-Lichtspiele",
@@ -4082,7 +4538,9 @@
       "times": [
         "20:10"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/mit-leiser-stimme-f171804459_128_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/mit-leiser-stimme-f171804459_128_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/puKBqZ2l67BAMw10I41GEdBpYQM.jpg",
+      "rating": 7.5
     },
     {
       "cinema": "Tilsiter-Lichtspiele",
@@ -4094,7 +4552,9 @@
       "times": [
         "21:55"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-drama-noch-mal-auf-anfang-f171717709_128_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-drama-noch-mal-auf-anfang-f171717709_128_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yojMKtExmL8a8TOyrT1im8pJF6M.jpg",
+      "rating": 6.9
     },
     {
       "cinema": "Tilsiter-Lichtspiele",
@@ -4106,7 +4566,9 @@
       "times": [
         "22:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/palaestina-36-f172259018_128_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/palaestina-36-f172259018_128_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/58mhlWbLhY3IlH8tkveBfsVQ3Oc.jpg",
+      "rating": 7.8
     },
     {
       "cinema": "Toni & Tonino",
@@ -4116,7 +4578,9 @@
       "times": [
         "10:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_334.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_334.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Toni & Tonino",
@@ -4146,7 +4610,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_334.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_334.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "Toni & Tonino",
@@ -4189,7 +4655,9 @@
       "times": [
         "13:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_147406361.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_147406361.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -4209,7 +4677,9 @@
       "times": [
         "12:10"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/insekten-helden-im-verborgenen-f172470301_147406361.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/insekten-helden-im-verborgenen-f172470301_147406361.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/cV1xcGh5KIljaRGDJcFT6Pm9ZAN.jpg",
+      "rating": 6.5
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -4275,7 +4745,9 @@
       "times": [
         "19:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_147406361.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_147406361.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -4295,7 +4767,9 @@
       "times": [
         "12:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_147406361.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_147406361.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -4305,7 +4779,9 @@
       "times": [
         "17:10"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/scary-movie-vi-f172118515_147406361.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/scary-movie-vi-f172118515_147406361.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/quKVGPffv7dTxqToe4084P7qVqj.jpg",
+      "rating": 4.3
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -4328,7 +4804,9 @@
       "times": [
         "12:10"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/jackass-einer-geht-noch-f172472265_147406361.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/jackass-einer-geht-noch-f172472265_147406361.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/8LxyuMNFYhmDZNBKvZeZe4RDPun.jpg",
+      "rating": 6.8
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -4341,7 +4819,9 @@
       "times": [
         "19:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_147406361_OV_Atmos.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_147406361_OV_Atmos.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -4353,7 +4833,9 @@
       "times": [
         "12:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_147406361_OV.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_147406361_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -4365,7 +4847,9 @@
       "times": [
         "16:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_147406361_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_147406361_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -4375,7 +4859,9 @@
       "times": [
         "13:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_147406361.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_147406361.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -4387,7 +4873,9 @@
       "times": [
         "15:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_147406361_Atmos.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_147406361_Atmos.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -4401,7 +4889,9 @@
       "times": [
         "12:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_147406361_OV_3D, Atmos.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_147406361_OV_3D, Atmos.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -4411,7 +4901,9 @@
       "times": [
         "17:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_147406361.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_147406361.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -4455,7 +4947,9 @@
       "times": [
         "14:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_147406361_OV.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_147406361_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -4465,7 +4959,9 @@
       "times": [
         "17:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_147406361.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_147406361.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "UCI Kinowelt am Eastgate",
@@ -4485,7 +4981,9 @@
       "times": [
         "13:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_2776029.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_2776029.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "UCI Kinowelt am Eastgate",
@@ -4507,7 +5005,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/star-wars-the-mandalorian-grogu-f171705738_2776029.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/star-wars-the-mandalorian-grogu-f171705738_2776029.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/53otYN4IM56URriIxwaErKKRYQu.jpg",
+      "rating": 7.4
     },
     {
       "cinema": "UCI Kinowelt am Eastgate",
@@ -4539,7 +5039,9 @@
       "times": [
         "17:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_2776029.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_2776029.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "UCI Kinowelt am Eastgate",
@@ -4549,7 +5051,9 @@
       "times": [
         "17:10"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/scary-movie-vi-f172118515_2776029.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/scary-movie-vi-f172118515_2776029.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/quKVGPffv7dTxqToe4084P7qVqj.jpg",
+      "rating": 4.3
     },
     {
       "cinema": "UCI Kinowelt am Eastgate",
@@ -4579,7 +5083,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2776029.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2776029.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "UCI Kinowelt am Eastgate",
@@ -4591,7 +5097,9 @@
       "times": [
         "16:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2776029_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2776029_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "UCI Kinowelt am Eastgate",
@@ -4603,7 +5111,9 @@
       "times": [
         "17:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2776029_Atmos.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2776029_Atmos.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "UCI Kinowelt am Eastgate",
@@ -4623,7 +5133,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_2776029.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_2776029.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "UCI Kinowelt am Eastgate",
@@ -4636,7 +5148,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2776029_OmU_Atmos.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2776029_OmU_Atmos.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "UCI Luxe Gropius Passagen",
@@ -4678,7 +5192,9 @@
       "times": [
         "14:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_700732.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_700732.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "UCI Luxe Gropius Passagen",
@@ -4688,7 +5204,9 @@
       "times": [
         "17:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_700732.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_700732.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "UCI Luxe Gropius Passagen",
@@ -4698,7 +5216,9 @@
       "times": [
         "20:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_700732.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_700732.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "UCI Luxe Gropius Passagen",
@@ -4718,7 +5238,9 @@
       "times": [
         "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_700732.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_700732.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "UCI Luxe Gropius Passagen",
@@ -4731,7 +5253,9 @@
       "times": [
         "17:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_700732_3D, Atmos.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_700732_3D, Atmos.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "UCI Luxe Gropius Passagen",
@@ -4751,7 +5275,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_700732.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_700732.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "UCI Luxe Potsdam Center",
@@ -4761,7 +5287,9 @@
       "times": [
         "13:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/glennkill-ein-schafskrimi-f172118904_2987758.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/glennkill-ein-schafskrimi-f172118904_2987758.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/AsYAR08tFOhzyR4dsom0SdrgfAc.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "UCI Luxe Potsdam Center",
@@ -4781,7 +5309,9 @@
       "times": [
         "13:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_2987758.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_2987758.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "UCI Luxe Potsdam Center",
@@ -4825,7 +5355,9 @@
       "times": [
         "16:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_2987758.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_2987758.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "UCI Luxe Potsdam Center",
@@ -4847,7 +5379,9 @@
       "times": [
         "20:35"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_2987758.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_2987758.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "UCI Luxe Potsdam Center",
@@ -4879,7 +5413,9 @@
       "times": [
         "13:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2987758.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2987758.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "UCI Luxe Potsdam Center",
@@ -4891,7 +5427,9 @@
       "times": [
         "16:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2987758_3D.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2987758_3D.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "UCI Luxe Potsdam Center",
@@ -4903,7 +5441,9 @@
       "times": [
         "16:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2987758_Atmos.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2987758_Atmos.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "UCI Luxe Potsdam Center",
@@ -4923,7 +5463,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_2987758.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_2987758.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "UCI Luxe Potsdam Center",
@@ -4936,7 +5478,9 @@
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2987758_OmU_Atmos.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2987758_OmU_Atmos.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Union Filmtheater",
@@ -4956,7 +5500,9 @@
       "times": [
         "11:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_60.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_60.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "Union Filmtheater",
@@ -4966,7 +5512,9 @@
       "times": [
         "12:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_60.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_60.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Union Filmtheater",
@@ -5006,7 +5554,9 @@
       "times": [
         "20:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_60.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_60.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "Xenon",
@@ -5016,7 +5566,9 @@
       "times": [
         "17:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_98.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_98.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Xenon",
@@ -5028,7 +5580,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_98_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/terminator-f806548_98_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
+      "rating": 7.7
     },
     {
       "cinema": "Yorck",
@@ -5048,7 +5602,9 @@
       "times": [
         "16:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_69.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_69.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
+      "rating": 7.9
     },
     {
       "cinema": "Yorck",
@@ -5072,7 +5628,9 @@
       "times": [
         "19:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/rhythmus-im-blut-f94484943_163551067_OV.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/rhythmus-im-blut-f94484943_163551067_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/tNJVPGVfl7IsMZSX74cTJnUnl2x.jpg",
+      "rating": 6.1
     },
     {
       "cinema": "Zoo Palast",
@@ -5093,7 +5651,9 @@
         "11:10",
         "14:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_192.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_192.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4
     },
     {
       "cinema": "Zoo Palast",
@@ -5147,7 +5707,9 @@
         "13:00",
         "13:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_192.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_192.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Zoo Palast",
@@ -5159,7 +5721,9 @@
       "times": [
         "16:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_50_OV.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_50_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 8.0
     },
     {
       "cinema": "Zoo Palast",
@@ -5191,7 +5755,9 @@
       "times": [
         "17:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_179.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cheri-ich-komme-die-erfindung-der-lust-f172392533_179.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
+      "rating": 6.3
     },
     {
       "cinema": "Zoo Palast",
@@ -5201,7 +5767,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_179.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_179.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2
     },
     {
       "cinema": "Zoo Palast",
@@ -5233,7 +5801,9 @@
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/hai-alarm-am-mueggelsee-f98908383_193.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/hai-alarm-am-mueggelsee-f98908383_193.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/tMq0dTmmTUqT5J3sxyTjfeEjHBR.jpg",
+      "rating": 5.9
     }
   ]
 }
