@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-02T18:56:59",
+  "generated_at": "2026-08-03T16:00:55",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -5048,6 +5048,195 @@
         "20:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_193_OV.html"
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Spider-Man: Brand New Day",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "19:00",
+        "20:10",
+        "20:30",
+        "20:40",
+        "22:30",
+        "22:50",
+        "23:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Spider-Man: Brand New Day",
+      "format_tags": [],
+      "times": [
+        "19:20",
+        "19:45",
+        "22:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Die Odyssee",
+      "format_tags": [],
+      "times": [
+        "18:00",
+        "20:10",
+        "20:35",
+        "22:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Die Odyssee",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "18:30",
+        "19:15",
+        "20:50",
+        "22:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Die Odyssee",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "18:45",
+        "22:15"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Toy Story 5",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "The Invite",
+      "format_tags": [],
+      "times": [
+        "20:20"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Vaiana (Live Action)",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "17:45"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Obsession - Du Sollst Mich Lieben",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Obsession - Du Sollst Mich Lieben",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "23:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Backrooms - Everything Must Go (Extended Version)",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "22:25"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Zeige Alle Filmzeiten",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "20:00"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Ishqnama",
+      "format_tags": [],
+      "times": [
+        "22:50"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Bitteres Fest",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Khali Balak Min Nafsak",
+      "format_tags": [],
+      "times": [
+        "22:10"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Zeige Alle Filmzeiten",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": ""
     }
   ]
 }
