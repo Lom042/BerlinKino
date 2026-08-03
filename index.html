@@ -238,6 +238,61 @@
   }
   .film-head .distance-tag{ margin-left:6px; }
 
+  /* ---- Posters + ratings (TMDb) ---- */
+  .poster{
+    border-radius:5px;
+    object-fit:cover;
+    background:var(--bg);
+    flex:0 0 auto;
+    display:block;
+  }
+  .poster-sm{ width:36px; height:54px; }
+  .poster-xs{ width:30px; height:45px; }
+  .poster-fallback{
+    border-radius:5px;
+    background:var(--bg);
+    border:1px solid var(--hairline);
+    flex:0 0 auto;
+  }
+  .rating-tag{
+    font-family:var(--mono);
+    font-size:10px;
+    font-weight:700;
+    color:var(--amber);
+    background:rgba(255,182,39,.14);
+    padding:2px 6px;
+    border-radius:4px;
+    white-space:nowrap;
+    display:inline-block;
+    margin-top:3px;
+  }
+  .film-head-main{ display:flex; align-items:center; gap:10px; }
+  .film-head-text{ display:flex; flex-direction:column; gap:2px; }
+  .cinema-row-main{ display:flex; align-items:center; gap:10px; }
+  .flat-row .poster, .flat-row .poster-fallback{ margin-right:-2px; }
+
+  /* ---- Loading skeleton ---- */
+  .skeleton-group{
+    margin-bottom:16px;
+    background:var(--panel);
+    border:1px solid var(--hairline);
+    border-radius:10px;
+    overflow:hidden;
+  }
+  .skeleton-head{ padding:14px 18px; background:var(--panel-raised); }
+  .skeleton-row{ padding:13px 18px; border-top:1px solid var(--hairline); }
+  .skel-bar{
+    height:14px;
+    border-radius:4px;
+    background:linear-gradient(90deg, var(--hairline) 25%, var(--panel-raised) 37%, var(--hairline) 63%);
+    background-size:400% 100%;
+    animation: skel-shimmer 1.4s ease infinite;
+  }
+  @keyframes skel-shimmer{
+    0%{ background-position:100% 0; }
+    100%{ background-position:0 0; }
+  }
+
   .lang-caption{
     font-family:var(--mono);
     font-size:10.5px;
@@ -340,8 +395,10 @@
       <div class="film-suggestions" id="film-suggestions"></div>
     </div>
     <input class="search postcode-input" id="postcode" type="text" inputmode="numeric" maxlength="5" autocomplete="off" placeholder="Your postcode (optional) — e.g. 10115">
-    <div class="chips">
-      <div class="chip disabled" id="distance-toggle">Nearest first</div>
+    <div class="chips" id="group-sort-chips">
+      <div class="chip active" data-groupsort="name">A&ndash;Z</div>
+      <div class="chip disabled" data-groupsort="nearest">Nearest first</div>
+      <div class="chip" data-groupsort="rating">Top rated first</div>
     </div>
     <span class="distance-hint" id="distance-hint"></span>
   </div>
@@ -363,6 +420,7 @@
   <div class="chips" id="time-sort-chips" style="display:none; margin-bottom:20px;">
     <div class="chip active" data-sort="soonest">Soonest</div>
     <div class="chip disabled" data-sort="nearest">Nearest</div>
+    <div class="chip" data-sort="rating">Top rated</div>
     <div class="chip disabled" data-sort="bestofboth">Best of both</div>
   </div>
 
@@ -373,6 +431,7 @@
   <footer>
     Source: automatically compiled from kino.veranstaltungen-in-berlin.de and yorck.de · non-commercial, no ads<br>
     Cinema links go to each venue's own website — we don't sell tickets or handle any booking ourselves<br>
+    This product uses the TMDb API but is not endorsed or certified by TMDb<br>
     Data last updated: <span id="generated-at">—</span> · <span id="data-source-note"></span>
   </footer>
 
@@ -460,10 +519,29 @@ function renderDateChips(){
   }
 }
 
+// Placeholder blocks shaped like real film-group content, shown while a
+// date's JSON is being fetched — replaces the blank "Loading…" gap so the
+// page feels like it's already assembling itself rather than sitting idle.
+function renderSkeleton(){
+  const container = document.getElementById('results');
+  let html = '';
+  for (let i = 0; i < 3; i++){
+    html += `
+      <div class="skeleton-group">
+        <div class="skeleton-head"><div class="skel-bar" style="width:${40 + i*8}%;"></div></div>
+        <div class="skeleton-row"><div class="skel-bar" style="width:70%;"></div></div>
+        <div class="skeleton-row"><div class="skel-bar" style="width:55%;"></div></div>
+      </div>
+    `;
+  }
+  container.innerHTML = html;
+}
+
 async function loadDateData(iso){
   const statusEl = document.getElementById('status');
   const noteEl = document.getElementById('data-source-note');
   statusEl.innerHTML = `<span class="dot"></span>Loading…`;
+  renderSkeleton();
   try{
     const res = await fetch(`data/${iso}.json`, {cache:"no-store"});
     if (!res.ok) throw new Error("no data for this date");
@@ -584,8 +662,8 @@ const BERLIN_PLZ_COORDS = {
 };
 
 let userPostcodeCoord = null; // [lat, lon] once a recognized postcode is entered, else null
-let distanceSortEnabled = false; // "Nearest first" toggle — used by By film / By cinema
-let timeSortMode = "soonest";    // "soonest" | "nearest" | "bestofboth" — By time's own sort choice
+let groupSortMode = "name";      // "name" | "nearest" | "rating" — used by By film / By cinema
+let timeSortMode = "soonest";    // "soonest" | "nearest" | "rating" | "bestofboth" — By time's own sort choice
                                   // ("cinema" was dropped as an option here — By cinema already
                                   // does that job, having it twice was just confusing)
 
@@ -620,16 +698,16 @@ function distanceSortValue(address){
 }
 
 function distanceBadgeHtml(address){
-  if (!distanceSortEnabled || !userPostcodeCoord) return '';
+  if (groupSortMode !== 'nearest' || !userPostcodeCoord) return '';
   const km = cinemaDistanceKm(address);
   return km === null
     ? `<span class="distance-tag">—</span>`
     : `<span class="distance-tag">${km < 10 ? km.toFixed(1) : Math.round(km)} km</span>`;
 }
 
-// Same as above but not gated behind the "Nearest first" toggle — used in
-// By time, where distance is just useful context regardless of which sort
-// mode is currently chosen there.
+// Same as above but not gated behind the sort mode — used in By time,
+// where distance is just useful context regardless of which sort is
+// currently chosen there.
 function distanceBadgeHtmlAlways(address){
   if (!userPostcodeCoord) return '';
   const km = cinemaDistanceKm(address);
@@ -638,25 +716,51 @@ function distanceBadgeHtmlAlways(address){
     : `<span class="distance-tag">${km < 10 ? km.toFixed(1) : Math.round(km)} km</span>`;
 }
 
+// ---- Posters + ratings (TMDb) ----
+// poster_url / rating are added by enrich_tmdb.py at scrape time — both
+// are optional per screening (some titles won't have a confident TMDb
+// match), so every usage here degrades gracefully to a plain fallback
+// box / no badge rather than showing anything guessed or broken.
+function posterHtml(url, size){
+  return url
+    ? `<img class="poster poster-${size}" src="${url}" alt="" loading="lazy">`
+    : `<div class="poster-fallback poster-${size}"></div>`;
+}
+
+function ratingBadgeHtml(rating){
+  return (typeof rating === "number")
+    ? `<span class="rating-tag">★ ${rating.toFixed(1)}</span>`
+    : '';
+}
+
+// For sorting by rating: no TMDb match sorts last, same principle as
+// unresolvable distances.
+function ratingSortValue(rating){
+  return (typeof rating === "number") ? rating : -Infinity;
+}
+
 function updatePostcode(){
   const raw = document.getElementById('postcode').value.trim();
-  const toggle = document.getElementById('distance-toggle');
+  const groupNearestChip = document.querySelector('#group-sort-chips [data-groupsort="nearest"]');
   const hint = document.getElementById('distance-hint');
-  const nearestChip = document.querySelector('#time-sort-chips [data-sort="nearest"]');
-  const bothChip = document.querySelector('#time-sort-chips [data-sort="bestofboth"]');
+  const timeNearestChip = document.querySelector('#time-sort-chips [data-sort="nearest"]');
+  const timeBothChip = document.querySelector('#time-sort-chips [data-sort="bestofboth"]');
   if (/^\d{5}$/.test(raw) && BERLIN_PLZ_COORDS[raw]){
     userPostcodeCoord = BERLIN_PLZ_COORDS[raw];
-    toggle.classList.remove('disabled');
-    nearestChip.classList.remove('disabled');
-    bothChip.classList.remove('disabled');
+    groupNearestChip.classList.remove('disabled');
+    timeNearestChip.classList.remove('disabled');
+    timeBothChip.classList.remove('disabled');
     hint.textContent = '';
   } else {
     userPostcodeCoord = null;
-    toggle.classList.add('disabled');
-    toggle.classList.remove('active');
-    distanceSortEnabled = false;
-    nearestChip.classList.add('disabled');
-    bothChip.classList.add('disabled');
+    groupNearestChip.classList.add('disabled');
+    timeNearestChip.classList.add('disabled');
+    timeBothChip.classList.add('disabled');
+    if (groupSortMode === 'nearest'){
+      groupSortMode = 'name';
+      document.querySelectorAll('#group-sort-chips .chip').forEach(c => c.classList.remove('active'));
+      document.querySelector('#group-sort-chips [data-groupsort="name"]').classList.add('active');
+    }
     if (timeSortMode === 'nearest' || timeSortMode === 'bestofboth'){
       timeSortMode = 'soonest';
       document.querySelectorAll('#time-sort-chips .chip').forEach(c => c.classList.remove('active'));
@@ -724,17 +828,29 @@ function renderByFilm(filtered, container){
     if (!byFilm.has(s.film)) byFilm.set(s.film, []);
     byFilm.get(s.film).push(s);
   }
-  const nearest = distanceSortEnabled && userPostcodeCoord;
+  const nearest = groupSortMode === 'nearest' && userPostcodeCoord;
+  const byRating = groupSortMode === 'rating';
   const filmEntries = [...byFilm.entries()];
-  filmEntries.sort((a,b) => nearest
-    ? Math.min(...a[1].map(r=>distanceSortValue(r.address))) - Math.min(...b[1].map(r=>distanceSortValue(r.address)))
-    : a[0].localeCompare(b[0]));
+  filmEntries.sort((a,b) => {
+    if (nearest) return Math.min(...a[1].map(r=>distanceSortValue(r.address))) - Math.min(...b[1].map(r=>distanceSortValue(r.address)));
+    if (byRating) return ratingSortValue(b[1][0].rating) - ratingSortValue(a[1][0].rating);
+    return a[0].localeCompare(b[0]);
+  });
   for (const [film, rows] of filmEntries){
     const group = document.createElement('div');
     group.className = 'film-group';
     const head = document.createElement('div');
     head.className = 'film-head';
-    head.innerHTML = `<h2>${film}</h2><span class="count">${rows.length} cinema${rows.length===1?'':'s'}</span>`;
+    head.innerHTML = `
+      <div class="film-head-main">
+        ${posterHtml(rows[0].poster_url, 'sm')}
+        <div class="film-head-text">
+          <h2>${film}</h2>
+          ${ratingBadgeHtml(rows[0].rating)}
+        </div>
+      </div>
+      <span class="count">${rows.length} cinema${rows.length===1?'':'s'}</span>
+    `;
     group.appendChild(head);
     const sortedRows = rows.sort((a,b) => nearest
       ? distanceSortValue(a.address) - distanceSortValue(b.address)
@@ -762,7 +878,11 @@ function renderByCinema(filtered, container){
     if (!byCinema.has(s.cinema)) byCinema.set(s.cinema, {address: s.address, rows: []});
     byCinema.get(s.cinema).rows.push(s);
   }
-  const nearest = distanceSortEnabled && userPostcodeCoord;
+  const nearest = groupSortMode === 'nearest' && userPostcodeCoord;
+  // "Top rated first" doesn't reorder which cinema comes first (a cinema
+  // itself doesn't have one rating) — instead it reorders the films
+  // listed inside each cinema, highest-rated first.
+  const byRating = groupSortMode === 'rating';
   const cinemaEntries = [...byCinema.entries()];
   cinemaEntries.sort((a,b) => nearest
     ? distanceSortValue(a[1].address) - distanceSortValue(b[1].address)
@@ -774,12 +894,21 @@ function renderByCinema(filtered, container){
     head.className = 'film-head';
     head.innerHTML = `<h2>${cinema}${cinemaLinkHtml(cinema)}${distanceBadgeHtml(data.address)}</h2><span class="count">${data.address}</span>`;
     group.appendChild(head);
-    for (const row of data.rows.sort((a,b)=>a.film.localeCompare(b.film))){
+    const sortedRows = data.rows.sort((a,b) => byRating
+      ? ratingSortValue(b.rating) - ratingSortValue(a.rating)
+      : a.film.localeCompare(b.film));
+    for (const row of sortedRows){
       const r = document.createElement('div');
       r.className = 'cinema-row';
       r.innerHTML = `
         <div class="cinema-info">
-          <div class="cinema-name">${row.film}</div>
+          <div class="cinema-row-main">
+            ${posterHtml(row.poster_url, 'xs')}
+            <div>
+              <div class="cinema-name">${row.film}</div>
+              ${ratingBadgeHtml(row.rating)}
+            </div>
+          </div>
         </div>
         <div class="times">${renderTimeChips(row.times, row.format_tags)}</div>
       `;
@@ -793,11 +922,13 @@ function renderByTime(filtered, container){
   const flat = [];
   for (const s of filtered){
     for (const t of s.times){
-      flat.push({time: t, film: s.film, cinema: s.cinema, address: s.address, tags: s.format_tags});
+      flat.push({time: t, film: s.film, cinema: s.cinema, address: s.address, tags: s.format_tags, poster_url: s.poster_url, rating: s.rating});
     }
   }
 
-  if (timeSortMode === "bestofboth" && userPostcodeCoord){
+  if (timeSortMode === "rating"){
+    flat.sort((a,b) => ratingSortValue(b.rating) - ratingSortValue(a.rating) || a.time.localeCompare(b.time));
+  } else if (timeSortMode === "bestofboth" && userPostcodeCoord){
     // Rank every showing twice — once by time, once by distance — and add
     // the two ranks together. Best of both wins; extreme-on-one-axis
     // showings (very soon but very far, or very near but very late) get
@@ -820,8 +951,9 @@ function renderByTime(filtered, container){
     row.className = 'flat-row';
     row.innerHTML = `
       <span class="time-chip"><span class="digits">${item.time}</span><span class="lang-tag ${cls}">${text}</span></span>
+      ${posterHtml(item.poster_url, 'xs')}
       <div class="flat-info">
-        <div class="flat-film">${item.film}</div>
+        <div class="flat-film">${item.film} ${ratingBadgeHtml(item.rating)}</div>
         <div class="flat-cinema">${item.cinema} · ${item.address} · ${cinemaLinkHtml(item.cinema)} ${distanceBadgeHtmlAlways(item.address)}</div>
       </div>
     `;
@@ -934,7 +1066,7 @@ function updateFilmChipVisibility(){
 function updateViewSpecificControls(){
   const isTime = activeView === "time";
   document.getElementById('time-sort-chips').style.display = isTime ? 'flex' : 'none';
-  document.getElementById('distance-toggle').style.display = isTime ? 'none' : '';
+  document.getElementById('group-sort-chips').style.display = isTime ? 'none' : '';
 
   const caption = document.getElementById('view-caption');
   const text = VIEW_CAPTIONS[activeView] || '';
@@ -965,11 +1097,14 @@ document.querySelectorAll('#time-sort-chips .chip').forEach(chip => {
 });
 
 document.getElementById('postcode').addEventListener('input', updatePostcode);
-document.getElementById('distance-toggle').addEventListener('click', function(){
-  if (this.classList.contains('disabled')) return;
-  distanceSortEnabled = !distanceSortEnabled;
-  this.classList.toggle('active', distanceSortEnabled);
-  render();
+document.querySelectorAll('#group-sort-chips .chip').forEach(chip => {
+  chip.addEventListener('click', () => {
+    if (chip.classList.contains('disabled')) return;
+    document.querySelectorAll('#group-sort-chips .chip').forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    groupSortMode = chip.dataset.groupsort;
+    render();
+  });
 });
 
 loadData();
