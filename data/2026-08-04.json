@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T12:31:31",
+  "generated_at": "2026-08-04T19:13:22",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -5809,34 +5809,10 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Spider-Man: Brand New Day",
-      "format_tags": [],
-      "times": [
-        "14:25",
-        "16:00",
-        "17:00",
-        "19:20",
-        "19:45",
-        "22:40"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
-      "rating": 8.0
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Spider-Man: Brand New Day",
       "format_tags": [
         "OV"
       ],
       "times": [
-        "15:45",
-        "16:30",
-        "17:20",
-        "19:00",
-        "20:10",
-        "20:30",
-        "20:45",
         "22:30",
         "22:45",
         "23:00"
@@ -5848,32 +5824,25 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Die Odyssee",
-      "format_tags": [
-        "OV"
-      ],
+      "film": "Spider-Man: Brand New Day",
+      "format_tags": [],
       "times": [
-        "15:10",
-        "16:15",
-        "17:00",
-        "18:45",
-        "19:10",
-        "20:45",
-        "22:00",
-        "22:30"
+        "22:40"
       ],
       "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
       "rating": 8.0
     },
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Die Odyssee",
-      "format_tags": [],
+      "format_tags": [
+        "OV"
+      ],
       "times": [
-        "18:00",
-        "20:20"
+        "22:00",
+        "22:30"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
@@ -5896,54 +5865,9 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Toy Story 5",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "14:45",
-        "16:50"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/3UMLeXTv33YNAFh7q0Dy1llmHik.jpg",
-      "rating": 7.4
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Toy Story 5",
-      "format_tags": [],
-      "times": [
-        "17:35",
-        "19:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/3UMLeXTv33YNAFh7q0Dy1llmHik.jpg",
-      "rating": 7.4
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Minions & Monster",
-      "format_tags": [],
-      "times": [
-        "14:30",
-        "15:00",
-        "17:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
-      "rating": 6.4
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "The Invite",
       "format_tags": [],
       "times": [
-        "14:30",
-        "17:20",
-        "20:20",
         "23:00"
       ],
       "film_url": "",
@@ -5953,52 +5877,11 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Vaiana (Live Action)",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "14:20"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/x1QRMN8Mgci1Z121zFp3PwcEIwW.jpg",
-      "rating": 5.8
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Vaiana (Live Action)",
-      "format_tags": [],
-      "times": [
-        "15:10",
-        "17:10"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/x1QRMN8Mgci1Z121zFp3PwcEIwW.jpg",
-      "rating": 5.8
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Obsession - Du Sollst Mich Lieben",
-      "format_tags": [],
-      "times": [
-        "17:40",
-        "20:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
-      "rating": 8.2
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Obsession - Du Sollst Mich Lieben",
       "format_tags": [
         "OV"
       ],
       "times": [
-        "20:00",
         "22:50",
         "23:00"
       ],
@@ -6017,54 +5900,6 @@
         "22:30"
       ],
       "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Chéri, Ich Komme! - Die Erfindung Der Lust",
-      "format_tags": [],
-      "times": [
-        "15:30",
-        "17:10"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
-      "rating": 6.3
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Bitteres Fest",
-      "format_tags": [],
-      "times": [
-        "18:00",
-        "19:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
-      "rating": 6.4
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Khali Balak Min Nafsak",
-      "format_tags": [],
-      "times": [
-        "18:00"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Unmadham",
-      "format_tags": [],
-      "times": [
-        "20:45"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6AIMHBUY6PCHVYASWZ0GcTA9Kph.jpg",
-      "rating": null
     }
   ]
 }
