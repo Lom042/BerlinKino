@@ -2,9 +2,10 @@
 """
 TMDb poster + rating enrichment
 --------------------------------
-Adds two optional fields to every screening record in data/<date>.json:
+Adds three optional fields to every screening record in data/<date>.json:
     "poster_url": "https://image.tmdb.org/t/p/w185/xxxx.jpg"   (or null)
     "rating":     7.4                                          (or null)
+    "tmdb_id":    950387                                       (or null, used for a "more info" link)
 
 Why TMDb specifically: IMDb's data is enterprise-licensed (not free),
 and Rotten Tomatoes' public API has been partner-only since ~2020.
@@ -65,9 +66,9 @@ def save_cache(cache_path: Path, cache: dict) -> None:
 
 
 def lookup_tmdb(title: str) -> dict:
-    """Returns {"poster_url": ... or None, "rating": ... or None}.
-    Only ever trusts TMDb's top search result, and only if it actually
-    has a poster — no guessing past that."""
+    """Returns {"poster_url": ... or None, "rating": ... or None,
+    "tmdb_id": ... or None}. Only ever trusts TMDb's top search result,
+    and only if it actually has a poster — no guessing past that."""
     try:
         resp = requests.get(
             SEARCH_URL,
@@ -78,10 +79,10 @@ def lookup_tmdb(title: str) -> dict:
         results = resp.json().get("results", [])
     except Exception as e:
         print(f"  TMDb lookup failed for '{title}': {e}")
-        return {"poster_url": None, "rating": None}
+        return {"poster_url": None, "rating": None, "tmdb_id": None}
 
     if not results:
-        return {"poster_url": None, "rating": None}
+        return {"poster_url": None, "rating": None, "tmdb_id": None}
 
     top = results[0]
     poster_path = top.get("poster_path")
@@ -89,6 +90,7 @@ def lookup_tmdb(title: str) -> dict:
     return {
         "poster_url": f"{POSTER_BASE}{poster_path}" if poster_path else None,
         "rating": round(rating, 1) if isinstance(rating, (int, float)) and rating else None,
+        "tmdb_id": top.get("id"),
     }
 
 
@@ -136,10 +138,13 @@ def main():
     for d, (path, payload) in date_files.items():
         changed = False
         for s in payload["screenings"]:
-            info = cache.get(s["film"], {"poster_url": None, "rating": None})
-            if s.get("poster_url") != info["poster_url"] or s.get("rating") != info["rating"]:
+            info = cache.get(s["film"], {"poster_url": None, "rating": None, "tmdb_id": None})
+            if (s.get("poster_url") != info["poster_url"]
+                    or s.get("rating") != info["rating"]
+                    or s.get("tmdb_id") != info.get("tmdb_id")):
                 s["poster_url"] = info["poster_url"]
                 s["rating"] = info["rating"]
+                s["tmdb_id"] = info.get("tmdb_id")
                 changed = True
         if changed:
             path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
