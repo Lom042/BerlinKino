@@ -472,6 +472,11 @@ let activeView = "film";
 let filmExplicitlySelected = false; // true only after picking a dropdown suggestion, not just typing
 let activeDate = null; // ISO string, set once index.json (or fallback) is known
 let availableDates = [];
+// Raw (unfiltered) screenings for TODAY_ISO specifically, cached the
+// moment they're fetched — kept around even after the user switches to
+// viewing a different date, so "has today actually run out of showings
+// yet?" can still be answered without needing to be on today's tab.
+let todayScreeningsCache = null;
 function getBerlinDateISO(){
   const parts = new Intl.DateTimeFormat('en-CA', {timeZone:'Europe/Berlin', year:'numeric', month:'2-digit', day:'2-digit'}).formatToParts(new Date());
   const y = parts.find(p=>p.type==='year').value;
@@ -500,11 +505,25 @@ function formatDateChip(iso){
   return { top, bottom };
 }
 
+// Whether today still has at least one screening left to come. Returns
+// true (don't hide today) until we've actually loaded today's real
+// screening times at least once — an unknown state should never cause
+// today to disappear incorrectly.
+function todayHasUpcomingScreenings(){
+  if (!todayScreeningsCache) return true;
+  const nowMinutes = getBerlinNowMinutes();
+  return todayScreeningsCache.some(s => s.times.some(t => {
+    const [h, m] = t.split(':').map(Number);
+    return (h*60 + m) >= nowMinutes;
+  }));
+}
+
 function renderDateChips(){
   const wrap = document.getElementById('date-chips');
   wrap.innerHTML = "";
   for (const iso of availableDates){
     if (iso < TODAY_ISO) continue; // never show a day that's already over
+    if (iso === TODAY_ISO && !todayHasUpcomingScreenings()) continue; // today's very last showing has already passed
     const { top, bottom } = formatDateChip(iso);
     const chip = document.createElement('div');
     chip.className = 'date-chip' + (iso === activeDate ? ' active' : '');
@@ -560,7 +579,30 @@ async function loadDateData(iso){
     }
   }
   document.getElementById('generated-at').textContent = DATA.generated_at || DATA.date || "—";
+
+  if (iso === TODAY_ISO){
+    todayScreeningsCache = DATA.screenings;
+    // If today's very last showing has already happened, don't leave the
+    // user looking at an empty "today" — move straight to tomorrow (if
+    // it's available) instead. That call renders on its own, so skip the
+    // redundant render() below.
+    if (maybeAdvanceIfTodayFinished()) return;
+  }
   render();
+}
+
+// Only does anything if we're currently sat on today's tab and today has
+// genuinely run out of screenings — moves to the next available date
+// instead of showing an empty list. Returns true if it moved.
+function maybeAdvanceIfTodayFinished(){
+  if (activeDate !== TODAY_ISO || todayHasUpcomingScreenings()) return false;
+  const idx = availableDates.indexOf(TODAY_ISO);
+  const nextDate = idx >= 0 ? availableDates[idx + 1] : null;
+  if (!nextDate) return false; // nothing published yet to advance to — today's chip still hides itself either way
+  activeDate = nextDate;
+  renderDateChips();
+  loadDateData(nextDate);
+  return true;
 }
 
 async function loadData(){
@@ -768,6 +810,7 @@ function updatePostcode(){
     }
     hint.textContent = raw ? 'Postcode not recognized (Berlin postcodes only)' : '';
   }
+  updateRatingSortAvailability();
   render();
 }
 
@@ -1001,6 +1044,7 @@ document.getElementById('search').addEventListener('input', () => {
     filmExplicitlySelected = false;
     updateFilmChipVisibility();
   }
+  updateRatingSortAvailability();
   render();
   renderFilmSuggestions();
 });
@@ -1015,6 +1059,7 @@ document.getElementById('film-suggestions').addEventListener('click', (e) => {
   document.getElementById('film-suggestions').classList.remove('open');
   filmExplicitlySelected = true;
   updateFilmChipVisibility();
+  updateRatingSortAvailability();
   render();
 });
 document.addEventListener('click', (e) => {
@@ -1028,6 +1073,7 @@ document.querySelectorAll('#lang-chips .chip').forEach(chip => {
     document.querySelectorAll('#lang-chips .chip').forEach(c => c.classList.remove('active'));
     chip.classList.add('active');
     activeLang = chip.dataset.lang;
+    updateRatingSortAvailability();
     render();
   });
 });
@@ -1063,6 +1109,37 @@ function updateFilmChipVisibility(){
   }
 }
 
+// "Top rated" (in both the group-sort-chips and time-sort-chips) is a
+// discovery aid — useful while browsing the full, unfiltered list to
+// help pick something good. The moment the user has named a film,
+// entered a postcode, or picked a language filter, they've already
+// narrowed down what they want, and ranking by rating stops being
+// useful clutter rather than help — so it's removed entirely at that
+// point, not just greyed out, and reset back to a sensible default if
+// it was the active sort when that happened.
+function updateRatingSortAvailability(){
+  const searched = document.getElementById('search').value.trim() !== '';
+  const narrowed = searched || userPostcodeCoord !== null || activeLang !== 'all';
+
+  const groupRatingChip = document.querySelector('#group-sort-chips [data-groupsort="rating"]');
+  const timeRatingChip = document.querySelector('#time-sort-chips [data-sort="rating"]');
+  groupRatingChip.style.display = narrowed ? 'none' : '';
+  timeRatingChip.style.display = narrowed ? 'none' : '';
+
+  if (narrowed){
+    if (groupSortMode === 'rating'){
+      groupSortMode = 'name';
+      document.querySelectorAll('#group-sort-chips .chip').forEach(c => c.classList.remove('active'));
+      document.querySelector('#group-sort-chips [data-groupsort="name"]').classList.add('active');
+    }
+    if (timeSortMode === 'rating'){
+      timeSortMode = 'soonest';
+      document.querySelectorAll('#time-sort-chips .chip').forEach(c => c.classList.remove('active'));
+      document.querySelector('#time-sort-chips [data-sort="soonest"]').classList.add('active');
+    }
+  }
+}
+
 function updateViewSpecificControls(){
   const isTime = activeView === "time";
   document.getElementById('time-sort-chips').style.display = isTime ? 'flex' : 'none';
@@ -1085,6 +1162,7 @@ document.querySelectorAll('#view-chips .chip').forEach(chip => {
 });
 
 updateViewSpecificControls(); // set the correct caption/controls for the default view on first load
+updateRatingSortAvailability(); // nothing's narrowed yet on first load, so both "Top rated" options start visible
 
 document.querySelectorAll('#time-sort-chips .chip').forEach(chip => {
   chip.addEventListener('click', () => {
@@ -1118,17 +1196,22 @@ loadData();
 // becomes Today) without yanking them anywhere.
 function refreshTodayIfNeeded(){
   const nowIso = getBerlinDateISO();
-  if (nowIso === TODAY_ISO) return;
-  const wasOnOldToday = (activeDate === TODAY_ISO);
-  TODAY_ISO = nowIso;
-  if (wasOnOldToday && availableDates.includes(TODAY_ISO)){
-    activeDate = TODAY_ISO;
-    renderDateChips();
-    loadDateData(activeDate);
+  if (nowIso !== TODAY_ISO){
+    const wasOnOldToday = (activeDate === TODAY_ISO);
+    TODAY_ISO = nowIso;
+    if (wasOnOldToday && availableDates.includes(TODAY_ISO)){
+      activeDate = TODAY_ISO;
+      loadDateData(activeDate);
+    } else {
+      render();
+    }
   } else {
-    renderDateChips();
-    render();
+    // No calendar rollover, but still worth checking every minute: this
+    // is what hides today's chip (and moves off it, if the user's on it)
+    // the moment its very last showing passes, not just at midnight.
+    maybeAdvanceIfTodayFinished();
   }
+  renderDateChips();
 }
 setInterval(refreshTodayIfNeeded, 60000);
 
