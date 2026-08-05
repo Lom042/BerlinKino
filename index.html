@@ -75,6 +75,21 @@
     box-shadow:0 0 8px var(--teal);
   }
 
+  /* ---- Reset button ---- */
+  .reset-row{ display:flex; justify-content:flex-end; margin-bottom:14px; }
+  .reset-btn{
+    font-family:var(--mono);
+    font-size:11.5px;
+    color:var(--muted);
+    background:none;
+    border:1px solid var(--hairline);
+    border-radius:8px;
+    padding:6px 12px;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  .reset-btn:hover{ border-color:var(--amber-dim); color:var(--text); }
+
   /* ---- Date picker ---- */
   .dates{
     display:flex; gap:8px; overflow-x:auto;
@@ -387,6 +402,10 @@
     </div>
   </header>
 
+  <div class="reset-row">
+    <button class="reset-btn" id="reset-btn" type="button">Reset filters</button>
+  </div>
+
   <div class="dates" id="date-chips"></div>
 
   <div class="controls">
@@ -397,7 +416,7 @@
     <input class="search postcode-input" id="postcode" type="text" inputmode="numeric" maxlength="5" autocomplete="off" placeholder="Your postcode (optional) — e.g. 10115">
     <div class="chips" id="group-sort-chips">
       <div class="chip active" data-groupsort="name">A&ndash;Z</div>
-      <div class="chip disabled" data-groupsort="nearest">Nearest first</div>
+      <div class="chip" data-groupsort="nearest">Nearest first</div>
       <div class="chip" data-groupsort="rating">Top rated first</div>
     </div>
     <span class="distance-hint" id="distance-hint"></span>
@@ -419,9 +438,9 @@
 
   <div class="chips" id="time-sort-chips" style="display:none; margin-bottom:20px;">
     <div class="chip active" data-sort="soonest">Soonest</div>
-    <div class="chip disabled" data-sort="nearest">Nearest</div>
+    <div class="chip" data-sort="nearest">Nearest</div>
     <div class="chip" data-sort="rating">Top rated</div>
-    <div class="chip disabled" data-sort="bestofboth">Best of both</div>
+    <div class="chip" data-sort="bestofboth">Best of both</div>
   </div>
 
   <div class="view-caption" id="view-caption"></div>
@@ -781,23 +800,25 @@ function ratingSortValue(rating){
   return (typeof rating === "number") ? rating : -Infinity;
 }
 
+// Postcode-dependent sort options (Nearest first / Nearest / Best of
+// both) only make sense once we actually have somewhere to measure
+// distance from — rather than showing them greyed-out all the time,
+// they're not shown at all until a valid postcode is entered.
+function updatePostcodeDependentChips(){
+  const has = userPostcodeCoord !== null;
+  document.querySelector('#group-sort-chips [data-groupsort="nearest"]').style.display = has ? '' : 'none';
+  document.querySelector('#time-sort-chips [data-sort="nearest"]').style.display = has ? '' : 'none';
+  document.querySelector('#time-sort-chips [data-sort="bestofboth"]').style.display = has ? '' : 'none';
+}
+
 function updatePostcode(){
   const raw = document.getElementById('postcode').value.trim();
-  const groupNearestChip = document.querySelector('#group-sort-chips [data-groupsort="nearest"]');
   const hint = document.getElementById('distance-hint');
-  const timeNearestChip = document.querySelector('#time-sort-chips [data-sort="nearest"]');
-  const timeBothChip = document.querySelector('#time-sort-chips [data-sort="bestofboth"]');
   if (/^\d{5}$/.test(raw) && BERLIN_PLZ_COORDS[raw]){
     userPostcodeCoord = BERLIN_PLZ_COORDS[raw];
-    groupNearestChip.classList.remove('disabled');
-    timeNearestChip.classList.remove('disabled');
-    timeBothChip.classList.remove('disabled');
     hint.textContent = '';
   } else {
     userPostcodeCoord = null;
-    groupNearestChip.classList.add('disabled');
-    timeNearestChip.classList.add('disabled');
-    timeBothChip.classList.add('disabled');
     if (groupSortMode === 'nearest'){
       groupSortMode = 'name';
       document.querySelectorAll('#group-sort-chips .chip').forEach(c => c.classList.remove('active'));
@@ -810,6 +831,7 @@ function updatePostcode(){
     }
     hint.textContent = raw ? 'Postcode not recognized (Berlin postcodes only)' : '';
   }
+  updatePostcodeDependentChips();
   updateRatingSortAvailability();
   render();
 }
@@ -1163,6 +1185,44 @@ document.querySelectorAll('#view-chips .chip').forEach(chip => {
 
 updateViewSpecificControls(); // set the correct caption/controls for the default view on first load
 updateRatingSortAvailability(); // nothing's narrowed yet on first load, so both "Top rated" options start visible
+updatePostcodeDependentChips(); // no postcode yet on first load, so "Nearest"/"Best of both" start hidden
+
+// Clears every filter/search/sort control back to its default state in
+// one go — deliberately leaves the selected date alone, since browsing a
+// different day is a deliberate choice, not really a "filter" to reset.
+function resetAllFilters(){
+  document.getElementById('search').value = '';
+  document.getElementById('postcode').value = '';
+  document.getElementById('film-suggestions').classList.remove('open');
+  document.getElementById('film-suggestions').innerHTML = '';
+
+  activeLang = 'all';
+  document.querySelectorAll('#lang-chips .chip').forEach(c => c.classList.remove('active'));
+  document.querySelector('#lang-chips [data-lang="all"]').classList.add('active');
+
+  activeView = 'film';
+  filmExplicitlySelected = false;
+  document.querySelectorAll('#view-chips .chip').forEach(c => c.classList.remove('active'));
+  document.querySelector('#view-chips [data-view="film"]').classList.add('active');
+  updateFilmChipVisibility(); // re-shows "By film" in case it had been hidden
+
+  groupSortMode = 'name';
+  document.querySelectorAll('#group-sort-chips .chip').forEach(c => c.classList.remove('active'));
+  document.querySelector('#group-sort-chips [data-groupsort="name"]').classList.add('active');
+
+  timeSortMode = 'soonest';
+  document.querySelectorAll('#time-sort-chips .chip').forEach(c => c.classList.remove('active'));
+  document.querySelector('#time-sort-chips [data-sort="soonest"]').classList.add('active');
+
+  userPostcodeCoord = null;
+  document.getElementById('distance-hint').textContent = '';
+
+  updatePostcodeDependentChips();
+  updateRatingSortAvailability();
+  updateViewSpecificControls();
+  render();
+}
+document.getElementById('reset-btn').addEventListener('click', resetAllFilters);
 
 document.querySelectorAll('#time-sort-chips .chip').forEach(chip => {
   chip.addEventListener('click', () => {
