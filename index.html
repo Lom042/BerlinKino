@@ -76,8 +76,8 @@
     box-shadow:0 0 8px var(--teal);
   }
 
-  /* ---- Reset button ---- */
-  .reset-row{ display:flex; justify-content:flex-end; margin-bottom:14px; }
+  /* ---- Reset / copy-link buttons ---- */
+  .reset-row{ display:flex; justify-content:flex-end; gap:8px; margin-bottom:14px; }
   .reset-btn{
     font-family:var(--mono);
     font-size:11.5px;
@@ -427,6 +427,7 @@
   </header>
 
   <div class="reset-row">
+    <button class="reset-btn" id="copy-link-btn" type="button">Copy link</button>
     <button class="reset-btn" id="reset-btn" type="button">Reset filters</button>
   </div>
 
@@ -1347,6 +1348,21 @@ function resetAllFilters(){
   render();
 }
 document.getElementById('reset-btn').addEventListener('click', resetAllFilters);
+
+// Makes the shareable-link feature (see syncStateToUrl) actually
+// discoverable — without this, nothing on the page would tell anyone
+// the URL updates as they filter, or give them an easy way to grab it.
+document.getElementById('copy-link-btn').addEventListener('click', async () => {
+  const btn = document.getElementById('copy-link-btn');
+  const original = btn.textContent;
+  try{
+    await navigator.clipboard.writeText(window.location.href);
+    btn.textContent = 'Copied!';
+  }catch(e){
+    btn.textContent = 'Copy failed — copy from address bar';
+  }
+  setTimeout(() => { btn.textContent = original; }, 1800);
+});
 
 document.querySelectorAll('#time-sort-chips .chip').forEach(chip => {
   chip.addEventListener('click', () => {
