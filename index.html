@@ -394,6 +394,20 @@
   .flat-row .flat-info{ flex:1 1 auto; min-width:0; }
   .flat-row .flat-film{ font-size:14px; font-weight:600; }
   .flat-row .flat-cinema{ font-size:11.5px; color:var(--muted); margin-top:1px; display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+  .copy-screening-btn{
+    flex:0 0 auto;
+    font-family:var(--mono);
+    font-size:10.5px;
+    font-weight:600;
+    color:var(--teal);
+    background:none;
+    border:1px solid var(--hairline);
+    border-radius:6px;
+    padding:6px 10px;
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  .copy-screening-btn:hover{ border-color:var(--amber-dim); color:var(--text); }
 
   footer{
     margin-top:40px; padding-top:18px; border-top:1px solid var(--hairline);
@@ -515,6 +529,10 @@ let activeView = "film";
 let filmExplicitlySelected = false; // true only after picking a dropdown suggestion, not just typing
 let activeDate = null; // ISO string, set once index.json (or fallback) is known
 let availableDates = [];
+// The most recently rendered By-time flat list, kept around so the
+// delegated "Copy" button click handler (attached once, not re-attached
+// on every render) can look up which exact showing was clicked.
+let lastRenderedFlatItems = [];
 // Raw (unfiltered) screenings for TODAY_ISO specifically, cached the
 // moment they're fetched — kept around even after the user switches to
 // viewing a different date, so "has today actually run out of showings
@@ -1141,7 +1159,8 @@ function renderByTime(filtered, container){
     flat.sort((a,b) => a.time.localeCompare(b.time) || a.film.localeCompare(b.film));
   }
 
-  for (const item of flat){
+  lastRenderedFlatItems = flat;
+  flat.forEach((item, idx) => {
     const {cls, text} = langLabel(item.tags);
     const row = document.createElement('div');
     row.className = 'flat-row';
@@ -1152,9 +1171,10 @@ function renderByTime(filtered, container){
         <div class="flat-film">${item.film} ${ratingBadgeHtml(item.rating)}${tmdbInfoLinkHtml(item.tmdb_id)}</div>
         <div class="flat-cinema">${item.cinema} · ${item.address} · ${cinemaLinkHtml(item.cinema)} ${distanceBadgeHtmlAlways(item.address)}</div>
       </div>
+      <button class="copy-screening-btn" data-index="${idx}" type="button">Copy</button>
     `;
     container.appendChild(row);
-  }
+  });
 }
 
 // ---- Film search suggestions ----
@@ -1385,6 +1405,38 @@ document.getElementById('copy-link-btn').addEventListener('click', async () => {
     btn.textContent = 'Copied!';
   }catch(e){
     btn.textContent = 'Copy failed — copy from address bar';
+  }
+  setTimeout(() => { btn.textContent = original; }, 1800);
+});
+
+// ---- Per-screening "Copy" (By time view) ----
+// Unlike "Copy link" (the whole filtered page), this grabs one specific
+// showing as plain text — the more natural thing to send a friend when
+// you've actually settled on which one to go to.
+function formatShareDate(iso){
+  const d = new Date(iso + "T00:00:00");
+  return `${WEEKDAY_NAMES[d.getDay()]} ${d.getDate()} ${MONTH_NAMES[d.getMonth()]}`;
+}
+
+function buildScreeningShareText(item){
+  const { text: langText } = langLabel(item.tags);
+  return `${item.film} (${langText}) — ${item.cinema}, ${item.address} — ${formatShareDate(activeDate)}, ${item.time}`;
+}
+
+// Attached once to the (never-replaced) #results container, rather than
+// re-attached on every render — event delegation means it still catches
+// clicks on rows that get rebuilt every time render() runs.
+document.getElementById('results').addEventListener('click', async (e) => {
+  const btn = e.target.closest('.copy-screening-btn');
+  if (!btn) return;
+  const item = lastRenderedFlatItems[Number(btn.dataset.index)];
+  if (!item) return;
+  const original = btn.textContent;
+  try{
+    await navigator.clipboard.writeText(buildScreeningShareText(item));
+    btn.textContent = 'Copied!';
+  }catch(err){
+    btn.textContent = 'Copy failed';
   }
   setTimeout(() => { btn.textContent = original; }, 1800);
 });
