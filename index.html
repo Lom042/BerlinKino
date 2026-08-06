@@ -440,7 +440,6 @@
     <input class="search postcode-input" id="postcode" type="text" inputmode="numeric" maxlength="5" autocomplete="off" placeholder="Your postcode (optional) — e.g. 10115">
     <div class="chips" id="group-sort-chips">
       <div class="chip active" data-groupsort="name">A&ndash;Z</div>
-      <div class="chip" data-groupsort="nearest">Nearest first</div>
       <div class="chip" data-groupsort="rating">Top rated first</div>
     </div>
     <span class="distance-hint" id="distance-hint"></span>
@@ -874,15 +873,45 @@ function ratingSortValue(rating){
   return (typeof rating === "number") ? rating : -Infinity;
 }
 
-// Postcode-dependent sort options (Nearest first / Nearest / Best of
-// both) only make sense once we actually have somewhere to measure
-// distance from — rather than showing them greyed-out all the time,
-// they're not shown at all until a valid postcode is entered.
+// Postcode-dependent sort options in By time (Nearest / Best of both)
+// only make sense once we actually have somewhere to measure distance
+// from — rather than showing them greyed-out all the time, they're not
+// shown at all until a valid postcode is entered. (By film / By cinema's
+// own postcode-driven behaviour is handled separately, in
+// updateGroupSortForPostcode — there, distance is so obviously the
+// better default that it's applied automatically instead of being
+// offered as a choice; see that function for why.)
 function updatePostcodeDependentChips(){
   const has = userPostcodeCoord !== null;
-  document.querySelector('#group-sort-chips [data-groupsort="nearest"]').style.display = has ? '' : 'none';
   document.querySelector('#time-sort-chips [data-sort="nearest"]').style.display = has ? '' : 'none';
   document.querySelector('#time-sort-chips [data-sort="bestofboth"]').style.display = has ? '' : 'none';
+}
+
+// By film / By cinema only ever had two real reasons to sort a
+// different way than alphabetical: distance and rating. Once a postcode
+// is entered, distance isn't really a "preference" any more — of course
+// you want the cinema showing up first to be the closest one, so this
+// applies that automatically and hides the (now pointless) choice
+// entirely, rather than making the user pick "Nearest first" themselves.
+// It also combines with the By-time-view visibility rule (this row is
+// only relevant outside of By time anyway), so both conditions are
+// checked in one place instead of two separate toggles fighting over the
+// same style.display.
+function updateGroupSortForPostcode(){
+  const container = document.getElementById('group-sort-chips');
+  const isTime = activeView === 'time';
+  const hasPostcode = userPostcodeCoord !== null;
+  container.style.display = (isTime || hasPostcode) ? 'none' : '';
+
+  if (hasPostcode){
+    groupSortMode = 'nearest';
+  } else if (groupSortMode === 'nearest'){
+    // Postcode was cleared while distance-sorting was in effect — fall
+    // back to the default alphabetical order.
+    groupSortMode = 'name';
+    document.querySelectorAll('#group-sort-chips .chip').forEach(c => c.classList.remove('active'));
+    document.querySelector('#group-sort-chips [data-groupsort="name"]').classList.add('active');
+  }
 }
 
 function updatePostcode(){
@@ -893,11 +922,6 @@ function updatePostcode(){
     hint.textContent = '';
   } else {
     userPostcodeCoord = null;
-    if (groupSortMode === 'nearest'){
-      groupSortMode = 'name';
-      document.querySelectorAll('#group-sort-chips .chip').forEach(c => c.classList.remove('active'));
-      document.querySelector('#group-sort-chips [data-groupsort="name"]').classList.add('active');
-    }
     if (timeSortMode === 'nearest' || timeSortMode === 'bestofboth'){
       timeSortMode = 'soonest';
       document.querySelectorAll('#time-sort-chips .chip').forEach(c => c.classList.remove('active'));
@@ -906,6 +930,7 @@ function updatePostcode(){
     hint.textContent = raw ? 'Postcode not recognized (Berlin postcodes only)' : '';
   }
   updatePostcodeDependentChips();
+  updateGroupSortForPostcode();
   updateRatingSortAvailability();
   render();
 }
@@ -1198,17 +1223,19 @@ document.querySelectorAll('#lang-chips .chip').forEach(chip => {
   });
 });
 
-// "Nearest first" (a simple on/off toggle) drives sorting in By film /
-// By cinema. By time has its own richer 4-way sort choice instead, so the
-// two controls swap visibility depending which view is active, rather
-// than showing two different distance controls at once.
-// By film / By cinema group things by name (or distance, if "Nearest
-// first" is on) — they were never meant to be chronological, only By
-// time is. That distinction wasn't obvious from the UI alone, so a
-// caption spells it out whenever one of those two views is active.
+// By film / By cinema sort automatically by distance once a postcode is
+// entered (see updateGroupSortForPostcode) — no toggle needed there. By
+// time has its own richer sort choice instead, so the two chip rows
+// swap visibility depending on which view is active, rather than
+// showing two different distance controls at once.
+// By film / By cinema group things by name (or distance, automatically,
+// once a postcode is entered) — they were never meant to be
+// chronological, only By time is. That distinction wasn't obvious from
+// the UI alone, so a caption spells it out whenever one of those two
+// views is active.
 const VIEW_CAPTIONS = {
-  film: 'Grouped by film — cinemas sorted by name (or by distance, if "Nearest first" is on). For a single chronological list, switch to By time.',
-  cinema: 'Grouped by cinema — sorted by name (or by distance, if "Nearest first" is on). For a single chronological list, switch to By time.',
+  film: 'Grouped by film — cinemas sorted by name, or automatically by distance once you enter a postcode. For a single chronological list, switch to By time.',
+  cinema: 'Grouped by cinema — sorted by name, or automatically by distance once you enter a postcode. For a single chronological list, switch to By time.',
 };
 
 function updateFilmChipVisibility(){
@@ -1263,7 +1290,7 @@ function updateRatingSortAvailability(){
 function updateViewSpecificControls(){
   const isTime = activeView === "time";
   document.getElementById('time-sort-chips').style.display = isTime ? 'flex' : 'none';
-  document.getElementById('group-sort-chips').style.display = isTime ? 'none' : '';
+  updateGroupSortForPostcode(); // also accounts for whether we're on By time
 
   const caption = document.getElementById('view-caption');
   const text = VIEW_CAPTIONS[activeView] || '';
@@ -1282,9 +1309,9 @@ document.querySelectorAll('#view-chips .chip').forEach(chip => {
   });
 });
 
-updateViewSpecificControls(); // set the correct caption/controls for the default view on first load
+updateViewSpecificControls(); // set the correct caption/controls for the default view on first load (also calls updateGroupSortForPostcode)
 updateRatingSortAvailability(); // nothing's narrowed yet on first load, so both "Top rated" options start visible
-updatePostcodeDependentChips(); // no postcode yet on first load, so "Nearest"/"Best of both" start hidden
+updatePostcodeDependentChips(); // no postcode yet on first load, so "Nearest"/"Best of both" (By time) start hidden
 
 // Clears every filter/search/sort control back to its default state in
 // one go — deliberately leaves the selected date alone, since browsing a
@@ -1305,10 +1332,6 @@ function resetAllFilters(){
   document.querySelector('#view-chips [data-view="film"]').classList.add('active');
   updateFilmChipVisibility(); // re-shows "By film" in case it had been hidden
 
-  groupSortMode = 'name';
-  document.querySelectorAll('#group-sort-chips .chip').forEach(c => c.classList.remove('active'));
-  document.querySelector('#group-sort-chips [data-groupsort="name"]').classList.add('active');
-
   timeSortMode = 'soonest';
   document.querySelectorAll('#time-sort-chips .chip').forEach(c => c.classList.remove('active'));
   document.querySelector('#time-sort-chips [data-sort="soonest"]').classList.add('active');
@@ -1317,6 +1340,7 @@ function resetAllFilters(){
   document.getElementById('distance-hint').textContent = '';
 
   updatePostcodeDependentChips();
+  updateGroupSortForPostcode(); // resets groupSortMode back to 'name' now that postcode is cleared
   updateRatingSortAvailability();
   updateViewSpecificControls();
   syncStateToUrl();
