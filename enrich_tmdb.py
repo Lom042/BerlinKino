@@ -123,7 +123,13 @@ def main():
 
     new_lookups = 0
     for title in sorted(all_titles):
-        if title in cache:
+        # Skip only if this title was already looked up AND has every
+        # field the current version of this script knows about — this
+        # is what makes older cache entries (from before "tmdb_id" was
+        # added, say) get automatically topped up on the next run,
+        # rather than staying permanently incomplete just because the
+        # title happened to be cached first under an older schema.
+        if title in cache and "tmdb_id" in cache[title]:
             continue
         print(f"Looking up: {title}")
         cache[title] = lookup_tmdb(title)
