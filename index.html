@@ -886,6 +886,20 @@ function updatePostcodeDependentChips(){
   const has = userPostcodeCoord !== null;
   document.querySelector('#time-sort-chips [data-sort="nearest"]').style.display = has ? '' : 'none';
   document.querySelector('#time-sort-chips [data-sort="bestofboth"]').style.display = has ? '' : 'none';
+  updateSoonestChipVisibility();
+}
+
+// "Soonest" is the default the moment you land on By time (it's already
+// sorted chronologically without clicking anything), so it's only worth
+// showing as an explicit option when there's actually something else
+// visible to switch to instead — otherwise it's a chip that does
+// nothing when clicked. Checks the other chips' own current visibility
+// rather than re-deriving the same conditions a third time.
+function updateSoonestChipVisibility(){
+  const soonestChip = document.querySelector('#time-sort-chips [data-sort="soonest"]');
+  const others = document.querySelectorAll('#time-sort-chips .chip:not([data-sort="soonest"])');
+  const hasAlternative = Array.from(others).some(c => c.style.display !== 'none');
+  soonestChip.style.display = hasAlternative ? '' : 'none';
 }
 
 // By film / By cinema only ever had two real reasons to sort a
@@ -898,11 +912,20 @@ function updatePostcodeDependentChips(){
 // only relevant outside of By time anyway), so both conditions are
 // checked in one place instead of two separate toggles fighting over the
 // same style.display.
+// By film / By cinema's sort row only earns its place on screen when
+// there are genuinely two different things to choose between. Distance
+// auto-applies the moment a postcode exists (see below), so the row
+// hides outright then. Otherwise, "A-Z" is only worth showing next to
+// "Top rated first" — once that's hidden too (film searched, or a
+// language filter picked), A-Z would be sitting there alone doing
+// nothing when clicked, so the whole row hides in that case as well.
 function updateGroupSortForPostcode(){
   const container = document.getElementById('group-sort-chips');
   const isTime = activeView === 'time';
   const hasPostcode = userPostcodeCoord !== null;
-  container.style.display = (isTime || hasPostcode) ? 'none' : '';
+  const ratingChip = document.querySelector('#group-sort-chips [data-groupsort="rating"]');
+  const hasAlternativeToAZ = ratingChip.style.display !== 'none';
+  container.style.display = (isTime || hasPostcode || !hasAlternativeToAZ) ? 'none' : '';
 
   if (hasPostcode){
     groupSortMode = 'nearest';
@@ -1286,6 +1309,8 @@ function updateRatingSortAvailability(){
       document.querySelector('#time-sort-chips [data-sort="soonest"]').classList.add('active');
     }
   }
+  updateSoonestChipVisibility();
+  updateGroupSortForPostcode(); // re-check now that the rating chip's own visibility may have just changed
 }
 
 function updateViewSpecificControls(){
