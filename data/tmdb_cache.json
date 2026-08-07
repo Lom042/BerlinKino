@@ -1,7 +1,8 @@
 {
   "(In)Visible Lines": {
     "poster_url": "https://image.tmdb.org/t/p/w185/6GvJLJbp1nwolIXvUB1EnWIYAWF.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1727603
   },
   "22 Bahnen": {
     "poster_url": "https://image.tmdb.org/t/p/w185/jZJ7KHymYEB7j455CieCirYW2Y5.jpg",
@@ -9,23 +10,28 @@
   },
   "23 000 Leben": {
     "poster_url": "https://image.tmdb.org/t/p/w185/fl84ocsxe3Lib5BGUhO0lFjDbDK.jpg",
-    "rating": 5.7
+    "rating": 5.8,
+    "tmdb_id": 1656220
   },
   "35mm: Italian Extreme Sneak": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "70mm: Die Odyssee (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "70mm: One Battle After Another": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "A New Dawn": {
     "poster_url": "https://image.tmdb.org/t/p/w185/spDPMjZCG5Kz4p6guOMIAYmuL3z.jpg",
-    "rating": 6.0
+    "rating": 6.0,
+    "tmdb_id": 854708
   },
   "Ab durch die Mitte: Mit Vollgas durch Paris": {
     "poster_url": "https://image.tmdb.org/t/p/w185/yiWhialwZEfmlzwqcxjImF7tkOH.jpg",
@@ -33,11 +39,18 @@
   },
   "Ach diese Lücke, diese entsetzliche Lücke": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Afrika: Das magische Königreich": {
     "poster_url": "https://image.tmdb.org/t/p/w185/fBjs9cN1cypFKax0CfjWeGucQQg.jpg",
-    "rating": 6.3
+    "rating": 6.3,
+    "tmdb_id": 301056
+  },
+  "Aftersun (2022 GB/USA)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Akira": {
     "poster_url": "https://image.tmdb.org/t/p/w185/fDRZmPUPUHTxULsuSjPIqPHKjuE.jpg",
@@ -49,19 +62,23 @@
   },
   "Als wir träumten": {
     "poster_url": "https://image.tmdb.org/t/p/w185/t5fiqFaoqTh4fS86Rgw7ieTBWk3.jpg",
-    "rating": 6.0
+    "rating": 6.0,
+    "tmdb_id": 311301
   },
   "Amore und Basta!": {
     "poster_url": "https://image.tmdb.org/t/p/w185/uvl6LcMAFt9ZWywhXPtJdO2SkSQ.jpg",
-    "rating": 5.9
+    "rating": 5.9,
+    "tmdb_id": 1397055
   },
   "Amore und Basta! - 2 cuori e 2 capanne": {
     "poster_url": "https://image.tmdb.org/t/p/w185/uvl6LcMAFt9ZWywhXPtJdO2SkSQ.jpg",
-    "rating": 5.9
+    "rating": 5.9,
+    "tmdb_id": 1397055
   },
   "Amores Perros": {
     "poster_url": "https://image.tmdb.org/t/p/w185/3lnl0VlkncxaH7uSsijNrWqO9OC.jpg",
-    "rating": 7.6
+    "rating": 7.6,
+    "tmdb_id": 55
   },
   "Amrum (2025)": {
     "poster_url": null,
@@ -69,19 +86,28 @@
   },
   "Arco - Eine fantastische Reise durch die Zeiten": {
     "poster_url": "https://image.tmdb.org/t/p/w185/bq8NxOMcLPyE277LVQDCYEgHGR2.jpg",
-    "rating": 7.5
+    "rating": 7.5,
+    "tmdb_id": 804370
+  },
+  "Ateez : Light The Way In Cinemas": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/lQUyowBrDjbgPNMqMd34CyWSlPP.jpg",
+    "rating": 6.0,
+    "tmdb_id": 1722720
   },
   "Ateez: Light the Way in Cinemas": {
     "poster_url": "https://image.tmdb.org/t/p/w185/lQUyowBrDjbgPNMqMd34CyWSlPP.jpg",
-    "rating": null
+    "rating": 6.0,
+    "tmdb_id": 1722720
   },
   "Auf zwei Rädern (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Auf zwei Rädern (2026) - A bicyclette!": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Aus dem Osten - D'est": {
     "poster_url": null,
@@ -89,27 +115,38 @@
   },
   "B-Movie: Lust & Sound in West-Berlin": {
     "poster_url": "https://image.tmdb.org/t/p/w185/sftNxbMF8PlzDsg2P6Dnj5etX7j.jpg",
-    "rating": 7.7
+    "rating": 7.7,
+    "tmdb_id": 318042
   },
   "Backrooms": {
     "poster_url": "https://image.tmdb.org/t/p/w185/mJiLDE6gu1u6ZPgLR22vmkP64u2.jpg",
-    "rating": 7.1
+    "rating": 7.1,
+    "tmdb_id": 1083381
   },
   "Backrooms - Everything Must Go (Extended Version)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Backrooms - Extented Version": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Berlin - Die Sinfonie der Großstadt (1927)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Berlin, Prenzlauer Berg - Begegnungen zwischen dem 1. Mai und dem 1. Juli 1990": {
     "poster_url": null,
-    "rating": 7.0
+    "rating": 7.0,
+    "tmdb_id": 133177
   },
   "Berlinized - Sexy an Eis": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Best of Annecy Shorts": {
     "poster_url": null,
@@ -117,11 +154,13 @@
   },
   "Best of Cinema: Terminator": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Bibi Blocksberg - Das große Hexentreffen": {
     "poster_url": "https://image.tmdb.org/t/p/w185/oRvcCizzdNrKu4GiSURL7eOGaGx.jpg",
-    "rating": 7.0
+    "rating": 6.2,
+    "tmdb_id": 1258479
   },
   "Bibi Blocksberg und das Geheimnis der blauen Eulen": {
     "poster_url": "https://image.tmdb.org/t/p/w185/tKd0RJaygLmp0TBPXEtso4HBc94.jpg",
@@ -129,23 +168,28 @@
   },
   "Billie Eilish: Hit Me Hard and Soft: The Tour Live": {
     "poster_url": "https://image.tmdb.org/t/p/w185/6snaOFKs5nSd6YS0A33WbXy9vc1.jpg",
-    "rating": 7.8
+    "rating": 7.8,
+    "tmdb_id": 1515899
   },
   "Bitteres Fest": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
-    "rating": 6.4
+    "rating": 6.3,
+    "tmdb_id": 1088548
   },
   "Bitteres Fest - Amarga Navidad: Bitter Christmas": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
-    "rating": 6.4
+    "rating": 6.3,
+    "tmdb_id": 1088548
   },
   "Black out: Anatomie einer Leidenschaft - Bad Timing": {
     "poster_url": "https://image.tmdb.org/t/p/w185/8aDfOsY2LFUWP5uY7ZW4ZKcSQZU.jpg",
-    "rating": 6.5
+    "rating": 6.5,
+    "tmdb_id": 33214
   },
   "Blaise (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Blauwale - Die Rückkehr der Giganten": {
     "poster_url": null,
@@ -153,19 +197,27 @@
   },
   "Blick in das Morgen von Gestern: Zukunftsvisionen der DDR in den 1970ern - Kurzfilmprogramm; m. Einführung": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Blind Date Cinema: The Invite (2026)": {
     "poster_url": null,
     "rating": null
   },
+  "Blood & Sinners": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/445HsfnktkmM5y4cr62vYGzfo6h.jpg",
+    "rating": 7.5,
+    "tmdb_id": 1233413
+  },
   "Blue for a Moment": {
     "poster_url": "https://image.tmdb.org/t/p/w185/8N8KCBjuOaqVcf6Kg0QmTYVVvLZ.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1621000
   },
   "Blue for a Moment (OmU); m. Gespräch": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Brave Cat": {
     "poster_url": "https://image.tmdb.org/t/p/w185/2OD1YPtyczGfEYp3es7C2JIJNPk.jpg",
@@ -173,19 +225,23 @@
   },
   "Brave Cat (EnglF)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Bärbel Bohley - Tagebuch einer Auflehnung": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wFJ6MaXR38X0bYXBikUaZOVmzPz.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1479017
   },
   "Calle Malaga - Ein Zuhause in Tanger": {
     "poster_url": "https://image.tmdb.org/t/p/w185/oS6ncmOfAwNczMYt4AUOxMdt5eL.jpg",
-    "rating": 7.4
+    "rating": 7.4,
+    "tmdb_id": 1399462
   },
   "Casablanca (1942)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Checker Tobi 3 - Die heimliche Herrscherin der Erde": {
     "poster_url": "https://image.tmdb.org/t/p/w185/fBrCsda9YUhrx6f2YGcWCIXkAK6.jpg",
@@ -193,11 +249,13 @@
   },
   "Cheri, ich komme!: Die Erfindung der Lust": {
     "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
-    "rating": 6.3
+    "rating": 6.3,
+    "tmdb_id": 1516724
   },
   "Cheri, ich komme!: Die Erfindung der Lust - Pour le plaisir": {
     "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
-    "rating": 6.3
+    "rating": 6.3,
+    "tmdb_id": 1516724
   },
   "Chihiros Reise ins Zauberland - Sen to Chihiro no kamikakushi: Spirited Away": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wWNLsGvKqhi6cNWul0uvhqbQ4kl.jpg",
@@ -205,11 +263,13 @@
   },
   "Children of Men": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ylTP94REqRh3qANFTlKQtRmwxZh.jpg",
-    "rating": 7.6
+    "rating": 7.6,
+    "tmdb_id": 9693
   },
   "Chimney Town: Frozen in Time - Eiga entotsumachi no Puperu -Yakusoku no tokeidai": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Chéri, Ich Komme! - Die Erfindung Der Lust": {
     "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
@@ -217,15 +277,18 @@
   },
   "CinemAperitivo: La Gioia - Süchtig nach Dir (OmU); m. Gespräch": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Cold War: Der Breitengrad der Liebe - Zimna wojna": {
     "poster_url": "https://image.tmdb.org/t/p/w185/bAos6phpkFPod9M6ok6PPvlrdxp.jpg",
-    "rating": 7.4
+    "rating": 7.4,
+    "tmdb_id": 440298
   },
   "Couscous und Geheimnisse": {
     "poster_url": "https://image.tmdb.org/t/p/w185/iGUHa0gkvMmOm7t7rSHgvNKgywC.jpg",
-    "rating": 6.9
+    "rating": 6.9,
+    "tmdb_id": 1266826
   },
   "Couscous und Geheimnisse - La petite cuisine de Mehdi: Spices and Lies": {
     "poster_url": "https://image.tmdb.org/t/p/w185/iGUHa0gkvMmOm7t7rSHgvNKgywC.jpg",
@@ -237,31 +300,42 @@
   },
   "Creepy Crypt: Sie leben - They Live": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Cyberpunk Romance": {
     "poster_url": "https://image.tmdb.org/t/p/w185/xYpaXjsASDR4rdMu7rhbE73ByGG.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1445040
   },
   "D-Box, Preview: Paw Patrol: Der Dino Film": {
     "poster_url": null,
     "rating": null
   },
+  "Das Cabinet des Dr. Caligari (1919) (OmenglU); m. Live-Musikbegleitung": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Das Drama - Noch mal auf Anfang": {
     "poster_url": "https://image.tmdb.org/t/p/w185/yojMKtExmL8a8TOyrT1im8pJF6M.jpg",
-    "rating": 6.9
+    "rating": 6.9,
+    "tmdb_id": 1325734
   },
   "Das Flüstern der Wälder": {
     "poster_url": "https://image.tmdb.org/t/p/w185/vqVy0aqpKtu7aMOOTKpPJKgYBzl.jpg",
-    "rating": 7.9
+    "rating": 7.9,
+    "tmdb_id": 1309373
   },
   "Das Sommerbuch": {
     "poster_url": "https://image.tmdb.org/t/p/w185/66ptdnJwV4mmhx0KabKkpJ70m40.jpg",
-    "rating": 7.3
+    "rating": 7.3,
+    "tmdb_id": 1073112
   },
   "Das Versprechen (1994)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Das wandelnde Schloss - Hauru no ugoku shiro: Howl's Moving Castle": {
     "poster_url": "https://image.tmdb.org/t/p/w185/tXB5bdKfLI3XGrmJqaEh0kTKmH6.jpg",
@@ -269,27 +343,33 @@
   },
   "Decorado": {
     "poster_url": "https://image.tmdb.org/t/p/w185/8GNQ9xEhUnMZspXoTqmpmaVUYV5.jpg",
-    "rating": 6.8
+    "rating": 6.8,
+    "tmdb_id": 1061771
   },
   "Der Astronaut - Project Hail Mary": {
     "poster_url": "https://image.tmdb.org/t/p/w185/1hJdqwEDES96CRZCaiOVuqWLJFX.jpg",
-    "rating": 8.7
+    "rating": 8.7,
+    "tmdb_id": 687163
   },
   "Der Dritte (1971)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Der Himmel über Berlin": {
     "poster_url": "https://image.tmdb.org/t/p/w185/xgPuxj2BHLQ4tPyLwsBr1Jk3sBr.jpg",
-    "rating": 7.8
+    "rating": 7.8,
+    "tmdb_id": 144
   },
   "Der Klang der Stradivari": {
     "poster_url": "https://image.tmdb.org/t/p/w185/1zU9yuKaTGjv9W6NqEx5ofVjzdk.jpg",
-    "rating": 6.4
+    "rating": 6.4,
+    "tmdb_id": 1266805
   },
   "Der Klang der Stradivari - Les musiciens: The Musicians": {
     "poster_url": "https://image.tmdb.org/t/p/w185/1zU9yuKaTGjv9W6NqEx5ofVjzdk.jpg",
-    "rating": 6.4
+    "rating": 6.4,
+    "tmdb_id": 1266805
   },
   "Der Mann, der vom Himmel fiel (1975) - The Man Who Fell to Earth": {
     "poster_url": null,
@@ -297,7 +377,8 @@
   },
   "Der Prinz und die Tänzerin - The Prince and the Showgirl": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wW19UUYXFwAXJhY1QtKJypHiedQ.jpg",
-    "rating": 6.3
+    "rating": 6.3,
+    "tmdb_id": 24012
   },
   "Der Sommer, als ich fliegen lernte (2023)": {
     "poster_url": null,
@@ -305,23 +386,33 @@
   },
   "Der Super Mario Galaxy Film": {
     "poster_url": "https://image.tmdb.org/t/p/w185/lggrFZlEDu3kmic1DnZl9c6bcD9.jpg",
-    "rating": 8.3
+    "rating": 8.3,
+    "tmdb_id": 1226863
   },
   "Der Teufel trägt Prada II": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Der Teufel trägt Prada II - The Devil Wears Prada 2": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Der Tod kennt keine Wiederkehr - The Long Goodbye": {
     "poster_url": "https://image.tmdb.org/t/p/w185/i7bzYPjUcadfKdHPZ46mZJ5C3Ui.jpg",
-    "rating": 7.4
+    "rating": 7.4,
+    "tmdb_id": 1847
   },
   "Der Wunderweltenbaum": {
     "poster_url": "https://image.tmdb.org/t/p/w185/3aB1LnHpNMLwZu8zcgyqsHeUUdM.jpg",
-    "rating": 6.2
+    "rating": 6.2,
+    "tmdb_id": 1140521
+  },
+  "Der alte deutsche Film: Die Abenteuer des Till Ulenspiegel": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Der alte deutsche Film: Premiere (1937)": {
     "poster_url": null,
@@ -329,31 +420,43 @@
   },
   "Der letzte Walsänger": {
     "poster_url": "https://image.tmdb.org/t/p/w185/txIj3quhp8MYf4vBnFNixYGNcnY.jpg",
-    "rating": 7.8
+    "rating": 7.8,
+    "tmdb_id": 677558
   },
   "Der perfekte Schein: Der Fall Bojarski": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wXKBRgtnSgvqRkP8zhVMjNSPTx7.jpg",
-    "rating": 7.1
+    "rating": 7.1,
+    "tmdb_id": 1376415
   },
   "Der perfekte Schein: Der Fall Bojarski - L'affaire Bojarski": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wXKBRgtnSgvqRkP8zhVMjNSPTx7.jpg",
-    "rating": 7.1
+    "rating": 7.1,
+    "tmdb_id": 1376415
   },
   "Der verlorene Mann": {
     "poster_url": "https://image.tmdb.org/t/p/w185/rGx8QTKwvsWLc1TUU82xya0DVvj.jpg",
-    "rating": 6.2
+    "rating": 6.2,
+    "tmdb_id": 1530193
   },
   "Der weiße Hai - Jaws": {
     "poster_url": "https://image.tmdb.org/t/p/w185/n29QyzfangOxBlNWtfukNXXu9YQ.jpg",
-    "rating": 5.0
+    "rating": 5.0,
+    "tmdb_id": 514492
   },
   "Die Camino-Therapie: Finde deinen Weg": {
     "poster_url": "https://image.tmdb.org/t/p/w185/gLJDQ0kO8JQUn2hvq7bqUeNLrCA.jpg",
-    "rating": 7.0
+    "rating": 6.9,
+    "tmdb_id": 1404604
   },
   "Die Commitments": {
     "poster_url": "https://image.tmdb.org/t/p/w185/tzVRDThC29cPJYF9IG1D9IrvKs2.jpg",
-    "rating": 7.3
+    "rating": 7.3,
+    "tmdb_id": 11663
+  },
+  "Die Gangster Gang II": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Die Haut, in der ich wohne - La piel que habito": {
     "poster_url": "https://image.tmdb.org/t/p/w185/egk67YB7KwFXrq6zS5teTfp7dEA.jpg",
@@ -365,7 +468,8 @@
   },
   "Die Legende des Wüstenkindes": {
     "poster_url": "https://image.tmdb.org/t/p/w185/xmiHMudY2Gg63NEzrSMGbo92PRL.jpg",
-    "rating": 7.6
+    "rating": 7.6,
+    "tmdb_id": 1266800
   },
   "Die Legende von Paul und Paula": {
     "poster_url": "https://image.tmdb.org/t/p/w185/9LLzDz6QfmDyfiittN0PdQMhgwz.jpg",
@@ -373,23 +477,28 @@
   },
   "Die Mama und die Hure - La maman et la putain": {
     "poster_url": "https://image.tmdb.org/t/p/w185/9L1QhTQtjJWYjjsJXCQcBqwkl6L.jpg",
-    "rating": 7.3
+    "rating": 7.3,
+    "tmdb_id": 48693
   },
   "Die Maske des Zorro - The Mask of Zorro": {
     "poster_url": "https://image.tmdb.org/t/p/w185/5vmKY0rfkdTuV5N3CuXHQMFgziu.jpg",
-    "rating": 6.6
+    "rating": 6.6,
+    "tmdb_id": 9342
   },
   "Die Odyssee": {
     "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
-    "rating": 8.0
+    "rating": 8.0,
+    "tmdb_id": 1368337
   },
   "Die Odyssee (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Die Odyssee (2026) - The Odyssey": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Die Schatzsuche im Blaumeisental": {
     "poster_url": "https://image.tmdb.org/t/p/w185/oYnd1bjJG72aBsaHnYLbGidERgy.jpg",
@@ -397,35 +506,43 @@
   },
   "Die Sirene (2023) - La Sirene: The Siren": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Die Wilden Hühner und das Leben": {
     "poster_url": "https://image.tmdb.org/t/p/w185/zFa3FKt4wSoWxFooSMRO9PykPKm.jpg",
-    "rating": 6.0
+    "rating": 6.0,
+    "tmdb_id": 9579
   },
   "Die Wilden Kerle IV - Der Angriff der Silberlichten": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Die Wilden Kerle V: Hinter dem Horizont": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Die jüngste Tochter": {
     "poster_url": "https://image.tmdb.org/t/p/w185/1Vw06e1LDpoviSTFibPFGyakO8Z.jpg",
-    "rating": 6.6
+    "rating": 6.6,
+    "tmdb_id": 961077
   },
   "Die kleine Amelie oder der Charakter des Regens": {
     "poster_url": "https://image.tmdb.org/t/p/w185/yOj9vUXFrpHwSIXpXM9qL65yJu7.jpg",
-    "rating": 7.9
+    "rating": 7.9,
+    "tmdb_id": 682012
   },
   "Die letzten Glühwürmchen": {
     "poster_url": "https://image.tmdb.org/t/p/w185/kyDMWzQ28LvGh165vx1tyhZ7v4G.jpg",
-    "rating": 8.4
+    "rating": 8.4,
+    "tmdb_id": 12477
   },
   "Die letzten Glühwürmchen - Hotaru no haka": {
     "poster_url": "https://image.tmdb.org/t/p/w185/kyDMWzQ28LvGh165vx1tyhZ7v4G.jpg",
-    "rating": 8.4
+    "rating": 8.4,
+    "tmdb_id": 12477
   },
   "Die wilde Nordsee: Natur, die sich nicht zähmen lässt": {
     "poster_url": "https://image.tmdb.org/t/p/w185/vpZnJy6vOhiAQjOfD7jD8FNdYRy.jpg",
@@ -433,11 +550,13 @@
   },
   "Dirty Dancing": {
     "poster_url": "https://image.tmdb.org/t/p/w185/3POBBBb8261UhhayIxhFqSXhVYp.jpg",
-    "rating": 7.3
+    "rating": 7.3,
+    "tmdb_id": 88
   },
   "Disclosure Day - Der Tag der Wahrheit": {
     "poster_url": "https://image.tmdb.org/t/p/w185/8aaV365bjSxPMZdT18RybAYGqSp.jpg",
-    "rating": 7.4
+    "rating": 7.4,
+    "tmdb_id": 1275779
   },
   "Do You Love Me (2026)": {
     "poster_url": null,
@@ -445,7 +564,8 @@
   },
   "Dreams - Gefährliches Verlangen": {
     "poster_url": "https://image.tmdb.org/t/p/w185/vdjyv2FWQurFvTXJbb4mYlzRiPP.jpg",
-    "rating": 6.1
+    "rating": 6.1,
+    "tmdb_id": 1134463
   },
   "Dry Leaf - Khmeli potoli": {
     "poster_url": null,
@@ -453,7 +573,8 @@
   },
   "Ein Sommer in Paris - Le rendez-vous de l'ete: That Summer in Paris": {
     "poster_url": "https://image.tmdb.org/t/p/w185/cyscxKUuLGS67rbl354L8pwvFi7.jpg",
-    "rating": 6.3
+    "rating": 6.3,
+    "tmdb_id": 1294706
   },
   "Eine Frau mit Verantwortung; m. Gespräch": {
     "poster_url": null,
@@ -461,27 +582,33 @@
   },
   "Eraserhead (1977)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Erinnerungen an die Unterentwicklung - Memorias del subdesarrollo": {
     "poster_url": "https://image.tmdb.org/t/p/w185/xViL8NUM9E9PXA71cr5BXBlXOfs.jpg",
-    "rating": 7.2
+    "rating": 7.2,
+    "tmdb_id": 47576
   },
   "Etwas ganz Besonderes": {
     "poster_url": "https://image.tmdb.org/t/p/w185/yInkf546G1I63g4Im3XvFCnmxsf.jpg",
-    "rating": 6.2
+    "rating": 6.3,
+    "tmdb_id": 1299061
   },
   "Everytime": {
     "poster_url": "https://image.tmdb.org/t/p/w185/lByDG8HfSamsJqFLcvW9dlxBxIA.jpg",
-    "rating": null
+    "rating": 8.0,
+    "tmdb_id": 1655419
   },
   "Evil Dead Burn": {
     "poster_url": "https://image.tmdb.org/t/p/w185/fn0frXHFsRQ5XaHsLpQKAgOA8Dk.jpg",
-    "rating": 6.8
+    "rating": 7.9,
+    "tmdb_id": 1212763
   },
   "Father Mother Sister Brother": {
     "poster_url": "https://image.tmdb.org/t/p/w185/8xxzEL5bYhuCAqH6lWl7RPFzl3m.jpg",
-    "rating": 6.4
+    "rating": 6.4,
+    "tmdb_id": 1159206
   },
   "Fellinis Das süße Leben - La dolce vita": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ww1qaa9cWXK36nKJIEMiREHX1px.jpg",
@@ -489,11 +616,13 @@
   },
   "Ferien auf Saltkrokan: Das Trollkind": {
     "poster_url": "https://image.tmdb.org/t/p/w185/fvnGX2LVwNYcPLkTDKzpB6tI3I2.jpg",
-    "rating": 5.9
+    "rating": 5.9,
+    "tmdb_id": 433396
   },
   "Film und Diskussion": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Finding Connection; m. Gespräch": {
     "poster_url": null,
@@ -501,11 +630,13 @@
   },
   "Flieg steil": {
     "poster_url": "https://image.tmdb.org/t/p/w185/fYuQBOX4q4SadBNsOjJGJ2DjuM6.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1336841
   },
   "Fluss ohne Wiederkehr - River of No Return": {
     "poster_url": "https://image.tmdb.org/t/p/w185/js6sy25VWUy5OqGLkznGeEFOO6g.jpg",
-    "rating": 6.7
+    "rating": 6.7,
+    "tmdb_id": 1936
   },
   "Flüchtig - Das rätselhafte Leben des B. Traven; m. Gast": {
     "poster_url": null,
@@ -513,31 +644,43 @@
   },
   "Forbidden Fruits (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Friday Night Sneak": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Fünf von der Jazzband": {
     "poster_url": "https://image.tmdb.org/t/p/w185/fs17asaDYPq0c2pmd46vGAF3MEQ.jpg",
-    "rating": 7.5
+    "rating": 7.5,
+    "tmdb_id": 298738
+  },
+  "G.O.A.T. - Bock auf große Sprünge": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/gGPGkuq8chdbOdiuf1ipkXiRQL1.jpg",
+    "rating": 8.1,
+    "tmdb_id": 1297842
   },
   "Gelbe Briefe": {
     "poster_url": "https://image.tmdb.org/t/p/w185/gNrb0GhhSBDIcWgVsmngO4GlGPM.jpg",
-    "rating": 7.4
+    "rating": 7.3,
+    "tmdb_id": 1315657
   },
   "Ghost in the Shell (1995) - Kokaku kidotai": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ad2wSfaqj2ETGXV2SJLPSPEUZfT.jpg",
-    "rating": 7.9
+    "rating": 7.9,
+    "tmdb_id": 9323
   },
   "Glennkill: Ein Schafskrimi": {
     "poster_url": "https://image.tmdb.org/t/p/w185/AsYAR08tFOhzyR4dsom0SdrgfAc.jpg",
-    "rating": 7.9
+    "rating": 7.9,
+    "tmdb_id": 1301421
   },
   "Glennkill: Ein Schafskrimi - The Sheep Detectives": {
     "poster_url": "https://image.tmdb.org/t/p/w185/AsYAR08tFOhzyR4dsom0SdrgfAc.jpg",
-    "rating": 7.9
+    "rating": 7.9,
+    "tmdb_id": 1301421
   },
   "Go, Trabi, Go": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wtc8VETDc5jOZ90E6SzoMqr11ta.jpg",
@@ -545,7 +688,8 @@
   },
   "Good Boy - Wir wollen nur Dein Bestes": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ziliP7npRNuRnBfnqnzapUexULY.jpg",
-    "rating": 7.2
+    "rating": 7.2,
+    "tmdb_id": 1381027
   },
   "Good Luck, Have Fun, Don't Die": {
     "poster_url": "https://image.tmdb.org/t/p/w185/2OhJW16MkwSqMCBZrUNOXYrQ3LN.jpg",
@@ -553,23 +697,28 @@
   },
   "Gorgona (2025)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "H wie Habicht": {
     "poster_url": "https://image.tmdb.org/t/p/w185/7vB1MPcZTI9jX366sumg66fqvI9.jpg",
-    "rating": 7.2
+    "rating": 7.2,
+    "tmdb_id": 1243006
   },
   "H wie Habicht - H Is for Hawk": {
     "poster_url": "https://image.tmdb.org/t/p/w185/7vB1MPcZTI9jX366sumg66fqvI9.jpg",
-    "rating": 7.2
+    "rating": 7.2,
+    "tmdb_id": 1243006
   },
   "Hai-Alarm am Müggelsee": {
     "poster_url": "https://image.tmdb.org/t/p/w185/tMq0dTmmTUqT5J3sxyTjfeEjHBR.jpg",
-    "rating": 5.9
+    "rating": 5.9,
+    "tmdb_id": 185562
   },
   "Hamnet": {
     "poster_url": "https://image.tmdb.org/t/p/w185/Ua43qwtLJNtFcTeAtO3q1SG5NV.jpg",
-    "rating": 7.7
+    "rating": 7.7,
+    "tmdb_id": 858024
   },
   "Herr Schmidt und Herr Friedrich": {
     "poster_url": "https://image.tmdb.org/t/p/w185/oARuA8Adt8f1R4wRicRS4DUebrc.jpg",
@@ -577,7 +726,8 @@
   },
   "Hexen hexen (1989) - The Witches": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Hola Frida": {
     "poster_url": "https://image.tmdb.org/t/p/w185/cHGGTgIZJSWnyG6qvclXy1jFnKB.jpg",
@@ -585,15 +735,23 @@
   },
   "Hoppers (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Ice Cream Man": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/o04cSyYB1igvJm9KsnvEAH9Jynb.jpg",
+    "rating": 5.9,
+    "tmdb_id": 1477712
   },
   "Ice Cream Man (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Ich verstehe Ihren Unmut": {
     "poster_url": "https://image.tmdb.org/t/p/w185/iXrLk4RYQVApzB9V4VE6ip5GPmV.jpg",
-    "rating": 7.8
+    "rating": 7.8,
+    "tmdb_id": 1616184
   },
   "Ich: Einfach unverbesserlich": {
     "poster_url": "https://image.tmdb.org/t/p/w185/tgQAiavJYM1vGcNVeKZHr35F4WB.jpg",
@@ -601,39 +759,48 @@
   },
   "Ich: Einfach unverbesserlich IV": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Immer dieser Michel 1: Michel in der Suppenschüssel": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "In the Grey (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "In the Mood for Love - Fa yeung nin wah": {
     "poster_url": "https://image.tmdb.org/t/p/w185/h4h70SqysinjJLjg3mqhh7lIJqI.jpg",
-    "rating": 8.1
+    "rating": 8.1,
+    "tmdb_id": 843
   },
   "In the mood: Preview: Exit 8 - 8-ban deguchi": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "IndoGerman Film: DC (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Ingeborg Bachmann - Jemand, der einmal ich war": {
     "poster_url": "https://image.tmdb.org/t/p/w185/qKJV8zX23FcoNM3Vx3jtU8S58F8.jpg",
-    "rating": 6.5
+    "rating": 6.5,
+    "tmdb_id": 1477087
   },
   "Innere Emigranten - Inner Emigrants": {
     "poster_url": "https://image.tmdb.org/t/p/w185/kXEmJJVu5dr1vdOrX8L1Obb0ysk.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1523539
   },
   "Insekten - Helden im Verborgenen": {
     "poster_url": "https://image.tmdb.org/t/p/w185/cV1xcGh5KIljaRGDJcFT6Pm9ZAN.jpg",
-    "rating": 6.5
+    "rating": 6.5,
+    "tmdb_id": 1674837
   },
   "International Ocean Film Tour XII": {
     "poster_url": null,
@@ -641,35 +808,52 @@
   },
   "Interstellar": {
     "poster_url": "https://image.tmdb.org/t/p/w185/hHdhfkkzt0Mwec33Ux177Z7CO8w.jpg",
-    "rating": 8.5
+    "rating": 8.5,
+    "tmdb_id": 157336
   },
   "Into the Wild": {
     "poster_url": "https://image.tmdb.org/t/p/w185/8T3CCV6sot8atyf4wjKjpkGmAFb.jpg",
-    "rating": 7.8
+    "rating": 7.8,
+    "tmdb_id": 5915
   },
   "Invisible People": {
     "poster_url": "https://image.tmdb.org/t/p/w185/yOUjFAtGknop0QhibLC0wYwaAGi.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1245362
   },
   "Iron Maiden: Burning Ambition": {
     "poster_url": "https://image.tmdb.org/t/p/w185/yZqhFJDenLfgF1VygOOCNmAdS1P.jpg",
-    "rating": 8.7
+    "rating": 8.7,
+    "tmdb_id": 1642859
   },
   "It's Never Over, Jeff Buckley": {
     "poster_url": "https://image.tmdb.org/t/p/w185/rrKe8bC6UKFKvfZHvbwA9Bq5hkR.jpg",
-    "rating": 7.9
+    "rating": 7.9,
+    "tmdb_id": 1400381
   },
   "Jack Johnson - Surffilmmusic": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Jackass: Einer geht noch": {
     "poster_url": "https://image.tmdb.org/t/p/w185/8LxyuMNFYhmDZNBKvZeZe4RDPun.jpg",
     "rating": 6.8
   },
+  "Jerry Maguire - Spiel des Lebens": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/nUoPgpMxm9XgLF4LD8FwN8aqrSd.jpg",
+    "rating": 7.0,
+    "tmdb_id": 9390
+  },
   "Joe Dilworth - A Life in Stills": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ytRZwKWsCvSKneNW99Kui3wZZXf.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1665462
+  },
+  "Katseye: Wild Hearts": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/j2vmYtjbmqz1f21TEWHGW6JQyjz.jpg",
+    "rating": null,
+    "tmdb_id": 1728113
   },
   "Khali Balak Min Nafsak": {
     "poster_url": null,
@@ -677,15 +861,27 @@
   },
   "Kids Shorts": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Kinderwagenkino: Bitteres Fest - Amarga Navidad: Bitter Christmas": {
     "poster_url": null,
     "rating": null
   },
+  "Kinderwagenkino: Ingeborg Bachmann - Jemand, der einmal ich war": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Kinderwagenkino: Lebensansichten eines Huhns - Kota: Hen": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Kinderwagenkino: The Invite (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Kinderwagenkino: The Love That Remains - Astin sem eftir er: Lieben und Lieben lassen": {
     "poster_url": null,
@@ -697,27 +893,33 @@
   },
   "Kommunist (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "La Boum - Die Fete": {
     "poster_url": "https://image.tmdb.org/t/p/w185/5FC0Js9guGK8MPxDhWcxvSiv0Iw.jpg",
-    "rating": 6.6
+    "rating": 6.6,
+    "tmdb_id": 166
   },
   "La Gioia - Süchtig nach Dir": {
     "poster_url": "https://image.tmdb.org/t/p/w185/hWP8YUJoa3Ryuz8aDu0neJZ9lFu.jpg",
-    "rating": 6.7
+    "rating": 6.7,
+    "tmdb_id": 1395353
   },
   "La Grazia - Wem gehören unsere Tage": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "La La Land (2017)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "La haine - Hass": {
     "poster_url": null,
-    "rating": 8.0
+    "rating": 8.0,
+    "tmdb_id": 374435
   },
   "Le jardin des delices de Jerome Bosch (OmU) u.a. Kurzfilme": {
     "poster_url": "https://image.tmdb.org/t/p/w185/vBoa6WSIcN57KjgLAHudHUEHcvr.jpg",
@@ -725,31 +927,42 @@
   },
   "Lebensansichten eines Huhns": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wb2NKoCosuW1Tg9cWw6XFiKaAG0.jpg",
-    "rating": 7.5
+    "rating": 7.5,
+    "tmdb_id": 1382513
   },
   "Lebensansichten eines Huhns - Kota: Hen": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wb2NKoCosuW1Tg9cWw6XFiKaAG0.jpg",
-    "rating": 7.5
+    "rating": 7.5,
+    "tmdb_id": 1382513
   },
   "Lee Cronin's The Mummy": {
     "poster_url": "https://image.tmdb.org/t/p/w185/u3NeLsif2Zn6KKALxfc4f6rA11n.jpg",
-    "rating": 7.9
+    "rating": 7.9,
+    "tmdb_id": 1304313
   },
   "Lesbian Space Princess": {
     "poster_url": "https://image.tmdb.org/t/p/w185/lwMpxJv3MdgcpHminn8A3vv8jUW.jpg",
-    "rating": 4.4
+    "rating": 4.4,
+    "tmdb_id": 1333141
   },
   "Life of Pi: Schiffbruch mit Tiger": {
     "poster_url": "https://image.tmdb.org/t/p/w185/eeLve6g5O99vIPXhhAxY6QE2v6r.jpg",
-    "rating": 7.4
+    "rating": 7.4,
+    "tmdb_id": 87827
   },
   "Lilo & Stitch (2025)": {
     "poster_url": null,
     "rating": null
   },
+  "Little Miss Sunshine": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/7ZLfmBsxiXqlAemvbmvoBumR3GT.jpg",
+    "rating": 7.7,
+    "tmdb_id": 773
+  },
   "Lost Highway": {
     "poster_url": "https://image.tmdb.org/t/p/w185/tJU274qzogcoXhZWTH4TcSFwBs5.jpg",
-    "rating": 7.5
+    "rating": 7.5,
+    "tmdb_id": 638
   },
   "Lucy Lost": {
     "poster_url": "https://image.tmdb.org/t/p/w185/y89scf8jBRXBSIBRrF8mzDi6wMU.jpg",
@@ -757,19 +970,23 @@
   },
   "Magical History Tour: Badnam Basti": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Magical History Tour: Naked Spaces: Living Is Round": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Manche mögen's heiß - Some Like It Hot": {
     "poster_url": "https://image.tmdb.org/t/p/w185/2gJNKwbvx0cPg3qJQa0YMJ2dg6o.jpg",
-    "rating": 8.1
+    "rating": 8.1,
+    "tmdb_id": 239
   },
   "Marty Supreme": {
     "poster_url": "https://image.tmdb.org/t/p/w185/m3Sj2vnS9o1wcHG1fCpUIhz0Y7e.jpg",
-    "rating": 7.4
+    "rating": 7.4,
+    "tmdb_id": 1317288
   },
   "Masters of the Universe (1987)": {
     "poster_url": null,
@@ -777,59 +994,73 @@
   },
   "Mein Freund, der Pirat": {
     "poster_url": "https://image.tmdb.org/t/p/w185/v3HyvFuxMAQNTtPn0vue5TToRE8.jpg",
-    "rating": 7.0
+    "rating": 7.0,
+    "tmdb_id": 116626
   },
   "Mein Leben als Zucchini": {
     "poster_url": "https://image.tmdb.org/t/p/w185/9Tn9c9MHWa0IJWzsQTIc5Uuioob.jpg",
-    "rating": 7.8
+    "rating": 7.8,
+    "tmdb_id": 393559
   },
   "Meine Frau weint": {
     "poster_url": "https://image.tmdb.org/t/p/w185/tAdDuoV8XTCuIWRa3G7cBQHVwYy.jpg",
-    "rating": 2.5
+    "rating": 2.5,
+    "tmdb_id": 1152312
   },
   "Meine Freundin Conni - Abenteuer mit Kranich Klaus": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ye46Vv26Wvc3FWpOmWRZDy7tig1.jpg",
-    "rating": 7.5
+    "rating": 7.5,
+    "tmdb_id": 1422407
   },
   "Meine kleinen Geliebten - Mes petites amoureuses": {
     "poster_url": "https://image.tmdb.org/t/p/w185/cuj9uuqJZMchXWqBYVOYbbwsdor.jpg",
-    "rating": 6.8
+    "rating": 6.8,
+    "tmdb_id": 64296
   },
   "Memoria (2021)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Metropolis (1925/26) (OmenglU); m. Live-Musikbegleitung": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Michael (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Million Dollar Baby": {
     "poster_url": "https://image.tmdb.org/t/p/w185/h91jhpl63wxNGNl18adInAsn3YV.jpg",
-    "rating": 8.0
+    "rating": 8.0,
+    "tmdb_id": 70
   },
   "Minions & Monster": {
     "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
-    "rating": 6.4
+    "rating": 6.4,
+    "tmdb_id": 1315772
   },
   "Minions: Auf der Suche nach dem Mini-Boss": {
     "poster_url": "https://image.tmdb.org/t/p/w185/nHJDZsad536CYI6RK9n97rNjqUN.jpg",
-    "rating": 7.3
+    "rating": 7.3,
+    "tmdb_id": 438148
   },
   "Misfits - Nicht gesellschaftsfähig": {
     "poster_url": "https://image.tmdb.org/t/p/w185/l5XY3VAWhyGMif7sf3m8MLZPwoF.jpg",
-    "rating": 7.0
+    "rating": 7.0,
+    "tmdb_id": 11536
   },
   "Mit leiser Stimme - A voix basse: In a Whisper": {
     "poster_url": "https://image.tmdb.org/t/p/w185/puKBqZ2l67BAMw10I41GEdBpYQM.jpg",
-    "rating": 7.5
+    "rating": 6.9,
+    "tmdb_id": 1119547
   },
   "MonGay: Teenage Sex and Death at Camp Miasma": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Mulholland Drive - Straße der Finsternis": {
     "poster_url": "https://image.tmdb.org/t/p/w185/6XpAFxwhVZ2t30Qtn8Wz8koKlaN.jpg",
@@ -837,7 +1068,8 @@
   },
   "Mullewapp - Das große Kinoabenteuer der Freunde": {
     "poster_url": "https://image.tmdb.org/t/p/w185/blJhdIpad6eWfSVmBkWMvZcgkP1.jpg",
-    "rating": 5.9
+    "rating": 5.9,
+    "tmdb_id": 29561
   },
   "Natürlich blond! - Legally Blonde": {
     "poster_url": "https://image.tmdb.org/t/p/w185/5y8cOUNwZOzPigdoOY6AxRDMslk.jpg",
@@ -849,31 +1081,38 @@
   },
   "Nightborn": {
     "poster_url": "https://image.tmdb.org/t/p/w185/nVEJKAIWXGMpxO2ToLaZMUNyQBT.jpg",
-    "rating": 6.5
+    "rating": 6.4,
+    "tmdb_id": 964849
   },
   "Nightborn - Yön lapsi": {
     "poster_url": "https://image.tmdb.org/t/p/w185/nVEJKAIWXGMpxO2ToLaZMUNyQBT.jpg",
-    "rating": 6.5
+    "rating": 6.4,
+    "tmdb_id": 964849
   },
   "Nimrods: A Green Day Comedy": {
     "poster_url": "https://image.tmdb.org/t/p/w185/tDTfqu5XJbtUwstRRnWaUcoHxM2.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1432474
   },
   "Ninja Motherf*cking Destruction": {
     "poster_url": "https://image.tmdb.org/t/p/w185/r2mqBoaoCXzfpJYgz0LAfg2SroL.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1411193
   },
   "Ninxs - Das Leben glitzert": {
     "poster_url": "https://image.tmdb.org/t/p/w185/uDUcUySOCj82SGc40pgjETWul4L.jpg",
-    "rating": 9.0
+    "rating": 9.0,
+    "tmdb_id": 1447567
   },
   "No Other Choice - Eojjeolsuga eobsda": {
     "poster_url": "https://image.tmdb.org/t/p/w185/r9IBYBthwVhrLtepz07JJMnilTf.jpg",
-    "rating": 7.5
+    "rating": 7.5,
+    "tmdb_id": 639988
   },
   "Nobody (2025)": {
     "poster_url": "https://image.tmdb.org/t/p/w185/4pEX67LJd7ZIqYWtksBtOgQEGcQ.jpg",
-    "rating": 7.5
+    "rating": 7.5,
+    "tmdb_id": 1424217
   },
   "Nordstream - Die Sprengung": {
     "poster_url": null,
@@ -881,23 +1120,28 @@
   },
   "Nulpen": {
     "poster_url": "https://image.tmdb.org/t/p/w185/6lyxrxiEXG6LJkK2DHd4PqEP02J.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1410175
   },
   "Nürnberg (2026) - Nuremberg": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Obsession - Du Sollst Mich Lieben": {
     "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
-    "rating": 8.2
+    "rating": 8.2,
+    "tmdb_id": 1339713
   },
   "Obsession - Du sollst mich lieben": {
     "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
-    "rating": 8.2
+    "rating": 8.2,
+    "tmdb_id": 1339713
   },
   "Once (2006)": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ubgZkHS1KoVILTH051zr47vMfDv.jpg",
-    "rating": 7.1
+    "rating": 7.1,
+    "tmdb_id": 39183
   },
   "Palästina 36": {
     "poster_url": "https://image.tmdb.org/t/p/w185/58mhlWbLhY3IlH8tkveBfsVQ3Oc.jpg",
@@ -905,47 +1149,63 @@
   },
   "Paprika (2006)": {
     "poster_url": "https://image.tmdb.org/t/p/w185/aD0uIqGX3xdmUF2Ol2nvhJsfL5C.jpg",
-    "rating": 7.8
+    "rating": 7.8,
+    "tmdb_id": 4977
   },
   "Paris Blues": {
     "poster_url": "https://image.tmdb.org/t/p/w185/NsZkXA2O6mF2wf0I5bwUlGDk12.jpg",
-    "rating": 6.5
+    "rating": 6.5,
+    "tmdb_id": 33710
   },
   "Paris Murder Mystery - Vie privee: A Private Life": {
     "poster_url": "https://image.tmdb.org/t/p/w185/gzHDNvKTyI1TjyXrX8LozvJYiak.jpg",
-    "rating": 5.5
+    "rating": 5.5,
+    "tmdb_id": 1290432
   },
   "Paw Patrol: Der Dino Film": {
     "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-    "rating": 7.0
+    "rating": 7.3,
+    "tmdb_id": 1185806
   },
   "Paw Patrol: Der Dino Film - PAW Patrol: The Dino Movie": {
     "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-    "rating": 7.0
+    "rating": 7.3,
+    "tmdb_id": 1185806
   },
   "Paw Patrol: Dino Film": {
     "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-    "rating": 7.0
+    "rating": 7.3,
+    "tmdb_id": 1185806
   },
   "Perfect Blue - Pafekuto buru": {
     "poster_url": "https://image.tmdb.org/t/p/w185/qfnSMoY3h3IRnjxlioWkS7ooFvK.jpg",
-    "rating": 8.3
+    "rating": 8.3,
+    "tmdb_id": 10494
+  },
+  "Performance (1969)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Pferd am Stiel - Ein Hobby-Horsing-Abenteuer": {
     "poster_url": "https://image.tmdb.org/t/p/w185/jqd2cLtyZ9RlVTZd9fe2lWZF0BV.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1430655
   },
   "Pillion": {
     "poster_url": "https://image.tmdb.org/t/p/w185/zIBTtGNdmruouafqFtpiZAIg0I8.jpg",
-    "rating": 6.4
+    "rating": 6.4,
+    "tmdb_id": 1287141
   },
   "Pippi Langstrumpf in der Südsee": {
     "poster_url": "https://image.tmdb.org/t/p/w185/skkDLuLckg1WdmYlo51nJMTtM5Q.jpg",
-    "rating": 5.3
+    "rating": 5.3,
+    "tmdb_id": 76796
   },
   "Plitsch Platsch Forever!": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ytUMwwEVamxxIa6IvhdZbfG2okg.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1499783
   },
   "Ponyo: Das große Abenteuer am Meer - Gake no ue no Ponyo": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wOQh7nZxNC6cEwrm9tP230MoVLz.jpg",
@@ -957,7 +1217,8 @@
   },
   "Porträt einer jungen Frau in Flammen - Portrait de la jeune fille en feu": {
     "poster_url": "https://image.tmdb.org/t/p/w185/cIH0olQrBg5yntTAl6vOvY0t3ep.jpg",
-    "rating": 8.1
+    "rating": 8.1,
+    "tmdb_id": 531428
   },
   "Premiere: Bike the Line - 80 Jahre danach entlang der Demarkationslinie von 1945; m. Gast": {
     "poster_url": null,
@@ -977,7 +1238,8 @@
   },
   "Preview: Finding Connection; m. Gast": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Preview: Finding Connection; m. Gespräch": {
     "poster_url": null,
@@ -991,6 +1253,11 @@
     "poster_url": null,
     "rating": null
   },
+  "Preview: Steckerlfischfiasko": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Preview: Und es war Sommer - Dieter Thomas Kuhn & Band; m. Gästen": {
     "poster_url": null,
     "rating": null
@@ -1001,23 +1268,28 @@
   },
   "Prinzessin Mononoke - Mononoke-hime": {
     "poster_url": "https://image.tmdb.org/t/p/w185/vFRKcH8zDqEx4nUnm0cs5lh5wwj.jpg",
-    "rating": 8.3
+    "rating": 8.3,
+    "tmdb_id": 128
   },
   "Prop und Berta": {
     "poster_url": "https://image.tmdb.org/t/p/w185/xmnvQejExhLAy67OZHLTWBDEynh.jpg",
-    "rating": 6.6
+    "rating": 6.6,
+    "tmdb_id": 243115
   },
   "Qualverwandt; m. Gast": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Queerfilmabend: Truth or Dare (2025)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Resurrection (2025)": {
     "poster_url": "https://image.tmdb.org/t/p/w185/m4BIf9vqSXtpgatkQqfNMREAWBW.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1600977
   },
   "Rhythmus im Blut - There's No Business Like Show Business": {
     "poster_url": "https://image.tmdb.org/t/p/w185/tNJVPGVfl7IsMZSX74cTJnUnl2x.jpg",
@@ -1025,39 +1297,72 @@
   },
   "Rose (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Rosebush Pruning": {
     "poster_url": "https://image.tmdb.org/t/p/w185/tuSRsQaSRQAErFCodiJW5cJCtKW.jpg",
-    "rating": 6.7
+    "rating": 6.7,
+    "tmdb_id": 1130948
   },
   "Sakr W Canaria": {
     "poster_url": "https://image.tmdb.org/t/p/w185/rj2JlLzKWG8J201cgFODgc8LEed.jpg",
     "rating": 5.9
   },
+  "Savage House": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/siTsQxaVFun5Cmzw7uUiYP4hn2T.jpg",
+    "rating": 6.5,
+    "tmdb_id": 1245859
+  },
   "Saving Spoonie": {
     "poster_url": "https://image.tmdb.org/t/p/w185/azceQL5rxWLpxMOMgx98JCZsZSz.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1673177
+  },
+  "Saxana: Das Mädchen auf dem Besenstiel": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/wk0CHCLt3rTLFa9nYyLKNHtqXOs.jpg",
+    "rating": 7.0,
+    "tmdb_id": 47712
   },
   "Scary Movie VI": {
     "poster_url": "https://image.tmdb.org/t/p/w185/quKVGPffv7dTxqToe4084P7qVqj.jpg",
-    "rating": 4.3
+    "rating": 4.3,
+    "tmdb_id": 565916
   },
   "Scherbenland": {
     "poster_url": "https://image.tmdb.org/t/p/w185/kyeI4fgTLyx77IgYpORpj6ewrqX.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1424255
   },
   "Schönheit & Vergänglichkeit": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ukzMWTYviCbIKHfhj9MVdyXAaY7.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 577071
   },
   "Sechswochenamt": {
     "poster_url": "https://image.tmdb.org/t/p/w185/aFbUci8JXTCg7dP8geN7hxAKqhx.jpg",
-    "rating": 5.5
+    "rating": 5.5,
+    "tmdb_id": 1489039
+  },
+  "Sentimental Value - Affeksjonsverdi": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/zOeMU4kot9ek7N23SL5v885vVCN.jpg",
+    "rating": 7.4,
+    "tmdb_id": 1124566
+  },
+  "September 5 - The Day Terror Went Live": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/w41R1ps7u0bKFa2SfRCU50YMRD8.jpg",
+    "rating": 7.0,
+    "tmdb_id": 1211472
   },
   "Shaun das Schaf: Der Film: UFO-Alarm": {
     "poster_url": "https://image.tmdb.org/t/p/w185/zKo4ntctPplBnOtMctfwyCDbbMN.jpg",
-    "rating": 6.9
+    "rating": 6.9,
+    "tmdb_id": 422803
+  },
+  "Shorts Attack - Sundance Shorts 2024": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Shorts Attack - Sundance Shorts 2026": {
     "poster_url": null,
@@ -1069,7 +1374,8 @@
   },
   "Silent Friend - Drei Leben, drei Epochen, ein Baum": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Sing-Along Version: Vaiana (2026)": {
     "poster_url": null,
@@ -1077,39 +1383,48 @@
   },
   "Sirat": {
     "poster_url": "https://image.tmdb.org/t/p/w185/jWhr3veBAaHplq0uVL8Fl2azxaK.jpg",
-    "rating": 6.9
+    "rating": 6.9,
+    "tmdb_id": 1151272
   },
   "Sneak Preview": {
     "poster_url": "https://image.tmdb.org/t/p/w185/3XARNEq4obOjM7Xy6CpAcoyCiEC.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1220030
   },
   "So klingt das Leben": {
     "poster_url": "https://image.tmdb.org/t/p/w185/oryWZcq1UDfWcQlhxfB57qEqUq4.jpg",
-    "rating": 7.4
+    "rating": 7.4,
+    "tmdb_id": 1437873
   },
   "So klingt das Leben - Rondallas: Viva la vida": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Sonne und Beton": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ddacirup8d3NJqyFvRaBllSFncr.jpg",
-    "rating": 7.0
+    "rating": 7.0,
+    "tmdb_id": 915980
   },
   "Soul Shift": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1722494
   },
   "Spacetime Chronicles": {
     "poster_url": "https://image.tmdb.org/t/p/w185/2SU5Q1VrnMxaqBSD44B1ZH8A6YX.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1568905
   },
   "Spaziergang nach Syrakus": {
     "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1410202
   },
   "Spider-Man: Brand New Day": {
     "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
-    "rating": 8.0
+    "rating": 7.9,
+    "tmdb_id": 969681
   },
   "Spione unter uns": {
     "poster_url": null,
@@ -1117,11 +1432,17 @@
   },
   "Stand by Me - Das Geheimnis eines Sommers": {
     "poster_url": "https://image.tmdb.org/t/p/w185/bMzVQbmpnW5yYEl2coy0CEYZdfR.jpg",
-    "rating": 7.8
+    "rating": 7.8,
+    "tmdb_id": 235
   },
   "Star Wars: The Mandalorian & Grogu": {
     "poster_url": "https://image.tmdb.org/t/p/w185/53otYN4IM56URriIxwaErKKRYQu.jpg",
     "rating": 7.4
+  },
+  "Steckerlfischfiasko": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/uOYnVDF8tfLBmGURJg0j17kgbaI.jpg",
+    "rating": null,
+    "tmdb_id": 1328335
   },
   "Stiller (2025)": {
     "poster_url": null,
@@ -1133,11 +1454,13 @@
   },
   "Stummfilm um Mitternacht: Das Cabinet des Dr. Caligari (1919) (OmenglU); m. Live-Musikbegleitung": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Supergirl (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Support Local Music Night": {
     "poster_url": null,
@@ -1145,15 +1468,23 @@
   },
   "Tenshi no tamago - Angel's Egg": {
     "poster_url": "https://image.tmdb.org/t/p/w185/pV3ms3vXUxq1GKzPBHtZBdDYguY.jpg",
-    "rating": 6.5
+    "rating": 6.5,
+    "tmdb_id": 149720
   },
   "Terminator": {
     "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
-    "rating": 7.7
+    "rating": 7.7,
+    "tmdb_id": 218
   },
   "The Battle for Laikipia": {
     "poster_url": "https://image.tmdb.org/t/p/w185/2jIFzIvplp4Ck33aFCFIZLKdY5Y.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1214542
+  },
+  "The Big Lebowski": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/A5FjOdZ8V8d1eAlBggslIz4qCkn.jpg",
+    "rating": 7.8,
+    "tmdb_id": 115
   },
   "The Death of Robin Hood": {
     "poster_url": "https://image.tmdb.org/t/p/w185/dpcDnatuJlRUldshZkZoqdJDijg.jpg",
@@ -1165,59 +1496,83 @@
   },
   "The Furious (2025) - Huo zhe yan": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "The History of Sound": {
     "poster_url": "https://image.tmdb.org/t/p/w185/5tNr1CySiYQICRsQbWWSSsDiKjn.jpg",
-    "rating": 6.8
+    "rating": 6.8,
+    "tmdb_id": 891584
   },
   "The Invite": {
     "poster_url": "https://image.tmdb.org/t/p/w185/Ama1E90JKhiwwuquPDqcMhg6uYc.jpg",
-    "rating": 7.8
+    "rating": 7.7,
+    "tmdb_id": 950028
   },
   "The Invite (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "The Keeper of the Camphor Tree": {
     "poster_url": "https://image.tmdb.org/t/p/w185/xkpgFVewjqtIRNTFh5yJXnNtFU4.jpg",
-    "rating": 8.0
+    "rating": 8.0,
+    "tmdb_id": 1461201
   },
   "The Love That Remains - Astin sem eftir er: Lieben und Lieben lassen": {
     "poster_url": "https://image.tmdb.org/t/p/w185/3L0mV5qfxRWCh5klCNps18VTepb.jpg",
-    "rating": 6.2
+    "rating": 6.2,
+    "tmdb_id": 1258509
   },
   "The North (2025)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "The Piano Tuner (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "The Short Nights of Berlin": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Therapie für Wikinger - Den sidste viking": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/ruVN5sZbvC7Slq5IoJ6wzxX6L0G.jpg",
+    "rating": 7.3,
+    "tmdb_id": 1295400
   },
   "Thudakkam": {
     "poster_url": "https://image.tmdb.org/t/p/w185/hMS6YwXo1iw6vVZL53YwSf9MgVo.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1506736
   },
   "Titanic (1997/2012)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "To My Sisters": {
     "poster_url": "https://image.tmdb.org/t/p/w185/drIsayy0YTOoKV6zr8Rrgfw2wvE.jpg",
-    "rating": 6.2
+    "rating": 6.2,
+    "tmdb_id": 1679585
   },
   "Tom Sawyer (2011)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Tom und Jerry: Der verlorene Kompass": {
     "poster_url": "https://image.tmdb.org/t/p/w185/k1eed1unEebzMMqrM1TXfi8656f.jpg",
-    "rating": 6.5
+    "rating": 6.5,
+    "tmdb_id": 1497970
+  },
+  "Tommy Tom: Der verschwundene Teddybär": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/tCLfclU4BA1buGssmChCwX5UqMa.jpg",
+    "rating": 5.0,
+    "tmdb_id": 1301059
   },
   "Tonari no Totoro - Mein Nachbar Totoro": {
     "poster_url": "https://image.tmdb.org/t/p/w185/bPBYikmzC8vP1Njdm6iUQv8eTKD.jpg",
@@ -1225,27 +1580,33 @@
   },
   "Toritsukare otoko - The Obsessed": {
     "poster_url": "https://image.tmdb.org/t/p/w185/vzNDv1Ts7GzlFJ2pgcMYev3BDCG.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1484833
   },
   "Toy Story 5": {
     "poster_url": "https://image.tmdb.org/t/p/w185/3UMLeXTv33YNAFh7q0Dy1llmHik.jpg",
-    "rating": 7.4
+    "rating": 7.4,
+    "tmdb_id": 1084244
   },
   "Toy Story 5 - Spielzeug war gestern": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Transit Times": {
     "poster_url": "https://image.tmdb.org/t/p/w185/v89Hdnj97Ju01ZVX5AMeRztiL1M.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1272720
   },
   "Un poeta - A Poet": {
     "poster_url": "https://image.tmdb.org/t/p/w185/spxWUVO8hUZzIpvjGuJNOCuCDjT.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 684030
   },
   "Une sale histoire - Eine schmutzige Geschichte": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Unmadham": {
     "poster_url": "https://image.tmdb.org/t/p/w185/6AIMHBUY6PCHVYASWZ0GcTA9Kph.jpg",
@@ -1253,27 +1614,33 @@
   },
   "Vaiana (2026)": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Vaiana (2026) - Moana": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Vaiana (Live Action)": {
     "poster_url": "https://image.tmdb.org/t/p/w185/x1QRMN8Mgci1Z121zFp3PwcEIwW.jpg",
-    "rating": 5.8
+    "rating": 5.9,
+    "tmdb_id": 1108427
   },
   "Verflucht Normal - I Swear": {
     "poster_url": "https://image.tmdb.org/t/p/w185/2PoZYBlW5BaEUpKWz4phBQLBykX.jpg",
-    "rating": 8.2
+    "rating": 8.2,
+    "tmdb_id": 1317149
   },
   "Virginia Woolf's Night & Day": {
     "poster_url": "https://image.tmdb.org/t/p/w185/pDSuVhatjn1n2Hjja5qdrP19i9K.jpg",
-    "rating": 6.0
+    "rating": 6.0,
+    "tmdb_id": 1291375
   },
   "Vivaldi und ich": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wbwuoLiib5UOUsRUA3eUi2LUm9d.jpg",
-    "rating": 7.0
+    "rating": 7.0,
+    "tmdb_id": 1365683
   },
   "Vom Traum, unsinkbar zu sein (teilw.OmU)": {
     "poster_url": null,
@@ -1281,15 +1648,18 @@
   },
   "Vor dem neuen Tag - Clash by Night": {
     "poster_url": "https://image.tmdb.org/t/p/w185/evm8q8HKZWXIrmV2McRAUqAQFdG.jpg",
-    "rating": 6.7
+    "rating": 6.7,
+    "tmdb_id": 24003
   },
   "Was haben wir gelacht": {
     "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
-    "rating": 7.9
+    "rating": 7.9,
+    "tmdb_id": 1698323
   },
   "Welcome to Dolly's House": {
     "poster_url": "https://image.tmdb.org/t/p/w185/oOhiBetuT5iX2nWdhBlgX5JpIKm.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1473553
   },
   "Wenn die Conny mit dem Peter": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ljcLVz4oaLheBomLm1tAfo7oApF.jpg",
@@ -1297,34 +1667,42 @@
   },
   "Wer ist Helene Schwarz": {
     "poster_url": null,
-    "rating": 7.0
+    "rating": 7.0,
+    "tmdb_id": 556829
   },
   "Wildes Asien": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Wise Women - Fünf Hebammen, fünf Kulturen": {
     "poster_url": "https://image.tmdb.org/t/p/w185/kSdXwwMumjbDHANepqaiqmNaSCp.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1559090
   },
   "Wise Women - Fünf Hebammen, fünf Kulturen (teilw.OmU)": {
     "poster_url": "https://image.tmdb.org/t/p/w185/kSdXwwMumjbDHANepqaiqmNaSCp.jpg",
-    "rating": null
+    "rating": null,
+    "tmdb_id": 1559090
   },
   "Wonders of the Sea": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wjFBCG2gs8so6OFQYVy9Y56yTfA.jpg",
-    "rating": 6.7
+    "rating": 6.7,
+    "tmdb_id": 476070
   },
   "Wuthering Heights - Sturmhöhe": {
     "poster_url": "https://image.tmdb.org/t/p/w185/zuXjNG3o6as2au643nyXcdiKrfB.jpg",
-    "rating": 6.7
+    "rating": 6.7,
+    "tmdb_id": 1316092
   },
   "You, Me & Italy": {
     "poster_url": "https://image.tmdb.org/t/p/w185/5I7c0WtSTztPDSKDMHbOvPrEcmi.jpg",
-    "rating": 7.4
+    "rating": 7.4,
+    "tmdb_id": 1455079
   },
   "You, Me & Italy - You, Me and Tuscany": {
     "poster_url": "https://image.tmdb.org/t/p/w185/5I7c0WtSTztPDSKDMHbOvPrEcmi.jpg",
-    "rating": 7.4
+    "rating": 7.4,
+    "tmdb_id": 1455079
   }
 }
