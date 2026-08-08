@@ -840,6 +840,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/8LxyuMNFYhmDZNBKvZeZe4RDPun.jpg",
     "rating": 6.8
   },
+  "Janoschs' Komm, Wir Finden Einen Schatz": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Jerry Maguire - Spiel des Lebens": {
     "poster_url": "https://image.tmdb.org/t/p/w185/nUoPgpMxm9XgLF4LD8FwN8aqrSd.jpg",
     "rating": 7.0,
@@ -857,7 +862,8 @@
   },
   "Khali Balak Min Nafsak": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Kids Shorts": {
     "poster_url": null,

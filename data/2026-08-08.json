@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "generated_at": "2026-08-07T16:37:27",
+  "generated_at": "2026-08-08T08:08:32",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -7160,6 +7160,374 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/lQUyowBrDjbgPNMqMd34CyWSlPP.jpg",
       "rating": 6.0,
       "tmdb_id": 1722720
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Spider-Man: Brand New Day",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "10:00",
+        "10:25",
+        "10:30",
+        "12:20",
+        "14:00",
+        "17:00",
+        "19:15",
+        "20:10",
+        "20:30",
+        "20:50",
+        "21:00",
+        "22:30",
+        "22:45",
+        "23:00"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 7.9,
+      "tmdb_id": 969681
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Spider-Man: Brand New Day",
+      "format_tags": [],
+      "times": [
+        "10:10",
+        "11:00",
+        "11:30",
+        "12:40",
+        "13:50",
+        "14:00",
+        "14:20",
+        "14:30",
+        "16:00",
+        "16:10",
+        "17:30",
+        "17:45",
+        "17:50",
+        "19:20",
+        "19:30",
+        "20:20",
+        "21:15",
+        "22:40"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 7.9,
+      "tmdb_id": 969681
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Die Odyssee",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "11:15",
+        "12:30",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:10",
+        "16:30",
+        "18:40",
+        "20:00",
+        "22:00"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
+      "rating": 8.0,
+      "tmdb_id": 1368337
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Die Odyssee",
+      "format_tags": [],
+      "times": [
+        "14:30",
+        "16:20",
+        "18:15",
+        "19:50",
+        "20:20",
+        "20:30"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
+      "rating": 8.0,
+      "tmdb_id": 1368337
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Die Odyssee",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "22:30"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
+      "rating": 8.0,
+      "tmdb_id": 1368337
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Paw Patrol: Dino Film",
+      "format_tags": [],
+      "times": [
+        "10:30",
+        "12:00",
+        "14:30",
+        "15:30",
+        "17:20"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Paw Patrol: Dino Film",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "11:10"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Toy Story 5",
+      "format_tags": [],
+      "times": [
+        "10:00",
+        "13:30",
+        "17:40"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/3UMLeXTv33YNAFh7q0Dy1llmHik.jpg",
+      "rating": 7.4,
+      "tmdb_id": 1084244
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Toy Story 5",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "11:30",
+        "14:45"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/3UMLeXTv33YNAFh7q0Dy1llmHik.jpg",
+      "rating": 7.4,
+      "tmdb_id": 1084244
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Minions & Monster",
+      "format_tags": [],
+      "times": [
+        "11:15",
+        "11:30",
+        "13:50",
+        "17:00"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
+      "rating": 6.4,
+      "tmdb_id": 1315772
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Ice Cream Man",
+      "format_tags": [],
+      "times": [
+        "19:30",
+        "22:10"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/o04cSyYB1igvJm9KsnvEAH9Jynb.jpg",
+      "rating": 5.9,
+      "tmdb_id": 1477712
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "The Invite",
+      "format_tags": [],
+      "times": [
+        "14:30",
+        "17:20"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/Ama1E90JKhiwwuquPDqcMhg6uYc.jpg",
+      "rating": 7.7,
+      "tmdb_id": 950028
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "The Invite",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "20:00"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/Ama1E90JKhiwwuquPDqcMhg6uYc.jpg",
+      "rating": 7.7,
+      "tmdb_id": 950028
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Vaiana (Live Action)",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "11:30"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/x1QRMN8Mgci1Z121zFp3PwcEIwW.jpg",
+      "rating": 5.9,
+      "tmdb_id": 1108427
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Vaiana (Live Action)",
+      "format_tags": [],
+      "times": [
+        "11:40",
+        "13:40",
+        "17:10"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/x1QRMN8Mgci1Z121zFp3PwcEIwW.jpg",
+      "rating": 5.9,
+      "tmdb_id": 1108427
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Obsession - Du Sollst Mich Lieben",
+      "format_tags": [],
+      "times": [
+        "19:40",
+        "20:10",
+        "23:00"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2,
+      "tmdb_id": 1339713
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Backrooms - Everything Must Go (Extended Version)",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "22:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "You, Me & Italy",
+      "format_tags": [],
+      "times": [
+        "17:10"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/5I7c0WtSTztPDSKDMHbOvPrEcmi.jpg",
+      "rating": 7.4,
+      "tmdb_id": 1455079
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Bitteres Fest",
+      "format_tags": [],
+      "times": [
+        "16:30"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.3,
+      "tmdb_id": 1088548
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Ateez : Light The Way In Cinemas",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "13:30"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/lQUyowBrDjbgPNMqMd34CyWSlPP.jpg",
+      "rating": 6.0,
+      "tmdb_id": 1722720
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Janoschs' Komm, Wir Finden Einen Schatz",
+      "format_tags": [],
+      "times": [
+        "10:40"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Khali Balak Min Nafsak",
+      "format_tags": [],
+      "times": [
+        "17:50"
+      ],
+      "film_url": ""
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Thudakkam",
+      "format_tags": [],
+      "times": [
+        "11:15"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/hMS6YwXo1iw6vVZL53YwSf9MgVo.jpg",
+      "rating": null,
+      "tmdb_id": 1506736
     }
   ]
 }
