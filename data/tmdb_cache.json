@@ -1715,5 +1715,10 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/5I7c0WtSTztPDSKDMHbOvPrEcmi.jpg",
     "rating": 7.4,
     "tmdb_id": 1455079
+  },
+  "Zeige Alle Filmzeiten": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   }
 }
