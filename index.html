@@ -892,29 +892,25 @@ function ratingSortValue(rating){
   return (typeof rating === "number") ? rating : -Infinity;
 }
 
-// By time's sort row gets the exact same treatment as By film / By
-// cinema's below: once a postcode exists, distance isn't a "preference"
-// any more, it's just correct — so "Best of both" (already built to
-// balance soonest and nearest) applies automatically and the whole row
-// disappears, rather than requiring a click into "By time" specifically
-// to discover Nearest/Best of both while By cinema silently auto-sorts
-// with no equivalent chip at all. Clearing the postcode falls back to
-// the default chronological order and brings the row back.
+// Postcode-dependent sort options in By time (Nearest / Best of both)
+// only make sense once we actually have somewhere to measure distance
+// from — rather than showing them greyed-out all the time, they're not
+// shown at all until a valid postcode is entered, at which point they
+// appear right away as real, clickable choices (the actual switch to a
+// postcode-aware default happens in updatePostcode(), the moment the
+// postcode first becomes valid — this function just keeps their
+// visibility in sync). (By film / By cinema's own postcode-driven
+// behaviour is handled separately, in updateGroupSortForPostcode —
+// there, distance is so obviously the better default that it's applied
+// automatically instead of being offered as a choice; see that function
+// for why that's different from here, where Soonest/Nearest/Best of
+// both remain genuinely different, useful choices even with a postcode.)
 function updatePostcodeDependentChips(){
-  const container = document.getElementById('time-sort-chips');
   const isTime = activeView === 'time';
   const has = userPostcodeCoord !== null;
   document.querySelector('#time-sort-chips [data-sort="nearest"]').style.display = has ? '' : 'none';
   document.querySelector('#time-sort-chips [data-sort="bestofboth"]').style.display = has ? '' : 'none';
-  container.style.display = (isTime && !has) ? 'flex' : 'none';
-
-  if (has){
-    timeSortMode = 'bestofboth';
-  } else if (timeSortMode === 'nearest' || timeSortMode === 'bestofboth'){
-    timeSortMode = 'soonest';
-    document.querySelectorAll('#time-sort-chips .chip').forEach(c => c.classList.remove('active'));
-    document.querySelector('#time-sort-chips [data-sort="soonest"]').classList.add('active');
-  }
+  document.getElementById('time-sort-chips').style.display = isTime ? 'flex' : 'none';
   updateSoonestChipVisibility();
 }
 
@@ -970,16 +966,30 @@ function updateGroupSortForPostcode(){
 function updatePostcode(){
   const raw = document.getElementById('postcode').value.trim();
   const hint = document.getElementById('distance-hint');
+  const hadPostcode = userPostcodeCoord !== null;
   if (/^\d{5}$/.test(raw) && BERLIN_PLZ_COORDS[raw]){
     userPostcodeCoord = BERLIN_PLZ_COORDS[raw];
     hint.textContent = '';
+    // The moment a postcode first becomes valid, default By time's sort
+    // straight to "Best of both" (it already balances soonest and
+    // nearest) rather than leaving it on plain chronological order and
+    // waiting for the user to notice and click Nearest/Best of both
+    // themselves — but only if they haven't already picked something
+    // else, so a deliberate choice never gets silently overridden.
+    if (!hadPostcode && timeSortMode === 'soonest'){
+      timeSortMode = 'bestofboth';
+      document.querySelectorAll('#time-sort-chips .chip').forEach(c => c.classList.remove('active'));
+      document.querySelector('#time-sort-chips [data-sort="bestofboth"]').classList.add('active');
+    }
   } else {
     userPostcodeCoord = null;
+    if (timeSortMode === 'nearest' || timeSortMode === 'bestofboth'){
+      timeSortMode = 'soonest';
+      document.querySelectorAll('#time-sort-chips .chip').forEach(c => c.classList.remove('active'));
+      document.querySelector('#time-sort-chips [data-sort="soonest"]').classList.add('active');
+    }
     hint.textContent = raw ? 'Postcode not recognized (Berlin postcodes only)' : '';
   }
-  // updatePostcodeDependentChips() itself now handles resetting
-  // timeSortMode away from nearest/bestofboth when the postcode is
-  // cleared or invalid — see that function.
   updatePostcodeDependentChips();
   updateGroupSortForPostcode();
   updateRatingSortAvailability();
