@@ -9,7 +9,7 @@
 <link rel="apple-touch-icon" href="icon-192.png">
 <meta name="theme-color" content="#121319">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="Kino Berlin">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -36,6 +36,12 @@
     color:var(--text);
     font-family:var(--sans);
     -webkit-font-smoothing:antialiased;
+    /* Safety net: if any single row ever overflows its width again (like
+       the reset-row bug this fixes), this stops it from silently
+       widening the entire page and dragging every other row's visible
+       position sideways with it — worst case, just that one element
+       clips, instead of the whole layout shifting. */
+    overflow-x:hidden;
   }
   .wrap{max-width:920px;margin:0 auto;padding:28px 20px 80px;}
 
@@ -77,7 +83,12 @@
   }
 
   /* ---- Reset / copy-link buttons ---- */
-  .reset-row{ display:flex; justify-content:flex-end; gap:8px; margin-bottom:14px; }
+  /* flex-wrap is the key fix here: on a narrow phone screen, "Copy link"
+     and "Reset filters" together are wider than the row, and without
+     this they'd overflow off the right edge instead of dropping to a
+     second line — which was also silently widening the whole page and
+     making other unrelated rows further down look clipped too. */
+  .reset-row{ display:flex; justify-content:flex-end; flex-wrap:wrap; gap:8px; margin-bottom:14px; }
   .reset-btn{
     font-family:var(--mono);
     font-size:11.5px;
