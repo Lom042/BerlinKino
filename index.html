@@ -2,7 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- maximum-scale=1, user-scalable=no rules out the page ever being
+     pinch/double-tap-zoomed slightly out of alignment on a phone (which
+     would clip content at the screen edge in a way no CSS fix can
+     touch); viewport-fit=cover + the safe-area padding below is the
+     standard fix for a standalone home-screen app's content potentially
+     rendering under the iOS status bar. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
 <title>Berlin Cinema Programme</title>
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon-192.png">
@@ -43,7 +49,12 @@
        clips, instead of the whole layout shifting. */
     overflow-x:hidden;
   }
-  .wrap{max-width:920px;margin:0 auto;padding:28px 20px 80px;}
+  /* The extra env(safe-area-inset-top) reserves space for the iOS status
+     bar in standalone app mode — belt-and-braces alongside the
+     apple-mobile-web-app-status-bar-style meta tag, since that setting
+     can need the home-screen icon removed and re-added to fully take
+     effect, whereas this applies immediately on next load either way. */
+  .wrap{max-width:920px;margin:0 auto;padding:calc(28px + env(safe-area-inset-top)) 20px 80px;}
 
   /* ---- Header : departure-board header plate ---- */
   header{
