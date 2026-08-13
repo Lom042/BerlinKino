@@ -9,6 +9,11 @@
     "rating": 6.0,
     "tmdb_id": 2217
   },
+  "10 Dinge, die ich an Dir hasse - 10 Things I Hate About You": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/eKGvcglPR7OBc4CZ96ohrTDzTEE.jpg",
+    "rating": 7.6,
+    "tmdb_id": 4951
+  },
   "2026 Cortis Tour [Put Your Phone Down] in LA: Live Viewing": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wL2JQiKVhpyVZGdYnJnp86hQ6If.jpg",
     "rating": null,
@@ -81,10 +86,20 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Alexander (2004)": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/zPO6kRVd17xlQH6InNPYQMbe8yq.jpg",
+    "rating": null,
+    "tmdb_id": 1430934
+  },
   "Alles anders machen. Das kurze Leben der Ost-Taz": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": 1142218
+  },
+  "Alles steht Kopf": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/3VIIECdikqFTMCkcZey8gt1xegx.jpg",
+    "rating": 7.9,
+    "tmdb_id": 150540
   },
   "AlpenFilmFestival": {
     "poster_url": "https://image.tmdb.org/t/p/w185/s76cJCtQM3f6pBVjiWy9PF2uAdx.jpg",
@@ -123,6 +138,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/bq8NxOMcLPyE277LVQDCYEgHGR2.jpg",
     "rating": 7.5,
     "tmdb_id": 804370
+  },
+  "Arizona Dream": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/jNhRjc1Q9l6tFo5aHdl8UZJPdKy.jpg",
+    "rating": 7.1,
+    "tmdb_id": 11044
   },
   "Arrietty: Die wundersame Welt der Borger - Kari-gurashi no Arrietty: The Secret World of Arrietty": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ziPeyZ4yVrBJuvdofq1J7YCDr7U.jpg",
@@ -528,6 +548,11 @@
     "rating": 4.5,
     "tmdb_id": 1324241
   },
+  "Der Soldat James Ryan - Saving Private Ryan": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/g0QGqHG2fjaIyWLtKWMqleGD27o.jpg",
+    "rating": 8.2,
+    "tmdb_id": 857
+  },
   "Der Sommer, als ich fliegen lernte (2023)": {
     "poster_url": null,
     "rating": null
@@ -558,6 +583,11 @@
     "tmdb_id": 1140521
   },
   "Der alte deutsche Film: Die Abenteuer des Till Ulenspiegel": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Der alte deutsche Film: Fünf von der Jazzband": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -692,6 +722,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Die Wilden Kerle III": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Die Wilden Kerle IV - Der Angriff der Silberlichten": {
     "poster_url": null,
     "rating": null,
@@ -799,6 +834,11 @@
     "rating": 7.2,
     "tmdb_id": 47576
   },
+  "Ernest & Celestine: Die Reise ins Land der Musik": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/ki16W2T2E4e6cMrG75n2whefEl8.jpg",
+    "rating": 7.2,
+    "tmdb_id": 947219
+  },
   "Etwas ganz Besonderes": {
     "poster_url": "https://image.tmdb.org/t/p/w185/yInkf546G1I63g4Im3XvFCnmxsf.jpg",
     "rating": 6.3,
@@ -828,6 +868,16 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/1MQlTLck75wCDi7bKFEJpqJkjwl.jpg",
     "rating": 7.0,
     "tmdb_id": 1408208
+  },
+  "Extrawurst": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/eLmcdb6MsKUVi88esD41cCS2KY7.jpg",
+    "rating": 6.5,
+    "tmdb_id": 1427838
+  },
+  "Familie Brasch": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/jaFnpbrTzE8VqsxN7CYAJ996Mrz.jpg",
+    "rating": 6.2,
+    "tmdb_id": 530046
   },
   "Father Mother Sister Brother": {
     "poster_url": "https://image.tmdb.org/t/p/w185/8xxzEL5bYhuCAqH6lWl7RPFzl3m.jpg",
@@ -882,6 +932,11 @@
     "rating": null
   },
   "Forbidden Fruits (2026)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Frauen am Bauhaus Dessau": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -1113,6 +1168,11 @@
     "rating": 6.5,
     "tmdb_id": 1674837
   },
+  "Insignificance - Die verflixte Nacht": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/bTgdIGfrgHI4IRecHL2X6y18VNs.jpg",
+    "rating": 6.4,
+    "tmdb_id": 42035
+  },
   "International Ocean Film Tour XII": {
     "poster_url": null,
     "rating": null
@@ -1215,6 +1275,11 @@
     "poster_url": null,
     "rating": null
   },
+  "Kinderwagenkino: Glennkill: Ein Schafskrimi - The Sheep Detectives": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Kinderwagenkino: Ingeborg Bachmann - Jemand, der einmal ich war": {
     "poster_url": null,
     "rating": null,
@@ -1226,6 +1291,11 @@
     "tmdb_id": null
   },
   "Kinderwagenkino: Sunny Dancer": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Kinderwagenkino: The Eyes of Others - Gli occhi degli altri": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -1247,6 +1317,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Kurenai no buta - Porco rosso": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/lr1xvJLA0jJxj3FjIEDdEYRRif1.jpg",
+    "rating": 7.8,
+    "tmdb_id": 11621
   },
   "La Boum - Die Fete": {
     "poster_url": "https://image.tmdb.org/t/p/w185/5FC0Js9guGK8MPxDhWcxvSiv0Iw.jpg",
@@ -1301,6 +1376,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/eeLve6g5O99vIPXhhAxY6QE2v6r.jpg",
     "rating": 7.4,
     "tmdb_id": 87827
+  },
+  "Lilly und die Kängurus": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/dljamTLg1aRwcO8kTPWwJUgsrco.jpg",
+    "rating": 6.4,
+    "tmdb_id": 1214028
   },
   "Lilo & Stitch (2025)": {
     "poster_url": null,
@@ -1546,6 +1626,11 @@
     "poster_url": null,
     "rating": null
   },
+  "Nordstream - Die Sprengung; m. Gespräch": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Nosferatu - Eine Symphonie des Grauens (OmenglU); m. Live-Musikbegleitung": {
     "poster_url": "https://image.tmdb.org/t/p/w185/zEzQTngP7F4qVmLDCWg5Hby6cgX.jpg",
     "rating": 7.7,
@@ -1581,6 +1666,11 @@
     "rating": 7.1,
     "tmdb_id": 39183
   },
+  "Open Screening": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Open-Air-Kino: Lady Bird": {
     "poster_url": null,
     "rating": null,
@@ -1609,6 +1699,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/NsZkXA2O6mF2wf0I5bwUlGDk12.jpg",
     "rating": 6.5,
     "tmdb_id": 33710
+  },
+  "Paris Murder Mystery": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/gzHDNvKTyI1TjyXrX8LozvJYiak.jpg",
+    "rating": 5.5,
+    "tmdb_id": 1290432
   },
   "Paris Murder Mystery - Vie privee: A Private Life": {
     "poster_url": "https://image.tmdb.org/t/p/w185/gzHDNvKTyI1TjyXrX8LozvJYiak.jpg",
@@ -1673,6 +1768,11 @@
   "Ponyo: Das große Abenteuer am Meer - Gake no ue no Ponyo": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wOQh7nZxNC6cEwrm9tP230MoVLz.jpg",
     "rating": 7.8
+  },
+  "Popstar auf Umwegen - The Lizzie McGuire Movie": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/uNHPTs5nMdtahcdC5X0jvDXfisn.jpg",
+    "rating": 6.3,
+    "tmdb_id": 18736
   },
   "Pornfilmfestival: Pornfilmfestival presents: A Hot Short Film Night": {
     "poster_url": null,
@@ -1765,6 +1865,11 @@
     "tmdb_id": 1290937
   },
   "Qualverwandt; m. Gast": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "QueerFilmNacht: Strange River": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -1899,7 +2004,8 @@
   },
   "Shorts Attack - Sundance Shorts 2026": {
     "poster_url": null,
-    "rating": null
+    "rating": null,
+    "tmdb_id": null
   },
   "Silent Flood": {
     "poster_url": "https://image.tmdb.org/t/p/w185/uNUcBklyZD4UKMMeCUK9EHybrOF.jpg",
@@ -2060,6 +2166,11 @@
     "poster_url": null,
     "rating": null
   },
+  "Surf Film Nacht: GUTS: A Female Expedition Through Africa + Her Wave": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Take a Picture - Die Fotografin Sibylle Bergemann / Alles anders machen. Das kurze Leben der Ost-Taz": {
     "poster_url": null,
     "rating": null,
@@ -2099,6 +2210,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "The End Of Oak Street": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/A3IGLbWTw2CzMH2VwwzD9jciu5w.jpg",
+    "rating": 7.0,
+    "tmdb_id": 1101383
   },
   "The End of Oak Street": {
     "poster_url": "https://image.tmdb.org/t/p/w185/A3IGLbWTw2CzMH2VwwzD9jciu5w.jpg",
@@ -2291,6 +2407,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/x1QRMN8Mgci1Z121zFp3PwcEIwW.jpg",
     "rating": 5.9,
     "tmdb_id": 1108427
+  },
+  "Vaterland (2026)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Verflucht Normal": {
     "poster_url": "https://image.tmdb.org/t/p/w185/2PoZYBlW5BaEUpKWz4phBQLBykX.jpg",
