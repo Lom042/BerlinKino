@@ -183,6 +183,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Awarapan 2": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/lD3J6zTbWkVtPYuSUuuBwpuKMCO.jpg",
+    "rating": null,
+    "tmdb_id": 1444466
+  },
   "Awarapan II": {
     "poster_url": null,
     "rating": null,
@@ -1549,6 +1554,11 @@
     "rating": 5.9,
     "tmdb_id": 29561
   },
+  "Mullewapp - Eine Schöne Schweinerei": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/1hPsl5w9mH9Kf4vtxLO5HsrOnRf.jpg",
+    "rating": 6.7,
+    "tmdb_id": 387587
+  },
   "Mullewapp - Eine schöne Schweinerei": {
     "poster_url": "https://image.tmdb.org/t/p/w185/1hPsl5w9mH9Kf4vtxLO5HsrOnRf.jpg",
     "rating": 6.7,
@@ -2444,6 +2454,11 @@
     "tmdb_id": 1408162
   },
   "Viswanath & Sons": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Viswanathan & Sons": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
