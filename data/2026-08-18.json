@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "generated_at": "2026-08-18T07:59:53",
+  "generated_at": "2026-08-18T15:18:04",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -6972,14 +6972,6 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "11:30",
-        "13:00",
-        "14:00",
-        "14:20",
-        "14:40",
-        "16:10",
-        "16:15",
-        "16:50",
         "17:30",
         "17:45",
         "20:30",
@@ -7001,9 +6993,6 @@
         "OV"
       ],
       "times": [
-        "11:40",
-        "11:45",
-        "14:15",
         "19:00",
         "19:30",
         "21:00",
@@ -7019,31 +7008,10 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Die Odyssee",
-      "format_tags": [],
-      "times": [
-        "11:30",
-        "15:30",
-        "17:00",
-        "19:50"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
-      "rating": 8.0,
-      "tmdb_id": 1368337
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Die Odyssee",
       "format_tags": [
         "OV"
       ],
       "times": [
-        "11:30",
-        "11:45",
-        "12:50",
-        "14:00",
-        "15:10",
         "18:45",
         "20:20",
         "22:30"
@@ -7056,19 +7024,15 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
+      "film": "Die Odyssee",
       "format_tags": [],
       "times": [
-        "11:30",
-        "11:50",
-        "12:00",
-        "13:50",
-        "15:30"
+        "19:50"
       ],
       "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
+      "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
+      "rating": 8.0,
+      "tmdb_id": 1368337
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -7076,26 +7040,7 @@
       "film": "Toy Story 5",
       "format_tags": [],
       "times": [
-        "11:30",
-        "14:20",
-        "14:30",
         "17:45"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/3UMLeXTv33YNAFh7q0Dy1llmHik.jpg",
-      "rating": 7.4,
-      "tmdb_id": 1084244
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Toy Story 5",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "11:45",
-        "14:45"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/3UMLeXTv33YNAFh7q0Dy1llmHik.jpg",
@@ -7108,9 +7053,6 @@
       "film": "Minions & Monster",
       "format_tags": [],
       "times": [
-        "11:30",
-        "11:40",
-        "14:20",
         "17:40"
       ],
       "film_url": "",
@@ -7122,13 +7064,12 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "The End Of Oak Street",
-      "format_tags": [],
+      "format_tags": [
+        "OV"
+      ],
       "times": [
-        "11:30",
-        "14:10",
-        "16:55",
-        "20:10",
-        "22:30"
+        "17:50",
+        "19:30"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/A3IGLbWTw2CzMH2VwwzD9jciu5w.jpg",
@@ -7139,12 +7080,10 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "The End Of Oak Street",
-      "format_tags": [
-        "OV"
-      ],
+      "format_tags": [],
       "times": [
-        "17:50",
-        "19:30"
+        "20:10",
+        "22:30"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/A3IGLbWTw2CzMH2VwwzD9jciu5w.jpg",
@@ -7180,24 +7119,8 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Vaiana (Live Action)",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "11:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/x1QRMN8Mgci1Z121zFp3PwcEIwW.jpg",
-      "rating": 5.9,
-      "tmdb_id": 1108427
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Vaiana (Live Action)",
       "format_tags": [],
       "times": [
-        "14:50",
         "17:10"
       ],
       "film_url": "",
@@ -7253,7 +7176,6 @@
       "film": "Chihiros Reise Ins Zauberland - 25Th Anniversary",
       "format_tags": [],
       "times": [
-        "17:00",
         "19:40"
       ],
       "film_url": ""
