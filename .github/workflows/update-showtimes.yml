@@ -13,6 +13,13 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    # This used to be able to hang forever (well, until GitHub's own 6-hour
+    # hard cap) if any one scraper got stuck — e.g. CinemaxX's site loading
+    # oddly under Playwright with no timeout of its own. That silently
+    # blocked every single run from ever reaching the "commit" step, which
+    # is why the site can stop updating for days without any obvious
+    # error. 20 minutes is generous for what's normally a ~1-2 minute job.
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
@@ -25,7 +32,17 @@ jobs:
 
       - run: pip install playwright
       - run: playwright install --with-deps chromium
-      - run: python scraper_cinemaxx.py
+      # continue-on-error + its own short timeout: if CinemaxX's site ever
+      # hangs or breaks again, this step gives up after 5 minutes instead
+      # of stalling the whole run for 6 hours — and, importantly, the
+      # workflow still carries on to commit whatever scraper.py (the main
+      # data source, covering the vast majority of cinemas) already
+      # produced, rather than losing that day's entire update over one
+      # secondary scraper misbehaving.
+      - name: Run CinemaxX scraper
+        timeout-minutes: 5
+        continue-on-error: true
+        run: python scraper_cinemaxx.py
 
       # Yorck scraper is temporarily disabled — its title-extraction logic
       # is producing bad data (grabbing promotional text instead of real
