@@ -226,6 +226,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Augenblick der Wahrheit - Il momento della verita": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/u92AuLKpYLQiB8hIncTxXt42sw6.jpg",
+    "rating": 7.1,
+    "tmdb_id": 86785
+  },
   "Aus dem Osten - D'est": {
     "poster_url": null,
     "rating": null
@@ -313,6 +318,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/rZPu64VDDftnU7NU1d2wrWuhOHm.jpg",
     "rating": null,
     "tmdb_id": 1508168
+  },
+  "Bewegte Bilder & Bewegende Bilder: Best of FAB Berlin": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Bibi Blocksberg - Das große Hexentreffen": {
     "poster_url": "https://image.tmdb.org/t/p/w185/oRvcCizzdNrKu4GiSURL7eOGaGx.jpg",
@@ -490,6 +500,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Classic Sneak": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Cold War: Der Breitengrad der Liebe - Zimna wojna": {
     "poster_url": "https://image.tmdb.org/t/p/w185/bAos6phpkFPod9M6ok6PPvlrdxp.jpg",
     "rating": 7.4,
@@ -529,6 +544,11 @@
     "tmdb_id": null
   },
   "Creepy Crypt: Sie leben - They Live": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Crossing Borders with Camera Forward": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -715,6 +735,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Der alte deutsche Film: Eine Frau, die weiß, was sie will": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Der alte deutsche Film: Fünf von der Jazzband": {
     "poster_url": null,
     "rating": null,
@@ -764,6 +789,11 @@
     "rating": 7.0,
     "tmdb_id": 1190371
   },
+  "Die Auslöschung (2013)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Die Camino-Therapie: Finde deinen Weg": {
     "poster_url": "https://image.tmdb.org/t/p/w185/gLJDQ0kO8JQUn2hvq7bqUeNLrCA.jpg",
     "rating": 6.9,
@@ -780,6 +810,11 @@
     "tmdb_id": null
   },
   "Die Frau mit dem Mikroskop - Filme von Herta Jülich": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Die Galgentoni (EngZt)": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -809,7 +844,8 @@
   },
   "Die Legende von Paul und Paula": {
     "poster_url": "https://image.tmdb.org/t/p/w185/9LLzDz6QfmDyfiittN0PdQMhgwz.jpg",
-    "rating": 5.8
+    "rating": 5.8,
+    "tmdb_id": 2232
   },
   "Die Mama und die Hure - La maman et la putain": {
     "poster_url": "https://image.tmdb.org/t/p/w185/9L1QhTQtjJWYjjsJXCQcBqwkl6L.jpg",
@@ -1164,6 +1200,11 @@
     "rating": 7.5,
     "tmdb_id": 298738
   },
+  "Für immer 16": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/A6LMFqK16ny1apd739Ij9Bq3zii.jpg",
+    "rating": null,
+    "tmdb_id": 1700885
+  },
   "G.O.A.T. - Bock auf große Sprünge": {
     "poster_url": "https://image.tmdb.org/t/p/w185/gGPGkuq8chdbOdiuf1ipkXiRQL1.jpg",
     "rating": 8.1,
@@ -1193,6 +1234,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/ad2wSfaqj2ETGXV2SJLPSPEUZfT.jpg",
     "rating": 7.9,
     "tmdb_id": 9323
+  },
+  "Gier (1924) - Greed (OV); m. Live-Musikbegleitung": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Girls Like Girls": {
     "poster_url": "https://image.tmdb.org/t/p/w185/gbP30EOIwUW0HZY9BwQMTRrk8uX.jpg",
@@ -1426,6 +1472,11 @@
     "rating": 6.5,
     "tmdb_id": 1674837
   },
+  "Insidious: Out Of The Further": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
+    "rating": 5.8,
+    "tmdb_id": 1291595
+  },
   "Insidious: Out of the Further": {
     "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
     "rating": 5.7,
@@ -1568,6 +1619,11 @@
     "poster_url": null,
     "rating": null
   },
+  "Kinderwagenkino: Cheri, ich komme!: Die Erfindung der Lust - Pour le plaisir": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Kinderwagenkino: Glennkill: Ein Schafskrimi - The Sheep Detectives": {
     "poster_url": null,
     "rating": null,
@@ -1579,6 +1635,11 @@
     "tmdb_id": null
   },
   "Kinderwagenkino: Lebensansichten eines Huhns - Kota: Hen": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Kinderwagenkino: Spaziergang nach Syrakus": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -1615,6 +1676,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/ywi5027zinahCeysCvgkhJktWPQ.jpg",
     "rating": 6.5,
     "tmdb_id": 47393
+  },
+  "Kundschafter des Friedens II": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Kurenai no buta - Porco rosso": {
     "poster_url": "https://image.tmdb.org/t/p/w185/lr1xvJLA0jJxj3FjIEDdEYRRif1.jpg",
@@ -1660,6 +1726,11 @@
     "rating": 7.5,
     "tmdb_id": 1382513
   },
+  "Lebensfilm - 85 Jahre Leben, 60 Jahre Film": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Lee Cronin's The Mummy": {
     "poster_url": "https://image.tmdb.org/t/p/w185/u3NeLsif2Zn6KKALxfc4f6rA11n.jpg",
     "rating": 7.9,
@@ -1693,6 +1764,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/ptXXCmUCwFdDWjFtZsa2eqxdOu4.jpg",
     "rating": 8.0,
     "tmdb_id": 1330272
+  },
+  "Lola rennt": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/oq2T6V8EYiYNVmEuqPu9XZT6b5E.jpg",
+    "rating": 7.3,
+    "tmdb_id": 104
   },
   "Lost Highway": {
     "poster_url": "https://image.tmdb.org/t/p/w185/tJU274qzogcoXhZWTH4TcSFwBs5.jpg",
@@ -1892,6 +1968,11 @@
     "rating": 5.4,
     "tmdb_id": 124198
   },
+  "Monsieur Robert kennt kein Pardon": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/coGPvuURqVqXCb4gTpULGuaiFay.jpg",
+    "rating": 5.1,
+    "tmdb_id": 1005685
+  },
   "Moulin Rouge (2001)": {
     "poster_url": null,
     "rating": null,
@@ -2059,6 +2140,11 @@
     "rating": 7.3,
     "tmdb_id": 1054867
   },
+  "One Night Only (2026)": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/oJqFVn5Ejm4C1gig52AiR06NsBH.jpg",
+    "rating": 7.0,
+    "tmdb_id": 1686940
+  },
   "Open Screening": {
     "poster_url": null,
     "rating": null,
@@ -2210,6 +2296,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Preview, Preview: Vaterland (2026)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Preview: A Sad and Beautiful World (OmU); m. Gast": {
     "poster_url": null,
     "rating": null,
@@ -2251,6 +2342,11 @@
     "tmdb_id": null
   },
   "Preview: No Good Men": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Preview: One Night Only (2026)": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -2823,6 +2919,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "The Shorts Show: Movie Nerds Monthly Screening": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Therapie für Wikinger - Den sidste viking": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ruVN5sZbvC7Slq5IoJ6wzxX6L0G.jpg",
     "rating": 7.3,
@@ -2877,6 +2978,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/vzNDv1Ts7GzlFJ2pgcMYev3BDCG.jpg",
     "rating": null,
     "tmdb_id": 1484833
+  },
+  "Toxic: A Fairy Tale for Grown-Ups": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/tZ8eSBXbza96vzCYeVTG9RBJ78E.jpg",
+    "rating": null,
+    "tmdb_id": 1213243
   },
   "Toy Story 5": {
     "poster_url": "https://image.tmdb.org/t/p/w185/3UMLeXTv33YNAFh7q0Dy1llmHik.jpg",
@@ -3129,6 +3235,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/zuXjNG3o6as2au643nyXcdiKrfB.jpg",
     "rating": 6.7,
     "tmdb_id": 1316092
+  },
+  "Y tu mama tambien - Lust for Life": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/ejcn704nKthyZIdhiWiQ5Z3xkmY.jpg",
+    "rating": 7.4,
+    "tmdb_id": 1391
   },
   "Yi Yi - A One and a Two": {
     "poster_url": "https://image.tmdb.org/t/p/w185/mlgapXNnBuApMzBc2jVKZQvuFMY.jpg",
