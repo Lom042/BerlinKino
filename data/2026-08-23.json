@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "generated_at": "2026-08-23T07:49:17",
+  "generated_at": "2026-08-23T14:56:16",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -8082,15 +8082,6 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "10:00",
-        "11:30",
-        "12:45",
-        "13:00",
-        "13:20",
-        "14:20",
-        "14:30",
-        "16:10",
-        "16:15",
         "16:40",
         "18:00",
         "19:30",
@@ -8114,8 +8105,6 @@
         "OV"
       ],
       "times": [
-        "11:00",
-        "15:30",
         "19:30",
         "19:45",
         "22:20",
@@ -8134,9 +8123,6 @@
         "OV"
       ],
       "times": [
-        "11:00",
-        "12:00",
-        "15:30",
         "16:45",
         "20:20",
         "22:00"
@@ -8152,9 +8138,6 @@
       "film": "Die Odyssee",
       "format_tags": [],
       "times": [
-        "11:30",
-        "14:30",
-        "16:00",
         "18:15",
         "20:30"
       ],
@@ -8162,25 +8145,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
       "rating": 8.0,
       "tmdb_id": 1368337
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Insidious: Out Of The Further",
-      "format_tags": [],
-      "times": [
-        "10:10",
-        "15:15",
-        "19:00",
-        "19:40",
-        "20:00",
-        "22:30",
-        "22:45"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
-      "rating": 5.8,
-      "tmdb_id": 1291595
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -8202,46 +8166,19 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
+      "film": "Insidious: Out Of The Further",
       "format_tags": [],
       "times": [
-        "10:15",
-        "12:45",
-        "15:15"
+        "19:00",
+        "19:40",
+        "20:00",
+        "22:30",
+        "22:45"
       ],
       "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Marsupilami",
-      "format_tags": [],
-      "times": [
-        "14:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
-      "rating": 6.3,
-      "tmdb_id": 1145899
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Toy Story 5",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "11:45",
-        "14:45"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/3UMLeXTv33YNAFh7q0Dy1llmHik.jpg",
-      "rating": 7.4,
-      "tmdb_id": 1084244
+      "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
+      "rating": 5.8,
+      "tmdb_id": 1291595
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -8249,8 +8186,6 @@
       "film": "Toy Story 5",
       "format_tags": [],
       "times": [
-        "11:45",
-        "14:20",
         "17:20",
         "17:50"
       ],
@@ -8265,8 +8200,6 @@
       "film": "Minions & Monster",
       "format_tags": [],
       "times": [
-        "11:15",
-        "14:10",
         "17:40"
       ],
       "film_url": "",
@@ -8280,7 +8213,6 @@
       "film": "The End Of Oak Street",
       "format_tags": [],
       "times": [
-        "15:05",
         "17:40",
         "20:10",
         "22:45"
@@ -8296,7 +8228,6 @@
       "film": "Zeige Alle Filmzeiten",
       "format_tags": [],
       "times": [
-        "10:30",
         "17:40",
         "20:10"
       ],
@@ -8322,8 +8253,6 @@
       "film": "Vaiana (Live Action)",
       "format_tags": [],
       "times": [
-        "10:55",
-        "14:50",
         "17:10"
       ],
       "film_url": "",
@@ -8385,72 +8314,16 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "El Gawahergy",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "16:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/hmCrfA0oTUOgk5LD6Qm3GAbxNwS.jpg",
-      "rating": null,
-      "tmdb_id": 1319976
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Katseye: Wild Hearts",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "13:45"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/j2vmYtjbmqz1f21TEWHGW6JQyjz.jpg",
-      "rating": null,
-      "tmdb_id": 1728113
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Bethlehem Kudumba Unit",
       "format_tags": [],
       "times": [
-        "11:00",
+        "17:00",
         "19:00"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/rZPu64VDDftnU7NU1d2wrWuhOHm.jpg",
       "rating": null,
       "tmdb_id": 1508168
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Das Gewisse Etwas",
-      "format_tags": [],
-      "times": [
-        "17:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/dJnkqo2KE5s5zqRQsg5kvGMMHC1.jpg",
-      "rating": null,
-      "tmdb_id": 1553672
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Dc",
-      "format_tags": [],
-      "times": [
-        "10:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/nmQ799Pa5EKczJvQPzlvhtW0CBW.jpg",
-      "rating": 9.0,
-      "tmdb_id": 1479832
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -8477,16 +8350,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/cAl7uuRojdxysptYBj9Mg0czGmI.jpg",
       "rating": null,
       "tmdb_id": 1036081
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Viswanathan & Sons",
-      "format_tags": [],
-      "times": [
-        "11:50"
-      ],
-      "film_url": ""
     }
   ]
 }
