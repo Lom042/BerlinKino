@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "generated_at": "2026-08-26T08:12:35",
+  "generated_at": "2026-08-26T16:42:14",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -6361,8 +6361,6 @@
         "OV"
       ],
       "times": [
-        "14:00",
-        "16:15",
         "19:00",
         "21:15",
         "22:50"
@@ -6378,14 +6376,7 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "14:20",
-        "14:40",
-        "15:30",
-        "16:50",
-        "18:00",
-        "18:15",
         "19:30",
-        "20:20",
         "20:30",
         "22:40",
         "22:45"
@@ -6398,10 +6389,22 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "One Night Only",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/sb3iZMON9Zf4Juz6BHpOo72oqKE.jpg",
+      "rating": 6.9,
+      "tmdb_id": 1433367
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Die Odyssee",
       "format_tags": [],
       "times": [
-        "15:15",
         "18:30",
         "20:10",
         "20:20"
@@ -6419,7 +6422,6 @@
         "OV"
       ],
       "times": [
-        "15:20",
         "19:40",
         "22:20"
       ],
@@ -6427,23 +6429,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
       "rating": 8.0,
       "tmdb_id": 1368337
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Insidious: Out Of The Further",
-      "format_tags": [],
-      "times": [
-        "14:15",
-        "15:15",
-        "18:10",
-        "20:15",
-        "22:40"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
-      "rating": 5.8,
-      "tmdb_id": 1291595
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -6464,88 +6449,16 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
+      "film": "Insidious: Out Of The Further",
       "format_tags": [],
       "times": [
-        "14:00",
-        "14:30"
+        "20:15",
+        "22:40"
       ],
       "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Marsupilami",
-      "format_tags": [],
-      "times": [
-        "14:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
-      "rating": 6.3,
-      "tmdb_id": 1145899
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Toy Story 5",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/3UMLeXTv33YNAFh7q0Dy1llmHik.jpg",
-      "rating": 7.4,
-      "tmdb_id": 1084244
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Toy Story 5",
-      "format_tags": [],
-      "times": [
-        "14:20",
-        "17:50"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/3UMLeXTv33YNAFh7q0Dy1llmHik.jpg",
-      "rating": 7.4,
-      "tmdb_id": 1084244
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Minions & Monster",
-      "format_tags": [],
-      "times": [
-        "14:20",
-        "16:45",
-        "18:10"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1315772
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Minions & Monster",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "15:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1315772
+      "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
+      "rating": 5.8,
+      "tmdb_id": 1291595
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -6553,8 +6466,6 @@
       "film": "The End Of Oak Street",
       "format_tags": [],
       "times": [
-        "14:20",
-        "17:20",
         "20:20",
         "22:25"
       ],
@@ -6569,23 +6480,9 @@
       "film": "Zeige Alle Filmzeiten",
       "format_tags": [],
       "times": [
-        "17:40",
         "20:10"
       ],
       "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "One Night Only",
-      "format_tags": [],
-      "times": [
-        "19:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/sb3iZMON9Zf4Juz6BHpOo72oqKE.jpg",
-      "rating": 6.9,
-      "tmdb_id": 1433367
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -6603,24 +6500,9 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Vaiana (Live Action)",
-      "format_tags": [],
-      "times": [
-        "14:50",
-        "17:15"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/x1QRMN8Mgci1Z121zFp3PwcEIwW.jpg",
-      "rating": 5.9,
-      "tmdb_id": 1108427
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "The Invite",
       "format_tags": [],
       "times": [
-        "17:40",
         "19:30"
       ],
       "film_url": "",
@@ -6661,21 +6543,6 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "El Gawahergy",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "18:20"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/hmCrfA0oTUOgk5LD6Qm3GAbxNwS.jpg",
-      "rating": null,
-      "tmdb_id": 1319976
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Toxic – A Fairytale For Grown-Ups",
       "format_tags": [
         "OmU"
@@ -6684,19 +6551,6 @@
         "22:10"
       ],
       "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Bethlehem Kudumba Unit",
-      "format_tags": [],
-      "times": [
-        "14:50"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/rZPu64VDDftnU7NU1d2wrWuhOHm.jpg",
-      "rating": null,
-      "tmdb_id": 1508168
     },
     {
       "cinema": "CinemaxX Berlin",
