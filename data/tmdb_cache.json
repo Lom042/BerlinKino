@@ -93,6 +93,16 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Ach diese Lücke, diese entsetzliche Lücke (DFmenglU)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Ada: My Mother the Architect": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/1fX4VZ1NNgesG9LivcL4i720hfO.jpg",
+    "rating": null,
+    "tmdb_id": 1319115
+  },
   "Afrika: Das magische Königreich": {
     "poster_url": "https://image.tmdb.org/t/p/w185/fBjs9cN1cypFKax0CfjWeGucQQg.jpg",
     "rating": 6.3,
@@ -619,6 +629,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/4iwcFGxdnsMWrvoqsgmU2TQfL6K.jpg",
     "rating": 7.7
   },
+  "Coyote vs. ACME": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/7bMzcK5SWHCdwzQgaxgF0BEraln.jpg",
+    "rating": 8.0,
+    "tmdb_id": 1204680
+  },
   "Creepy Crypt: Das Dorf der Verdammten (1995) - The Village of the Damned": {
     "poster_url": null,
     "rating": null,
@@ -782,6 +797,11 @@
     "rating": 6.9,
     "tmdb_id": 205409
   },
+  "Der Geschmack von Apfelkernen": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/tEJbs2aMzY8JPg2TzIUgjeKiUT3.jpg",
+    "rating": 6.0,
+    "tmdb_id": 226371
+  },
   "Der Heimatlose": {
     "poster_url": "https://image.tmdb.org/t/p/w185/cBxkNpLZtNVNv7Ot5FAA2WsWlQ5.jpg",
     "rating": null,
@@ -851,6 +871,11 @@
     "rating": 8.3,
     "tmdb_id": 1226863
   },
+  "Der Tag vor dem Abend (OmenglU); m. Diskussion": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Der Teufel trägt Prada II": {
     "poster_url": null,
     "rating": null,
@@ -887,6 +912,11 @@
     "tmdb_id": null
   },
   "Der alte deutsche Film: Fünf von der Jazzband": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Der alte deutsche Film: Hans in allen Gassen": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -965,6 +995,11 @@
     "rating": 6.9,
     "tmdb_id": 1404604
   },
+  "Die Camino-Therapie: Finde deinen Weg - Compostelle": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/gLJDQ0kO8JQUn2hvq7bqUeNLrCA.jpg",
+    "rating": 6.9,
+    "tmdb_id": 1404604
+  },
   "Die Commitments": {
     "poster_url": "https://image.tmdb.org/t/p/w185/tzVRDThC29cPJYF9IG1D9IrvKs2.jpg",
     "rating": 7.3,
@@ -1037,6 +1072,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Die Möllner Briefe": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/4V5KpfTYp7IeXm5xkbo9kMFETEy.jpg",
+    "rating": 9.5,
+    "tmdb_id": 1399400
   },
   "Die Nachtigall oder Der grausame Sohn": {
     "poster_url": null,
@@ -1151,6 +1191,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/kyDMWzQ28LvGh165vx1tyhZ7v4G.jpg",
     "rating": 8.4,
     "tmdb_id": 12477
+  },
+  "Die nackte Kanone (1988)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Die wilde Nordsee: Natur, die sich nicht zähmen lässt": {
     "poster_url": "https://image.tmdb.org/t/p/w185/vpZnJy6vOhiAQjOfD7jD8FNdYRy.jpg",
@@ -1303,6 +1348,16 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/jaFnpbrTzE8VqsxN7CYAJ996Mrz.jpg",
     "rating": 6.2,
     "tmdb_id": 530046
+  },
+  "Fantasy Filmfest: Hex (2026)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Fantasy Filmfest: Ieviticus": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Father Mother Sister Brother": {
     "poster_url": "https://image.tmdb.org/t/p/w185/8xxzEL5bYhuCAqH6lWl7RPFzl3m.jpg",
@@ -1549,6 +1604,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/7vB1MPcZTI9jX366sumg66fqvI9.jpg",
     "rating": 7.2,
     "tmdb_id": 1243006
+  },
+  "Hackers (1996)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Hai-Alarm am Müggelsee": {
     "poster_url": "https://image.tmdb.org/t/p/w185/tMq0dTmmTUqT5J3sxyTjfeEjHBR.jpg",
@@ -1911,6 +1971,11 @@
     "rating": null,
     "tmdb_id": 1728113
   },
+  "Katy Perry: The Lifetimes Tour - Live from Paris": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/ulsXx67XgRupN53gZHCuzwBEA7O.jpg",
+    "rating": null,
+    "tmdb_id": 1684016
+  },
   "Kein Land für Niemand - Abschottung eines Einwanderungslandes": {
     "poster_url": "https://image.tmdb.org/t/p/w185/dTN08cYoddwJsHiBeWIv94Azf7R.jpg",
     "rating": 10.0,
@@ -1960,6 +2025,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Kinderwagenkino: Detektiv Conan 29: Der gefallene Engel des Highways - Meitantei Konan Haiwei no Datenshi": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Kinderwagenkino: Glennkill: Ein Schafskrimi - The Sheep Detectives": {
     "poster_url": null,
     "rating": null,
@@ -1976,6 +2046,11 @@
     "tmdb_id": null
   },
   "Kinderwagenkino: Spaziergang nach Syrakus": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Kinderwagenkino: Spider-Man: Brand New Day": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -2740,7 +2815,17 @@
     "rating": 8.1,
     "tmdb_id": 531428
   },
+  "Power Ballad - Der Song meines Lebens": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/xE0uYb3WmJsZoOKacmCEQYLpGxa.jpg",
+    "rating": 7.1,
+    "tmdb_id": 1284016
+  },
   "Prag, 21. August 1968": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Premiere: 100 Tage Autark; m. Gespräch": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -2755,6 +2840,11 @@
     "tmdb_id": null
   },
   "Premiere: Für immer 16 (OmenglU); m. Gast": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Premiere: Gentle Monster": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -3805,6 +3895,11 @@
     "poster_url": null,
     "rating": 7.0,
     "tmdb_id": 556829
+  },
+  "Where The Waves Took Her; m. Gästen": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Wie angelt man sich einen Millionär? - How to Marry a Millonaire": {
     "poster_url": "https://image.tmdb.org/t/p/w185/fJidfLCKVAx9q3Tkvi2vDwTN6kZ.jpg",
