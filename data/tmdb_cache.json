@@ -192,6 +192,11 @@
     "rating": 7.9,
     "tmdb_id": 895
   },
+  "André Rieu'S 2026 Sommerkonzert: Viva Maastricht!": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Animal/Humano": {
     "poster_url": "https://image.tmdb.org/t/p/w185/y4HEy7N29TKwv7wm5vgbMa85bHb.jpg",
     "rating": 2.0,
@@ -668,6 +673,11 @@
     "rating": 6.9,
     "tmdb_id": 1325734
   },
+  "Das Ende Der Sterne": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
+    "rating": 7.1,
+    "tmdb_id": 1384216
+  },
   "Das Ende der Sterne": {
     "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
     "rating": 6.9,
@@ -1044,6 +1054,11 @@
     "tmdb_id": null
   },
   "Die Odyssee (2026) - The Odyssey": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Die Olchis - Willkommen In Schmudelfing": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -1554,6 +1569,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/nmtMNxslljllSTVtt7VIOXdxSZp.jpg",
     "rating": 6.0,
     "tmdb_id": 9569
+  },
+  "Harry Potter Und Der Stein Der Weisen (Inkl. Bonusmaterial)": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/nKspzM3rVJASkT4CvZvuj9KDT7l.jpg",
+    "rating": 7.9,
+    "tmdb_id": 671
   },
   "Harry Potter und der Feuerkelch": {
     "poster_url": "https://image.tmdb.org/t/p/w185/y3n0fN5uL417gd6LVtReKbYowIt.jpg",
@@ -2275,6 +2295,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Michael": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/uEk5QnmWN8t8t0rZ8gvOITg2yuR.jpg",
+    "rating": 8.7,
+    "tmdb_id": 936075
+  },
   "Michael (2026)": {
     "poster_url": null,
     "rating": null,
@@ -2369,6 +2394,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/1hPsl5w9mH9Kf4vtxLO5HsrOnRf.jpg",
     "rating": 6.7,
     "tmdb_id": 387587
+  },
+  "Mutiny": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/kTBh6p31vxEqq4rdKExE7rqfgwm.jpg",
+    "rating": 6.4,
+    "tmdb_id": 1288445
   },
   "Mutiny (2026)": {
     "poster_url": null,
@@ -2522,6 +2552,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/f8m8WS3LSShMg1RG8lkoDmjUvc4.jpg",
     "rating": null,
     "tmdb_id": 1541128
+  },
+  "Oh La La 2 – Neue Tests, Neues Chaos": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/3oT929WwceFf0vq3J1uAdvbQkvW.jpg",
+    "rating": 5.1,
+    "tmdb_id": 1437939
   },
   "Oh la la 2 - Neue Tests, neues Chaos": {
     "poster_url": "https://image.tmdb.org/t/p/w185/3oT929WwceFf0vq3J1uAdvbQkvW.jpg",
@@ -3114,6 +3149,11 @@
     "rating": null,
     "tmdb_id": 1568905
   },
+  "Spaziergang Nach Syrakus": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
+    "rating": 8.0,
+    "tmdb_id": 1410202
+  },
   "Spaziergang nach Syrakus": {
     "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
     "rating": null,
@@ -3268,6 +3308,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Tad Stones Und Die Wunderlampe": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/uz50HhUyhIZjDSah7oI0BXDpapw.jpg",
+    "rating": 2.0,
+    "tmdb_id": 1187326
   },
   "Tad Stones und die Wunderlampe": {
     "poster_url": "https://image.tmdb.org/t/p/w185/uz50HhUyhIZjDSah7oI0BXDpapw.jpg",
