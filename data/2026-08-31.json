@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "generated_at": "2026-08-31T06:08:34",
+  "generated_at": "2026-08-31T14:07:29",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -6618,7 +6618,6 @@
         "OV"
       ],
       "times": [
-        "14:00",
         "17:00"
       ],
       "film_url": "",
@@ -6632,7 +6631,6 @@
       "film": "Das Ende Der Sterne",
       "format_tags": [],
       "times": [
-        "15:45",
         "19:30",
         "22:50"
       ],
@@ -6647,10 +6645,6 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "14:00",
-        "14:20",
-        "14:40",
-        "15:30",
         "17:20",
         "19:00",
         "22:20",
@@ -6684,7 +6678,6 @@
       "film": "One Night Only",
       "format_tags": [],
       "times": [
-        "14:20",
         "17:00",
         "19:40",
         "23:00"
@@ -6702,7 +6695,6 @@
         "OV"
       ],
       "times": [
-        "14:45",
         "17:30",
         "20:00"
       ],
@@ -6717,7 +6709,6 @@
       "film": "Die Odyssee",
       "format_tags": [],
       "times": [
-        "14:15",
         "16:00",
         "18:15",
         "21:00",
@@ -6737,7 +6728,6 @@
         "OV"
       ],
       "times": [
-        "15:30",
         "17:10",
         "20:10",
         "22:00"
@@ -6765,23 +6755,9 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Oh La La 2 – Neue Tests, Neues Chaos",
       "format_tags": [],
       "times": [
-        "14:20",
         "17:00",
         "19:30"
       ],
@@ -6789,32 +6765,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/3oT929WwceFf0vq3J1uAdvbQkvW.jpg",
       "rating": 5.1,
       "tmdb_id": 1437939
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Toy Story 5",
-      "format_tags": [],
-      "times": [
-        "14:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/3UMLeXTv33YNAFh7q0Dy1llmHik.jpg",
-      "rating": 7.4,
-      "tmdb_id": 1084244
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Minions & Monster",
-      "format_tags": [],
-      "times": [
-        "14:50"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1315772
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -6841,19 +6791,6 @@
         "20:10"
       ],
       "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Vaiana (Live Action)",
-      "format_tags": [],
-      "times": [
-        "14:50"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/x1QRMN8Mgci1Z121zFp3PwcEIwW.jpg",
-      "rating": 5.9,
-      "tmdb_id": 1108427
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -6916,7 +6853,6 @@
       "film": "Spaziergang Nach Syrakus",
       "format_tags": [],
       "times": [
-        "14:20",
         "18:00",
         "19:15"
       ],
@@ -6924,19 +6860,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
       "rating": 8.0,
       "tmdb_id": 1410202
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Tad Stones Und Die Wunderlampe",
-      "format_tags": [],
-      "times": [
-        "14:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/uz50HhUyhIZjDSah7oI0BXDpapw.jpg",
-      "rating": 2.0,
-      "tmdb_id": 1187326
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -6954,7 +6877,7 @@
       "film": "Viswanathan & Sons",
       "format_tags": [],
       "times": [
-        "15:30"
+        "22:00"
       ],
       "film_url": ""
     }
