@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "generated_at": "2026-09-01T11:13:27",
+  "generated_at": "2026-09-01T17:39:54",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -6861,7 +6861,6 @@
       "film": "Mutiny",
       "format_tags": [],
       "times": [
-        "17:20",
         "20:00",
         "22:30"
       ],
@@ -6890,27 +6889,8 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Das Ende Der Sterne",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "14:00",
-        "17:00",
-        "20:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
-      "rating": 7.1,
-      "tmdb_id": 1384216
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Das Ende Der Sterne",
       "format_tags": [],
       "times": [
-        "14:40",
-        "16:30",
         "19:30",
         "22:40"
       ],
@@ -6922,22 +6902,17 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Spider-Man: Brand New Day",
-      "format_tags": [],
+      "film": "Das Ende Der Sterne",
+      "format_tags": [
+        "OV"
+      ],
       "times": [
-        "14:00",
-        "14:20",
-        "15:30",
-        "17:20",
-        "19:00",
-        "21:15",
-        "22:20",
-        "22:40"
+        "20:00"
       ],
       "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
-      "rating": 7.9,
-      "tmdb_id": 969681
+      "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
+      "rating": 7.1,
+      "tmdb_id": 1384216
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -6947,8 +6922,6 @@
         "OV"
       ],
       "times": [
-        "14:40",
-        "18:00",
         "19:30",
         "20:45",
         "22:30"
@@ -6961,11 +6934,24 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Spider-Man: Brand New Day",
+      "format_tags": [],
+      "times": [
+        "21:15",
+        "22:20",
+        "22:40"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 7.9,
+      "tmdb_id": 969681
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "One Night Only",
       "format_tags": [],
       "times": [
-        "14:20",
-        "17:00",
         "19:40",
         "23:00"
       ],
@@ -6982,8 +6968,6 @@
         "OV"
       ],
       "times": [
-        "14:45",
-        "17:30",
         "20:20"
       ],
       "film_url": "",
@@ -6995,13 +6979,11 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Die Odyssee",
-      "format_tags": [],
+      "format_tags": [
+        "OV"
+      ],
       "times": [
-        "14:00",
-        "15:30",
-        "18:00",
-        "20:50",
-        "22:20"
+        "20:30"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
@@ -7012,13 +6994,10 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Die Odyssee",
-      "format_tags": [
-        "OV"
-      ],
+      "format_tags": [],
       "times": [
-        "15:20",
-        "16:50",
-        "20:30"
+        "20:50",
+        "22:20"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
@@ -7031,8 +7010,6 @@
       "film": "Insidious: Out Of The Further",
       "format_tags": [],
       "times": [
-        "17:40",
-        "19:20",
         "22:10"
       ],
       "film_url": "",
@@ -7058,24 +7035,9 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Oh La La 2 – Neue Tests, Neues Chaos",
       "format_tags": [],
       "times": [
-        "14:20",
-        "17:10",
         "19:50"
       ],
       "film_url": "",
@@ -7086,38 +7048,9 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Toy Story 5",
-      "format_tags": [],
-      "times": [
-        "14:10"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/3UMLeXTv33YNAFh7q0Dy1llmHik.jpg",
-      "rating": 7.4,
-      "tmdb_id": 1084244
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Minions & Monster",
-      "format_tags": [],
-      "times": [
-        "14:45",
-        "17:40"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1315772
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "The End Of Oak Street",
       "format_tags": [],
       "times": [
-        "14:30",
-        "17:10",
         "19:45"
       ],
       "film_url": "",
@@ -7131,23 +7064,9 @@
       "film": "Zeige Alle Filmzeiten",
       "format_tags": [],
       "times": [
-        "17:40",
         "20:10"
       ],
       "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Vaiana (Live Action)",
-      "format_tags": [],
-      "times": [
-        "14:50"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/x1QRMN8Mgci1Z121zFp3PwcEIwW.jpg",
-      "rating": 5.9,
-      "tmdb_id": 1108427
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -7190,21 +7109,6 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "El Gawahergy",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "19:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/hmCrfA0oTUOgk5LD6Qm3GAbxNwS.jpg",
-      "rating": null,
-      "tmdb_id": 1319976
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Toxic – A Fairytale For Grown-Ups",
       "format_tags": [
         "OmU"
@@ -7230,19 +7134,6 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Detektiv Conan Film 29: Der Gefallene Engel Des Highways",
-      "format_tags": [],
-      "times": [
-        "17:20"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/l2kfiNoRi6ofM5pSjr1rCloOfpx.jpg",
-      "rating": 7.6,
-      "tmdb_id": 1545621
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Khalifa",
       "format_tags": [],
       "times": [
@@ -7252,29 +7143,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/cAl7uuRojdxysptYBj9Mg0czGmI.jpg",
       "rating": null,
       "tmdb_id": 1036081
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Tad Stones Und Die Wunderlampe",
-      "format_tags": [],
-      "times": [
-        "14:50"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/uz50HhUyhIZjDSah7oI0BXDpapw.jpg",
-      "rating": 2.0,
-      "tmdb_id": 1187326
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Viswanathan & Sons",
-      "format_tags": [],
-      "times": [
-        "15:30"
-      ],
-      "film_url": ""
     }
   ]
 }
