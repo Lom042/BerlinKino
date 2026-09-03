@@ -59,6 +59,11 @@
     "rating": 5.0,
     "tmdb_id": 1475846
   },
+  "70mm: Cliffhanger - Nur die Starken überleben": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "70mm: Die Odyssee (2026)": {
     "poster_url": null,
     "rating": null,
@@ -98,6 +103,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "A paty jezdec je strach - Der fünfte Reiter ist die Angst - A paty jezdec je strach": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/pWy6ZEd4unpU5AgStkywnE9e1qq.jpg",
+    "rating": 6.4,
+    "tmdb_id": 109380
   },
   "AM-PM": {
     "poster_url": "https://image.tmdb.org/t/p/w185/oraNKpb3qT6PLEgJUsbHj99Ojce.jpg",
@@ -350,6 +360,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/9ehMV0TgHMdUynlXV2ED1T5bA2n.jpg",
     "rating": null,
     "tmdb_id": 726394
+  },
+  "Barrio triste": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/w2zymRakHhwKUnRCLPKrBiL8inL.jpg",
+    "rating": 10.0,
+    "tmdb_id": 1310573
   },
   "Batwara 1947": {
     "poster_url": "https://image.tmdb.org/t/p/w185/u4qctwtUwTEnA1gqQhM84MUygXp.jpg",
@@ -662,6 +677,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Chopin: Eine Sonate in Paris": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/f4cLh2vVzKH8WCbplPFo6aCMpRC.jpg",
+    "rating": 6.8,
+    "tmdb_id": 1299799
+  },
   "Chéri, Ich Komme! - Die Erfindung Der Lust": {
     "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
     "rating": 6.3
@@ -782,6 +802,11 @@
   "D-Box, Preview: Paw Patrol: Der Dino Film": {
     "poster_url": null,
     "rating": null
+  },
+  "D-Box, Preview: Practical Magic 2 - Zauberhafte Schwestern": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "DC (2026)": {
     "poster_url": null,
@@ -1071,6 +1096,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Der alte deutsche Film: Lemkes sel. Witwe": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Der alte deutsche Film: Premiere (1937)": {
     "poster_url": null,
     "rating": null
@@ -1323,6 +1353,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Die Verlobte": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/9nKkIGmnZ9HHZ39DHjVi4XkGMsi.jpg",
+    "rating": 4.9,
+    "tmdb_id": 198013
+  },
   "Die Welt der Traumtiere": {
     "poster_url": null,
     "rating": null,
@@ -1456,6 +1491,11 @@
     "poster_url": null,
     "rating": null
   },
+  "Du cote de Robinson": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/1NLIoWIB8g0DFKpwniObLTjx9fj.jpg",
+    "rating": 7.0,
+    "tmdb_id": 708270
+  },
   "E.T.: Der Außerirdische - E.T.: The Extraterrestrial": {
     "poster_url": "https://image.tmdb.org/t/p/w185/mNbBxa6pNxr4tmOQTGzj9eBuivZ.jpg",
     "rating": 7.5,
@@ -1465,6 +1505,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/2K2NH5dforjT9kLcUC0eeBpdZkC.jpg",
     "rating": 8.2,
     "tmdb_id": 1445363
+  },
+  "Eclipse: Biss zum Abendrot - Twilight 3: Eclipse": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/46I70Hf5lPToeaZyTK7fUj5eWNn.jpg",
+    "rating": 6.2,
+    "tmdb_id": 24021
   },
   "Ein Mädchen namens Willow": {
     "poster_url": "https://image.tmdb.org/t/p/w185/91o854WcptbixlbqybQTzz5BeIv.jpg",
@@ -1600,6 +1645,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Fantasy Filmfest: Another World (2025)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Fantasy Filmfest: AnyMart": {
     "poster_url": null,
     "rating": null,
@@ -1635,6 +1685,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Fantasy Filmfest: Fuck my Son!": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Fantasy Filmfest: Get Shorty - Internationales Kurzfilmprogramm": {
     "poster_url": null,
     "rating": null,
@@ -1651,6 +1706,11 @@
     "tmdb_id": null
   },
   "Fantasy Filmfest: Hokum": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Fantasy Filmfest: Hope (2026) - Hopeu": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -1691,6 +1751,11 @@
     "tmdb_id": null
   },
   "Fantasy Filmfest: Species (2026) - Species": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Fantasy Filmfest: The Better Me": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -1807,6 +1872,16 @@
   "Finding Connection; m. Gespräch": {
     "poster_url": null,
     "rating": null
+  },
+  "Fitzcarraldo (1981)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Flickan i frack - Mädchen im Frack: The Girl in Tails (OmU); m. Live-Musikbegleitung": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/dpklhsVL6mNZf3BOxAHSdL3mNcI.jpg",
+    "rating": 7.0,
+    "tmdb_id": 356271
   },
   "Flickan i frack - Mädchen im Frack: The Girl in Tails (OmenglU); m. Live-Musikbegleitung": {
     "poster_url": "https://image.tmdb.org/t/p/w185/dpklhsVL6mNZf3BOxAHSdL3mNcI.jpg",
@@ -2556,6 +2631,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Kinderwagenkino: Kusama: Infinity": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Kinderwagenkino: Lebensansichten eines Huhns - Kota: Hen": {
     "poster_url": null,
     "rating": null,
@@ -2577,6 +2657,11 @@
     "tmdb_id": null
   },
   "Kinderwagenkino: Sunny Dancer": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Kinderwagenkino: That's Why the Lady Is a Champ - Christy": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -3046,6 +3131,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Morgen ist auch noch ein Tag (2024) - C'e ancora domani": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Moulin Rouge (2001)": {
     "poster_url": null,
     "rating": null,
@@ -3228,6 +3318,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Oasis: Don't Look Back in Anger": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
+    "rating": null,
+    "tmdb_id": 1447853
   },
   "Obsession - Du Sollst Mich Lieben": {
     "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
@@ -3476,12 +3571,22 @@
     "rating": 7.1,
     "tmdb_id": 1284016
   },
+  "Practical Magic 2 - Zauberhafte Schwestern": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/bM1Vp04s2Sp6Q8BAYUaFk9ViRAU.jpg",
+    "rating": 3.5,
+    "tmdb_id": 1302904
+  },
   "Prag, 21. August 1968": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
   },
   "Premiere: 100 Tage Autark; m. Gespräch": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Premiere: Bernd - Operation Germanenkind (OmU); m. Gespräch": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -3576,6 +3681,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Preview: Kalter Hund": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Preview: Maspalomas": {
     "poster_url": null,
     "rating": null,
@@ -3594,6 +3704,11 @@
   "Preview: Paw Patrol: Der Dino Film": {
     "poster_url": null,
     "rating": null
+  },
+  "Preview: Practical Magic 2 - Zauberhafte Schwestern": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Preview: Staatsschutz": {
     "poster_url": null,
@@ -3674,6 +3789,11 @@
     "tmdb_id": null
   },
   "QuizKino Live": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Rabin's Murder: Choosing to Look Away (OmenglU); m. Diskussion": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -3916,6 +4036,11 @@
     "tmdb_id": null
   },
   "So ist Paris (1926) - So This Is Paris (OmU); m. Live-Musikbegleitung": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "So ist das Leben (1929) - Takovy je zivot; m. Live-Musikbegleitung": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -4602,6 +4727,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/x1QRMN8Mgci1Z121zFp3PwcEIwW.jpg",
     "rating": 5.9,
     "tmdb_id": 1108427
+  },
+  "Vaterland": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/btOqwhMDy98hFLLpS9DqfActA1w.jpg",
+    "rating": 6.2,
+    "tmdb_id": 1437696
   },
   "Vaterland (2026)": {
     "poster_url": null,

@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-03",
-  "generated_at": "2026-09-03T17:36:14",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-03T17:35:32",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -10,7 +10,7 @@
         "OmU"
       ],
       "times": [
-        "18:00"
+        "21:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/lebensansichten-eines-huhns-f172067561_177_OmU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/wb2NKoCosuW1Tg9cWw6XFiKaAG0.jpg",
@@ -20,40 +20,30 @@
     {
       "cinema": "Acud-Kino",
       "address": "Veteranenstr. 21, 10119 Berlin",
-      "film": "Etwas ganz Besonderes",
-      "format_tags": [],
-      "times": [
-        "18:45"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/etwas-ganz-besonderes-f171844294_177.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yInkf546G1I63g4Im3XvFCnmxsf.jpg",
-      "rating": 6.3,
-      "tmdb_id": 1299061
-    },
-    {
-      "cinema": "Acud-Kino",
-      "address": "Veteranenstr. 21, 10119 Berlin",
-      "film": "Bitteres Fest - Amarga Navidad: Bitter Christmas",
+      "film": "Glennkill: Ein Schafskrimi - The Sheep Detectives",
       "format_tags": [
         "OmU"
       ],
       "times": [
-        "21:00"
+        "16:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_177_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
-      "rating": 6.3,
-      "tmdb_id": 1088548
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/glennkill-ein-schafskrimi-f172118904_177_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/AsYAR08tFOhzyR4dsom0SdrgfAc.jpg",
+      "rating": 7.9,
+      "tmdb_id": 1301421
     },
     {
       "cinema": "Acud-Kino",
       "address": "Veteranenstr. 21, 10119 Berlin",
-      "film": "Arnie & Barney - Retten das Wasser",
+      "film": "Ingeborg Bachmann - Jemand, der einmal ich war",
       "format_tags": [],
       "times": [
-        "17:00"
+        "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_177.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_177.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/qKJV8zX23FcoNM3Vx3jtU8S58F8.jpg",
+      "rating": 6.5,
+      "tmdb_id": 1477087
     },
     {
       "cinema": "Acud-Kino",
@@ -61,9 +51,22 @@
       "film": "Hiddensee (2026)",
       "format_tags": [],
       "times": [
-        "20:15"
+        "18:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/hiddensee-2026-f172739114_177.html"
+    },
+    {
+      "cinema": "Acud-Kino",
+      "address": "Veteranenstr. 21, 10119 Berlin",
+      "film": "Die Verlobte",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-verlobte-f25004_177.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/9nKkIGmnZ9HHZ39DHjVi4XkGMsi.jpg",
+      "rating": 4.9,
+      "tmdb_id": 198013
     },
     {
       "cinema": "Adria",
@@ -84,6 +87,19 @@
         "14:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaterland-2026-f172517063_100.html"
+    },
+    {
+      "cinema": "Astra Filmpalast",
+      "address": "Sterndamm 69, 12487 Berlin",
+      "film": "Tad Stones und die Wunderlampe",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/tad-stones-und-die-wunderlampe-f173013148_143.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/uz50HhUyhIZjDSah7oI0BXDpapw.jpg",
+      "rating": 2.0,
+      "tmdb_id": 1187326
     },
     {
       "cinema": "Astra Filmpalast",
@@ -111,6 +127,19 @@
     {
       "cinema": "Astra Filmpalast",
       "address": "Sterndamm 69, 12487 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_143.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "Astra Filmpalast",
+      "address": "Sterndamm 69, 12487 Berlin",
       "film": "Marsupilami",
       "format_tags": [],
       "times": [
@@ -127,7 +156,7 @@
       "film": "Steckerlfischfiasko",
       "format_tags": [],
       "times": [
-        "16:45"
+        "10:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/steckerlfischfiasko-f172295697_143.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/uOYnVDF8tfLBmGURJg0j17kgbaI.jpg",
@@ -140,7 +169,7 @@
       "film": "One Night Only (2026)",
       "format_tags": [],
       "times": [
-        "17:30"
+        "10:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/one-night-only-2026-f172818847_143.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/oJqFVn5Ejm4C1gig52AiR06NsBH.jpg",
@@ -163,23 +192,10 @@
     {
       "cinema": "Astra Filmpalast",
       "address": "Sterndamm 69, 12487 Berlin",
-      "film": "Insidious: Out of the Further",
-      "format_tags": [],
-      "times": [
-        "20:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/insidious-out-of-the-further-f172967601_143.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
-      "rating": 5.7,
-      "tmdb_id": 1291595
-    },
-    {
-      "cinema": "Astra Filmpalast",
-      "address": "Sterndamm 69, 12487 Berlin",
       "film": "Mutiny (2026)",
       "format_tags": [],
       "times": [
-        "20:15"
+        "10:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/mutiny-2026-f172700621_143.html"
     },
@@ -189,7 +205,7 @@
       "film": "Die Odyssee (2026)",
       "format_tags": [],
       "times": [
-        "19:00"
+        "10:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_143.html"
     },
@@ -206,55 +222,74 @@
     {
       "cinema": "Astra Filmpalast",
       "address": "Sterndamm 69, 12487 Berlin",
+      "film": "Arnie & Barney - Retten das Wasser",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_143.html"
+    },
+    {
+      "cinema": "Astra Filmpalast",
+      "address": "Sterndamm 69, 12487 Berlin",
       "film": "Das gewisse Etwas (2026)",
       "format_tags": [],
       "times": [
-        "16:00"
+        "10:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-gewisse-etwas-2026-f173004989_143.html"
     },
     {
-      "cinema": "b-ware!Ladenkino",
-      "address": "Gärtnerstr. 19, 10245 Berlin",
-      "film": "Bitteres Fest - Amarga Navidad: Bitter Christmas",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "11:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_43655195_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
-      "rating": 6.3,
-      "tmdb_id": 1088548
-    },
-    {
-      "cinema": "b-ware!Ladenkino",
-      "address": "Gärtnerstr. 19, 10245 Berlin",
-      "film": "Lebensansichten eines Huhns - Kota: Hen",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "13:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/lebensansichten-eines-huhns-f172067561_43655195_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/wb2NKoCosuW1Tg9cWw6XFiKaAG0.jpg",
-      "rating": 7.5,
-      "tmdb_id": 1382513
-    },
-    {
-      "cinema": "b-ware!Ladenkino",
-      "address": "Gärtnerstr. 19, 10245 Berlin",
-      "film": "Salz und Wasser",
+      "cinema": "Astra Filmpalast",
+      "address": "Sterndamm 69, 12487 Berlin",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
       "format_tags": [],
       "times": [
-        "14:40"
+        "19:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/salz-und-wasser-f172696037_43655195.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/kRyIt99P05TAykZ5Yn8NpO8JYtR.jpg",
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_143.html"
+    },
+    {
+      "cinema": "Astra Filmpalast",
+      "address": "Sterndamm 69, 12487 Berlin",
+      "film": "Oasis: Don't Look Back in Anger",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "20:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_143_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
       "rating": null,
-      "tmdb_id": 1741242
+      "tmdb_id": 1447853
+    },
+    {
+      "cinema": "B-ware! Open Air FMP1",
+      "address": "Franz-Mehring-Platz 1, 10243 Berlin",
+      "film": "Vaterland (2026)",
+      "format_tags": [
+        "OmenglU"
+      ],
+      "times": [
+        "20:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/vaterland-2026-f172517063_120904057_OmenglU.html"
+    },
+    {
+      "cinema": "b-ware!Ladenkino",
+      "address": "Gärtnerstr. 19, 10245 Berlin",
+      "film": "Was haben wir gelacht",
+      "format_tags": [
+        "OmenglU"
+      ],
+      "times": [
+        "16:25"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_43655195_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
+      "rating": 7.9,
+      "tmdb_id": 1698323
     },
     {
       "cinema": "b-ware!Ladenkino",
@@ -265,19 +300,6 @@
         "16:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/toy-story-5-spielzeug-war-gestern-f171703430_43655195.html"
-    },
-    {
-      "cinema": "b-ware!Ladenkino",
-      "address": "Gärtnerstr. 19, 10245 Berlin",
-      "film": "Schwarzers Kosmos",
-      "format_tags": [],
-      "times": [
-        "16:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/schwarzers-kosmos-f171836801_43655195.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/ssmjdqFhaXPd032DTls4VDoSh3C.jpg",
-      "rating": null,
-      "tmdb_id": 1748476
     },
     {
       "cinema": "b-ware!Ladenkino",
@@ -295,27 +317,12 @@
     {
       "cinema": "b-ware!Ladenkino",
       "address": "Gärtnerstr. 19, 10245 Berlin",
-      "film": "Spider-Man: Brand New Day",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "18:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_43655195_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
-      "rating": 7.9,
-      "tmdb_id": 969681
-    },
-    {
-      "cinema": "b-ware!Ladenkino",
-      "address": "Gärtnerstr. 19, 10245 Berlin",
       "film": "Spaziergang nach Syrakus",
       "format_tags": [
         "OmenglU"
       ],
       "times": [
-        "14:45"
+        "14:50"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spaziergang-nach-syrakus-f172738795_43655195_OmenglU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
@@ -330,7 +337,7 @@
         "OmU"
       ],
       "times": [
-        "22:35"
+        "22:50"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_43655195_OmU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
@@ -348,6 +355,18 @@
         "21:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/the-invite-2026-f172681686_43655195_OmU.html"
+    },
+    {
+      "cinema": "b-ware!Ladenkino",
+      "address": "Gärtnerstr. 19, 10245 Berlin",
+      "film": "A Sad and Beautiful World - Nujum al'amal w al'alam",
+      "format_tags": [
+        "OmenglU"
+      ],
+      "times": [
+        "12:40"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/a-sad-and-beautiful-world-f171614020_43655195_OmenglU.html"
     },
     {
       "cinema": "b-ware!Ladenkino",
@@ -379,29 +398,17 @@
     {
       "cinema": "b-ware!Ladenkino",
       "address": "Gärtnerstr. 19, 10245 Berlin",
-      "film": "Backrooms - Extented Version",
+      "film": "All My Sisters",
       "format_tags": [
-        "OmU"
+        "OmenglU"
       ],
       "times": [
-        "12:30"
+        "13:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/backrooms-extented-version-f172789457_43655195_OmU.html"
-    },
-    {
-      "cinema": "b-ware!Ladenkino",
-      "address": "Gärtnerstr. 19, 10245 Berlin",
-      "film": "H wie Habicht - H Is for Hawk",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "13:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/h-wie-habicht-f172339220_43655195_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/7vB1MPcZTI9jX366sumg66fqvI9.jpg",
-      "rating": 7.2,
-      "tmdb_id": 1243006
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/all-my-sisters-f172895487_43655195_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/tRjiJBr5hwRmA0Fji10NHFxrANV.jpg",
+      "rating": 5.0,
+      "tmdb_id": 1555871
     },
     {
       "cinema": "b-ware!Ladenkino",
@@ -421,12 +428,39 @@
     {
       "cinema": "b-ware!Ladenkino",
       "address": "Gärtnerstr. 19, 10245 Berlin",
+      "film": "Nürnberg (2026) - Nuremberg",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "11:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/nuernberg-2026-f171971662_43655195_OmU.html"
+    },
+    {
+      "cinema": "b-ware!Ladenkino",
+      "address": "Gärtnerstr. 19, 10245 Berlin",
+      "film": "Evil Dead Burn",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "14:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/evil-dead-burn-f172392621_43655195_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/fn0frXHFsRQ5XaHsLpQKAgOA8Dk.jpg",
+      "rating": 7.9,
+      "tmdb_id": 1212763
+    },
+    {
+      "cinema": "b-ware!Ladenkino",
+      "address": "Gärtnerstr. 19, 10245 Berlin",
       "film": "Vaterland (2026)",
       "format_tags": [
         "OmenglU"
       ],
       "times": [
-        "11:00"
+        "13:25"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaterland-2026-f172517063_43655195_OmenglU.html"
     },
@@ -438,7 +472,7 @@
         "OmU"
       ],
       "times": [
-        "15:00"
+        "18:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/diamanti-diamonds-f171330594_43655195_OmU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/gcZWcZugGrByB0W0f5B1rrXtYn.jpg",
@@ -448,17 +482,14 @@
     {
       "cinema": "b-ware!Ladenkino",
       "address": "Gärtnerstr. 19, 10245 Berlin",
-      "film": "That's Why the Lady Is a Champ",
+      "film": "Kinderwagenkino: That's Why the Lady Is a Champ - Christy",
       "format_tags": [
         "OmU"
       ],
       "times": [
-        "18:45"
+        "11:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/thats-why-the-lady-is-a-champ-f172931232_43655195_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/crqI0FEMT2UI1GkrYPlthMf5hB1.jpg",
-      "rating": 7.1,
-      "tmdb_id": 1287322
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/thats-why-the-lady-is-a-champ-f172931232_43655195_OmU.html"
     },
     {
       "cinema": "b-ware!Ladenkino",
@@ -468,7 +499,7 @@
         "OmU"
       ],
       "times": [
-        "22:50"
+        "11:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/onslaught-f173062873_43655195_OmU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/aC7SrKgLsdrVwugPuVIuZogUW3w.jpg",
@@ -476,19 +507,17 @@
       "tmdb_id": 1284046
     },
     {
-      "cinema": "Babylon",
-      "address": "Rosa-Luxemburg-Str. 30, 10178 Berlin",
-      "film": "Bullfighter and the Lady",
-      "format_tags": [
-        "OmenglU"
-      ],
+      "cinema": "b-ware!Ladenkino",
+      "address": "Gärtnerstr. 19, 10245 Berlin",
+      "film": "Spider-Man: Brand New Day",
+      "format_tags": [],
       "times": [
-        "17:30"
+        "18:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bullfighter-and-the-lady-f11219212_6439289_OmenglU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/rmPuPvdFbBfeIn51DO7j7YyIZ5c.jpg",
-      "rating": 6.3,
-      "tmdb_id": 77650
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_43655195.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 7.9,
+      "tmdb_id": 969681
     },
     {
       "cinema": "Babylon",
@@ -508,17 +537,14 @@
     {
       "cinema": "Babylon",
       "address": "Rosa-Luxemburg-Str. 30, 10178 Berlin",
-      "film": "Kusama: Infinity",
+      "film": "Kinderwagenkino: Kusama: Infinity",
       "format_tags": [
         "OmU"
       ],
       "times": [
-        "17:30"
+        "11:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/kusama-infinity-f146596924_6439289_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/o1gZE9QqU9F9ogNaoFO0lsa3EUP.jpg",
-      "rating": 7.2,
-      "tmdb_id": 490794
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/kusama-infinity-f146596924_6439289_OmU.html"
     },
     {
       "cinema": "Babylon",
@@ -526,42 +552,57 @@
       "film": "Buster Keaton: Der General (1926) - The General (OmU); m. Live-Musikbegleitung",
       "format_tags": [],
       "times": [
-        "19:30"
+        "20:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/buster-keaton-der-general-1926-f24809_6439289_OmU.html"
     },
     {
       "cinema": "Babylon",
       "address": "Rosa-Luxemburg-Str. 30, 10178 Berlin",
-      "film": "Nana (1926) (OmU); m. Live-Musikbegleitung",
-      "format_tags": [],
-      "times": [
-        "20:00"
+      "film": "Akira",
+      "format_tags": [
+        "OmenglU"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/nana-1926-f51510838_6439289_OmU.html"
+      "times": [
+        "21:45"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/akira-f22332_6439289_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/fDRZmPUPUHTxULsuSjPIqPHKjuE.jpg",
+      "rating": 7.9,
+      "tmdb_id": 149
     },
     {
       "cinema": "Babylon",
       "address": "Rosa-Luxemburg-Str. 30, 10178 Berlin",
-      "film": "So ist Paris (1926) - So This Is Paris (OmU); m. Live-Musikbegleitung",
+      "film": "Die Abenteuer des Prinzen Achmed (OmenglU); m. Live-Musikbegleitung",
       "format_tags": [],
       "times": [
-        "21:15"
+        "18:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/so-ist-paris-1926-f40137810_6439289_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-abenteuer-des-prinzen-achmed-f2962579_6439289_OmenglU.html"
     },
     {
       "cinema": "Babylon",
       "address": "Rosa-Luxemburg-Str. 30, 10178 Berlin",
-      "film": "Stalker",
+      "film": "Rabin's Murder: Choosing to Look Away (OmenglU); m. Diskussion",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/rabins-murder-choosing-to-look-away-f173152702_6439289_OmenglU.html"
+    },
+    {
+      "cinema": "Babylon",
+      "address": "Rosa-Luxemburg-Str. 30, 10178 Berlin",
+      "film": "Flickan i frack - Mädchen im Frack: The Girl in Tails (OmU); m. Live-Musikbegleitung",
       "format_tags": [],
       "times": [
         "21:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/stalker-f22846_6439289.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/dVhg9A5fYO8Tn7D0XiVvkboQeZI.jpg",
-      "rating": 8.1,
-      "tmdb_id": 1398
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/flickan-i-frack-maedchen-im-frack-the-girl-in-tails-f92261737_6439289_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/dpklhsVL6mNZf3BOxAHSdL3mNcI.jpg",
+      "rating": 7.0,
+      "tmdb_id": 356271
     },
     {
       "cinema": "Babylon Kreuzberg",
@@ -607,19 +648,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/gcZWcZugGrByB0W0f5B1rrXtYn.jpg",
       "rating": null,
       "tmdb_id": 572782
-    },
-    {
-      "cinema": "Bali",
-      "address": "Teltower Damm 33, 14169 Berlin",
-      "film": "Lotte und Totte",
-      "format_tags": [],
-      "times": [
-        "16:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/lotte-und-totte-f172655231_116.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/z9NoIbDzUWyC5YVdPY3taH7Vb2a.jpg",
-      "rating": 9.2,
-      "tmdb_id": 1385670
     },
     {
       "cinema": "Bali",
@@ -683,38 +711,38 @@
     {
       "cinema": "BrotfabrikKino",
       "address": "Prenzlauer Promenade 3, 13086 Berlin",
-      "film": "Spaziergang nach Syrakus",
-      "format_tags": [],
-      "times": [
-        "20:45"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spaziergang-nach-syrakus-f172738795_110.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
-      "rating": null,
-      "tmdb_id": 1410202
-    },
-    {
-      "cinema": "BrotfabrikKino",
-      "address": "Prenzlauer Promenade 3, 13086 Berlin",
-      "film": "Für immer 16",
-      "format_tags": [],
-      "times": [
-        "19:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/fuer-immer-16-f172696057_110.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/A6LMFqK16ny1apd739Ij9Bq3zii.jpg",
-      "rating": null,
-      "tmdb_id": 1700885
-    },
-    {
-      "cinema": "BrotfabrikKino",
-      "address": "Prenzlauer Promenade 3, 13086 Berlin",
-      "film": "Hiddensee (2026)",
+      "film": "Flüchtig - Das rätselhafte Leben des B. Traven",
       "format_tags": [],
       "times": [
         "17:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/hiddensee-2026-f172739114_110.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/fluechtig-das-raetselhafte-leben-des-b-traven-f150083723_110.html",
+      "poster_url": null,
+      "rating": null,
+      "tmdb_id": 695412
+    },
+    {
+      "cinema": "Bundesplatz-Kino",
+      "address": "Bundesplatz 14, 10715 Berlin",
+      "film": "A Sad and Beautiful World",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/a-sad-and-beautiful-world-f171614020_113.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/o0Mh80BLwKd4qucmFMSQvRryRDZ.jpg",
+      "rating": 7.9,
+      "tmdb_id": 1376838
+    },
+    {
+      "cinema": "Bundesplatz-Kino",
+      "address": "Bundesplatz 14, 10715 Berlin",
+      "film": "Ach diese Lücke, diese entsetzliche Lücke",
+      "format_tags": [],
+      "times": [
+        "15:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/ach-diese-luecke-diese-entsetzliche-luecke-f171459361_113.html"
     },
     {
       "cinema": "Bundesplatz-Kino",
@@ -722,7 +750,7 @@
       "film": "Vaterland (2026)",
       "format_tags": [],
       "times": [
-        "16:30"
+        "18:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaterland-2026-f172517063_113.html"
     },
@@ -752,25 +780,15 @@
     {
       "cinema": "Casablanca",
       "address": "Friedenstr. 12-13, 12489 Berlin",
-      "film": "Der Klang der Stradivari",
+      "film": "Die Camino-Therapie: Finde deinen Weg",
       "format_tags": [],
       "times": [
-        "20:30"
+        "18:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-klang-der-stradivari-f172659322_203.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/1zU9yuKaTGjv9W6NqEx5ofVjzdk.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1266805
-    },
-    {
-      "cinema": "Casablanca",
-      "address": "Friedenstr. 12-13, 12489 Berlin",
-      "film": "The Invite (2026)",
-      "format_tags": [],
-      "times": [
-        "16:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/the-invite-2026-f172681686_203.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-camino-therapie-finde-deinen-weg-f172516893_203.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/gLJDQ0kO8JQUn2hvq7bqUeNLrCA.jpg",
+      "rating": 6.9,
+      "tmdb_id": 1404604
     },
     {
       "cinema": "Casablanca",
@@ -778,12 +796,27 @@
       "film": "Steckerlfischfiasko",
       "format_tags": [],
       "times": [
-        "18:15"
+        "15:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/steckerlfischfiasko-f172295697_203.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/uOYnVDF8tfLBmGURJg0j17kgbaI.jpg",
       "rating": null,
       "tmdb_id": 1328335
+    },
+    {
+      "cinema": "Casablanca",
+      "address": "Friedenstr. 12-13, 12489 Berlin",
+      "film": "The Fast and the Furious",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "20:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/the-fast-and-the-furious-f6839134_203_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/qmRrB8HFhEThLDhqJ7bZqZb6pm9.jpg",
+      "rating": 7.0,
+      "tmdb_id": 9799
     },
     {
       "cinema": "Central Hackescher Markt",
@@ -793,7 +826,7 @@
         "OmU"
       ],
       "times": [
-        "17:00"
+        "17:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_295_OmU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
@@ -803,12 +836,17 @@
     {
       "cinema": "Central Hackescher Markt",
       "address": "Rosenthaler Str. 39, 10178 Berlin",
-      "film": "Staatsschutz (OmenglU); m. Gästen",
-      "format_tags": [],
-      "times": [
-        "19:00"
+      "film": "Staatsschutz",
+      "format_tags": [
+        "OmenglU"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/staatsschutz-f171842972_295_OmenglU.html"
+      "times": [
+        "20:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/staatsschutz-f171842972_295_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/hhLFoA0FSnREDFKCuIHf3KlYZuZ.jpg",
+      "rating": null,
+      "tmdb_id": 1599784
     },
     {
       "cinema": "Central Hackescher Markt",
@@ -818,7 +856,7 @@
         "OmU"
       ],
       "times": [
-        "16:30"
+        "18:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_295_OmU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
@@ -844,7 +882,7 @@
       "film": "Das Ende der Sterne",
       "format_tags": [],
       "times": [
-        "20:10"
+        "19:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-ende-der-sterne-f172931199_1888633.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
@@ -867,7 +905,7 @@
       "film": "Paw Patrol: Der Dino Film",
       "format_tags": [],
       "times": [
-        "14:15"
+        "14:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_1888633.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
@@ -916,7 +954,7 @@
       "film": "Oh la la 2 - Neue Tests, neues Chaos",
       "format_tags": [],
       "times": [
-        "14:20"
+        "14:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/oh-la-la-2-neue-tests-neues-chaos-f172722632_1888633.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/3oT929WwceFf0vq3J1uAdvbQkvW.jpg",
@@ -942,7 +980,7 @@
       "film": "The End of Oak Street",
       "format_tags": [],
       "times": [
-        "19:45"
+        "16:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/the-end-of-oak-street-f172689693_1888633.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/A3IGLbWTw2CzMH2VwwzD9jciu5w.jpg",
@@ -968,7 +1006,7 @@
       "film": "Vaiana (2026)",
       "format_tags": [],
       "times": [
-        "14:10"
+        "14:20"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaiana-2026-f172657249_1888633.html"
     },
@@ -1004,7 +1042,7 @@
       "film": "Mutiny (2026)",
       "format_tags": [],
       "times": [
-        "17:30"
+        "15:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/mutiny-2026-f172700621_1888633.html"
     },
@@ -1027,7 +1065,7 @@
       "film": "Obsession - Du sollst mich lieben",
       "format_tags": [],
       "times": [
-        "23:00"
+        "20:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_1888633.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
@@ -1040,7 +1078,7 @@
       "film": "Exit 8",
       "format_tags": [],
       "times": [
-        "22:50"
+        "22:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/exit-8-f170847918_1888633.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/1MQlTLck75wCDi7bKFEJpqJkjwl.jpg",
@@ -1053,7 +1091,7 @@
       "film": "Bethlehem Kudumba Unit",
       "format_tags": [],
       "times": [
-        "22:00"
+        "22:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/bethlehem-kudumba-unit-f173047279_1888633.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/rZPu64VDDftnU7NU1d2wrWuhOHm.jpg",
@@ -1066,38 +1104,12 @@
       "film": "Marsupilami",
       "format_tags": [],
       "times": [
-        "14:50"
+        "14:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/marsupilami-f172738956_1888633.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
       "rating": 6.3,
       "tmdb_id": 1145899
-    },
-    {
-      "cinema": "CinemaxX Potsdamer Platz",
-      "address": "Potsdamer Platz 5, 10785 Berlin",
-      "film": "Harry Potter und der Stein der Weisen",
-      "format_tags": [],
-      "times": [
-        "16:20"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/harry-potter-und-der-stein-der-weisen-f9889193_1888633.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/nKspzM3rVJASkT4CvZvuj9KDT7l.jpg",
-      "rating": 7.9,
-      "tmdb_id": 671
-    },
-    {
-      "cinema": "CinemaxX Potsdamer Platz",
-      "address": "Potsdamer Platz 5, 10785 Berlin",
-      "film": "Detektiv Conan 29: Der gefallene Engel des Highways",
-      "format_tags": [],
-      "times": [
-        "16:45"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/detektiv-conan-29-der-gefallene-engel-des-highways-f172756847_1888633.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/l2kfiNoRi6ofM5pSjr1rCloOfpx.jpg",
-      "rating": 7.6,
-      "tmdb_id": 1545621
     },
     {
       "cinema": "CinemaxX Potsdamer Platz",
@@ -1125,7 +1137,7 @@
       "film": "Vaterland (2026)",
       "format_tags": [],
       "times": [
-        "15:00"
+        "14:50"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaterland-2026-f172517063_1888633.html"
     },
@@ -1135,7 +1147,7 @@
       "film": "That's Why the Lady Is a Champ",
       "format_tags": [],
       "times": [
-        "17:00"
+        "17:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/thats-why-the-lady-is-a-champ-f172931232_1888633.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/crqI0FEMT2UI1GkrYPlthMf5hB1.jpg",
@@ -1154,6 +1166,29 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/aC7SrKgLsdrVwugPuVIuZogUW3w.jpg",
       "rating": 6.0,
       "tmdb_id": 1284046
+    },
+    {
+      "cinema": "CinemaxX Potsdamer Platz",
+      "address": "Potsdamer Platz 5, 10785 Berlin",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
+      "format_tags": [],
+      "times": [
+        "19:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_1888633.html"
+    },
+    {
+      "cinema": "CinemaxX Potsdamer Platz",
+      "address": "Potsdamer Platz 5, 10785 Berlin",
+      "film": "Oasis: Don't Look Back in Anger",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_1888633.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
+      "rating": null,
+      "tmdb_id": 1447853
     },
     {
       "cinema": "CineMotion Hohenschönhausen",
@@ -1184,7 +1219,7 @@
       "film": "One Night Only (2026)",
       "format_tags": [],
       "times": [
-        "19:30"
+        "17:20"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/one-night-only-2026-f172818847_2263266.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/oJqFVn5Ejm4C1gig52AiR06NsBH.jpg",
@@ -1197,7 +1232,7 @@
       "film": "Das Ende der Sterne",
       "format_tags": [],
       "times": [
-        "20:00"
+        "20:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-ende-der-sterne-f172931199_2263266.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
@@ -1230,19 +1265,6 @@
     {
       "cinema": "CineMotion Hohenschönhausen",
       "address": "Wartenberger Str. 174, 13051 Berlin",
-      "film": "Insidious: Out of the Further",
-      "format_tags": [],
-      "times": [
-        "20:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/insidious-out-of-the-further-f172967601_2263266.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
-      "rating": 5.7,
-      "tmdb_id": 1291595
-    },
-    {
-      "cinema": "CineMotion Hohenschönhausen",
-      "address": "Wartenberger Str. 174, 13051 Berlin",
       "film": "Minions & Monster",
       "format_tags": [],
       "times": [
@@ -1252,19 +1274,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
       "rating": 6.4,
       "tmdb_id": 1315772
-    },
-    {
-      "cinema": "CineMotion Hohenschönhausen",
-      "address": "Wartenberger Str. 174, 13051 Berlin",
-      "film": "Detektiv Conan 29: Der gefallene Engel des Highways",
-      "format_tags": [],
-      "times": [
-        "17:20"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/detektiv-conan-29-der-gefallene-engel-des-highways-f172756847_2263266.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/l2kfiNoRi6ofM5pSjr1rCloOfpx.jpg",
-      "rating": 7.6,
-      "tmdb_id": 1545621
     },
     {
       "cinema": "CineMotion Hohenschönhausen",
@@ -1287,20 +1296,29 @@
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-gewisse-etwas-2026-f173004989_2263266.html"
     },
     {
-      "cinema": "Cineplex Alhambra",
-      "address": "Seestr. 94, 13353 Berlin",
-      "film": "Spider-Man: Brand New Day",
+      "cinema": "CineMotion Hohenschönhausen",
+      "address": "Wartenberger Str. 174, 13051 Berlin",
+      "film": "Oasis: Don't Look Back in Anger",
       "format_tags": [
-        "Atmos",
-        "D-Box"
+        "OmU"
       ],
       "times": [
-        "14:10"
+        "19:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_107_Atmos, D-Box.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
-      "rating": 7.9,
-      "tmdb_id": 969681
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_2263266_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
+      "rating": null,
+      "tmdb_id": 1447853
+    },
+    {
+      "cinema": "CineMotion Hohenschönhausen",
+      "address": "Wartenberger Str. 174, 13051 Berlin",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_2263266.html"
     },
     {
       "cinema": "Cineplex Alhambra",
@@ -1311,21 +1329,6 @@
         "14:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaiana-2026-f172657249_107.html"
-    },
-    {
-      "cinema": "Cineplex Alhambra",
-      "address": "Seestr. 94, 13353 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [
-        "D-Box"
-      ],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_107_D-Box.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
     },
     {
       "cinema": "Cineplex Alhambra",
@@ -1355,25 +1358,10 @@
       "address": "Seestr. 94, 13353 Berlin",
       "film": "Spider-Man: Brand New Day",
       "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "16:50"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_107_OV.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
-      "rating": 7.9,
-      "tmdb_id": 969681
-    },
-    {
-      "cinema": "Cineplex Alhambra",
-      "address": "Seestr. 94, 13353 Berlin",
-      "film": "Spider-Man: Brand New Day",
-      "format_tags": [
         "D-Box"
       ],
       "times": [
-        "16:30"
+        "15:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_107_D-Box.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
@@ -1396,18 +1384,6 @@
     {
       "cinema": "Cineplex Alhambra",
       "address": "Seestr. 94, 13353 Berlin",
-      "film": "Mutiny (2026)",
-      "format_tags": [
-        "D-Box"
-      ],
-      "times": [
-        "19:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/mutiny-2026-f172700621_107_D-Box.html"
-    },
-    {
-      "cinema": "Cineplex Alhambra",
-      "address": "Seestr. 94, 13353 Berlin",
       "film": "Minions & Monster",
       "format_tags": [],
       "times": [
@@ -1426,9 +1402,22 @@
         "D-Box"
       ],
       "times": [
-        "19:30"
+        "19:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_107_D-Box.html"
+    },
+    {
+      "cinema": "Cineplex Alhambra",
+      "address": "Seestr. 94, 13353 Berlin",
+      "film": "Spider-Man: Brand New Day",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_107.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 7.9,
+      "tmdb_id": 969681
     },
     {
       "cinema": "Cineplex Alhambra",
@@ -1439,7 +1428,7 @@
         "D-Box"
       ],
       "times": [
-        "17:20"
+        "18:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_107_Atmos, D-Box.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
@@ -1452,7 +1441,7 @@
       "film": "Arnie & Barney - Retten das Wasser",
       "format_tags": [],
       "times": [
-        "14:40"
+        "14:20"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_107.html"
     },
@@ -1472,7 +1461,7 @@
       "film": "Das gewisse Etwas (2026)",
       "format_tags": [],
       "times": [
-        "14:10"
+        "17:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-gewisse-etwas-2026-f173004989_107.html"
     },
@@ -1497,12 +1486,50 @@
       "film": "Onslaught",
       "format_tags": [],
       "times": [
-        "20:15"
+        "20:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/onslaught-f173062873_107.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/aC7SrKgLsdrVwugPuVIuZogUW3w.jpg",
       "rating": 6.0,
       "tmdb_id": 1284046
+    },
+    {
+      "cinema": "Cineplex Alhambra",
+      "address": "Seestr. 94, 13353 Berlin",
+      "film": "Virginia Woolf's Night & Day",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/virginia-woolfs-night-day-f172649392_107.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/pDSuVhatjn1n2Hjja5qdrP19i9K.jpg",
+      "rating": 6.0,
+      "tmdb_id": 1291375
+    },
+    {
+      "cinema": "Cineplex Alhambra",
+      "address": "Seestr. 94, 13353 Berlin",
+      "film": "Oasis: Don't Look Back in Anger",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "20:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_107_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
+      "rating": null,
+      "tmdb_id": 1447853
+    },
+    {
+      "cinema": "Cineplex Alhambra",
+      "address": "Seestr. 94, 13353 Berlin",
+      "film": "D-Box, Preview: Practical Magic 2 - Zauberhafte Schwestern",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_107_D-Box, Preview.html"
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1520,7 +1547,7 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "14:00"
+        "14:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_5414089.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
@@ -1533,7 +1560,7 @@
       "film": "Vaiana (2026)",
       "format_tags": [],
       "times": [
-        "14:20"
+        "14:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaiana-2026-f172657249_5414089.html"
     },
@@ -1543,7 +1570,7 @@
       "film": "Minions & Monster",
       "format_tags": [],
       "times": [
-        "15:00"
+        "17:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_5414089.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
@@ -1558,7 +1585,7 @@
         "OV"
       ],
       "times": [
-        "14:15"
+        "14:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_5414089_OV.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
@@ -1571,7 +1598,7 @@
       "film": "Paw Patrol: Der Dino Film",
       "format_tags": [],
       "times": [
-        "14:15"
+        "15:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_5414089.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
@@ -1596,7 +1623,7 @@
         "OmenglU"
       ],
       "times": [
-        "16:30"
+        "17:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/bethlehem-kudumba-unit-f173047279_5414089_OmenglU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/rZPu64VDDftnU7NU1d2wrWuhOHm.jpg",
@@ -1616,19 +1643,6 @@
     {
       "cinema": "Cineplex Neukölln Arcaden",
       "address": "Karl-Marx-Str. 66, 12043 Berlin",
-      "film": "Das Ende der Sterne",
-      "format_tags": [],
-      "times": [
-        "20:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-ende-der-sterne-f172931199_5414089.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
-      "rating": 6.9,
-      "tmdb_id": 1384216
-    },
-    {
-      "cinema": "Cineplex Neukölln Arcaden",
-      "address": "Karl-Marx-Str. 66, 12043 Berlin",
       "film": "The End of Oak Street",
       "format_tags": [],
       "times": [
@@ -1642,28 +1656,17 @@
     {
       "cinema": "Cineplex Neukölln Arcaden",
       "address": "Karl-Marx-Str. 66, 12043 Berlin",
-      "film": "Obsession - Du sollst mich lieben",
-      "format_tags": [],
-      "times": [
-        "17:30"
+      "film": "Das Ende der Sterne - The Dog Stars",
+      "format_tags": [
+        "OV"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_5414089.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
-      "rating": 8.2,
-      "tmdb_id": 1339713
-    },
-    {
-      "cinema": "Cineplex Neukölln Arcaden",
-      "address": "Karl-Marx-Str. 66, 12043 Berlin",
-      "film": "Insidious: Out of the Further",
-      "format_tags": [],
       "times": [
-        "20:10"
+        "20:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/insidious-out-of-the-further-f172967601_5414089.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
-      "rating": 5.7,
-      "tmdb_id": 1291595
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-ende-der-sterne-f172931199_5414089_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
+      "rating": 6.9,
+      "tmdb_id": 1384216
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1678,20 +1681,10 @@
     {
       "cinema": "Cineplex Neukölln Arcaden",
       "address": "Karl-Marx-Str. 66, 12043 Berlin",
-      "film": "Cars (2006)",
-      "format_tags": [],
-      "times": [
-        "14:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cars-2006-f41768061_5414089.html"
-    },
-    {
-      "cinema": "Cineplex Neukölln Arcaden",
-      "address": "Karl-Marx-Str. 66, 12043 Berlin",
       "film": "Das gewisse Etwas (2026)",
       "format_tags": [],
       "times": [
-        "14:40"
+        "14:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-gewisse-etwas-2026-f173004989_5414089.html"
     },
@@ -1714,12 +1707,50 @@
       "film": "Onslaught",
       "format_tags": [],
       "times": [
-        "20:15"
+        "17:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/onslaught-f173062873_5414089.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/aC7SrKgLsdrVwugPuVIuZogUW3w.jpg",
       "rating": 6.0,
       "tmdb_id": 1284046
+    },
+    {
+      "cinema": "Cineplex Neukölln Arcaden",
+      "address": "Karl-Marx-Str. 66, 12043 Berlin",
+      "film": "Virginia Woolf's Night & Day",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/virginia-woolfs-night-day-f172649392_5414089.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/pDSuVhatjn1n2Hjja5qdrP19i9K.jpg",
+      "rating": 6.0,
+      "tmdb_id": 1291375
+    },
+    {
+      "cinema": "Cineplex Neukölln Arcaden",
+      "address": "Karl-Marx-Str. 66, 12043 Berlin",
+      "film": "Oasis: Don't Look Back in Anger",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "20:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_5414089_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
+      "rating": null,
+      "tmdb_id": 1447853
+    },
+    {
+      "cinema": "Cineplex Neukölln Arcaden",
+      "address": "Karl-Marx-Str. 66, 12043 Berlin",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_5414089.html"
     },
     {
       "cinema": "Cineplex Spandau",
@@ -1763,22 +1794,12 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "12:00"
+        "11:50"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_336.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
       "rating": 7.9,
       "tmdb_id": 969681
-    },
-    {
-      "cinema": "Cineplex Spandau",
-      "address": "Havelstr. 20, 13597 Berlin",
-      "film": "Die Odyssee (2026)",
-      "format_tags": [],
-      "times": [
-        "13:25"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_336.html"
     },
     {
       "cinema": "Cineplex Spandau",
@@ -1799,7 +1820,7 @@
       "film": "The End of Oak Street",
       "format_tags": [],
       "times": [
-        "17:35"
+        "16:50"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/the-end-of-oak-street-f172689693_336.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/A3IGLbWTw2CzMH2VwwzD9jciu5w.jpg",
@@ -1812,7 +1833,7 @@
       "film": "Mutiny (2026)",
       "format_tags": [],
       "times": [
-        "20:00"
+        "20:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/mutiny-2026-f172700621_336.html"
     },
@@ -1835,6 +1856,44 @@
         "10:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-gewisse-etwas-2026-f173004989_336.html"
+    },
+    {
+      "cinema": "Cineplex Spandau",
+      "address": "Havelstr. 20, 13597 Berlin",
+      "film": "Virginia Woolf's Night & Day",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/virginia-woolfs-night-day-f172649392_336.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/pDSuVhatjn1n2Hjja5qdrP19i9K.jpg",
+      "rating": 6.0,
+      "tmdb_id": 1291375
+    },
+    {
+      "cinema": "Cineplex Spandau",
+      "address": "Havelstr. 20, 13597 Berlin",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_336.html"
+    },
+    {
+      "cinema": "Cineplex Spandau",
+      "address": "Havelstr. 20, 13597 Berlin",
+      "film": "Oasis: Don't Look Back in Anger",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "20:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_336_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
+      "rating": null,
+      "tmdb_id": 1447853
     },
     {
       "cinema": "Cineplex Titania Palast",
@@ -1862,16 +1921,6 @@
     {
       "cinema": "Cineplex Titania Palast",
       "address": "Schloßstr. 5-6, 12163 Berlin",
-      "film": "Die Odyssee (2026)",
-      "format_tags": [],
-      "times": [
-        "19:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_222.html"
-    },
-    {
-      "cinema": "Cineplex Titania Palast",
-      "address": "Schloßstr. 5-6, 12163 Berlin",
       "film": "Tad Stones und die Wunderlampe",
       "format_tags": [],
       "times": [
@@ -1894,29 +1943,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
       "rating": 7.9,
       "tmdb_id": 969681
-    },
-    {
-      "cinema": "Cineplex Titania Palast",
-      "address": "Schloßstr. 5-6, 12163 Berlin",
-      "film": "Minions & Monster",
-      "format_tags": [],
-      "times": [
-        "13:50"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_222.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1315772
-    },
-    {
-      "cinema": "Cineplex Titania Palast",
-      "address": "Schloßstr. 5-6, 12163 Berlin",
-      "film": "Mutiny (2026)",
-      "format_tags": [],
-      "times": [
-        "20:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/mutiny-2026-f172700621_222.html"
     },
     {
       "cinema": "Cineplex Titania Palast",
@@ -1952,7 +1978,7 @@
       "film": "Arnie & Barney - Retten das Wasser",
       "format_tags": [],
       "times": [
-        "09:50"
+        "10:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_222.html"
     },
@@ -1962,9 +1988,47 @@
       "film": "Das gewisse Etwas (2026)",
       "format_tags": [],
       "times": [
-        "15:00"
+        "14:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-gewisse-etwas-2026-f173004989_222.html"
+    },
+    {
+      "cinema": "Cineplex Titania Palast",
+      "address": "Schloßstr. 5-6, 12163 Berlin",
+      "film": "Virginia Woolf's Night & Day",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/virginia-woolfs-night-day-f172649392_222.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/pDSuVhatjn1n2Hjja5qdrP19i9K.jpg",
+      "rating": 6.0,
+      "tmdb_id": 1291375
+    },
+    {
+      "cinema": "Cineplex Titania Palast",
+      "address": "Schloßstr. 5-6, 12163 Berlin",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_222.html"
+    },
+    {
+      "cinema": "Cineplex Titania Palast",
+      "address": "Schloßstr. 5-6, 12163 Berlin",
+      "film": "Oasis: Don't Look Back in Anger",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "20:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_222_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
+      "rating": null,
+      "tmdb_id": 1447853
     },
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
@@ -1998,7 +2062,7 @@
       "film": "The End of Oak Street",
       "format_tags": [],
       "times": [
-        "16:40"
+        "16:20"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/the-end-of-oak-street-f172689693_111.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/A3IGLbWTw2CzMH2VwwzD9jciu5w.jpg",
@@ -2011,7 +2075,7 @@
       "film": "Vaiana (2026)",
       "format_tags": [],
       "times": [
-        "14:15"
+        "14:20"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaiana-2026-f172657249_111.html"
     },
@@ -2034,7 +2098,7 @@
       "film": "One Night Only (2026)",
       "format_tags": [],
       "times": [
-        "17:00"
+        "18:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/one-night-only-2026-f172818847_111.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/oJqFVn5Ejm4C1gig52AiR06NsBH.jpg",
@@ -2064,7 +2128,7 @@
         "OV"
       ],
       "times": [
-        "13:40"
+        "13:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_111_OV.html"
     },
@@ -2084,7 +2148,7 @@
       "film": "Toy Story 5 - Spielzeug war gestern",
       "format_tags": [],
       "times": [
-        "14:10"
+        "13:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/toy-story-5-spielzeug-war-gestern-f171703430_111.html"
     },
@@ -2096,7 +2160,7 @@
         "OV"
       ],
       "times": [
-        "19:10"
+        "20:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-ende-der-sterne-f172931199_111_OV.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
@@ -2122,40 +2186,12 @@
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
       "address": "Rathausstr. 1, 10178 Berlin",
-      "film": "The End of Oak Street",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "20:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/the-end-of-oak-street-f172689693_111_OV.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/A3IGLbWTw2CzMH2VwwzD9jciu5w.jpg",
-      "rating": 7.5,
-      "tmdb_id": 1101383
-    },
-    {
-      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
-      "address": "Rathausstr. 1, 10178 Berlin",
-      "film": "Insidious: Out of the Further",
-      "format_tags": [],
-      "times": [
-        "23:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/insidious-out-of-the-further-f172967601_111.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
-      "rating": 5.7,
-      "tmdb_id": 1291595
-    },
-    {
-      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
-      "address": "Rathausstr. 1, 10178 Berlin",
       "film": "Spider-Man: Brand New Day",
       "format_tags": [
         "3D"
       ],
       "times": [
-        "14:50"
+        "14:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_111_3D.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
@@ -2165,35 +2201,12 @@
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
       "address": "Rathausstr. 1, 10178 Berlin",
-      "film": "Das Ende der Sterne",
-      "format_tags": [],
-      "times": [
-        "22:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-ende-der-sterne-f172931199_111.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
-      "rating": 6.9,
-      "tmdb_id": 1384216
-    },
-    {
-      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
-      "address": "Rathausstr. 1, 10178 Berlin",
-      "film": "Mutiny (2026)",
-      "format_tags": [],
-      "times": [
-        "23:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/mutiny-2026-f172700621_111.html"
-    },
-    {
-      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
-      "address": "Rathausstr. 1, 10178 Berlin",
       "film": "Insidious: Out of the Further",
       "format_tags": [
         "OV"
       ],
       "times": [
-        "20:40"
+        "17:50"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/insidious-out-of-the-further-f172967601_111_OV.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
@@ -2203,39 +2216,14 @@
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
       "address": "Rathausstr. 1, 10178 Berlin",
-      "film": "Exit 8",
-      "format_tags": [],
-      "times": [
-        "23:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/exit-8-f170847918_111.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/1MQlTLck75wCDi7bKFEJpqJkjwl.jpg",
-      "rating": 7.0,
-      "tmdb_id": 1408208
-    },
-    {
-      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
-      "address": "Rathausstr. 1, 10178 Berlin",
       "film": "Mutiny (2026)",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "18:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/mutiny-2026-f172700621_111_OV.html"
-    },
-    {
-      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
-      "address": "Rathausstr. 1, 10178 Berlin",
-      "film": "The Invite (2026)",
       "format_tags": [
         "OV"
       ],
       "times": [
         "17:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/the-invite-2026-f172681686_111_OV.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/mutiny-2026-f172700621_111_OV.html"
     },
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
@@ -2243,7 +2231,7 @@
       "film": "Obsession - Du sollst mich lieben",
       "format_tags": [],
       "times": [
-        "18:00"
+        "17:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_111.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
@@ -2253,40 +2241,10 @@
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
       "address": "Rathausstr. 1, 10178 Berlin",
-      "film": "Obsession - Du sollst mich lieben",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "22:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_111_OV.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
-      "rating": 8.2,
-      "tmdb_id": 1339713
-    },
-    {
-      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
-      "address": "Rathausstr. 1, 10178 Berlin",
-      "film": "Harry Potter und der Stein der Weisen - Harry Potter and the Sorcerer's Stone",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "19:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/harry-potter-und-der-stein-der-weisen-f9889193_111_OV.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/nKspzM3rVJASkT4CvZvuj9KDT7l.jpg",
-      "rating": 7.9,
-      "tmdb_id": 671
-    },
-    {
-      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
-      "address": "Rathausstr. 1, 10178 Berlin",
       "film": "Arnie & Barney - Retten das Wasser",
       "format_tags": [],
       "times": [
-        "13:45"
+        "14:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_111.html"
     },
@@ -2303,15 +2261,42 @@
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
       "address": "Rathausstr. 1, 10178 Berlin",
-      "film": "Onslaught",
+      "film": "Oasis: Don't Look Back in Anger",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "19:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_111_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
+      "rating": null,
+      "tmdb_id": 1447853
+    },
+    {
+      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
+      "address": "Rathausstr. 1, 10178 Berlin",
+      "film": "Practical Magic 2 - Zauberhafte Schwestern",
       "format_tags": [],
       "times": [
-        "23:15"
+        "19:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/onslaught-f173062873_111.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/aC7SrKgLsdrVwugPuVIuZogUW3w.jpg",
-      "rating": 6.0,
-      "tmdb_id": 1284046
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_111.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/bM1Vp04s2Sp6Q8BAYUaFk9ViRAU.jpg",
+      "rating": 3.5,
+      "tmdb_id": 1302904
+    },
+    {
+      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
+      "address": "Rathausstr. 1, 10178 Berlin",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "20:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_111_OV.html"
     },
     {
       "cinema": "CineStar Hellersdorf",
@@ -2319,7 +2304,7 @@
       "film": "Paw Patrol: Der Dino Film",
       "format_tags": [],
       "times": [
-        "14:10"
+        "16:50"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_701251.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
@@ -2332,7 +2317,7 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "14:00"
+        "16:20"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_701251.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
@@ -2342,61 +2327,15 @@
     {
       "cinema": "CineStar Hellersdorf",
       "address": "Stendaler Str. 25, 12627 Berlin",
-      "film": "Minions & Monster",
-      "format_tags": [],
-      "times": [
-        "14:20"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_701251.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1315772
-    },
-    {
-      "cinema": "CineStar Hellersdorf",
-      "address": "Stendaler Str. 25, 12627 Berlin",
       "film": "One Night Only (2026)",
       "format_tags": [],
       "times": [
-        "16:50"
+        "17:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/one-night-only-2026-f172818847_701251.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/oJqFVn5Ejm4C1gig52AiR06NsBH.jpg",
       "rating": 7.0,
       "tmdb_id": 1686940
-    },
-    {
-      "cinema": "CineStar Hellersdorf",
-      "address": "Stendaler Str. 25, 12627 Berlin",
-      "film": "Der Wunderweltenbaum",
-      "format_tags": [],
-      "times": [
-        "14:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-wunderweltenbaum-f171970849_701251.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/3aB1LnHpNMLwZu8zcgyqsHeUUdM.jpg",
-      "rating": 6.2,
-      "tmdb_id": 1140521
-    },
-    {
-      "cinema": "CineStar Hellersdorf",
-      "address": "Stendaler Str. 25, 12627 Berlin",
-      "film": "Vaiana (2026)",
-      "format_tags": [],
-      "times": [
-        "13:50"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/vaiana-2026-f172657249_701251.html"
-    },
-    {
-      "cinema": "CineStar Hellersdorf",
-      "address": "Stendaler Str. 25, 12627 Berlin",
-      "film": "Toy Story 5 - Spielzeug war gestern",
-      "format_tags": [],
-      "times": [
-        "14:20"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/toy-story-5-spielzeug-war-gestern-f171703430_701251.html"
     },
     {
       "cinema": "CineStar Hellersdorf",
@@ -2450,7 +2389,7 @@
       "film": "Insidious: Out of the Further",
       "format_tags": [],
       "times": [
-        "19:30"
+        "20:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/insidious-out-of-the-further-f172967601_701251.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
@@ -2475,29 +2414,6 @@
     {
       "cinema": "CineStar Hellersdorf",
       "address": "Stendaler Str. 25, 12627 Berlin",
-      "film": "Harry Potter und der Stein der Weisen",
-      "format_tags": [],
-      "times": [
-        "19:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/harry-potter-und-der-stein-der-weisen-f9889193_701251.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/nKspzM3rVJASkT4CvZvuj9KDT7l.jpg",
-      "rating": 7.9,
-      "tmdb_id": 671
-    },
-    {
-      "cinema": "CineStar Hellersdorf",
-      "address": "Stendaler Str. 25, 12627 Berlin",
-      "film": "Arnie & Barney - Retten das Wasser",
-      "format_tags": [],
-      "times": [
-        "14:40"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_701251.html"
-    },
-    {
-      "cinema": "CineStar Hellersdorf",
-      "address": "Stendaler Str. 25, 12627 Berlin",
       "film": "Das gewisse Etwas (2026)",
       "format_tags": [],
       "times": [
@@ -2506,14 +2422,14 @@
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-gewisse-etwas-2026-f173004989_701251.html"
     },
     {
-      "cinema": "CineStar Tegel",
-      "address": "Am Borsigturm 2, 13507 Berlin",
-      "film": "Toy Story 5 - Spielzeug war gestern",
+      "cinema": "CineStar Hellersdorf",
+      "address": "Stendaler Str. 25, 12627 Berlin",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
       "format_tags": [],
       "times": [
-        "14:00"
+        "19:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/toy-story-5-spielzeug-war-gestern-f171703430_2775966.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_701251.html"
     },
     {
       "cinema": "CineStar Tegel",
@@ -2521,7 +2437,7 @@
       "film": "Die Odyssee (2026)",
       "format_tags": [],
       "times": [
-        "14:00"
+        "16:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_2775966.html"
     },
@@ -2531,7 +2447,7 @@
       "film": "Paw Patrol: Der Dino Film",
       "format_tags": [],
       "times": [
-        "14:00"
+        "17:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_2775966.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
@@ -2541,20 +2457,10 @@
     {
       "cinema": "CineStar Tegel",
       "address": "Am Borsigturm 2, 13507 Berlin",
-      "film": "Vaiana (2026)",
-      "format_tags": [],
-      "times": [
-        "14:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/vaiana-2026-f172657249_2775966.html"
-    },
-    {
-      "cinema": "CineStar Tegel",
-      "address": "Am Borsigturm 2, 13507 Berlin",
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "14:15"
+        "16:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2775966.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
@@ -2564,23 +2470,10 @@
     {
       "cinema": "CineStar Tegel",
       "address": "Am Borsigturm 2, 13507 Berlin",
-      "film": "Minions & Monster",
-      "format_tags": [],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_2775966.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1315772
-    },
-    {
-      "cinema": "CineStar Tegel",
-      "address": "Am Borsigturm 2, 13507 Berlin",
       "film": "One Night Only (2026)",
       "format_tags": [],
       "times": [
-        "14:20"
+        "19:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/one-night-only-2026-f172818847_2775966.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/oJqFVn5Ejm4C1gig52AiR06NsBH.jpg",
@@ -2593,7 +2486,7 @@
       "film": "Spaziergang nach Syrakus",
       "format_tags": [],
       "times": [
-        "16:30"
+        "16:20"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spaziergang-nach-syrakus-f172738795_2775966.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
@@ -2608,7 +2501,7 @@
         "3D"
       ],
       "times": [
-        "16:10"
+        "17:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2775966_3D.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
@@ -2634,7 +2527,7 @@
       "film": "Steckerlfischfiasko",
       "format_tags": [],
       "times": [
-        "17:35"
+        "17:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/steckerlfischfiasko-f172295697_2775966.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/uOYnVDF8tfLBmGURJg0j17kgbaI.jpg",
@@ -2644,10 +2537,23 @@
     {
       "cinema": "CineStar Tegel",
       "address": "Am Borsigturm 2, 13507 Berlin",
+      "film": "The End of Oak Street",
+      "format_tags": [],
+      "times": [
+        "20:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/the-end-of-oak-street-f172689693_2775966.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/A3IGLbWTw2CzMH2VwwzD9jciu5w.jpg",
+      "rating": 7.5,
+      "tmdb_id": 1101383
+    },
+    {
+      "cinema": "CineStar Tegel",
+      "address": "Am Borsigturm 2, 13507 Berlin",
       "film": "Mutiny (2026)",
       "format_tags": [],
       "times": [
-        "20:00"
+        "20:20"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/mutiny-2026-f172700621_2775966.html"
     },
@@ -2657,7 +2563,7 @@
       "film": "Oh la la 2 - Neue Tests, neues Chaos",
       "format_tags": [],
       "times": [
-        "17:45"
+        "16:40"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/oh-la-la-2-neue-tests-neues-chaos-f172722632_2775966.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/3oT929WwceFf0vq3J1uAdvbQkvW.jpg",
@@ -2680,38 +2586,17 @@
     {
       "cinema": "CineStar Tegel",
       "address": "Am Borsigturm 2, 13507 Berlin",
-      "film": "Obsession - Du sollst mich lieben",
-      "format_tags": [],
-      "times": [
-        "20:10"
+      "film": "Red Rue Express",
+      "format_tags": [
+        "OmU"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_2775966.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
-      "rating": 8.2,
-      "tmdb_id": 1339713
-    },
-    {
-      "cinema": "CineStar Tegel",
-      "address": "Am Borsigturm 2, 13507 Berlin",
-      "film": "Harry Potter und der Stein der Weisen",
-      "format_tags": [],
       "times": [
-        "19:30"
+        "17:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/harry-potter-und-der-stein-der-weisen-f9889193_2775966.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/nKspzM3rVJASkT4CvZvuj9KDT7l.jpg",
-      "rating": 7.9,
-      "tmdb_id": 671
-    },
-    {
-      "cinema": "CineStar Tegel",
-      "address": "Am Borsigturm 2, 13507 Berlin",
-      "film": "Arnie & Barney - Retten das Wasser",
-      "format_tags": [],
-      "times": [
-        "14:20"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_2775966.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/red-rue-express-f173051414_2775966_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/66rjK57IQH8CrNG8tj7sUoo5Xjj.jpg",
+      "rating": null,
+      "tmdb_id": 1479369
     },
     {
       "cinema": "CineStar Tegel",
@@ -2726,42 +2611,22 @@
     {
       "cinema": "CineStar Tegel",
       "address": "Am Borsigturm 2, 13507 Berlin",
-      "film": "Onslaught",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
       "format_tags": [],
       "times": [
-        "20:15"
+        "19:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/onslaught-f173062873_2775966.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/aC7SrKgLsdrVwugPuVIuZogUW3w.jpg",
-      "rating": 6.0,
-      "tmdb_id": 1284046
-    },
-    {
-      "cinema": "City Kino Wedding",
-      "address": "Im Centre Francais, Müllerstr. 74, 13349 Berlin",
-      "film": "Sunny Dancer",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "17:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/sunny-dancer-f171804087_317_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/AdjlZuN1N3RpX1ggZNMz6oVcwN4.jpg",
-      "rating": 9.0,
-      "tmdb_id": 1280015
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_2775966.html"
     },
     {
       "cinema": "City Kino Wedding",
       "address": "Im Centre Francais, Müllerstr. 74, 13349 Berlin",
       "film": "Spaziergang nach Syrakus",
-      "format_tags": [
-        "OmenglU"
-      ],
+      "format_tags": [],
       "times": [
-        "19:30"
+        "17:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spaziergang-nach-syrakus-f172738795_317_OmenglU.html",
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spaziergang-nach-syrakus-f172738795_317.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
       "rating": null,
       "tmdb_id": 1410202
@@ -2772,7 +2637,7 @@
       "film": "Staatsschutz",
       "format_tags": [],
       "times": [
-        "21:15"
+        "19:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/staatsschutz-f171842972_317.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/hhLFoA0FSnREDFKCuIHf3KlYZuZ.jpg",
@@ -2780,17 +2645,43 @@
       "tmdb_id": 1599784
     },
     {
+      "cinema": "City Kino Wedding",
+      "address": "Im Centre Francais, Müllerstr. 74, 13349 Berlin",
+      "film": "Teenage Sex and Death at Camp Miasma",
+      "format_tags": [],
+      "times": [
+        "21:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/teenage-sex-and-death-at-camp-miasma-f172724077_317.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/bg5hTWIbMeiYgn5BJudWz9HUT3B.jpg",
+      "rating": 7.2,
+      "tmdb_id": 1240889
+    },
+    {
       "cinema": "Colosseum Filmtheater",
       "address": "Schönhauser Allee 123, 10437 Berlin",
       "film": "Paw Patrol: Der Dino Film",
       "format_tags": [],
       "times": [
-        "15:00"
+        "15:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_86.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
       "rating": 7.3,
       "tmdb_id": 1185806
+    },
+    {
+      "cinema": "Colosseum Filmtheater",
+      "address": "Schönhauser Allee 123, 10437 Berlin",
+      "film": "Insekten - Helden im Verborgenen",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/insekten-helden-im-verborgenen-f172470301_86.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/cV1xcGh5KIljaRGDJcFT6Pm9ZAN.jpg",
+      "rating": 6.5,
+      "tmdb_id": 1674837
     },
     {
       "cinema": "Colosseum Filmtheater",
@@ -2805,15 +2696,15 @@
     {
       "cinema": "Colosseum Filmtheater",
       "address": "Schönhauser Allee 123, 10437 Berlin",
-      "film": "Spider-Man: Brand New Day",
+      "film": "Oh la la 2 - Neue Tests, neues Chaos",
       "format_tags": [],
       "times": [
-        "16:00"
+        "14:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_86.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
-      "rating": 7.9,
-      "tmdb_id": 969681
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oh-la-la-2-neue-tests-neues-chaos-f172722632_86.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/3oT929WwceFf0vq3J1uAdvbQkvW.jpg",
+      "rating": 5.1,
+      "tmdb_id": 1437939
     },
     {
       "cinema": "Colosseum Filmtheater",
@@ -2821,7 +2712,7 @@
       "film": "Was haben wir gelacht",
       "format_tags": [],
       "times": [
-        "17:45"
+        "16:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_86.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
@@ -2831,12 +2722,30 @@
     {
       "cinema": "Colosseum Filmtheater",
       "address": "Schönhauser Allee 123, 10437 Berlin",
-      "film": "Toy Story 5 - Spielzeug war gestern",
+      "film": "Teenage Sex and Death at Camp Miasma",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "21:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/teenage-sex-and-death-at-camp-miasma-f172724077_86_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/bg5hTWIbMeiYgn5BJudWz9HUT3B.jpg",
+      "rating": 7.2,
+      "tmdb_id": 1240889
+    },
+    {
+      "cinema": "Colosseum Filmtheater",
+      "address": "Schönhauser Allee 123, 10437 Berlin",
+      "film": "Obsession - Du sollst mich lieben",
       "format_tags": [],
       "times": [
-        "15:30"
+        "21:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/toy-story-5-spielzeug-war-gestern-f171703430_86.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_86.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2,
+      "tmdb_id": 1339713
     },
     {
       "cinema": "Colosseum Filmtheater",
@@ -2844,21 +2753,24 @@
       "film": "Vaterland (2026)",
       "format_tags": [],
       "times": [
-        "17:00"
+        "17:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaterland-2026-f172517063_86.html"
     },
     {
       "cinema": "Colosseum Filmtheater",
       "address": "Schönhauser Allee 123, 10437 Berlin",
-      "film": "Bella (2026)",
+      "film": "Chopin: Eine Sonate in Paris",
       "format_tags": [
-        "OmenglU"
+        "OmU"
       ],
       "times": [
-        "20:15"
+        "18:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bella-2026-f172477315_86_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/chopin-eine-sonate-in-paris-f172118342_86_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/f4cLh2vVzKH8WCbplPFo6aCMpRC.jpg",
+      "rating": 6.8,
+      "tmdb_id": 1299799
     },
     {
       "cinema": "Cosima",
@@ -2866,7 +2778,7 @@
       "film": "Spaziergang nach Syrakus",
       "format_tags": [],
       "times": [
-        "15:00"
+        "18:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spaziergang-nach-syrakus-f172738795_95.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
@@ -2876,10 +2788,25 @@
     {
       "cinema": "Cosima",
       "address": "Sieglindestr. 10, 12159 Berlin",
+      "film": "Sneak Preview",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "20:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/sneak-preview-f20619_95_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/3XARNEq4obOjM7Xy6CpAcoyCiEC.jpg",
+      "rating": null,
+      "tmdb_id": 1220030
+    },
+    {
+      "cinema": "Cosima",
+      "address": "Sieglindestr. 10, 12159 Berlin",
       "film": "Diamanti - Diamonds",
       "format_tags": [],
       "times": [
-        "17:30"
+        "15:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/diamanti-diamonds-f171330594_95.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/gcZWcZugGrByB0W0f5B1rrXtYn.jpg",
@@ -2987,7 +2914,7 @@
       "film": "Everytime",
       "format_tags": [],
       "times": [
-        "18:00"
+        "16:40"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/everytime-f172681780_139115802.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/lByDG8HfSamsJqFLcvW9dlxBxIA.jpg",
@@ -3023,21 +2950,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/hhLFoA0FSnREDFKCuIHf3KlYZuZ.jpg",
       "rating": null,
       "tmdb_id": 1599784
-    },
-    {
-      "cinema": "Delphi LUX",
-      "address": "Kantstr. 10, 10623 Berlin",
-      "film": "Spider-Man: Brand New Day",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "20:45"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_139115802_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
-      "rating": 7.9,
-      "tmdb_id": 969681
     },
     {
       "cinema": "Delphi LUX",
@@ -3092,7 +3004,7 @@
         "OmenglU"
       ],
       "times": [
-        "14:20"
+        "14:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaterland-2026-f172517063_139115802_OmenglU.html"
     },
@@ -3112,12 +3024,27 @@
       "tmdb_id": 1240889
     },
     {
+      "cinema": "Delphi LUX",
+      "address": "Kantstr. 10, 10623 Berlin",
+      "film": "Where The Waves Took Her",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "19:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/where-the-waves-took-her-f172205303_139115802_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/d5ap3Lfx6LcM6jH65kgAZH8VMdr.jpg",
+      "rating": null,
+      "tmdb_id": 1559089
+    },
+    {
       "cinema": "Eva-Lichtspiele",
       "address": "Blissestr. 18, 10713 Berlin",
       "film": "Spaziergang nach Syrakus",
       "format_tags": [],
       "times": [
-        "17:45"
+        "20:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spaziergang-nach-syrakus-f172738795_114.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
@@ -3127,25 +3054,38 @@
     {
       "cinema": "Eva-Lichtspiele",
       "address": "Blissestr. 18, 10713 Berlin",
-      "film": "Hiddensee (2026)",
-      "format_tags": [],
-      "times": [
-        "20:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/hiddensee-2026-f172739114_114.html"
-    },
-    {
-      "cinema": "Eva-Lichtspiele",
-      "address": "Blissestr. 18, 10713 Berlin",
       "film": "Was haben wir gelacht",
       "format_tags": [],
       "times": [
-        "15:30"
+        "18:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_114.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
       "rating": 7.9,
       "tmdb_id": 1698323
+    },
+    {
+      "cinema": "Eva-Lichtspiele",
+      "address": "Blissestr. 18, 10713 Berlin",
+      "film": "Der alte deutsche Film: Lemkes sel. Witwe",
+      "format_tags": [],
+      "times": [
+        "15:45"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/lemkes-sel-witwe-f101759258_114.html"
+    },
+    {
+      "cinema": "Filmkunst 66",
+      "address": "Bleibtreustr. 12, 10623 Berlin",
+      "film": "Der Heimatlose",
+      "format_tags": [],
+      "times": [
+        "15:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-heimatlose-f171843200_233.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/cBxkNpLZtNVNv7Ot5FAA2WsWlQ5.jpg",
+      "rating": null,
+      "tmdb_id": 1476466
     },
     {
       "cinema": "Filmkunst 66",
@@ -3160,25 +3100,10 @@
     {
       "cinema": "Filmkunst 66",
       "address": "Bleibtreustr. 12, 10623 Berlin",
-      "film": "Strange River",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "20:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/strange-river-f172574277_228_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/mJjo0Y3Fq3C31sgMUnhKhaOSIcl.jpg",
-      "rating": 6.2,
-      "tmdb_id": 1025389
-    },
-    {
-      "cinema": "Filmkunst 66",
-      "address": "Bleibtreustr. 12, 10623 Berlin",
       "film": "Im Spiegel meiner Mutter",
       "format_tags": [],
       "times": [
-        "15:15"
+        "17:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/im-spiegel-meiner-mutter-f172732326_233.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/w8bnr5m7rAIjEXK4WZqgT6sqSSw.jpg",
@@ -3201,19 +3126,6 @@
     {
       "cinema": "Filmkunst 66",
       "address": "Bleibtreustr. 12, 10623 Berlin",
-      "film": "Wer weiß schon, was ein Leben ist?",
-      "format_tags": [],
-      "times": [
-        "17:45"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/wer-weiss-schon-was-ein-leben-istij-f172823746_233.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/dDPRj0yz1jcLusnrGvfDA4JL8pf.jpg",
-      "rating": null,
-      "tmdb_id": 1631404
-    },
-    {
-      "cinema": "Filmkunst 66",
-      "address": "Bleibtreustr. 12, 10623 Berlin",
       "film": "Diamanti - Diamonds",
       "format_tags": [],
       "times": [
@@ -3225,14 +3137,17 @@
       "tmdb_id": 572782
     },
     {
-      "cinema": "Filmmuseum Potsdam",
-      "address": "Marstall, 14467 Potsdam",
-      "film": "Herzsprung; m. Gespräch",
+      "cinema": "Filmkunst 66",
+      "address": "Bleibtreustr. 12, 10623 Berlin",
+      "film": "Bitteres Fest",
       "format_tags": [],
       "times": [
-        "18:00"
+        "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/herzsprung-f30300_207.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bitteres-fest-f172642488_228.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ei2nbzABWV0pK2Wt2DeVzRbZs3c.jpg",
+      "rating": 6.3,
+      "tmdb_id": 1088548
     },
     {
       "cinema": "Filmmuseum Potsdam",
@@ -3240,12 +3155,27 @@
       "film": "Etwas ganz Besonderes",
       "format_tags": [],
       "times": [
-        "20:30"
+        "17:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/etwas-ganz-besonderes-f171844294_207.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/yInkf546G1I63g4Im3XvFCnmxsf.jpg",
       "rating": 6.3,
       "tmdb_id": 1299061
+    },
+    {
+      "cinema": "Filmmuseum Potsdam",
+      "address": "Marstall, 14467 Potsdam",
+      "film": "Mit leiser Stimme - A voix basse: In a Whisper",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "19:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/mit-leiser-stimme-f171804459_207_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/puKBqZ2l67BAMw10I41GEdBpYQM.jpg",
+      "rating": 6.9,
+      "tmdb_id": 1119547
     },
     {
       "cinema": "Filmrauschpalast",
@@ -3255,7 +3185,7 @@
         "OmU"
       ],
       "times": [
-        "21:00"
+        "19:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/teenage-sex-and-death-at-camp-miasma-f172724077_930416_OmU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/bg5hTWIbMeiYgn5BJudWz9HUT3B.jpg",
@@ -3270,7 +3200,7 @@
         "OmenglU"
       ],
       "times": [
-        "19:00"
+        "21:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/staatsschutz-f171842972_930416_OmenglU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/hhLFoA0FSnREDFKCuIHf3KlYZuZ.jpg",
@@ -3366,101 +3296,79 @@
     {
       "cinema": "Forest Cinema im Michelberger Hotel",
       "address": "Warschauer Str. 39-40, 10243 Berlin",
-      "film": "Die letzte Metro",
+      "film": "Fitzcarraldo (1981)",
       "format_tags": [],
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-letzte-metro-f22708_107373423.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iPHAo44WJW17xEeLuksu8UKiYaS.jpg",
-      "rating": 7.2,
-      "tmdb_id": 1716
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/fitzcarraldo-1981-f20480_107373423.html"
     },
     {
       "cinema": "Freiluftkino Hasenheide",
       "address": "Im Volkspark Hasenheide, 10967 Berlin",
-      "film": "Meine Freundin Conni - Abenteuer mit Kranich Klaus",
+      "film": "Marsupilami",
       "format_tags": [],
       "times": [
-        "16:15"
+        "16:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/meine-freundin-conni-abenteuer-mit-kranich-klaus-f172224710_185.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/ye46Vv26Wvc3FWpOmWRZDy7tig1.jpg",
-      "rating": 7.5,
-      "tmdb_id": 1422407
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/marsupilami-f172738956_185.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
+      "rating": 6.3,
+      "tmdb_id": 1145899
     },
     {
       "cinema": "Freiluftkino Hasenheide",
       "address": "Im Volkspark Hasenheide, 10967 Berlin",
-      "film": "Ingeborg Bachmann - Jemand, der einmal ich war",
+      "film": "Morgen ist auch noch ein Tag (2024) - C'e ancora domani",
       "format_tags": [
-        "OmenglU"
+        "OmU"
       ],
       "times": [
         "18:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/ingeborg-bachmann-jemand-der-einmal-ich-war-f172332937_185_OmenglU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/qKJV8zX23FcoNM3Vx3jtU8S58F8.jpg",
-      "rating": 6.5,
-      "tmdb_id": 1477087
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/morgen-ist-auch-noch-ein-tag-2024-f166698003_185_OmU.html"
     },
     {
       "cinema": "Freiluftkino Hasenheide",
       "address": "Im Volkspark Hasenheide, 10967 Berlin",
-      "film": "Bugonia",
+      "film": "Call Me By Your Name",
       "format_tags": [
         "OmU"
       ],
       "times": [
         "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/bugonia-f169412182_185_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/9RJ4nkXlINBQ3oVKtiwmxnwXgC0.jpg",
-      "rating": 7.3,
-      "tmdb_id": 701387
-    },
-    {
-      "cinema": "Freiluftkino Kreuzberg",
-      "address": "Innenhof d. Bethanien, Mariannenplatz 2, 10997 Berlin",
-      "film": "Sunny Dancer",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "21:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/sunny-dancer-f171804087_190_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/AdjlZuN1N3RpX1ggZNMz6oVcwN4.jpg",
-      "rating": 9.0,
-      "tmdb_id": 1280015
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/call-me-by-your-name-f134249820_185_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/96P9eErvoIWdi1eOAilUF09Vqe.jpg",
+      "rating": 8.1,
+      "tmdb_id": 398818
     },
     {
       "cinema": "Freiluftkino Neue Zukunft",
       "address": "Alt-Stralau 68, 10245 Berlin",
-      "film": "Obsession - Du sollst mich lieben",
+      "film": "Hamnet",
       "format_tags": [
         "OmU"
       ],
       "times": [
-        "20:15"
+        "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_167341714_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
-      "rating": 8.2,
-      "tmdb_id": 1339713
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/hamnet-f171456406_167341714_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/Ua43qwtLJNtFcTeAtO3q1SG5NV.jpg",
+      "rating": 7.7,
+      "tmdb_id": 858024
     },
     {
       "cinema": "Freiluftkino Rehberge",
       "address": "Windhuker Str. 52a, 13351 Berlin",
-      "film": "Spaziergang nach Syrakus",
-      "format_tags": [],
-      "times": [
-        "19:45"
+      "film": "Die Odyssee (2026)",
+      "format_tags": [
+        "OmU"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spaziergang-nach-syrakus-f172738795_68181752.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
-      "rating": null,
-      "tmdb_id": 1410202
+      "times": [
+        "19:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_68181752_OmU.html"
     },
     {
       "cinema": "fsk am Oranienplatz",
@@ -3510,14 +3418,17 @@
     {
       "cinema": "fsk am Oranienplatz",
       "address": "Segitzdamm 2, 10969 Berlin",
-      "film": "Evidence (2025)",
+      "film": "Du cote de Robinson",
       "format_tags": [
         "OmU"
       ],
       "times": [
-        "18:45"
+        "17:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/evidence-2025-f169408958_204_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/du-cote-de-robinson-f172205775_204_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1NLIoWIB8g0DFKpwniObLTjx9fj.jpg",
+      "rating": 7.0,
+      "tmdb_id": 708270
     },
     {
       "cinema": "Hackesche Höfe Kino",
@@ -3676,25 +3587,12 @@
     {
       "cinema": "Hackesche Höfe Kino",
       "address": "Rosenthaler Str. 40/41, 10178 Berlin",
-      "film": "Chihiros Reise ins Zauberland",
-      "format_tags": [],
-      "times": [
-        "14:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/chihiros-reise-ins-zauberland-f11677572_298.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/wWNLsGvKqhi6cNWul0uvhqbQ4kl.jpg",
-      "rating": 8.5,
-      "tmdb_id": 129
-    },
-    {
-      "cinema": "Hackesche Höfe Kino",
-      "address": "Rosenthaler Str. 40/41, 10178 Berlin",
       "film": "Vaterland (2026)",
       "format_tags": [
         "OmenglU"
       ],
       "times": [
-        "14:30"
+        "15:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaterland-2026-f172517063_298_OmenglU.html"
     },
@@ -3731,29 +3629,27 @@
     {
       "cinema": "IL KINO Kino-Bar-Bistro",
       "address": "Nansenstr. 22, 12047 Berlin",
-      "film": "Diamanti - Diamonds",
+      "film": "Staatsschutz",
       "format_tags": [
-        "OmU"
+        "OmenglU"
       ],
       "times": [
-        "16:30"
+        "19:20"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/diamanti-diamonds-f171330594_114793027_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/gcZWcZugGrByB0W0f5B1rrXtYn.jpg",
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/staatsschutz-f171842972_114793027_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/hhLFoA0FSnREDFKCuIHf3KlYZuZ.jpg",
       "rating": null,
-      "tmdb_id": 572782
+      "tmdb_id": 1599784
     },
     {
       "cinema": "IL KINO Kino-Bar-Bistro",
       "address": "Nansenstr. 22, 12047 Berlin",
-      "film": "Preview: Gentle Monster",
-      "format_tags": [
-        "OmU"
-      ],
+      "film": "Everytime (DFmenglU)",
+      "format_tags": [],
       "times": [
-        "19:00"
+        "16:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/gentle-monster-f172931221_114793027_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/everytime-f172681780_114793027_DFmenglU.html"
     },
     {
       "cinema": "IL KINO Kino-Bar-Bistro",
@@ -3763,38 +3659,12 @@
         "OmU"
       ],
       "times": [
-        "21:10"
+        "21:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/thats-why-the-lady-is-a-champ-f172931232_114793027_OmU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/crqI0FEMT2UI1GkrYPlthMf5hB1.jpg",
       "rating": 7.1,
       "tmdb_id": 1287322
-    },
-    {
-      "cinema": "Kammerspiele Kleinmachnow",
-      "address": "Karl-Marx-Str. 18, 14532 Kleinmachnow",
-      "film": "Der Klang der Stradivari",
-      "format_tags": [],
-      "times": [
-        "20:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-klang-der-stradivari-f172659322_137.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/1zU9yuKaTGjv9W6NqEx5ofVjzdk.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1266805
-    },
-    {
-      "cinema": "Kammerspiele Kleinmachnow",
-      "address": "Karl-Marx-Str. 18, 14532 Kleinmachnow",
-      "film": "Aufstand in Auschwitz",
-      "format_tags": [],
-      "times": [
-        "19:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/aufstand-in-auschwitz-f172389482_137.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/ysoGmGKEq7eifMdbIySJwV9AeQR.jpg",
-      "rating": null,
-      "tmdb_id": 1698417
     },
     {
       "cinema": "Kant Kino",
@@ -3892,7 +3762,7 @@
       "film": "Wer weiß schon, was ein Leben ist?",
       "format_tags": [],
       "times": [
-        "16:00"
+        "15:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/wer-weiss-schon-was-ein-leben-istij-f172823746_149.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/dDPRj0yz1jcLusnrGvfDA4JL8pf.jpg",
@@ -3915,19 +3785,6 @@
     {
       "cinema": "Kant Kino",
       "address": "Kantstr. 54, 10627 Berlin",
-      "film": "Was haben wir gelacht",
-      "format_tags": [],
-      "times": [
-        "19:20"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_149.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
-      "rating": 7.9,
-      "tmdb_id": 1698323
-    },
-    {
-      "cinema": "Kant Kino",
-      "address": "Kantstr. 54, 10627 Berlin",
       "film": "Diamanti - Diamonds",
       "format_tags": [
         "OmU"
@@ -3941,27 +3798,31 @@
       "tmdb_id": 572782
     },
     {
+      "cinema": "Kant Kino",
+      "address": "Kantstr. 54, 10627 Berlin",
+      "film": "Oasis: Don't Look Back in Anger",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "20:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_149_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
+      "rating": null,
+      "tmdb_id": 1447853
+    },
+    {
       "cinema": "Kino Arsenal im Silent Green Kulturquartier",
       "address": "Plantagenstr. 80, 13347 Berlin",
-      "film": "Der Tod wird kommen - La mort viendra (OmU); m. Gespräch",
-      "format_tags": [],
+      "film": "70mm: Cliffhanger - Nur die Starken überleben",
+      "format_tags": [
+        "OmU"
+      ],
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-tod-wird-kommen-f168923812_137006242_OmU.html"
-    },
-    {
-      "cinema": "Kino im Kulturhaus Spandau",
-      "address": "Mauerstr. 6, 13597 Berlin",
-      "film": "Der Klang der Stradivari",
-      "format_tags": [],
-      "times": [
-        "16:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-klang-der-stradivari-f172659322_28701458.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/1zU9yuKaTGjv9W6NqEx5ofVjzdk.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1266805
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/cliffhanger-nur-die-starken-ueberleben-f20005_137006242_OmU.html"
     },
     {
       "cinema": "Kino im Kulturhaus Spandau",
@@ -3982,7 +3843,7 @@
       "film": "Oh la la 2 - Neue Tests, neues Chaos",
       "format_tags": [],
       "times": [
-        "18:00"
+        "16:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/oh-la-la-2-neue-tests-neues-chaos-f172722632_28701458.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/3oT929WwceFf0vq3J1uAdvbQkvW.jpg",
@@ -3990,27 +3851,42 @@
       "tmdb_id": 1437939
     },
     {
-      "cinema": "Kino im Zeiss-Großplanetarium",
-      "address": "Prenzlauer Allee 80, 10405 Berlin",
-      "film": "Insekten - Helden im Verborgenen",
+      "cinema": "Kino im Kulturhaus Spandau",
+      "address": "Mauerstr. 6, 13597 Berlin",
+      "film": "Steckerlfischfiasko",
       "format_tags": [],
       "times": [
-        "10:00"
+        "17:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/insekten-helden-im-verborgenen-f172470301_37791198.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/cV1xcGh5KIljaRGDJcFT6Pm9ZAN.jpg",
-      "rating": 6.5,
-      "tmdb_id": 1674837
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/steckerlfischfiasko-f172295697_28701458.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/uOYnVDF8tfLBmGURJg0j17kgbaI.jpg",
+      "rating": null,
+      "tmdb_id": 1328335
     },
     {
       "cinema": "Kino im Zeiss-Großplanetarium",
       "address": "Prenzlauer Allee 80, 10405 Berlin",
-      "film": "Salz und Wasser (teilw.OmU)",
+      "film": "Future Council - Komm an Bord",
       "format_tags": [],
       "times": [
-        "16:00"
+        "10:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/salz-und-wasser-f172696037_37791198_teilw.OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/future-council-komm-an-bord-f171130129_37791198.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/BWXLKfGlDo9tPhNM3eSp1xkpVi.jpg",
+      "rating": 10.0,
+      "tmdb_id": 1319849
+    },
+    {
+      "cinema": "Kino im Zeiss-Großplanetarium",
+      "address": "Prenzlauer Allee 80, 10405 Berlin",
+      "film": "Wildes Asien",
+      "format_tags": [
+        "3D"
+      ],
+      "times": [
+        "17:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/wildes-asien-f172701684_37791198_3D.html"
     },
     {
       "cinema": "Kino im Zeiss-Großplanetarium",
@@ -4025,22 +3901,10 @@
     {
       "cinema": "Kino im Zeiss-Großplanetarium",
       "address": "Prenzlauer Allee 80, 10405 Berlin",
-      "film": "Mein neues altes Ich - Eine Reise in das Mysterium der Menopause",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/mein-neues-altes-ich-eine-reise-in-das-mysterium-der-menopause-f171716942_37791198_OmU.html"
-    },
-    {
-      "cinema": "Kino im Zeiss-Großplanetarium",
-      "address": "Prenzlauer Allee 80, 10405 Berlin",
       "film": "Was haben wir gelacht",
       "format_tags": [],
       "times": [
-        "18:15"
+        "15:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_37791198.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
@@ -4048,25 +3912,12 @@
       "tmdb_id": 1698323
     },
     {
-      "cinema": "Kino im Zeiss-Großplanetarium",
-      "address": "Prenzlauer Allee 80, 10405 Berlin",
-      "film": "Songs for Joy - Der Film zur Musik",
-      "format_tags": [],
-      "times": [
-        "20:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/songs-for-joy-der-film-zur-musik-f170375819_37791198.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/eGwweTJVizN8d3rg81fEaB1AJrf.jpg",
-      "rating": null,
-      "tmdb_id": 1525993
-    },
-    {
       "cinema": "Kino in der Kulturbrauerei",
       "address": "Schönhauser Allee 36, 10435 Berlin",
       "film": "Minions & Monster",
       "format_tags": [],
       "times": [
-        "14:05"
+        "14:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_3685765.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
@@ -4081,7 +3932,7 @@
         "OmU"
       ],
       "times": [
-        "14:00"
+        "14:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_3685765_OmU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
@@ -4106,7 +3957,7 @@
       "film": "Toy Story 5 - Spielzeug war gestern",
       "format_tags": [],
       "times": [
-        "14:15"
+        "14:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/toy-story-5-spielzeug-war-gestern-f171703430_3685765.html"
     },
@@ -4116,7 +3967,7 @@
       "film": "Paw Patrol: Der Dino Film",
       "format_tags": [],
       "times": [
-        "14:10"
+        "14:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_3685765.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
@@ -4129,7 +3980,7 @@
       "film": "Vaiana (2026)",
       "format_tags": [],
       "times": [
-        "14:25"
+        "14:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaiana-2026-f172657249_3685765.html"
     },
@@ -4141,7 +3992,7 @@
         "OmU"
       ],
       "times": [
-        "19:20"
+        "19:40"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-ende-der-sterne-f172931199_3685765_OmU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
@@ -4180,7 +4031,7 @@
       "film": "Oh la la 2 - Neue Tests, neues Chaos",
       "format_tags": [],
       "times": [
-        "14:05"
+        "14:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/oh-la-la-2-neue-tests-neues-chaos-f172722632_3685765.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/3oT929WwceFf0vq3J1uAdvbQkvW.jpg",
@@ -4193,7 +4044,7 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "16:50"
+        "16:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_3685765.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
@@ -4203,37 +4054,10 @@
     {
       "cinema": "Kino in der Kulturbrauerei",
       "address": "Schönhauser Allee 36, 10435 Berlin",
-      "film": "The Invite (2026)",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "20:20"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/the-invite-2026-f172681686_3685765_OmU.html"
-    },
-    {
-      "cinema": "Kino in der Kulturbrauerei",
-      "address": "Schönhauser Allee 36, 10435 Berlin",
-      "film": "Harry Potter und der Stein der Weisen - Harry Potter and the Sorcerer's Stone",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "16:25"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/harry-potter-und-der-stein-der-weisen-f9889193_3685765_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/nKspzM3rVJASkT4CvZvuj9KDT7l.jpg",
-      "rating": 7.9,
-      "tmdb_id": 671
-    },
-    {
-      "cinema": "Kino in der Kulturbrauerei",
-      "address": "Schönhauser Allee 36, 10435 Berlin",
       "film": "Arnie & Barney - Retten das Wasser",
       "format_tags": [],
       "times": [
-        "14:15"
+        "15:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_3685765.html"
     },
@@ -4253,7 +4077,7 @@
       "film": "That's Why the Lady Is a Champ",
       "format_tags": [],
       "times": [
-        "16:20"
+        "17:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/thats-why-the-lady-is-a-champ-f172931232_3685765.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/crqI0FEMT2UI1GkrYPlthMf5hB1.jpg",
@@ -4266,39 +4090,41 @@
       "film": "Vaterland (2026)",
       "format_tags": [],
       "times": [
-        "17:15"
+        "17:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaterland-2026-f172517063_3685765.html"
     },
     {
       "cinema": "Kino in der Kulturbrauerei",
       "address": "Schönhauser Allee 36, 10435 Berlin",
-      "film": "Where The Waves Took Her",
-      "format_tags": [
-        "OmenglU"
-      ],
-      "times": [
-        "19:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/where-the-waves-took-her-f172205303_3685765_OmenglU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/d5ap3Lfx6LcM6jH65kgAZH8VMdr.jpg",
-      "rating": null,
-      "tmdb_id": 1559089
-    },
-    {
-      "cinema": "Kino in der Kulturbrauerei",
-      "address": "Schönhauser Allee 36, 10435 Berlin",
-      "film": "That's Why the Lady Is a Champ - Christy",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
       "format_tags": [
         "OmU"
       ],
       "times": [
+        "19:45"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_3685765_OmU.html"
+    },
+    {
+      "cinema": "Kino in der Kulturbrauerei",
+      "address": "Schönhauser Allee 36, 10435 Berlin",
+      "film": "Der Teufel trägt Prada II",
+      "format_tags": [],
+      "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/thats-why-the-lady-is-a-champ-f172931232_3685765_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/crqI0FEMT2UI1GkrYPlthMf5hB1.jpg",
-      "rating": 7.1,
-      "tmdb_id": 1287322
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-teufel-traegt-prada-ii-f171757756_3685765.html"
+    },
+    {
+      "cinema": "Kino in der Kulturbrauerei",
+      "address": "Schönhauser Allee 36, 10435 Berlin",
+      "film": "Preview: Kalter Hund",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/kalter-hund-f173108246_3685765.html"
     },
     {
       "cinema": "Kino Intimes",
@@ -4459,19 +4285,6 @@
     {
       "cinema": "Kino Spreehöfe",
       "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
-      "film": "Das Ende der Sterne",
-      "format_tags": [],
-      "times": [
-        "20:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-ende-der-sterne-f172931199_1537722.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
-      "rating": 6.9,
-      "tmdb_id": 1384216
-    },
-    {
-      "cinema": "Kino Spreehöfe",
-      "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
       "film": "Lotte und Totte",
       "format_tags": [],
       "times": [
@@ -4485,22 +4298,25 @@
     {
       "cinema": "Kino Spreehöfe",
       "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
+      "film": "Marsupilami",
+      "format_tags": [],
+      "times": [
+        "14:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/marsupilami-f172738956_1537722.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
+      "rating": 6.3,
+      "tmdb_id": 1145899
+    },
+    {
+      "cinema": "Kino Spreehöfe",
+      "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
       "film": "Arnie & Barney - Retten das Wasser",
       "format_tags": [],
       "times": [
         "15:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_1537722.html"
-    },
-    {
-      "cinema": "Kino Spreehöfe",
-      "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
-      "film": "Cars (2006)",
-      "format_tags": [],
-      "times": [
-        "14:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/cars-2006-f41768061_1537722.html"
     },
     {
       "cinema": "Kino Spreehöfe",
@@ -4523,6 +4339,19 @@
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaterland-2026-f172517063_1537722.html"
     },
     {
+      "cinema": "Kino Spreehöfe",
+      "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
+      "film": "Practical Magic 2 - Zauberhafte Schwestern",
+      "format_tags": [],
+      "times": [
+        "19:45"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_1537722.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/bM1Vp04s2Sp6Q8BAYUaFk9ViRAU.jpg",
+      "rating": 3.5,
+      "tmdb_id": 1302904
+    },
+    {
       "cinema": "Kino Zukunft",
       "address": "Alt Stralau 68, 10245 Berlin",
       "film": "Staatsschutz",
@@ -4540,6 +4369,21 @@
     {
       "cinema": "Kino Zukunft",
       "address": "Alt Stralau 68, 10245 Berlin",
+      "film": "Teenage Sex and Death at Camp Miasma",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "22:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/teenage-sex-and-death-at-camp-miasma-f172724077_166346228_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/bg5hTWIbMeiYgn5BJudWz9HUT3B.jpg",
+      "rating": 7.2,
+      "tmdb_id": 1240889
+    },
+    {
+      "cinema": "Kino Zukunft",
+      "address": "Alt Stralau 68, 10245 Berlin",
       "film": "Noga (2026)",
       "format_tags": [
         "OmenglU"
@@ -4550,18 +4394,6 @@
       "film_url": "http://kino.veranstaltungen-in-berlin.de/noga-2026-f172681377_166346228_OmenglU.html"
     },
     {
-      "cinema": "Kino Zukunft",
-      "address": "Alt Stralau 68, 10245 Berlin",
-      "film": "Backrooms - Extented Version",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "22:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/backrooms-extented-version-f172789457_166346228_OmU.html"
-    },
-    {
       "cinema": "KLICK Kino",
       "address": "Windscheidtstr. 19, 10627 Berlin",
       "film": "Becoming Kim",
@@ -4569,7 +4401,7 @@
         "OmU"
       ],
       "times": [
-        "17:30"
+        "20:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/becoming-kim-f172739228_119545456_OmU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/wP82UIpi8XRcvQYLDQIHBKkhNcA.jpg",
@@ -4584,7 +4416,7 @@
         "OmU"
       ],
       "times": [
-        "20:00"
+        "17:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/diamanti-diamonds-f171330594_119545456_OmU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/gcZWcZugGrByB0W0f5B1rrXtYn.jpg",
@@ -4594,38 +4426,42 @@
     {
       "cinema": "Krokodil",
       "address": "Greifenhagener Str. 32, 10437 Berlin",
-      "film": "Hiddensee (2026)",
+      "film": "So ist das Leben (1929) - Takovy je zivot; m. Live-Musikbegleitung",
       "format_tags": [],
       "times": [
-        "20:15"
+        "18:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/hiddensee-2026-f172739114_25708452.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/so-ist-das-leben-1929-f27633_25708452.html"
     },
     {
       "cinema": "Krokodil",
       "address": "Greifenhagener Str. 32, 10437 Berlin",
-      "film": "The Lights, They Fall",
-      "format_tags": [],
-      "times": [
-        "18:30"
+      "film": "A paty jezdec je strach - Der fünfte Reiter ist die Angst - A paty jezdec je strach",
+      "format_tags": [
+        "OmenglU"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/the-lights-they-fall-f171846661_25708452.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/pov73UQEaKJ04k3ctnBM0oN8qyh.jpg",
-      "rating": null,
-      "tmdb_id": 1616146
+      "times": [
+        "20:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/a-paty-jezdec-je-strach-der-fuenfte-reiter-ist-die-angst-f96177594_25708452_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/pWy6ZEd4unpU5AgStkywnE9e1qq.jpg",
+      "rating": 6.4,
+      "tmdb_id": 109380
     },
     {
       "cinema": "Lichtblick-Kino",
       "address": "Kastanienallee 77, 10435 Berlin",
-      "film": "Staatsschutz",
-      "format_tags": [],
-      "times": [
-        "18:30"
+      "film": "Schönheit & Vergänglichkeit",
+      "format_tags": [
+        "OmU"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/staatsschutz-f171842972_341.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/hhLFoA0FSnREDFKCuIHf3KlYZuZ.jpg",
+      "times": [
+        "19:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/schoenheit-vergaenglichkeit-f149109358_341_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ukzMWTYviCbIKHfhj9MVdyXAaY7.jpg",
       "rating": null,
-      "tmdb_id": 1599784
+      "tmdb_id": 577071
     },
     {
       "cinema": "Lichtblick-Kino",
@@ -4633,7 +4469,7 @@
       "film": "Für immer 16",
       "format_tags": [],
       "times": [
-        "20:30"
+        "22:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/fuer-immer-16-f172696057_341.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/A6LMFqK16ny1apd739Ij9Bq3zii.jpg",
@@ -4641,12 +4477,42 @@
       "tmdb_id": 1700885
     },
     {
+      "cinema": "Lichtblick-Kino",
+      "address": "Kastanienallee 77, 10435 Berlin",
+      "film": "Where The Waves Took Her",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "17:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/where-the-waves-took-her-f172205303_341_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/d5ap3Lfx6LcM6jH65kgAZH8VMdr.jpg",
+      "rating": null,
+      "tmdb_id": 1559089
+    },
+    {
+      "cinema": "Lichtblick-Kino",
+      "address": "Kastanienallee 77, 10435 Berlin",
+      "film": "Trainspotting - Neue Helden",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "20:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/trainspotting-neue-helden-f29858_341_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/84uIVeFz44PgXdS1N3Rk98wyW2r.jpg",
+      "rating": 8.0,
+      "tmdb_id": 627
+    },
+    {
       "cinema": "Moviemento",
       "address": "Kottbusser Damm 22, 10967 Berlin",
       "film": "Tad Stones und die Wunderlampe",
       "format_tags": [],
       "times": [
-        "16:00"
+        "15:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/tad-stones-und-die-wunderlampe-f173013148_151.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/uz50HhUyhIZjDSah7oI0BXDpapw.jpg",
@@ -4666,12 +4532,27 @@
     {
       "cinema": "Moviemento",
       "address": "Kottbusser Damm 22, 10967 Berlin",
+      "film": "Für immer 16",
+      "format_tags": [
+        "OmenglU"
+      ],
+      "times": [
+        "15:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/fuer-immer-16-f172696057_151_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/A6LMFqK16ny1apd739Ij9Bq3zii.jpg",
+      "rating": null,
+      "tmdb_id": 1700885
+    },
+    {
+      "cinema": "Moviemento",
+      "address": "Kottbusser Damm 22, 10967 Berlin",
       "film": "Staatsschutz",
       "format_tags": [
         "OmenglU"
       ],
       "times": [
-        "20:15"
+        "20:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/staatsschutz-f171842972_151_OmenglU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/hhLFoA0FSnREDFKCuIHf3KlYZuZ.jpg",
@@ -4701,7 +4582,7 @@
         "OmU"
       ],
       "times": [
-        "20:45"
+        "17:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/the-invite-2026-f172681686_151_OmU.html"
     },
@@ -4720,17 +4601,17 @@
     {
       "cinema": "Moviemento",
       "address": "Kottbusser Damm 22, 10967 Berlin",
-      "film": "Where The Waves Took Her",
+      "film": "Oasis: Don't Look Back in Anger",
       "format_tags": [
-        "OmenglU"
+        "OmU"
       ],
       "times": [
-        "18:15"
+        "20:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/where-the-waves-took-her-f172205303_151_OmenglU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/d5ap3Lfx6LcM6jH65kgAZH8VMdr.jpg",
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_151_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
       "rating": null,
-      "tmdb_id": 1559089
+      "tmdb_id": 1447853
     },
     {
       "cinema": "Neues Off",
@@ -4740,7 +4621,7 @@
         "OmenglU"
       ],
       "times": [
-        "18:20"
+        "15:40"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/staatsschutz-f171842972_78_OmenglU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/hhLFoA0FSnREDFKCuIHf3KlYZuZ.jpg",
@@ -4765,37 +4646,42 @@
     {
       "cinema": "Odeon",
       "address": "Hauptstr. 116, 10827 Berlin",
-      "film": "Die Odyssee (2026)",
+      "film": "Eclipse: Biss zum Abendrot - Twilight 3: Eclipse",
       "format_tags": [
         "OmU"
       ],
       "times": [
-        "19:50"
+        "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_97_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/eclipse-biss-zum-abendrot-f77385938_97_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/46I70Hf5lPToeaZyTK7fUj5eWNn.jpg",
+      "rating": 6.2,
+      "tmdb_id": 24021
     },
     {
-      "cinema": "Open Air Kino im Neuen Kranzler Eck",
-      "address": "Kurfürstendamm 21-22, 10719 Berlin",
-      "film": "The Flash - Zwischen den Welten",
-      "format_tags": [],
-      "times": [
-        "19:00"
+      "cinema": "Open Air Kino Mitte",
+      "address": "Rosenthaler Str. 39, 10178 Berlin",
+      "film": "Eraserhead (1977)",
+      "format_tags": [
+        "OmU"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/the-flash-zwischen-den-welten-f164188291_103863430.html"
+      "times": [
+        "20:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/eraserhead-1977-f20725_7389585_OmU.html"
     },
     {
       "cinema": "Openair Kino Spandau",
       "address": "Carl-Schurz-Str. 13, im Innenhof der Stadtbibliothek, 13597 Berlin",
-      "film": "Dirty Dancing",
+      "film": "Paris Murder Mystery",
       "format_tags": [],
       "times": [
         "20:15"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/dirty-dancing-f7479045_1799768.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/3POBBBb8261UhhayIxhFqSXhVYp.jpg",
-      "rating": 7.3,
-      "tmdb_id": 88
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paris-murder-mystery-f170981909_1799768.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/gzHDNvKTyI1TjyXrX8LozvJYiak.jpg",
+      "rating": 5.5,
+      "tmdb_id": 1290432
     },
     {
       "cinema": "Passage",
@@ -4832,7 +4718,7 @@
         "OmenglU"
       ],
       "times": [
-        "17:15"
+        "17:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/everytime-f172681780_152_OmenglU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/lByDG8HfSamsJqFLcvW9dlxBxIA.jpg",
@@ -4859,36 +4745,24 @@
         "OmenglU"
       ],
       "times": [
-        "18:10"
+        "17:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaterland-2026-f172517063_152_OmenglU.html"
     },
     {
-      "cinema": "Passage",
-      "address": "Karl-Marx-Str. 131, 12043 Berlin",
-      "film": "Mil pedazos",
-      "format_tags": [
-        "OmenglU"
-      ],
-      "times": [
-        "20:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/mil-pedazos-f173188282_152_OmenglU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/2IvdJz0fONOU9I50Ub8J4O3iLxk.jpg",
-      "rating": null,
-      "tmdb_id": 1646433
-    },
-    {
       "cinema": "Radio EINS-Freiluftkino Friedrichshain",
       "address": "Im Volkspark Friedrichshain, 10249 Berlin",
-      "film": "Der Teufel trägt Prada II - The Devil Wears Prada 2",
+      "film": "Der Astronaut - Project Hail Mary",
       "format_tags": [
         "OmU"
       ],
       "times": [
-        "19:45"
+        "19:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-teufel-traegt-prada-ii-f171757756_184_OmU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-astronaut-project-hail-mary-f171534787_184_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1hJdqwEDES96CRZCaiOVuqWLJFX.jpg",
+      "rating": 8.7,
+      "tmdb_id": 687163
     },
     {
       "cinema": "Rollberg",
@@ -5010,7 +4884,7 @@
       "film": "Arnie & Barney - Retten das Wasser",
       "format_tags": [],
       "times": [
-        "16:00"
+        "15:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_327.html"
     },
@@ -5020,7 +4894,7 @@
       "film": "Steckerlfischfiasko",
       "format_tags": [],
       "times": [
-        "17:30"
+        "20:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/steckerlfischfiasko-f172295697_327.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/uOYnVDF8tfLBmGURJg0j17kgbaI.jpg",
@@ -5033,12 +4907,53 @@
       "film": "Spaziergang nach Syrakus",
       "format_tags": [],
       "times": [
-        "19:30"
+        "18:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spaziergang-nach-syrakus-f172738795_327.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
       "rating": null,
       "tmdb_id": 1410202
+    },
+    {
+      "cinema": "Scala Kulturpalast Werder",
+      "address": "Eisenbahnstr. 182, 14542 Werder (Havel)",
+      "film": "Was haben wir gelacht",
+      "format_tags": [],
+      "times": [
+        "16:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/was-haben-wir-gelacht-f172681323_327.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oaXPsfzHtYGUM38Cyw0PEeRZmty.jpg",
+      "rating": 7.9,
+      "tmdb_id": 1698323
+    },
+    {
+      "cinema": "Sinema Transtopia",
+      "address": "Lindower Str. 20/22, Haus C, 13347 Berlin",
+      "film": "Barrio triste",
+      "format_tags": [
+        "OmenglU"
+      ],
+      "times": [
+        "20:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/barrio-triste-f172924711_166780408_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/w2zymRakHhwKUnRCLPKrBiL8inL.jpg",
+      "rating": 10.0,
+      "tmdb_id": 1310573
+    },
+    {
+      "cinema": "Sputnik (Höfe am Südstern)",
+      "address": "Hasenheide 54, 10967 Berlin",
+      "film": "Schwarzers Kosmos",
+      "format_tags": [],
+      "times": [
+        "17:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/schwarzers-kosmos-f171836801_68.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/ssmjdqFhaXPd032DTls4VDoSh3C.jpg",
+      "rating": null,
+      "tmdb_id": 1748476
     },
     {
       "cinema": "Sputnik (Höfe am Südstern)",
@@ -5048,7 +4963,7 @@
         "OmenglU"
       ],
       "times": [
-        "20:15"
+        "18:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/staatsschutz-f171842972_68_OmenglU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/hhLFoA0FSnREDFKCuIHf3KlYZuZ.jpg",
@@ -5063,7 +4978,7 @@
         "OmU"
       ],
       "times": [
-        "20:15"
+        "21:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/teenage-sex-and-death-at-camp-miasma-f172724077_68_OmU.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/bg5hTWIbMeiYgn5BJudWz9HUT3B.jpg",
@@ -5071,12 +4986,49 @@
       "tmdb_id": 1240889
     },
     {
+      "cinema": "Sputnik (Höfe am Südstern)",
+      "address": "Hasenheide 54, 10967 Berlin",
+      "film": "Die Odyssee (2026)",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "20:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_68_OmU.html"
+    },
+    {
+      "cinema": "Sputnik (Höfe am Südstern)",
+      "address": "Hasenheide 54, 10967 Berlin",
+      "film": "All My Sisters",
+      "format_tags": [
+        "OmenglU"
+      ],
+      "times": [
+        "17:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/all-my-sisters-f172895487_68_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/tRjiJBr5hwRmA0Fji10NHFxrANV.jpg",
+      "rating": 5.0,
+      "tmdb_id": 1555871
+    },
+    {
+      "cinema": "Sputnik (Höfe am Südstern)",
+      "address": "Hasenheide 54, 10967 Berlin",
+      "film": "Premiere: Bernd - Operation Germanenkind (OmU); m. Gespräch",
+      "format_tags": [],
+      "times": [
+        "19:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bernd-operation-germanenkind-f172299980_68_OmU.html"
+    },
+    {
       "cinema": "Thalia Babelsberg",
       "address": "Rudolf-Breitscheid-Str. 50, 14482 Potsdam",
       "film": "Staatsschutz",
       "format_tags": [],
       "times": [
-        "21:15"
+        "18:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/staatsschutz-f171842972_156.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/hhLFoA0FSnREDFKCuIHf3KlYZuZ.jpg",
@@ -5099,12 +5051,15 @@
     {
       "cinema": "Thalia Babelsberg",
       "address": "Rudolf-Breitscheid-Str. 50, 14482 Potsdam",
-      "film": "Stricken im Kino: Der Heimatlose",
+      "film": "Der Heimatlose",
       "format_tags": [],
       "times": [
-        "18:30"
+        "20:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-heimatlose-f171843200_156.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/der-heimatlose-f171843200_156.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/cBxkNpLZtNVNv7Ot5FAA2WsWlQ5.jpg",
+      "rating": null,
+      "tmdb_id": 1476466
     },
     {
       "cinema": "Thalia Babelsberg",
@@ -5119,25 +5074,15 @@
     {
       "cinema": "Thalia Babelsberg",
       "address": "Rudolf-Breitscheid-Str. 50, 14482 Potsdam",
-      "film": "Die Odyssee (2026)",
+      "film": "A Sad and Beautiful World",
       "format_tags": [],
       "times": [
-        "19:45"
+        "14:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_156.html"
-    },
-    {
-      "cinema": "Thalia Babelsberg",
-      "address": "Rudolf-Breitscheid-Str. 50, 14482 Potsdam",
-      "film": "Steckerlfischfiasko",
-      "format_tags": [],
-      "times": [
-        "17:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/steckerlfischfiasko-f172295697_156.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/uOYnVDF8tfLBmGURJg0j17kgbaI.jpg",
-      "rating": null,
-      "tmdb_id": 1328335
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/a-sad-and-beautiful-world-f171614020_156.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/o0Mh80BLwKd4qucmFMSQvRryRDZ.jpg",
+      "rating": 7.9,
+      "tmdb_id": 1376838
     },
     {
       "cinema": "Thalia Babelsberg",
@@ -5152,10 +5097,23 @@
     {
       "cinema": "Thalia Babelsberg",
       "address": "Rudolf-Breitscheid-Str. 50, 14482 Potsdam",
+      "film": "Obsession - Du sollst mich lieben",
+      "format_tags": [],
+      "times": [
+        "21:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_156.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
+      "rating": 8.2,
+      "tmdb_id": 1339713
+    },
+    {
+      "cinema": "Thalia Babelsberg",
+      "address": "Rudolf-Breitscheid-Str. 50, 14482 Potsdam",
       "film": "Strange River",
       "format_tags": [],
       "times": [
-        "15:45"
+        "15:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/strange-river-f172574277_156.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mJjo0Y3Fq3C31sgMUnhKhaOSIcl.jpg",
@@ -5168,7 +5126,7 @@
       "film": "Where The Waves Took Her",
       "format_tags": [],
       "times": [
-        "14:45"
+        "17:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/where-the-waves-took-her-f172205303_156.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/d5ap3Lfx6LcM6jH65kgAZH8VMdr.jpg",
@@ -5181,7 +5139,7 @@
       "film": "Arnie & Barney - Retten das Wasser",
       "format_tags": [],
       "times": [
-        "14:45"
+        "15:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_156.html"
     },
@@ -5227,7 +5185,7 @@
       "film": "Marsupilami",
       "format_tags": [],
       "times": [
-        "16:00"
+        "15:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/marsupilami-f172738956_154.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
@@ -5250,23 +5208,10 @@
     {
       "cinema": "Thalia Movie Magic",
       "address": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
-      "film": "Steckerlfischfiasko",
-      "format_tags": [],
-      "times": [
-        "18:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/steckerlfischfiasko-f172295697_154.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/uOYnVDF8tfLBmGURJg0j17kgbaI.jpg",
-      "rating": null,
-      "tmdb_id": 1328335
-    },
-    {
-      "cinema": "Thalia Movie Magic",
-      "address": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
       "film": "The End of Oak Street",
       "format_tags": [],
       "times": [
-        "20:30"
+        "17:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/the-end-of-oak-street-f172689693_154.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/A3IGLbWTw2CzMH2VwwzD9jciu5w.jpg",
@@ -5305,6 +5250,16 @@
         "17:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-gewisse-etwas-2026-f173004989_154.html"
+    },
+    {
+      "cinema": "Thalia Movie Magic",
+      "address": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_154.html"
     },
     {
       "cinema": "Tilsiter-Lichtspiele",
@@ -5429,7 +5384,7 @@
       "film": "Toy Story 5 - Spielzeug war gestern",
       "format_tags": [],
       "times": [
-        "15:45"
+        "13:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/toy-story-5-spielzeug-war-gestern-f171703430_334.html"
     },
@@ -5439,7 +5394,7 @@
       "film": "Tad Stones und die Wunderlampe",
       "format_tags": [],
       "times": [
-        "13:30"
+        "12:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/tad-stones-und-die-wunderlampe-f173013148_334.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/uz50HhUyhIZjDSah7oI0BXDpapw.jpg",
@@ -5459,25 +5414,25 @@
     {
       "cinema": "Toni & Tonino",
       "address": "Max-Steinke-Str. 43 / Antonplatz, 13086 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
+      "film": "Vaterland (2026)",
       "format_tags": [],
       "times": [
-        "12:45"
+        "16:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_334.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/vaterland-2026-f172517063_334.html"
     },
     {
       "cinema": "Toni & Tonino",
       "address": "Max-Steinke-Str. 43 / Antonplatz, 13086 Berlin",
-      "film": "Vaterland (2026)",
+      "film": "Ich verstehe Ihren Unmut",
       "format_tags": [],
       "times": [
         "18:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/vaterland-2026-f172517063_334.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/ich-verstehe-ihren-unmut-f171844920_334.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iXrLk4RYQVApzB9V4VE6ip5GPmV.jpg",
+      "rating": 7.8,
+      "tmdb_id": 1616184
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -5498,22 +5453,12 @@
       "film": "Das Ende der Sterne",
       "format_tags": [],
       "times": [
-        "14:10"
+        "14:40"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-ende-der-sterne-f172931199_147406361.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
       "rating": 6.9,
       "tmdb_id": 1384216
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "The Invite (2026)",
-      "format_tags": [],
-      "times": [
-        "22:50"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/the-invite-2026-f172681686_147406361.html"
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -5524,19 +5469,6 @@
         "16:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_147406361.html"
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Die Odyssee (2026)",
-      "format_tags": [
-        "IMAX",
-        "OmU"
-      ],
-      "times": [
-        "22:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_147406361_OmU_IMAX.html"
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -5580,7 +5512,7 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "14:20"
+        "14:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_147406361.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
@@ -5638,25 +5570,12 @@
         "OV"
       ],
       "times": [
-        "17:45"
+        "17:20"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/one-night-only-2026-f172818847_147406361_OV.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/oJqFVn5Ejm4C1gig52AiR06NsBH.jpg",
       "rating": 7.0,
       "tmdb_id": 1686940
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Insidious: Out of the Further",
-      "format_tags": [],
-      "times": [
-        "20:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/insidious-out-of-the-further-f172967601_147406361.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
-      "rating": 5.7,
-      "tmdb_id": 1291595
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -5679,7 +5598,7 @@
         "Atmos"
       ],
       "times": [
-        "16:30"
+        "20:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/insidious-out-of-the-further-f172967601_147406361_Atmos.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
@@ -5692,7 +5611,7 @@
       "film": "The End of Oak Street",
       "format_tags": [],
       "times": [
-        "23:15"
+        "17:50"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/the-end-of-oak-street-f172689693_147406361.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/A3IGLbWTw2CzMH2VwwzD9jciu5w.jpg",
@@ -5708,6 +5627,18 @@
         "20:20"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/mutiny-2026-f172700621_147406361.html"
+    },
+    {
+      "cinema": "UCI East Side Gallery",
+      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
+      "film": "Die Odyssee (2026)",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "14:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_147406361_OV.html"
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -5740,44 +5671,14 @@
     {
       "cinema": "UCI East Side Gallery",
       "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Insidious: Out of the Further",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "23:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/insidious-out-of-the-further-f172967601_147406361_OV.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
-      "rating": 5.7,
-      "tmdb_id": 1291595
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
       "film": "Die Odyssee (2026)",
       "format_tags": [
         "IMAX"
       ],
       "times": [
-        "14:30"
+        "15:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_147406361_IMAX.html"
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Teenage Sex and Death at Camp Miasma",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "23:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/teenage-sex-and-death-at-camp-miasma-f172724077_147406361_OV.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/bg5hTWIbMeiYgn5BJudWz9HUT3B.jpg",
-      "rating": 7.2,
-      "tmdb_id": 1240889
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -5788,22 +5689,9 @@
         "OV"
       ],
       "times": [
-        "18:30"
+        "19:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_147406361_OV_IMAX.html"
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Harry Potter und der Stein der Weisen",
-      "format_tags": [],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/harry-potter-und-der-stein-der-weisen-f9889193_147406361.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/nKspzM3rVJASkT4CvZvuj9KDT7l.jpg",
-      "rating": 7.9,
-      "tmdb_id": 671
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -5823,31 +5711,6 @@
     {
       "cinema": "UCI East Side Gallery",
       "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Harry Potter und die Kammer des Schreckens",
-      "format_tags": [],
-      "times": [
-        "17:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/harry-potter-und-die-kammer-des-schreckens-f12432274_147406361.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/eZy8E8F85DXZX3yFk2bYzMNYJKG.jpg",
-      "rating": 7.7,
-      "tmdb_id": 672
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Backrooms - Extented Version",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "23:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/backrooms-extented-version-f172789457_147406361_OV.html"
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
       "film": "Steckerlfischfiasko",
       "format_tags": [],
       "times": [
@@ -5857,32 +5720,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/uOYnVDF8tfLBmGURJg0j17kgbaI.jpg",
       "rating": null,
       "tmdb_id": 1328335
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Harry Potter und der Gefangene von Askaban",
-      "format_tags": [],
-      "times": [
-        "20:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/harry-potter-und-der-gefangene-von-askaban-f20781171_147406361.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/ea3aGUyIFhvd4EqZKX5TkWzd9ml.jpg",
-      "rating": 8.0,
-      "tmdb_id": 673
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Harry Potter und der Feuerkelch",
-      "format_tags": [],
-      "times": [
-        "22:50"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/harry-potter-und-der-feuerkelch-f35280081_147406361.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/y3n0fN5uL417gd6LVtReKbYowIt.jpg",
-      "rating": 7.8,
-      "tmdb_id": 674
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -5925,7 +5762,7 @@
         "Atmos"
       ],
       "times": [
-        "14:00"
+        "15:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_147406361_Atmos.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
@@ -5953,62 +5790,61 @@
       "film": "Vaterland (2026)",
       "format_tags": [],
       "times": [
-        "17:10"
+        "17:40"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaterland-2026-f172517063_147406361.html"
     },
     {
       "cinema": "UCI East Side Gallery",
       "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Die Odyssee (2026)",
-      "format_tags": [
-        "Atmos"
-      ],
-      "times": [
-        "19:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_147406361_Atmos.html"
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Sneak Preview",
+      "film": "Oasis: Don't Look Back in Anger",
       "format_tags": [
         "OV"
       ],
       "times": [
+        "17:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_147406361_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
+      "rating": null,
+      "tmdb_id": 1447853
+    },
+    {
+      "cinema": "UCI East Side Gallery",
+      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
+      "film": "Oasis: Don't Look Back in Anger",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
         "19:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/sneak-preview-f20619_147406361_OV.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/3XARNEq4obOjM7Xy6CpAcoyCiEC.jpg",
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_147406361_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
       "rating": null,
-      "tmdb_id": 1220030
+      "tmdb_id": 1447853
     },
     {
       "cinema": "UCI East Side Gallery",
       "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Onslaught",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
       "format_tags": [],
       "times": [
-        "22:50"
+        "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/onslaught-f173062873_147406361.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/aC7SrKgLsdrVwugPuVIuZogUW3w.jpg",
-      "rating": 6.0,
-      "tmdb_id": 1284046
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_147406361.html"
     },
     {
       "cinema": "UCI East Side Gallery",
       "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Obsession - Du sollst mich lieben",
-      "format_tags": [],
-      "times": [
-        "23:00"
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
+      "format_tags": [
+        "OV"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/obsession-du-sollst-mich-lieben-f172250140_147406361.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
-      "rating": 8.2,
-      "tmdb_id": 1339713
+      "times": [
+        "20:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_147406361_OV.html"
     },
     {
       "cinema": "UCI Kinowelt am Eastgate",
@@ -6126,25 +5962,15 @@
     {
       "cinema": "UCI Kinowelt am Eastgate",
       "address": "Märkische Allee 176-178, 12679 Berlin",
-      "film": "Mutiny (2026)",
+      "film": "Steckerlfischfiasko",
       "format_tags": [],
       "times": [
-        "20:10"
+        "16:40"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/mutiny-2026-f172700621_2776029.html"
-    },
-    {
-      "cinema": "UCI Kinowelt am Eastgate",
-      "address": "Märkische Allee 176-178, 12679 Berlin",
-      "film": "Harry Potter und der Stein der Weisen",
-      "format_tags": [],
-      "times": [
-        "16:45"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/harry-potter-und-der-stein-der-weisen-f9889193_2776029.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/nKspzM3rVJASkT4CvZvuj9KDT7l.jpg",
-      "rating": 7.9,
-      "tmdb_id": 671
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/steckerlfischfiasko-f172295697_2776029.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/uOYnVDF8tfLBmGURJg0j17kgbaI.jpg",
+      "rating": null,
+      "tmdb_id": 1328335
     },
     {
       "cinema": "UCI Kinowelt am Eastgate",
@@ -6165,7 +5991,7 @@
       "film": "Arnie & Barney - Retten das Wasser",
       "format_tags": [],
       "times": [
-        "14:30"
+        "14:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_2776029.html"
     },
@@ -6200,7 +6026,7 @@
       "film": "Insidious: Out of the Further",
       "format_tags": [],
       "times": [
-        "17:25"
+        "20:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/insidious-out-of-the-further-f172967601_2776029.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
@@ -6213,12 +6039,37 @@
       "film": "Onslaught",
       "format_tags": [],
       "times": [
-        "20:30"
+        "17:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/onslaught-f173062873_2776029.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/aC7SrKgLsdrVwugPuVIuZogUW3w.jpg",
       "rating": 6.0,
       "tmdb_id": 1284046
+    },
+    {
+      "cinema": "UCI Kinowelt am Eastgate",
+      "address": "Märkische Allee 176-178, 12679 Berlin",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
+      "format_tags": [],
+      "times": [
+        "20:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_2776029.html"
+    },
+    {
+      "cinema": "UCI Kinowelt am Eastgate",
+      "address": "Märkische Allee 176-178, 12679 Berlin",
+      "film": "Oasis: Don't Look Back in Anger",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "20:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_2776029_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
+      "rating": null,
+      "tmdb_id": 1447853
     },
     {
       "cinema": "UCI Luxe Gropius Passagen",
@@ -6259,7 +6110,7 @@
       "film": "One Night Only (2026)",
       "format_tags": [],
       "times": [
-        "17:30"
+        "14:40"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/one-night-only-2026-f172818847_700732.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/oJqFVn5Ejm4C1gig52AiR06NsBH.jpg",
@@ -6308,40 +6159,17 @@
     {
       "cinema": "UCI Luxe Gropius Passagen",
       "address": "Johannisthaler Chaussee 295, 12351 Berlin",
-      "film": "Mutiny (2026)",
-      "format_tags": [],
-      "times": [
-        "20:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/mutiny-2026-f172700621_700732.html"
-    },
-    {
-      "cinema": "UCI Luxe Gropius Passagen",
-      "address": "Johannisthaler Chaussee 295, 12351 Berlin",
       "film": "Spider-Man: Brand New Day",
       "format_tags": [
         "Atmos"
       ],
       "times": [
-        "16:25"
+        "16:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_700732_Atmos.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
       "rating": 7.9,
       "tmdb_id": 969681
-    },
-    {
-      "cinema": "UCI Luxe Gropius Passagen",
-      "address": "Johannisthaler Chaussee 295, 12351 Berlin",
-      "film": "Harry Potter und der Stein der Weisen",
-      "format_tags": [],
-      "times": [
-        "13:45"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/harry-potter-und-der-stein-der-weisen-f9889193_700732.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/nKspzM3rVJASkT4CvZvuj9KDT7l.jpg",
-      "rating": 7.9,
-      "tmdb_id": 671
     },
     {
       "cinema": "UCI Luxe Gropius Passagen",
@@ -6361,7 +6189,7 @@
         "Atmos"
       ],
       "times": [
-        "14:00"
+        "14:20"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_700732_Atmos.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
@@ -6379,14 +6207,29 @@
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-gewisse-etwas-2026-f173004989_700732.html"
     },
     {
-      "cinema": "UCI Luxe Potsdam Center",
-      "address": "Babelsberger Str. 10, 14473 Potsdam",
-      "film": "Toy Story 5 - Spielzeug war gestern",
+      "cinema": "UCI Luxe Gropius Passagen",
+      "address": "Johannisthaler Chaussee 295, 12351 Berlin",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
       "format_tags": [],
       "times": [
-        "14:00"
+        "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/toy-story-5-spielzeug-war-gestern-f171703430_2987758.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_700732.html"
+    },
+    {
+      "cinema": "UCI Luxe Gropius Passagen",
+      "address": "Johannisthaler Chaussee 295, 12351 Berlin",
+      "film": "Oasis: Don't Look Back in Anger",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "20:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_700732_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
+      "rating": null,
+      "tmdb_id": 1447853
     },
     {
       "cinema": "UCI Luxe Potsdam Center",
@@ -6394,27 +6237,12 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "13:30"
+        "20:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_2987758.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
       "rating": 7.9,
       "tmdb_id": 969681
-    },
-    {
-      "cinema": "UCI Luxe Potsdam Center",
-      "address": "Babelsberger Str. 10, 14473 Potsdam",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [
-        "Atmos"
-      ],
-      "times": [
-        "13:50"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_2987758_Atmos.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
     },
     {
       "cinema": "UCI Luxe Potsdam Center",
@@ -6435,7 +6263,7 @@
       "film": "One Night Only (2026)",
       "format_tags": [],
       "times": [
-        "14:10"
+        "17:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/one-night-only-2026-f172818847_2987758.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/oJqFVn5Ejm4C1gig52AiR06NsBH.jpg",
@@ -6445,36 +6273,10 @@
     {
       "cinema": "UCI Luxe Potsdam Center",
       "address": "Babelsberger Str. 10, 14473 Potsdam",
-      "film": "Tad Stones und die Wunderlampe",
-      "format_tags": [],
-      "times": [
-        "13:50"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/tad-stones-und-die-wunderlampe-f173013148_2987758.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/uz50HhUyhIZjDSah7oI0BXDpapw.jpg",
-      "rating": 2.0,
-      "tmdb_id": 1187326
-    },
-    {
-      "cinema": "UCI Luxe Potsdam Center",
-      "address": "Babelsberger Str. 10, 14473 Potsdam",
-      "film": "Marsupilami",
-      "format_tags": [],
-      "times": [
-        "13:50"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/marsupilami-f172738956_2987758.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
-      "rating": 6.3,
-      "tmdb_id": 1145899
-    },
-    {
-      "cinema": "UCI Luxe Potsdam Center",
-      "address": "Babelsberger Str. 10, 14473 Potsdam",
       "film": "Die Odyssee (2026)",
       "format_tags": [],
       "times": [
-        "19:30"
+        "16:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_2987758.html"
     },
@@ -6497,7 +6299,7 @@
       "film": "Das Ende der Sterne",
       "format_tags": [],
       "times": [
-        "20:00"
+        "20:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-ende-der-sterne-f172931199_2987758.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
@@ -6533,16 +6335,6 @@
     {
       "cinema": "UCI Luxe Potsdam Center",
       "address": "Babelsberger Str. 10, 14473 Potsdam",
-      "film": "Mutiny (2026)",
-      "format_tags": [],
-      "times": [
-        "19:40"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/mutiny-2026-f172700621_2987758.html"
-    },
-    {
-      "cinema": "UCI Luxe Potsdam Center",
-      "address": "Babelsberger Str. 10, 14473 Potsdam",
       "film": "Spider-Man: Brand New Day",
       "format_tags": [
         "Atmos"
@@ -6573,61 +6365,37 @@
     {
       "cinema": "UCI Luxe Potsdam Center",
       "address": "Babelsberger Str. 10, 14473 Potsdam",
-      "film": "Harry Potter und der Stein der Weisen",
-      "format_tags": [],
-      "times": [
-        "16:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/harry-potter-und-der-stein-der-weisen-f9889193_2987758.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/nKspzM3rVJASkT4CvZvuj9KDT7l.jpg",
-      "rating": 7.9,
-      "tmdb_id": 671
-    },
-    {
-      "cinema": "UCI Luxe Potsdam Center",
-      "address": "Babelsberger Str. 10, 14473 Potsdam",
-      "film": "Arnie & Barney - Retten das Wasser",
-      "format_tags": [],
-      "times": [
-        "13:40"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_2987758.html"
-    },
-    {
-      "cinema": "UCI Luxe Potsdam Center",
-      "address": "Babelsberger Str. 10, 14473 Potsdam",
       "film": "Das gewisse Etwas (2026)",
       "format_tags": [],
       "times": [
-        "14:00"
+        "17:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-gewisse-etwas-2026-f173004989_2987758.html"
     },
     {
       "cinema": "UCI Luxe Potsdam Center",
       "address": "Babelsberger Str. 10, 14473 Potsdam",
-      "film": "Onslaught",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
       "format_tags": [],
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/onslaught-f173062873_2987758.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/aC7SrKgLsdrVwugPuVIuZogUW3w.jpg",
-      "rating": 6.0,
-      "tmdb_id": 1284046
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_2987758.html"
     },
     {
-      "cinema": "Union Filmtheater",
-      "address": "Bölschestr. 69, 12587 Berlin",
-      "film": "Im Spiegel meiner Mutter",
-      "format_tags": [],
-      "times": [
-        "12:45"
+      "cinema": "UCI Luxe Potsdam Center",
+      "address": "Babelsberger Str. 10, 14473 Potsdam",
+      "film": "Oasis: Don't Look Back in Anger",
+      "format_tags": [
+        "OmU"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/im-spiegel-meiner-mutter-f172732326_60.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/w8bnr5m7rAIjEXK4WZqgT6sqSSw.jpg",
+      "times": [
+        "20:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_2987758_OmU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
       "rating": null,
-      "tmdb_id": 1325575
+      "tmdb_id": 1447853
     },
     {
       "cinema": "Union Filmtheater",
@@ -6635,7 +6403,7 @@
       "film": "Oh la la 2 - Neue Tests, neues Chaos",
       "format_tags": [],
       "times": [
-        "17:45"
+        "13:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/oh-la-la-2-neue-tests-neues-chaos-f172722632_60.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/3oT929WwceFf0vq3J1uAdvbQkvW.jpg",
@@ -6648,7 +6416,7 @@
       "film": "Hiddensee (2026)",
       "format_tags": [],
       "times": [
-        "12:00"
+        "15:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/hiddensee-2026-f172739114_60.html"
     },
@@ -6658,7 +6426,7 @@
       "film": "Spaziergang nach Syrakus",
       "format_tags": [],
       "times": [
-        "17:30"
+        "12:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spaziergang-nach-syrakus-f172738795_60.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
@@ -6671,7 +6439,7 @@
       "film": "Steckerlfischfiasko",
       "format_tags": [],
       "times": [
-        "13:00"
+        "20:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/steckerlfischfiasko-f172295697_60.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/uOYnVDF8tfLBmGURJg0j17kgbaI.jpg",
@@ -6684,7 +6452,7 @@
       "film": "Der Klang der Stradivari",
       "format_tags": [],
       "times": [
-        "14:45"
+        "15:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/der-klang-der-stradivari-f172659322_60.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/1zU9yuKaTGjv9W6NqEx5ofVjzdk.jpg",
@@ -6697,7 +6465,7 @@
       "film": "Vaterland (2026)",
       "format_tags": [],
       "times": [
-        "15:15"
+        "10:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/vaterland-2026-f172517063_60.html"
     },
@@ -6707,7 +6475,7 @@
       "film": "Arnie & Barney - Retten das Wasser",
       "format_tags": [],
       "times": [
-        "15:30"
+        "15:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_60.html"
     },
@@ -6717,7 +6485,7 @@
       "film": "Diamanti - Diamonds",
       "format_tags": [],
       "times": [
-        "17:15"
+        "10:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/diamanti-diamonds-f171330594_60.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/gcZWcZugGrByB0W0f5B1rrXtYn.jpg",
@@ -6730,7 +6498,7 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "20:15"
+        "17:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_60.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
@@ -6743,9 +6511,22 @@
       "film": "Das gewisse Etwas (2026)",
       "format_tags": [],
       "times": [
-        "20:15"
+        "10:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-gewisse-etwas-2026-f173004989_60.html"
+    },
+    {
+      "cinema": "Union Filmtheater",
+      "address": "Bölschestr. 69, 12587 Berlin",
+      "film": "Oasis: Don't Look Back in Anger",
+      "format_tags": [],
+      "times": [
+        "20:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_60.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
+      "rating": null,
+      "tmdb_id": 1447853
     },
     {
       "cinema": "Xenon",
@@ -6816,16 +6597,42 @@
     {
       "cinema": "Zoo Palast",
       "address": "Hardenbergstr. 29a, 10623 Berlin",
-      "film": "One Night Only (2026)",
-      "format_tags": [],
-      "times": [
-        "17:30",
-        "21:15"
+      "film": "Spider-Man: Brand New Day",
+      "format_tags": [
+        "OV"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/one-night-only-2026-f172818847_179.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/oJqFVn5Ejm4C1gig52AiR06NsBH.jpg",
-      "rating": 7.0,
-      "tmdb_id": 1686940
+      "times": [
+        "13:00",
+        "17:20"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_193_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "rating": 7.9,
+      "tmdb_id": 969681
+    },
+    {
+      "cinema": "Zoo Palast",
+      "address": "Hardenbergstr. 29a, 10623 Berlin",
+      "film": "Die Odyssee (2026)",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "19:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_194_OV.html"
+    },
+    {
+      "cinema": "Zoo Palast",
+      "address": "Hardenbergstr. 29a, 10623 Berlin",
+      "film": "70mm: Die Odyssee (2026)",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "15:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_142_OV.html"
     },
     {
       "cinema": "Zoo Palast",
@@ -6833,7 +6640,7 @@
       "film": "Steckerlfischfiasko",
       "format_tags": [],
       "times": [
-        "14:20"
+        "18:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/steckerlfischfiasko-f172295697_179.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/uOYnVDF8tfLBmGURJg0j17kgbaI.jpg",
@@ -6846,7 +6653,7 @@
       "film": "Das Ende der Sterne",
       "format_tags": [],
       "times": [
-        "20:10"
+        "21:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-ende-der-sterne-f172931199_52.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
@@ -6856,53 +6663,35 @@
     {
       "cinema": "Zoo Palast",
       "address": "Hardenbergstr. 29a, 10623 Berlin",
-      "film": "Die Odyssee (2026)",
-      "format_tags": [
-        "OV"
-      ],
+      "film": "One Night Only (2026)",
+      "format_tags": [],
       "times": [
-        "20:30"
+        "15:45"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_50_OV.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/one-night-only-2026-f172818847_52.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/oJqFVn5Ejm4C1gig52AiR06NsBH.jpg",
+      "rating": 7.0,
+      "tmdb_id": 1686940
     },
     {
       "cinema": "Zoo Palast",
       "address": "Hardenbergstr. 29a, 10623 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
+      "film": "Die Odyssee (2026)",
       "format_tags": [],
       "times": [
         "13:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_52.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "Zoo Palast",
-      "address": "Hardenbergstr. 29a, 10623 Berlin",
-      "film": "Die Odyssee (2026)",
-      "format_tags": [],
-      "times": [
-        "13:45",
-        "16:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/die-odyssee-2026-f172657489_194.html"
     },
     {
       "cinema": "Zoo Palast",
       "address": "Hardenbergstr. 29a, 10623 Berlin",
-      "film": "Spider-Man: Brand New Day",
-      "format_tags": [
-        "OV"
-      ],
+      "film": "Vaiana (2026)",
+      "format_tags": [],
       "times": [
-        "13:10"
+        "15:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_50_OV.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
-      "rating": 7.9,
-      "tmdb_id": 969681
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/vaiana-2026-f172657249_179.html"
     },
     {
       "cinema": "Zoo Palast",
@@ -6910,7 +6699,8 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "13:20"
+        "14:00",
+        "16:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/spider-man-brand-new-day-f172649815_193.html",
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
@@ -6920,316 +6710,86 @@
     {
       "cinema": "Zoo Palast",
       "address": "Hardenbergstr. 29a, 10623 Berlin",
-      "film": "Fantasy Filmfest: At the Place of Ghosts",
-      "format_tags": [
-        "OmenglU"
-      ],
-      "times": [
-        "15:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/at-the-place-of-ghosts-f173152926_192_OmenglU.html"
-    },
-    {
-      "cinema": "Zoo Palast",
-      "address": "Hardenbergstr. 29a, 10623 Berlin",
-      "film": "Minions & Monster",
-      "format_tags": [],
-      "times": [
-        "15:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/minions-monster-f172139445_52.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1315772
-    },
-    {
-      "cinema": "Zoo Palast",
-      "address": "Hardenbergstr. 29a, 10623 Berlin",
-      "film": "Fantasy Filmfest: The Birthday Party (2026)",
-      "format_tags": [
-        "OmenglU"
-      ],
-      "times": [
-        "17:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/the-birthday-party-2026-f173152979_192_OmenglU.html"
-    },
-    {
-      "cinema": "Zoo Palast",
-      "address": "Hardenbergstr. 29a, 10623 Berlin",
       "film": "Das gewisse Etwas (2026)",
       "format_tags": [],
       "times": [
-        "17:35"
+        "16:50",
+        "20:35"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-gewisse-etwas-2026-f173004989_194.html"
     },
     {
       "cinema": "Zoo Palast",
       "address": "Hardenbergstr. 29a, 10623 Berlin",
-      "film": "Fantasy Filmfest: Carolina Caroline",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "19:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/carolina-caroline-f173153001_192_OV.html"
-    },
-    {
-      "cinema": "Zoo Palast",
-      "address": "Hardenbergstr. 29a, 10623 Berlin",
-      "film": "Fantasy Filmfest: Blades of the Guardians",
+      "film": "Fantasy Filmfest: The Better Me",
       "format_tags": [
         "OmenglU"
       ],
       "times": [
-        "21:45"
+        "14:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/blades-of-the-guardians-f173152957_192_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/the-better-me-f173152968_192_OmenglU.html"
     },
     {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Spider-Man: Brand New Day",
+      "cinema": "Zoo Palast",
+      "address": "Hardenbergstr. 29a, 10623 Berlin",
+      "film": "Fantasy Filmfest: Another World (2025)",
+      "format_tags": [
+        "OmenglU"
+      ],
+      "times": [
+        "16:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/another-world-2025-f173152911_192_OmenglU.html"
+    },
+    {
+      "cinema": "Zoo Palast",
+      "address": "Hardenbergstr. 29a, 10623 Berlin",
+      "film": "Fantasy Filmfest: Fuck my Son!",
       "format_tags": [
         "OV"
       ],
       "times": [
-        "19:30",
-        "20:30",
-        "22:20"
+        "18:15"
       ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
-      "rating": 7.9,
-      "tmdb_id": 969681
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/fuck-my-son-f173153052_192_OV.html"
     },
     {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Spider-Man: Brand New Day",
-      "format_tags": [],
-      "times": [
-        "20:45",
-        "22:10"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
-      "rating": 7.9,
-      "tmdb_id": 969681
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Die Odyssee",
+      "cinema": "Zoo Palast",
+      "address": "Hardenbergstr. 29a, 10623 Berlin",
+      "film": "Oasis: Don't Look Back in Anger",
       "format_tags": [
         "OV"
+      ],
+      "times": [
+        "20:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/oasis-dont-look-back-in-anger-f173082503_50_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yk4U67iVg7cF36CjU4H1pyRtExX.jpg",
+      "rating": null,
+      "tmdb_id": 1447853
+    },
+    {
+      "cinema": "Zoo Palast",
+      "address": "Hardenbergstr. 29a, 10623 Berlin",
+      "film": "Fantasy Filmfest: Hope (2026) - Hopeu",
+      "format_tags": [
+        "OmenglU"
       ],
       "times": [
         "20:15"
       ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
-      "rating": 8.0,
-      "tmdb_id": 1368337
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/hope-2026-f172823368_142_OmenglU.html"
     },
     {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Die Odyssee",
+      "cinema": "Zoo Palast",
+      "address": "Hardenbergstr. 29a, 10623 Berlin",
+      "film": "Preview: Practical Magic 2 - Zauberhafte Schwestern",
       "format_tags": [],
       "times": [
-        "20:45",
-        "22:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
-      "rating": 8.0,
-      "tmdb_id": 1368337
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Das Gewisse Etwas",
-      "format_tags": [],
-      "times": [
-        "19:50",
-        "22:20"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/dJnkqo2KE5s5zqRQsg5kvGMMHC1.jpg",
-      "rating": null,
-      "tmdb_id": 1553672
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Mutiny",
-      "format_tags": [],
-      "times": [
-        "19:30",
-        "22:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/kTBh6p31vxEqq4rdKExE7rqfgwm.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1288445
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Mutiny",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "20:00",
-        "22:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/kTBh6p31vxEqq4rdKExE7rqfgwm.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1288445
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Insidious: Out Of The Further",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "19:30",
-        "22:50"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
-      "rating": 5.8,
-      "tmdb_id": 1291595
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Insidious: Out Of The Further",
-      "format_tags": [],
-      "times": [
-        "19:40",
-        "22:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/qz0fTTV6yVYDUJAUS68cH3Hb8r.jpg",
-      "rating": 5.8,
-      "tmdb_id": 1291595
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Das Ende Der Sterne",
-      "format_tags": [],
-      "times": [
-        "20:10",
-        "22:10"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6sqyKcZxdlrOUZSYnhIbVWJDxIr.jpg",
-      "rating": 7.1,
-      "tmdb_id": 1384216
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "One Night Only",
-      "format_tags": [],
-      "times": [
-        "20:10"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/sb3iZMON9Zf4Juz6BHpOo72oqKE.jpg",
-      "rating": 6.9,
-      "tmdb_id": 1433367
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Onslaught",
-      "format_tags": [],
-      "times": [
-        "20:15",
-        "22:40"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/aC7SrKgLsdrVwugPuVIuZogUW3w.jpg",
-      "rating": 6.0,
-      "tmdb_id": 1284046
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Vaterland",
-      "format_tags": [],
-      "times": [
-        "19:45",
         "20:30"
       ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/btOqwhMDy98hFLLpS9DqfActA1w.jpg",
-      "rating": 6.2,
-      "tmdb_id": 1437696
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "The End Of Oak Street",
-      "format_tags": [],
-      "times": [
-        "19:45"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/A3IGLbWTw2CzMH2VwwzD9jciu5w.jpg",
-      "rating": 7.0,
-      "tmdb_id": 1101383
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "The End Of Oak Street",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "23:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/A3IGLbWTw2CzMH2VwwzD9jciu5w.jpg",
-      "rating": 7.0,
-      "tmdb_id": 1101383
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Bethlehem Kudumba Unit",
-      "format_tags": [],
-      "times": [
-        "22:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/rZPu64VDDftnU7NU1d2wrWuhOHm.jpg",
-      "rating": null,
-      "tmdb_id": 1508168
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Exit 8",
-      "format_tags": [],
-      "times": [
-        "22:50"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/1MQlTLck75wCDi7bKFEJpqJkjwl.jpg",
-      "rating": 7.0,
-      "tmdb_id": 1408208
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/practical-magic-2-zauberhafte-schwestern-f172823896_192.html"
     }
   ]
 }
