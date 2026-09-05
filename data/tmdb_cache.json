@@ -267,6 +267,11 @@
     "rating": 7.1,
     "tmdb_id": 11044
   },
+  "Arnie & Barney - Retten Das Wasser": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/9VTKxQqeUv7HAFrl1kPtPb0G8RZ.jpg",
+    "rating": null,
+    "tmdb_id": 1365598
+  },
   "Arnie & Barney - Retten das Wasser": {
     "poster_url": null,
     "rating": null,
@@ -623,6 +628,11 @@
     "tmdb_id": 1399462
   },
   "Cars (2006)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Cars (Re-Release)": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -2309,6 +2319,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/lsHuNs9qT8aVhVIxXNdLuVhr5CM.jpg",
     "rating": null,
     "tmdb_id": 1455247
+  },
+  "I'M Game": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/pHek88ShMFFkueZ6GsrfsN0sc2L.jpg",
+    "rating": null,
+    "tmdb_id": 1250502
   },
   "I'm Game": {
     "poster_url": "https://image.tmdb.org/t/p/w185/pHek88ShMFFkueZ6GsrfsN0sc2L.jpg",
