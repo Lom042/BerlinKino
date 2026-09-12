@@ -874,6 +874,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/4iwcFGxdnsMWrvoqsgmU2TQfL6K.jpg",
     "rating": 7.7
   },
+  "Coyote Vs. Acme": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/7bMzcK5SWHCdwzQgaxgF0BEraln.jpg",
+    "rating": 7.6,
+    "tmdb_id": 1204680
+  },
   "Coyote vs. ACME": {
     "poster_url": "https://image.tmdb.org/t/p/w185/7bMzcK5SWHCdwzQgaxgF0BEraln.jpg",
     "rating": 8.0,
@@ -4950,6 +4955,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/p9miBtbnwLCsPNeACHhAZgqEknq.jpg",
     "rating": 7.9,
     "tmdb_id": 32015
+  },
+  "Spa Weekend": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/vJGDq0kBrmOGSxYLjPV2Hnahagp.jpg",
+    "rating": 6.7,
+    "tmdb_id": 1341138
   },
   "Spa Weekend - Entspannung auf eigene Gefahr": {
     "poster_url": null,
