@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "generated_at": "2026-09-16T18:00:07",
+  "generated_at": "2026-09-17T11:06:55",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -168,19 +168,6 @@
     {
       "cinema": "Astra Filmpalast",
       "address": "Sterndamm 69, 12487 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "12:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_143.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "Astra Filmpalast",
-      "address": "Sterndamm 69, 12487 Berlin",
       "film": "Vaterland (2026)",
       "format_tags": [],
       "times": [
@@ -227,22 +214,35 @@
     {
       "cinema": "Astra Filmpalast",
       "address": "Sterndamm 69, 12487 Berlin",
-      "film": "Kinofest: Adams Acht",
-      "format_tags": [],
-      "times": [
-        "16:45"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/adams-acht-f172931188_143.html"
-    },
-    {
-      "cinema": "Astra Filmpalast",
-      "address": "Sterndamm 69, 12487 Berlin",
       "film": "Kinofest: Runner (2026)",
       "format_tags": [],
       "times": [
         "20:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/runner-2026-f172694852_143.html"
+    },
+    {
+      "cinema": "Astra Filmpalast",
+      "address": "Sterndamm 69, 12487 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "12:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_143.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "Astra Filmpalast",
+      "address": "Sterndamm 69, 12487 Berlin",
+      "film": "Kinofest: Adams Acht",
+      "format_tags": [],
+      "times": [
+        "16:45"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/adams-acht-f172931188_143.html"
     },
     {
       "cinema": "Astra Filmpalast",
@@ -425,19 +425,6 @@
     {
       "cinema": "b-ware!Ladenkino",
       "address": "Gärtnerstr. 19, 10245 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "14:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_43655195.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "b-ware!Ladenkino",
-      "address": "Gärtnerstr. 19, 10245 Berlin",
       "film": "Der Wunderweltenbaum",
       "format_tags": [],
       "times": [
@@ -506,18 +493,6 @@
     {
       "cinema": "b-ware!Ladenkino",
       "address": "Gärtnerstr. 19, 10245 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "21:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_43655195_OmU.html"
-    },
-    {
-      "cinema": "b-ware!Ladenkino",
-      "address": "Gärtnerstr. 19, 10245 Berlin",
       "film": "Frost ohne Schnee und Eis",
       "format_tags": [],
       "times": [
@@ -542,6 +517,31 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/34P4f0I1hI9MHfiDa32iOquslrR.jpg",
       "rating": 7.8,
       "tmdb_id": 115810
+    },
+    {
+      "cinema": "b-ware!Ladenkino",
+      "address": "Gärtnerstr. 19, 10245 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "14:10"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_43655195.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "b-ware!Ladenkino",
+      "address": "Gärtnerstr. 19, 10245 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "21:10"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_43655195_OmU.html"
     },
     {
       "cinema": "Babylon",
@@ -652,36 +652,6 @@
         "23:59"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/berlin-1024576-f173110942_6439289.html"
-    },
-    {
-      "cinema": "Babylon Kreuzberg",
-      "address": "Dresdener Str. 126, 10999 Berlin",
-      "film": "KitKatClub - Kinks of Berlin",
-      "format_tags": [
-        "OmenglU"
-      ],
-      "times": [
-        "16:50"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/kitkatclub-kinks-of-berlin-f172733139_62_OmenglU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/wSepk8eXlMN6xZFLAOW2mfZNuzG.jpg",
-      "rating": null,
-      "tmdb_id": 1231052
-    },
-    {
-      "cinema": "Babylon Kreuzberg",
-      "address": "Dresdener Str. 126, 10999 Berlin",
-      "film": "Teenage Sex and Death at Camp Miasma",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "15:40"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/teenage-sex-and-death-at-camp-miasma-f172724077_62_OmU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/bg5hTWIbMeiYgn5BJudWz9HUT3B.jpg",
-      "rating": 7.2,
-      "tmdb_id": 1240889
     },
     {
       "cinema": "Bali",
@@ -1087,19 +1057,6 @@
     {
       "cinema": "CineMotion Hohenschönhausen",
       "address": "Wartenberger Str. 174, 13051 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "11:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_2263266.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "CineMotion Hohenschönhausen",
-      "address": "Wartenberger Str. 174, 13051 Berlin",
       "film": "Toy Story 5 - Spielzeug war gestern",
       "format_tags": [],
       "times": [
@@ -1146,6 +1103,29 @@
     {
       "cinema": "CineMotion Hohenschönhausen",
       "address": "Wartenberger Str. 174, 13051 Berlin",
+      "film": "Kuzma: Erschreckend heiter",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/kuzma-erschreckend-heiter-f173092331_2263266.html"
+    },
+    {
+      "cinema": "CineMotion Hohenschönhausen",
+      "address": "Wartenberger Str. 174, 13051 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "11:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_2263266.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "CineMotion Hohenschönhausen",
+      "address": "Wartenberger Str. 174, 13051 Berlin",
       "film": "Adams Acht",
       "format_tags": [],
       "times": [
@@ -1165,16 +1145,6 @@
         "17:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_2263266.html"
-    },
-    {
-      "cinema": "CineMotion Hohenschönhausen",
-      "address": "Wartenberger Str. 174, 13051 Berlin",
-      "film": "Kuzma: Erschreckend heiter",
-      "format_tags": [],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/kuzma-erschreckend-heiter-f173092331_2263266.html"
     },
     {
       "cinema": "Cineplex Alhambra",
@@ -1396,19 +1366,6 @@
     {
       "cinema": "Cineplex Alhambra",
       "address": "Seestr. 94, 13353 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "12:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_107.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "Cineplex Alhambra",
-      "address": "Seestr. 94, 13353 Berlin",
       "film": "Coyote vs. ACME",
       "format_tags": [],
       "times": [
@@ -1452,6 +1409,61 @@
     {
       "cinema": "Cineplex Alhambra",
       "address": "Seestr. 94, 13353 Berlin",
+      "film": "Azem 6: Mühür",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "23:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/azem-6-muehuer-f173257836_107_OV.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/nXjjIWp2XuvIgP1xCvlPRN7ijwR.jpg",
+      "rating": null,
+      "tmdb_id": 1760149
+    },
+    {
+      "cinema": "Cineplex Alhambra",
+      "address": "Seestr. 94, 13353 Berlin",
+      "film": "Toy Story 5 - Spielzeug war gestern",
+      "format_tags": [
+        "D-Box"
+      ],
+      "times": [
+        "12:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/toy-story-5-spielzeug-war-gestern-f171703430_107_D-Box.html"
+    },
+    {
+      "cinema": "Cineplex Alhambra",
+      "address": "Seestr. 94, 13353 Berlin",
+      "film": "Hanuman Ansh",
+      "format_tags": [
+        "OmenglU"
+      ],
+      "times": [
+        "12:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/hanuman-ansh-f173239111_107_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iefsiPPBo80SlKuwbxBOmYbCcxm.jpg",
+      "rating": 8.6,
+      "tmdb_id": 1709391
+    },
+    {
+      "cinema": "Cineplex Alhambra",
+      "address": "Seestr. 94, 13353 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "12:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_107.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "Cineplex Alhambra",
+      "address": "Seestr. 94, 13353 Berlin",
       "film": "Resident Evil (2026)",
       "format_tags": [],
       "times": [
@@ -1486,21 +1498,6 @@
     {
       "cinema": "Cineplex Alhambra",
       "address": "Seestr. 94, 13353 Berlin",
-      "film": "Azem 6: Mühür",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "23:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/azem-6-muehuer-f173257836_107_OV.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/nXjjIWp2XuvIgP1xCvlPRN7ijwR.jpg",
-      "rating": null,
-      "tmdb_id": 1760149
-    },
-    {
-      "cinema": "Cineplex Alhambra",
-      "address": "Seestr. 94, 13353 Berlin",
       "film": "Resident Evil (2026)",
       "format_tags": [
         "D-Box",
@@ -1510,33 +1507,6 @@
         "23:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_107_OV_D-Box.html"
-    },
-    {
-      "cinema": "Cineplex Alhambra",
-      "address": "Seestr. 94, 13353 Berlin",
-      "film": "Toy Story 5 - Spielzeug war gestern",
-      "format_tags": [
-        "D-Box"
-      ],
-      "times": [
-        "12:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/toy-story-5-spielzeug-war-gestern-f171703430_107_D-Box.html"
-    },
-    {
-      "cinema": "Cineplex Alhambra",
-      "address": "Seestr. 94, 13353 Berlin",
-      "film": "Hanuman Ansh",
-      "format_tags": [
-        "OmenglU"
-      ],
-      "times": [
-        "12:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/hanuman-ansh-f173239111_107_OmenglU.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iefsiPPBo80SlKuwbxBOmYbCcxm.jpg",
-      "rating": 8.6,
-      "tmdb_id": 1709391
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1583,19 +1553,6 @@
         "14:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/toy-story-5-spielzeug-war-gestern-f171703430_5414089.html"
-    },
-    {
-      "cinema": "Cineplex Neukölln Arcaden",
-      "address": "Karl-Marx-Str. 66, 12043 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "12:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_5414089.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1740,16 +1697,6 @@
     {
       "cinema": "Cineplex Neukölln Arcaden",
       "address": "Karl-Marx-Str. 66, 12043 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [],
-      "times": [
-        "12:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_5414089.html"
-    },
-    {
-      "cinema": "Cineplex Neukölln Arcaden",
-      "address": "Karl-Marx-Str. 66, 12043 Berlin",
       "film": "Coyote vs. ACME",
       "format_tags": [
         "OV"
@@ -1761,18 +1708,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/7bMzcK5SWHCdwzQgaxgF0BEraln.jpg",
       "rating": 8.0,
       "tmdb_id": 1204680
-    },
-    {
-      "cinema": "Cineplex Neukölln Arcaden",
-      "address": "Karl-Marx-Str. 66, 12043 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "20:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_5414089_OV.html"
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1790,6 +1725,41 @@
       "tmdb_id": 1709391
     },
     {
+      "cinema": "Cineplex Neukölln Arcaden",
+      "address": "Karl-Marx-Str. 66, 12043 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "12:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_5414089.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "Cineplex Neukölln Arcaden",
+      "address": "Karl-Marx-Str. 66, 12043 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [],
+      "times": [
+        "12:10"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_5414089.html"
+    },
+    {
+      "cinema": "Cineplex Neukölln Arcaden",
+      "address": "Karl-Marx-Str. 66, 12043 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "20:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_5414089_OV.html"
+    },
+    {
       "cinema": "Cineplex Spandau",
       "address": "Havelstr. 20, 13597 Berlin",
       "film": "Arnie & Barney - Retten das Wasser",
@@ -1798,19 +1768,6 @@
         "10:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_336.html"
-    },
-    {
-      "cinema": "Cineplex Spandau",
-      "address": "Havelstr. 20, 13597 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "10:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_336.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
     },
     {
       "cinema": "Cineplex Spandau",
@@ -1943,25 +1900,25 @@
     {
       "cinema": "Cineplex Spandau",
       "address": "Havelstr. 20, 13597 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "10:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_336.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "Cineplex Spandau",
+      "address": "Havelstr. 20, 13597 Berlin",
       "film": "Resident Evil (2026)",
       "format_tags": [],
       "times": [
         "16:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_336.html"
-    },
-    {
-      "cinema": "Cineplex Titania Palast",
-      "address": "Schloßstr. 5-6, 12163 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "10:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_222.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
     },
     {
       "cinema": "Cineplex Titania Palast",
@@ -2084,6 +2041,19 @@
     {
       "cinema": "Cineplex Titania Palast",
       "address": "Schloßstr. 5-6, 12163 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "10:10"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_222.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "Cineplex Titania Palast",
+      "address": "Schloßstr. 5-6, 12163 Berlin",
       "film": "Resident Evil (2026)",
       "format_tags": [],
       "times": [
@@ -2171,19 +2141,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/bM1Vp04s2Sp6Q8BAYUaFk9ViRAU.jpg",
       "rating": 3.5,
       "tmdb_id": 1302904
-    },
-    {
-      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
-      "address": "Rathausstr. 1, 10178 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_111.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
     },
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
@@ -2423,28 +2380,6 @@
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
       "address": "Rathausstr. 1, 10178 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [],
-      "times": [
-        "18:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_111.html"
-    },
-    {
-      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
-      "address": "Rathausstr. 1, 10178 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "17:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_111_OV.html"
-    },
-    {
-      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
-      "address": "Rathausstr. 1, 10178 Berlin",
       "film": "Pressure (2026)",
       "format_tags": [],
       "times": [
@@ -2495,6 +2430,41 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/dm7qMSsA7XJc2eB55Zsg8YvsTby.jpg",
       "rating": null,
       "tmdb_id": 1703617
+    },
+    {
+      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
+      "address": "Rathausstr. 1, 10178 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_111.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
+      "address": "Rathausstr. 1, 10178 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_111.html"
+    },
+    {
+      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
+      "address": "Rathausstr. 1, 10178 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "17:10"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_111_OV.html"
     },
     {
       "cinema": "CineStar Hellersdorf",
@@ -2554,19 +2524,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
       "rating": 6.4,
       "tmdb_id": 1315772
-    },
-    {
-      "cinema": "CineStar Hellersdorf",
-      "address": "Stendaler Str. 25, 12627 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "11:20"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_701251.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
     },
     {
       "cinema": "CineStar Hellersdorf",
@@ -2681,6 +2638,19 @@
     {
       "cinema": "CineStar Hellersdorf",
       "address": "Stendaler Str. 25, 12627 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "11:20"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_701251.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "CineStar Hellersdorf",
+      "address": "Stendaler Str. 25, 12627 Berlin",
       "film": "Resident Evil (2026)",
       "format_tags": [],
       "times": [
@@ -2700,19 +2670,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/bM1Vp04s2Sp6Q8BAYUaFk9ViRAU.jpg",
       "rating": 3.5,
       "tmdb_id": 1302904
-    },
-    {
-      "cinema": "CineStar Tegel",
-      "address": "Am Borsigturm 2, 13507 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "11:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_2775966.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
     },
     {
       "cinema": "CineStar Tegel",
@@ -2940,16 +2897,6 @@
     {
       "cinema": "CineStar Tegel",
       "address": "Am Borsigturm 2, 13507 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [],
-      "times": [
-        "17:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_2775966.html"
-    },
-    {
-      "cinema": "CineStar Tegel",
-      "address": "Am Borsigturm 2, 13507 Berlin",
       "film": "Pressure (2026)",
       "format_tags": [],
       "times": [
@@ -2985,6 +2932,29 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/dm7qMSsA7XJc2eB55Zsg8YvsTby.jpg",
       "rating": null,
       "tmdb_id": 1703617
+    },
+    {
+      "cinema": "CineStar Tegel",
+      "address": "Am Borsigturm 2, 13507 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "11:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_2775966.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "CineStar Tegel",
+      "address": "Am Borsigturm 2, 13507 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [],
+      "times": [
+        "17:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_2775966.html"
     },
     {
       "cinema": "City Kino Wedding",
@@ -3043,19 +3013,6 @@
         "17:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/hiddensee-2026-f172739114_317.html"
-    },
-    {
-      "cinema": "Colosseum Filmtheater",
-      "address": "Schönhauser Allee 123, 10437 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "12:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_86.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
     },
     {
       "cinema": "Colosseum Filmtheater",
@@ -3151,6 +3108,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
       "rating": 7.9,
       "tmdb_id": 969681
+    },
+    {
+      "cinema": "Colosseum Filmtheater",
+      "address": "Schönhauser Allee 123, 10437 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "12:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_86.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
     },
     {
       "cinema": "Cosima",
@@ -3366,12 +3336,15 @@
     {
       "cinema": "Delphi LUX",
       "address": "Kantstr. 10, 10623 Berlin",
-      "film": "Billie (2025)",
+      "film": "Billie (2026)",
       "format_tags": [],
       "times": [
         "15:30"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/billie-2025-f173109858_139115802.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/billie-2026-f173109858_139115802.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/n9UgqzZb2HHeqz9Ez4QQAV8hwGY.jpg",
+      "rating": null,
+      "tmdb_id": 1769029
     },
     {
       "cinema": "Delphi LUX",
@@ -3447,19 +3420,6 @@
     {
       "cinema": "Filmkunst 66",
       "address": "Bleibtreustr. 12, 10623 Berlin",
-      "film": "Adams Acht",
-      "format_tags": [],
-      "times": [
-        "15:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/adams-acht-f172931188_233.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/rHZZ9UJ6uuhkcXkgutv9EBkiGSj.jpg",
-      "rating": 6.0,
-      "tmdb_id": 1564324
-    },
-    {
-      "cinema": "Filmkunst 66",
-      "address": "Bleibtreustr. 12, 10623 Berlin",
       "film": "Gentle Monster",
       "format_tags": [],
       "times": [
@@ -3495,6 +3455,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/NVoNt09OwIEDP78W2LsWqNC192.jpg",
       "rating": null,
       "tmdb_id": 1647008
+    },
+    {
+      "cinema": "Filmkunst 66",
+      "address": "Bleibtreustr. 12, 10623 Berlin",
+      "film": "Adams Acht",
+      "format_tags": [],
+      "times": [
+        "15:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/adams-acht-f172931188_233.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/rHZZ9UJ6uuhkcXkgutv9EBkiGSj.jpg",
+      "rating": 6.0,
+      "tmdb_id": 1564324
     },
     {
       "cinema": "Filmmuseum Potsdam",
@@ -4323,6 +4296,16 @@
     {
       "cinema": "Kino im Kulturhaus Spandau",
       "address": "Mauerstr. 6, 13597 Berlin",
+      "film": "Hiddensee (2026)",
+      "format_tags": [],
+      "times": [
+        "11:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/hiddensee-2026-f172739114_28701458.html"
+    },
+    {
+      "cinema": "Kino im Kulturhaus Spandau",
+      "address": "Mauerstr. 6, 13597 Berlin",
       "film": "Adams Acht",
       "format_tags": [],
       "times": [
@@ -4332,16 +4315,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/rHZZ9UJ6uuhkcXkgutv9EBkiGSj.jpg",
       "rating": 6.0,
       "tmdb_id": 1564324
-    },
-    {
-      "cinema": "Kino im Kulturhaus Spandau",
-      "address": "Mauerstr. 6, 13597 Berlin",
-      "film": "Hiddensee (2026)",
-      "format_tags": [],
-      "times": [
-        "11:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/hiddensee-2026-f172739114_28701458.html"
     },
     {
       "cinema": "Kino im Zeiss-Großplanetarium",
@@ -4468,19 +4441,6 @@
         "14:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_3685765.html"
-    },
-    {
-      "cinema": "Kino in der Kulturbrauerei",
-      "address": "Schönhauser Allee 36, 10435 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "13:55"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_3685765.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
     },
     {
       "cinema": "Kino in der Kulturbrauerei",
@@ -4660,19 +4620,6 @@
     {
       "cinema": "Kino in der Kulturbrauerei",
       "address": "Schönhauser Allee 36, 10435 Berlin",
-      "film": "Adams Acht",
-      "format_tags": [],
-      "times": [
-        "16:20"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/adams-acht-f172931188_3685765.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/rHZZ9UJ6uuhkcXkgutv9EBkiGSj.jpg",
-      "rating": 6.0,
-      "tmdb_id": 1564324
-    },
-    {
-      "cinema": "Kino in der Kulturbrauerei",
-      "address": "Schönhauser Allee 36, 10435 Berlin",
       "film": "David (2026)",
       "format_tags": [],
       "times": [
@@ -4722,6 +4669,32 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/7bMzcK5SWHCdwzQgaxgF0BEraln.jpg",
       "rating": 8.0,
       "tmdb_id": 1204680
+    },
+    {
+      "cinema": "Kino in der Kulturbrauerei",
+      "address": "Schönhauser Allee 36, 10435 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "13:55"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_3685765.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "Kino in der Kulturbrauerei",
+      "address": "Schönhauser Allee 36, 10435 Berlin",
+      "film": "Adams Acht",
+      "format_tags": [],
+      "times": [
+        "16:20"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/adams-acht-f172931188_3685765.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/rHZZ9UJ6uuhkcXkgutv9EBkiGSj.jpg",
+      "rating": 6.0,
+      "tmdb_id": 1564324
     },
     {
       "cinema": "Kino Intimes",
@@ -4955,19 +4928,6 @@
     {
       "cinema": "Kino Spreehöfe",
       "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "13:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_1537722.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "Kino Spreehöfe",
-      "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
       "film": "Disney Channel Mitmachkino",
       "format_tags": [],
       "times": [
@@ -4994,22 +4954,35 @@
     {
       "cinema": "Kino Spreehöfe",
       "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [],
-      "times": [
-        "18:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_1537722.html"
-    },
-    {
-      "cinema": "Kino Spreehöfe",
-      "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
       "film": "Runner (2026)",
       "format_tags": [],
       "times": [
         "20:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/runner-2026-f172694852_1537722.html"
+    },
+    {
+      "cinema": "Kino Spreehöfe",
+      "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "13:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_1537722.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "Kino Spreehöfe",
+      "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_1537722.html"
     },
     {
       "cinema": "Kino Zukunft",
@@ -5166,16 +5139,6 @@
     {
       "cinema": "Lichtblick-Kino",
       "address": "Kastanienallee 77, 10435 Berlin",
-      "film": "Billie (2025)",
-      "format_tags": [],
-      "times": [
-        "22:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/billie-2025-f173109858_341.html"
-    },
-    {
-      "cinema": "Lichtblick-Kino",
-      "address": "Kastanienallee 77, 10435 Berlin",
       "film": "In die Sonne schauen (2025)",
       "format_tags": [
         "OmenglU"
@@ -5209,17 +5172,17 @@
       "tmdb_id": 495888
     },
     {
-      "cinema": "Moviemento",
-      "address": "Kottbusser Damm 22, 10967 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
+      "cinema": "Lichtblick-Kino",
+      "address": "Kastanienallee 77, 10435 Berlin",
+      "film": "Billie (2026)",
       "format_tags": [],
       "times": [
-        "13:00"
+        "22:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_151.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/billie-2026-f173109858_341.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/n9UgqzZb2HHeqz9Ez4QQAV8hwGY.jpg",
+      "rating": null,
+      "tmdb_id": 1769029
     },
     {
       "cinema": "Moviemento",
@@ -5310,6 +5273,19 @@
       "film_url": "http://kino.veranstaltungen-in-berlin.de/yerevan-big-story-in-a-small-city-f173252182_151_OmenglU.html"
     },
     {
+      "cinema": "Moviemento",
+      "address": "Kottbusser Damm 22, 10967 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "13:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_151.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
       "cinema": "Neues Off",
       "address": "Hermannstr. 20, 12049 Berlin",
       "film": "Staatsschutz",
@@ -5342,18 +5318,6 @@
     {
       "cinema": "Odeon",
       "address": "Hauptstr. 116, 10827 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "21:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_97_OmU.html"
-    },
-    {
-      "cinema": "Odeon",
-      "address": "Hauptstr. 116, 10827 Berlin",
       "film": "Nine to Five - Warum eigentlich bringen wir den Chef nicht um",
       "format_tags": [],
       "times": [
@@ -5363,6 +5327,18 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/sCokT43SQnbJYiOv4PGqLqXyRFR.jpg",
       "rating": 6.9,
       "tmdb_id": 19494
+    },
+    {
+      "cinema": "Odeon",
+      "address": "Hauptstr. 116, 10827 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "21:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_97_OmU.html"
     },
     {
       "cinema": "Passage",
@@ -5587,18 +5563,6 @@
     {
       "cinema": "Rollberg",
       "address": "Kindl-Boul., Rollbergstr. 70, 12049 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "15:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_157_OmU.html"
-    },
-    {
-      "cinema": "Rollberg",
-      "address": "Kindl-Boul., Rollbergstr. 70, 12049 Berlin",
       "film": "Queens of the Dead",
       "format_tags": [
         "OmU"
@@ -5610,6 +5574,18 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
       "rating": 5.7,
       "tmdb_id": 1318435
+    },
+    {
+      "cinema": "Rollberg",
+      "address": "Kindl-Boul., Rollbergstr. 70, 12049 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "15:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_157_OmU.html"
     },
     {
       "cinema": "Scala Kulturpalast Werder",
@@ -5643,19 +5619,6 @@
         "10:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/arnie-barney-retten-das-wasser-f172764845_327.html"
-    },
-    {
-      "cinema": "Scala Kulturpalast Werder",
-      "address": "Eisenbahnstr. 182, 14542 Werder (Havel)",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "11:45"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_327.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
     },
     {
       "cinema": "Scala Kulturpalast Werder",
@@ -5695,6 +5658,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/sDgb5jVuZ6ZOh4YjtSMMnbovkCi.jpg",
       "rating": 7.2,
       "tmdb_id": 1198654
+    },
+    {
+      "cinema": "Scala Kulturpalast Werder",
+      "address": "Eisenbahnstr. 182, 14542 Werder (Havel)",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "11:45"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_327.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
     },
     {
       "cinema": "Sinema Transtopia",
@@ -5903,19 +5879,6 @@
     {
       "cinema": "Thalia Babelsberg",
       "address": "Rudolf-Breitscheid-Str. 50, 14482 Potsdam",
-      "film": "Adams Acht",
-      "format_tags": [],
-      "times": [
-        "17:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/adams-acht-f172931188_156.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/rHZZ9UJ6uuhkcXkgutv9EBkiGSj.jpg",
-      "rating": 6.0,
-      "tmdb_id": 1564324
-    },
-    {
-      "cinema": "Thalia Babelsberg",
-      "address": "Rudolf-Breitscheid-Str. 50, 14482 Potsdam",
       "film": "Kalter Hund",
       "format_tags": [],
       "times": [
@@ -5938,6 +5901,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/jX0i2WufQ8mbPpktylUOGPEyRXb.jpg",
       "rating": null,
       "tmdb_id": 1473148
+    },
+    {
+      "cinema": "Thalia Babelsberg",
+      "address": "Rudolf-Breitscheid-Str. 50, 14482 Potsdam",
+      "film": "Adams Acht",
+      "format_tags": [],
+      "times": [
+        "17:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/adams-acht-f172931188_156.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/rHZZ9UJ6uuhkcXkgutv9EBkiGSj.jpg",
+      "rating": 6.0,
+      "tmdb_id": 1564324
     },
     {
       "cinema": "Thalia Babelsberg",
@@ -5974,19 +5950,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/bM1Vp04s2Sp6Q8BAYUaFk9ViRAU.jpg",
       "rating": 3.5,
       "tmdb_id": 1302904
-    },
-    {
-      "cinema": "Thalia Movie Magic",
-      "address": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "13:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_154.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
     },
     {
       "cinema": "Thalia Movie Magic",
@@ -6082,6 +6045,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
       "rating": 6.4,
       "tmdb_id": 1315772
+    },
+    {
+      "cinema": "Thalia Movie Magic",
+      "address": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "13:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_154.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
     },
     {
       "cinema": "Thalia Movie Magic",
@@ -6197,19 +6173,6 @@
     {
       "cinema": "Toni & Tonino",
       "address": "Max-Steinke-Str. 43 / Antonplatz, 13086 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "11:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_334.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "Toni & Tonino",
-      "address": "Max-Steinke-Str. 43 / Antonplatz, 13086 Berlin",
       "film": "Toy Story 5 - Spielzeug war gestern",
       "format_tags": [],
       "times": [
@@ -6262,6 +6225,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
       "rating": null,
       "tmdb_id": 1410202
+    },
+    {
+      "cinema": "Toni & Tonino",
+      "address": "Max-Steinke-Str. 43 / Antonplatz, 13086 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "11:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_334.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
     },
     {
       "cinema": "Toni & Tonino",
@@ -6334,19 +6310,6 @@
         "10:50"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/toy-story-5-spielzeug-war-gestern-f171703430_147406361.html"
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "11:45"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_147406361.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -6730,28 +6693,6 @@
     {
       "cinema": "UCI East Side Gallery",
       "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [],
-      "times": [
-        "14:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_147406361.html"
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "19:40"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_147406361_OV.html"
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
       "film": "Coyote vs. ACME",
       "format_tags": [
         "Atmos"
@@ -6790,19 +6731,6 @@
     {
       "cinema": "UCI East Side Gallery",
       "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Adams Acht",
-      "format_tags": [],
-      "times": [
-        "11:20"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/adams-acht-f172931188_147406361.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/rHZZ9UJ6uuhkcXkgutv9EBkiGSj.jpg",
-      "rating": 6.0,
-      "tmdb_id": 1564324
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
       "film": "Runner (2026)",
       "format_tags": [
         "OV"
@@ -6811,19 +6739,6 @@
         "17:20"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/runner-2026-f172694852_147406361_OV.html"
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [
-        "IMAX",
-        "OV"
-      ],
-      "times": [
-        "18:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_147406361_OV_IMAX.html"
     },
     {
       "cinema": "UCI East Side Gallery",
@@ -6859,18 +6774,6 @@
     {
       "cinema": "UCI East Side Gallery",
       "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [
-        "IMAX"
-      ],
-      "times": [
-        "20:40"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_147406361_IMAX.html"
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
       "film": "Coyote vs. ACME",
       "format_tags": [
         "OV"
@@ -6898,18 +6801,6 @@
     {
       "cinema": "UCI East Side Gallery",
       "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [
-        "Atmos"
-      ],
-      "times": [
-        "22:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_147406361_Atmos.html"
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
       "film": "Coyote vs. ACME",
       "format_tags": [],
       "times": [
@@ -6932,6 +6823,91 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/z5KNmtbL1gBf4TkHiG6ashuZesI.jpg",
       "rating": null,
       "tmdb_id": 1648927
+    },
+    {
+      "cinema": "UCI East Side Gallery",
+      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "11:45"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_147406361.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "UCI East Side Gallery",
+      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [],
+      "times": [
+        "14:10"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_147406361.html"
+    },
+    {
+      "cinema": "UCI East Side Gallery",
+      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "19:40"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_147406361_OV.html"
+    },
+    {
+      "cinema": "UCI East Side Gallery",
+      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
+      "film": "Adams Acht",
+      "format_tags": [],
+      "times": [
+        "11:20"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/adams-acht-f172931188_147406361.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/rHZZ9UJ6uuhkcXkgutv9EBkiGSj.jpg",
+      "rating": 6.0,
+      "tmdb_id": 1564324
+    },
+    {
+      "cinema": "UCI East Side Gallery",
+      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [
+        "IMAX",
+        "OV"
+      ],
+      "times": [
+        "18:10"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_147406361_OV_IMAX.html"
+    },
+    {
+      "cinema": "UCI East Side Gallery",
+      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [
+        "IMAX"
+      ],
+      "times": [
+        "20:40"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_147406361_IMAX.html"
+    },
+    {
+      "cinema": "UCI East Side Gallery",
+      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [
+        "Atmos"
+      ],
+      "times": [
+        "22:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_147406361_Atmos.html"
     },
     {
       "cinema": "UCI Kinowelt am Eastgate",
@@ -7128,19 +7104,6 @@
     {
       "cinema": "UCI Kinowelt am Eastgate",
       "address": "Märkische Allee 176-178, 12679 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "14:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_2776029.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "UCI Kinowelt am Eastgate",
-      "address": "Märkische Allee 176-178, 12679 Berlin",
       "film": "Exit 8",
       "format_tags": [],
       "times": [
@@ -7160,16 +7123,6 @@
         "17:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/runner-2026-f172694852_2776029.html"
-    },
-    {
-      "cinema": "UCI Kinowelt am Eastgate",
-      "address": "Märkische Allee 176-178, 12679 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [],
-      "times": [
-        "14:45"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_2776029.html"
     },
     {
       "cinema": "UCI Kinowelt am Eastgate",
@@ -7196,6 +7149,29 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/73E9PfADDCE3VdvIWQtQTsk5hnd.jpg",
       "rating": null,
       "tmdb_id": 1651941
+    },
+    {
+      "cinema": "UCI Kinowelt am Eastgate",
+      "address": "Märkische Allee 176-178, 12679 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "14:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_2776029.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "UCI Kinowelt am Eastgate",
+      "address": "Märkische Allee 176-178, 12679 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [],
+      "times": [
+        "14:45"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_2776029.html"
     },
     {
       "cinema": "UCI Kinowelt am Eastgate",
@@ -7371,19 +7347,6 @@
     {
       "cinema": "UCI Luxe Gropius Passagen",
       "address": "Johannisthaler Chaussee 295, 12351 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "11:20"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_700732.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "UCI Luxe Gropius Passagen",
-      "address": "Johannisthaler Chaussee 295, 12351 Berlin",
       "film": "Minions & Monster",
       "format_tags": [],
       "times": [
@@ -7432,6 +7395,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/7bMzcK5SWHCdwzQgaxgF0BEraln.jpg",
       "rating": 8.0,
       "tmdb_id": 1204680
+    },
+    {
+      "cinema": "UCI Luxe Gropius Passagen",
+      "address": "Johannisthaler Chaussee 295, 12351 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "11:20"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_700732.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
     },
     {
       "cinema": "UCI Luxe Gropius Passagen",
@@ -7579,31 +7555,6 @@
     {
       "cinema": "UCI Luxe Potsdam Center",
       "address": "Babelsberger Str. 10, 14473 Potsdam",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "13:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_2987758.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "UCI Luxe Potsdam Center",
-      "address": "Babelsberger Str. 10, 14473 Potsdam",
-      "film": "Resident Evil (2026)",
-      "format_tags": [
-        "Atmos"
-      ],
-      "times": [
-        "17:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_2987758_Atmos.html"
-    },
-    {
-      "cinema": "UCI Luxe Potsdam Center",
-      "address": "Babelsberger Str. 10, 14473 Potsdam",
       "film": "Coyote vs. ACME",
       "format_tags": [],
       "times": [
@@ -7626,6 +7577,31 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/73E9PfADDCE3VdvIWQtQTsk5hnd.jpg",
       "rating": null,
       "tmdb_id": 1651941
+    },
+    {
+      "cinema": "UCI Luxe Potsdam Center",
+      "address": "Babelsberger Str. 10, 14473 Potsdam",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "13:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_2987758.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
+    },
+    {
+      "cinema": "UCI Luxe Potsdam Center",
+      "address": "Babelsberger Str. 10, 14473 Potsdam",
+      "film": "Resident Evil (2026)",
+      "format_tags": [
+        "Atmos"
+      ],
+      "times": [
+        "17:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_2987758_Atmos.html"
     },
     {
       "cinema": "Union Filmtheater",
@@ -7696,19 +7672,6 @@
     {
       "cinema": "Union Filmtheater",
       "address": "Bölschestr. 69, 12587 Berlin",
-      "film": "Adams Acht",
-      "format_tags": [],
-      "times": [
-        "16:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/adams-acht-f172931188_60.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/rHZZ9UJ6uuhkcXkgutv9EBkiGSj.jpg",
-      "rating": 6.0,
-      "tmdb_id": 1564324
-    },
-    {
-      "cinema": "Union Filmtheater",
-      "address": "Bölschestr. 69, 12587 Berlin",
       "film": "Kalter Hund",
       "format_tags": [],
       "times": [
@@ -7735,19 +7698,6 @@
     {
       "cinema": "Union Filmtheater",
       "address": "Bölschestr. 69, 12587 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "13:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_60.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "Union Filmtheater",
-      "address": "Bölschestr. 69, 12587 Berlin",
       "film": "MET Opera: Geburtstagsgala - 20 Jahre MET live im Kino (2026)",
       "format_tags": [],
       "times": [
@@ -7757,6 +7707,32 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/dm7qMSsA7XJc2eB55Zsg8YvsTby.jpg",
       "rating": null,
       "tmdb_id": 1703617
+    },
+    {
+      "cinema": "Union Filmtheater",
+      "address": "Bölschestr. 69, 12587 Berlin",
+      "film": "Adams Acht",
+      "format_tags": [],
+      "times": [
+        "16:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/adams-acht-f172931188_60.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/rHZZ9UJ6uuhkcXkgutv9EBkiGSj.jpg",
+      "rating": 6.0,
+      "tmdb_id": 1564324
+    },
+    {
+      "cinema": "Union Filmtheater",
+      "address": "Bölschestr. 69, 12587 Berlin",
+      "film": "Paw Patrol: Der Dino Film",
+      "format_tags": [],
+      "times": [
+        "13:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/paw-patrol-der-dino-film-f172689088_60.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
+      "rating": 7.3,
+      "tmdb_id": 1185806
     },
     {
       "cinema": "Wolf",
@@ -8082,31 +8058,6 @@
     {
       "cinema": "Zoo Palast",
       "address": "Hardenbergstr. 29a, 10623 Berlin",
-      "film": "Adams Acht",
-      "format_tags": [],
-      "times": [
-        "11:15",
-        "16:45"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/adams-acht-f172931188_194.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/rHZZ9UJ6uuhkcXkgutv9EBkiGSj.jpg",
-      "rating": 6.0,
-      "tmdb_id": 1564324
-    },
-    {
-      "cinema": "Zoo Palast",
-      "address": "Hardenbergstr. 29a, 10623 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [],
-      "times": [
-        "17:50",
-        "23:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_50.html"
-    },
-    {
-      "cinema": "Zoo Palast",
-      "address": "Hardenbergstr. 29a, 10623 Berlin",
       "film": "Pressure (2026)",
       "format_tags": [],
       "times": [
@@ -8141,18 +8092,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
       "rating": 7.9,
       "tmdb_id": 969681
-    },
-    {
-      "cinema": "Zoo Palast",
-      "address": "Hardenbergstr. 29a, 10623 Berlin",
-      "film": "Resident Evil (2026)",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "23:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_50_OV.html"
     },
     {
       "cinema": "Zoo Palast",
@@ -8192,6 +8131,43 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/r3OsqCs873HjQiXHTZ2rLZyBBxC.jpg",
       "rating": 7.8,
       "tmdb_id": 808
+    },
+    {
+      "cinema": "Zoo Palast",
+      "address": "Hardenbergstr. 29a, 10623 Berlin",
+      "film": "Adams Acht",
+      "format_tags": [],
+      "times": [
+        "11:15",
+        "16:45"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/adams-acht-f172931188_194.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/rHZZ9UJ6uuhkcXkgutv9EBkiGSj.jpg",
+      "rating": 6.0,
+      "tmdb_id": 1564324
+    },
+    {
+      "cinema": "Zoo Palast",
+      "address": "Hardenbergstr. 29a, 10623 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [],
+      "times": [
+        "17:50",
+        "23:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_50.html"
+    },
+    {
+      "cinema": "Zoo Palast",
+      "address": "Hardenbergstr. 29a, 10623 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "23:10"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_50_OV.html"
     }
   ]
 }
