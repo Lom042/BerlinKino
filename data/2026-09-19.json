@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "generated_at": "2026-09-19T10:27:11",
+  "generated_at": "2026-09-19T17:03:01",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -8175,8 +8175,6 @@
       "film": "Resident Evil",
       "format_tags": [],
       "times": [
-        "14:00",
-        "17:30",
         "19:40",
         "20:00",
         "22:15",
@@ -8195,7 +8193,6 @@
         "OV"
       ],
       "times": [
-        "16:50",
         "19:45",
         "19:50",
         "23:00"
@@ -8211,25 +8208,7 @@
       "film": "Coyote Vs. Acme",
       "format_tags": [],
       "times": [
-        "12:20",
-        "15:00",
-        "17:40",
         "19:20"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/7bMzcK5SWHCdwzQgaxgF0BEraln.jpg",
-      "rating": 7.6,
-      "tmdb_id": 1204680
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Coyote Vs. Acme",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "14:10"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/7bMzcK5SWHCdwzQgaxgF0BEraln.jpg",
@@ -8242,10 +8221,6 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "13:20",
-        "14:30",
-        "15:45",
-        "16:40",
         "20:20",
         "22:20"
       ],
@@ -8262,7 +8237,6 @@
         "OV"
       ],
       "times": [
-        "14:00",
         "22:35"
       ],
       "film_url": "",
@@ -8274,28 +8248,10 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Die Odyssee",
-      "format_tags": [],
-      "times": [
-        "14:00",
-        "18:15",
-        "20:15",
-        "22:20"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
-      "rating": 8.0,
-      "tmdb_id": 1368337
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Die Odyssee",
       "format_tags": [
         "OV"
       ],
       "times": [
-        "15:00",
-        "16:30",
         "19:00",
         "22:15"
       ],
@@ -8307,18 +8263,16 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Pressure",
-      "format_tags": [
-        "OV"
-      ],
+      "film": "Die Odyssee",
+      "format_tags": [],
       "times": [
-        "17:45",
-        "20:20"
+        "20:15",
+        "22:20"
       ],
       "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/gFjEggtrejCN79r6SXRjM269OtG.jpg",
-      "rating": 7.7,
-      "tmdb_id": 1318413
+      "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
+      "rating": 8.0,
+      "tmdb_id": 1368337
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -8337,31 +8291,17 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Practical Magic 2 – Zauberhafte Schwestern",
-      "format_tags": [],
-      "times": [
-        "13:30",
-        "16:10"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/bM1Vp04s2Sp6Q8BAYUaFk9ViRAU.jpg",
-      "rating": 6.5,
-      "tmdb_id": 1302904
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Practical Magic 2 – Zauberhafte Schwestern",
+      "film": "Pressure",
       "format_tags": [
         "OV"
       ],
       "times": [
-        "14:15"
+        "20:20"
       ],
       "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/bM1Vp04s2Sp6Q8BAYUaFk9ViRAU.jpg",
-      "rating": 6.5,
-      "tmdb_id": 1302904
+      "poster_url": "https://image.tmdb.org/t/p/w185/gFjEggtrejCN79r6SXRjM269OtG.jpg",
+      "rating": 7.7,
+      "tmdb_id": 1318413
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -8369,9 +8309,9 @@
       "film": "Das Gewisse Etwas",
       "format_tags": [],
       "times": [
-        "14:20",
-        "17:10",
-        "19:50"
+        "19:20",
+        "19:50",
+        "23:00"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/dJnkqo2KE5s5zqRQsg5kvGMMHC1.jpg",
@@ -8381,24 +8321,9 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Mutiny",
-      "format_tags": [],
-      "times": [
-        "19:20",
-        "23:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/kTBh6p31vxEqq4rdKExE7rqfgwm.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1288445
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Insidious: Out Of The Further",
       "format_tags": [],
       "times": [
-        "17:15",
         "20:10",
         "22:40"
       ],
@@ -8413,7 +8338,6 @@
       "film": "Adams Acht",
       "format_tags": [],
       "times": [
-        "16:40",
         "19:50"
       ],
       "film_url": "",
@@ -8440,66 +8364,12 @@
       "film": "One Night Only",
       "format_tags": [],
       "times": [
-        "17:30",
         "20:00"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/sb3iZMON9Zf4Juz6BHpOo72oqKE.jpg",
       "rating": 6.9,
       "tmdb_id": 1433367
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "14:15"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Vaterland",
-      "format_tags": [],
-      "times": [
-        "14:50",
-        "17:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/btOqwhMDy98hFLLpS9DqfActA1w.jpg",
-      "rating": 6.2,
-      "tmdb_id": 1437696
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "David",
-      "format_tags": [],
-      "times": [
-        "14:45"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/ckZi9sEarWvQoty9CMTlsahMlPL.jpg",
-      "rating": 8.0,
-      "tmdb_id": 1167307
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Runner",
-      "format_tags": [],
-      "times": [
-        "20:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/tEfmtg72IaaJFRwMQI7lUx4sRBN.jpg",
-      "rating": 6.8,
-      "tmdb_id": 1386315
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -8513,32 +8383,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg",
       "rating": 8.2,
       "tmdb_id": 1339713
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Toy Story 5",
-      "format_tags": [],
-      "times": [
-        "13:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/3UMLeXTv33YNAFh7q0Dy1llmHik.jpg",
-      "rating": 7.4,
-      "tmdb_id": 1084244
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Minions & Monster",
-      "format_tags": [],
-      "times": [
-        "13:25"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1315772
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -8603,20 +8447,6 @@
         "22:30"
       ],
       "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Spaziergang Nach Syrakus",
-      "format_tags": [],
-      "times": [
-        "12:15",
-        "16:45"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
-      "rating": 8.0,
-      "tmdb_id": 1410202
     }
   ]
 }
