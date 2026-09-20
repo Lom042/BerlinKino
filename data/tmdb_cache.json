@@ -640,6 +640,11 @@
     "rating": 6.2,
     "tmdb_id": 1258479
   },
+  "Bibi Blocksberg - Die Total Verhexte Zeitreise": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/hiHYrJ9JhCANSnS3BfAOXb71Gmw.jpg",
+    "rating": null,
+    "tmdb_id": 1492574
+  },
   "Bibi Blocksberg - Die total verhexte Zeitreise": {
     "poster_url": "https://image.tmdb.org/t/p/w185/hiHYrJ9JhCANSnS3BfAOXb71Gmw.jpg",
     "rating": null,
@@ -2120,6 +2125,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/AssvZM1H5T5gdnl4dcCMXE5XI6O.jpg",
     "rating": null,
     "tmdb_id": 1191881
+  },
+  "Emil Und Die Detektive": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/kDchcw2Q9JnAzPsABAfKQUVgEdX.jpg",
+    "rating": null,
+    "tmdb_id": 1426805
   },
   "Emil und die Detektive (2026)": {
     "poster_url": null,
