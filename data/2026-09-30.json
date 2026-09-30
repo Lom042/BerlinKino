@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "generated_at": "2026-09-30T12:03:42",
+  "generated_at": "2026-09-30T18:52:51",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -6498,63 +6498,9 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Avengers: Endgame Extended",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "19:00"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Avengers: Endgame Extended",
-      "format_tags": [],
-      "times": [
-        "19:45"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Verity - Dunkle Geheimnisse",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "16:40",
-        "19:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/9fHWqNfGTVkkB20shiIAPMR3f7Y.jpg",
-      "rating": 7.7,
-      "tmdb_id": 1283515
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Verity - Dunkle Geheimnisse",
-      "format_tags": [],
-      "times": [
-        "17:20",
-        "20:15"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/9fHWqNfGTVkkB20shiIAPMR3f7Y.jpg",
-      "rating": 7.7,
-      "tmdb_id": 1283515
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Resident Evil",
       "format_tags": [],
       "times": [
-        "17:00",
-        "20:20",
         "22:50"
       ],
       "film_url": "",
@@ -6565,26 +6511,12 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Resident Evil",
+      "film": "Eiserne Wildnis - Heart Of The Beast",
       "format_tags": [
         "OV"
       ],
       "times": [
-        "19:20"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/nSezFz6jH9MTiPakXP06ZQLNLqC.jpg",
-      "rating": 8.4,
-      "tmdb_id": 1423191
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Eiserne Wildnis - Heart Of The Beast",
-      "format_tags": [],
-      "times": [
-        "14:30",
-        "14:40"
+        "22:40"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/bl6rLzxl4fUZSNExm637P5fWQKP.jpg",
@@ -6594,43 +6526,15 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Bibi Blocksberg - Die Total Verhexte Zeitreise",
+      "film": "Eiserne Wildnis - Heart Of The Beast",
       "format_tags": [],
       "times": [
-        "14:50",
-        "17:45"
+        "23:00"
       ],
       "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/hiHYrJ9JhCANSnS3BfAOXb71Gmw.jpg",
-      "rating": null,
-      "tmdb_id": 1492574
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Emil Und Die Detektive",
-      "format_tags": [],
-      "times": [
-        "14:00",
-        "17:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/kDchcw2Q9JnAzPsABAfKQUVgEdX.jpg",
-      "rating": null,
-      "tmdb_id": 1426805
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Coyote Vs. Acme",
-      "format_tags": [],
-      "times": [
-        "14:10"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/7bMzcK5SWHCdwzQgaxgF0BEraln.jpg",
-      "rating": 7.6,
-      "tmdb_id": 1204680
+      "poster_url": "https://image.tmdb.org/t/p/w185/bl6rLzxl4fUZSNExm637P5fWQKP.jpg",
+      "rating": 7.7,
+      "tmdb_id": 1263337
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -6640,9 +6544,6 @@
         "OV"
       ],
       "times": [
-        "14:00",
-        "17:00",
-        "20:15",
         "22:30"
       ],
       "film_url": "",
@@ -6656,8 +6557,6 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "16:50",
-        "19:45",
         "22:50"
       ],
       "film_url": "",
@@ -6671,74 +6570,12 @@
       "film": "Die Odyssee",
       "format_tags": [],
       "times": [
-        "14:10",
-        "16:45",
-        "18:05",
-        "20:30",
         "22:00"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
       "rating": 8.0,
       "tmdb_id": 1368337
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Die Odyssee",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "14:50",
-        "19:10"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
-      "rating": 8.0,
-      "tmdb_id": 1368337
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Pressure",
-      "format_tags": [],
-      "times": [
-        "20:10"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/gFjEggtrejCN79r6SXRjM269OtG.jpg",
-      "rating": 7.7,
-      "tmdb_id": 1318413
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Spa Weekend",
-      "format_tags": [],
-      "times": [
-        "14:35",
-        "17:15",
-        "19:50"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/vJGDq0kBrmOGSxYLjPV2Hnahagp.jpg",
-      "rating": 6.7,
-      "tmdb_id": 1341138
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Das Gewisse Etwas",
-      "format_tags": [],
-      "times": [
-        "14:00",
-        "17:15"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/dJnkqo2KE5s5zqRQsg5kvGMMHC1.jpg",
-      "rating": null,
-      "tmdb_id": 1553672
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -6769,69 +6606,15 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Adams Acht",
-      "format_tags": [],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/rHZZ9UJ6uuhkcXkgutv9EBkiGSj.jpg",
-      "rating": 6.0,
-      "tmdb_id": 1564324
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Paw Patrol: Der Dino Film",
-      "format_tags": [],
-      "times": [
-        "14:20"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/iCLb9uwF9uS7TF2p0ZW1Ka6ACiS.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1185806
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Practical Magic 2 – Zauberhafte Schwestern",
-      "format_tags": [],
-      "times": [
-        "16:40"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/bM1Vp04s2Sp6Q8BAYUaFk9ViRAU.jpg",
-      "rating": 6.5,
-      "tmdb_id": 1302904
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Primetime",
       "format_tags": [],
       "times": [
-        "16:40",
-        "19:30",
         "22:20"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/iVtbZFH8QwcPB3U1xYDi9s9laOn.jpg",
       "rating": 6.8,
       "tmdb_id": 1375441
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Vaterland",
-      "format_tags": [],
-      "times": [
-        "17:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/btOqwhMDy98hFLLpS9DqfActA1w.jpg",
-      "rating": 6.2,
-      "tmdb_id": 1437696
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -6862,48 +6645,9 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Toy Story 5",
-      "format_tags": [],
-      "times": [
-        "15:15"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/3UMLeXTv33YNAFh7q0Dy1llmHik.jpg",
-      "rating": 7.4,
-      "tmdb_id": 1084244
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Minions & Monster",
-      "format_tags": [],
-      "times": [
-        "14:15"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6jtBUoqgOSElz1v5QahkrWCYXm1.jpg",
-      "rating": 6.4,
-      "tmdb_id": 1315772
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Zeige Alle Filmzeiten",
-      "format_tags": [],
-      "times": [
-        "15:30",
-        "19:00"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Jim Queen",
       "format_tags": [],
       "times": [
-        "14:35",
-        "16:45",
         "23:00"
       ],
       "film_url": "",
@@ -6919,26 +6663,12 @@
         "OmU"
       ],
       "times": [
-        "20:00",
         "22:30"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/qiMwnUVkzRun9QQ0frnKU9n4UyO.jpg",
       "rating": null,
       "tmdb_id": 1388805
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Spaziergang Nach Syrakus",
-      "format_tags": [],
-      "times": [
-        "14:15"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/BETdSysg2GZYp2nClaTvl4ZCWY.jpg",
-      "rating": 8.0,
-      "tmdb_id": 1410202
     },
     {
       "cinema": "CinemaxX Berlin",
