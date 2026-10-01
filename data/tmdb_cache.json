@@ -942,6 +942,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Breakin' 2: Electric Boogaloo": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/3RV0NNZ8p3XcdVnrr8bLILuH1x9.jpg",
+    "rating": 5.4,
+    "tmdb_id": 17464
+  },
   "Breaking the Circle of Early Marriages and Early Motherhood in Roma Communities": {
     "poster_url": null,
     "rating": null,
@@ -1572,6 +1577,11 @@
     "rating": 9.0,
     "tmdb_id": 1479832
   },
+  "Dear You": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/s0sC3hPPX4OobLNfdl2iSs2vtvI.jpg",
+    "rating": 8.8,
+    "tmdb_id": 1671548
+  },
   "Dear You (2026)": {
     "poster_url": null,
     "rating": null,
@@ -1851,6 +1861,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Der alte deutsche Film: Donner, Blitz und Sonnenschein": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Der alte deutsche Film: Eine Frau, die weiß, was sie will": {
     "poster_url": null,
     "rating": null,
@@ -1994,6 +2009,11 @@
     "poster_url": null,
     "rating": 7.0,
     "tmdb_id": 1190371
+  },
+  "Die Allee (2024); m. Gespräch": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Die Auslöschung (2013)": {
     "poster_url": null,
@@ -2387,6 +2407,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/kGnAfwyuJqAHHisR5IJHVmrvCR4.jpg",
     "rating": 6.8,
     "tmdb_id": 1373956
+  },
+  "Digger": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/d8kX0IXh42znJiBGMRb32O9Iq5w.jpg",
+    "rating": 7.3,
+    "tmdb_id": 1248832
   },
   "Digger (2026)": {
     "poster_url": null,
@@ -2940,6 +2965,16 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/ww1qaa9cWXK36nKJIEMiREHX1px.jpg",
     "rating": 8.0
   },
+  "Female Filmmakers Festival Berlin: Between You & Me": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Female Filmmakers Festival Berlin: By Design (2026)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Ferien auf Saltkrokan - Die Seeräuber": {
     "poster_url": "https://image.tmdb.org/t/p/w185/vOazy88dzWoD24WEstrFCbIA4nh.jpg",
     "rating": 6.4,
@@ -3072,6 +3107,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/ok6L9zIsRCGJzBiWB42YUzS77po.jpg",
     "rating": 6.8,
     "tmdb_id": 39464
+  },
+  "Frau Winkler Verlässt Das Haus": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/mFIqmsjWSZgNCfYHBkRvrZSULPN.jpg",
+    "rating": null,
+    "tmdb_id": 1176971
   },
   "Frau Winkler verlässt das Haus": {
     "poster_url": "https://image.tmdb.org/t/p/w185/mFIqmsjWSZgNCfYHBkRvrZSULPN.jpg",
@@ -3487,6 +3527,11 @@
     "rating": null,
     "tmdb_id": 1600610
   },
+  "Heimsuchung - Eine Jahrhundertgeschichte": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/1ENAoVhIdfacsHuoqDM8MwR6D4Z.jpg",
+    "rating": null,
+    "tmdb_id": 1477572
+  },
   "Heißer Sommer (1968)": {
     "poster_url": null,
     "rating": null,
@@ -3685,6 +3730,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Im Zeichen des Drachen": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/aJcfN30679bW7g6ki27NtT0kjQ0.jpg",
+    "rating": null,
+    "tmdb_id": 1559057
+  },
   "Immer dieser Michel 1: Michel in der Suppenschüssel": {
     "poster_url": null,
     "rating": null,
@@ -3704,6 +3754,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "In einem Land, das es nicht mehr gibt": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/aPCciODmLCQvdVdihd7mvl6sZDB.jpg",
+    "rating": 6.2,
+    "tmdb_id": 950453
   },
   "In the Grey (2026)": {
     "poster_url": null,
@@ -3948,6 +4003,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Karami-ai - The Inheritance (OmenglU); m. Einführung": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Karapete Xaco": {
     "poster_url": null,
     "rating": null,
@@ -4074,6 +4134,11 @@
     "tmdb_id": null
   },
   "Kinderwagenkino: Detektiv Conan 29: Der gefallene Engel des Highways - Meitantei Konan Haiwei no Datenshi": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Kinderwagenkino: Digger (2026)": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -5034,6 +5099,11 @@
     "tmdb_id": null
   },
   "Moscas - Fliegen und andere Gäste": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Moscas - Fliegen und andere Gäste (OmenglU); m. Gespräch": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -6110,6 +6180,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Queen Budapest (2026)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Queens of the Dead": {
     "poster_url": "https://image.tmdb.org/t/p/w185/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
     "rating": 5.7,
@@ -6269,6 +6344,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/wCfydeDuZwHiMIhFjyqcS5ZFQQd.jpg",
     "rating": 6.0,
     "tmdb_id": 1450279
+  },
+  "Raumpatrouille Orion - Rücksturz ins Kino": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/l9g4TGl9zX8om6AicOjUmsqYHQ8.jpg",
+    "rating": 5.6,
+    "tmdb_id": 65797
   },
   "Raumpatrouille Orion - Rücksturz ins Kino; m. Live-Konzert": {
     "poster_url": "https://image.tmdb.org/t/p/w185/l9g4TGl9zX8om6AicOjUmsqYHQ8.jpg",
@@ -6781,6 +6861,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": 1722494
+  },
+  "Sound of Metal": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/3178oOJKKPDeQ2legWQvMPpllv.jpg",
+    "rating": 7.7,
+    "tmdb_id": 502033
   },
   "South of the Border - Südlich der Grenze": {
     "poster_url": null,
