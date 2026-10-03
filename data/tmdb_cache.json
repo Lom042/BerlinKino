@@ -3103,6 +3103,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Forgotten Island": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/Lr0Ng7Gg02RW1AyfYEL6P0WUvd.jpg",
+    "rating": 8.2,
+    "tmdb_id": 1465063
+  },
   "Forgotten Island - Die vergessene Insel": {
     "poster_url": "https://image.tmdb.org/t/p/w185/Lr0Ng7Gg02RW1AyfYEL6P0WUvd.jpg",
     "rating": 8.2,
@@ -4942,6 +4947,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/g92OfN7xEadVVgRU3eyzqHUhwbj.jpg",
     "rating": 7.1,
     "tmdb_id": 623607
+  },
+  "Met Opera 2026-27: Così Fan Tutte - Wolfgang Amadeus Mozart": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Metropolis (1925/26)": {
     "poster_url": null,
