@@ -1256,6 +1256,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/kINb5ty6xwTYe9cjqndB8hDMtpH.jpg",
     "rating": 6.3
   },
+  "Cinelogue with Avah Collective": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "CinemAperitivo: Auszeit (2019) - La vacanza (OmU); m. Gespräch": {
     "poster_url": null,
     "rating": null,
@@ -2231,6 +2236,11 @@
     "tmdb_id": null
   },
   "Die Farbe des Granatapfels - Zwet granaty": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Die Fotografin (2024) - Lee": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -3991,6 +4001,11 @@
     "rating": 6.8,
     "tmdb_id": 879
   },
+  "Hope": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/lP1KlQNoT23EJaLG3u15e4VaEpI.jpg",
+    "rating": 7.2,
+    "tmdb_id": 1058424
+  },
   "Hope (2026)": {
     "poster_url": "https://image.tmdb.org/t/p/w185/tS1NR5E1dp0tCABW2HgEOqY7FJn.jpg",
     "rating": 5.0,
@@ -4016,6 +4031,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "How to Be Normal und der Versuch, sich selbst zu verstehen": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Hump! Erotic Short Film Festival (OV) 2026": {
     "poster_url": null,
     "rating": null,
@@ -4030,6 +4050,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/rP9O14O4WnbCwZxHJIJRNBb5LhT.jpg",
     "rating": 7.6,
     "tmdb_id": 371645
+  },
+  "I Am the River, the River Is Me; m. Gästen": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "I See Buildings Fall Like Lightning": {
     "poster_url": "https://image.tmdb.org/t/p/w185/lsHuNs9qT8aVhVIxXNdLuVhr5CM.jpg",
@@ -4312,6 +4337,11 @@
   "Jackass: Einer geht noch": {
     "poster_url": "https://image.tmdb.org/t/p/w185/8LxyuMNFYhmDZNBKvZeZe4RDPun.jpg",
     "rating": 6.8
+  },
+  "Jailer II": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Jamon Jamon": {
     "poster_url": "https://image.tmdb.org/t/p/w185/8SDnqxX2XMOEQMZhBAGMx3kPc8u.jpg",
@@ -4656,6 +4686,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Kinderwagenkino: Verity - Dunkle Geheimnisse": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Kingdom (2026)": {
     "poster_url": "https://image.tmdb.org/t/p/w185/rAeHmu96NnVuhBZW35KnqZSj3lN.jpg",
     "rating": 8.0,
@@ -4710,6 +4745,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Klandestin": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/qVtNjGoHzvZs1srCCebDEx1bsmd.jpg",
+    "rating": 6.4,
+    "tmdb_id": 1222279
   },
   "Klassenphoto - Erinnerungen deutscher Bürger": {
     "poster_url": null,
@@ -5129,6 +5169,11 @@
     "rating": null,
     "tmdb_id": 1368134
   },
+  "Lügen Über Meine Mutter": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/l4RAxjlWLINq5Gs94Um7oN0Jt5S.jpg",
+    "rating": null,
+    "tmdb_id": 1452237
+  },
   "Lügen über meine Mutter": {
     "poster_url": "https://image.tmdb.org/t/p/w185/l4RAxjlWLINq5Gs94Um7oN0Jt5S.jpg",
     "rating": null,
@@ -5372,6 +5417,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Mein Weg: 780 km zu mir": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/cNbYQFLHgq3P7b5HNUK5Bc0QU72.jpg",
+    "rating": 6.5,
+    "tmdb_id": 1260345
   },
   "Mein neues altes Ich - Eine Reise in das Mysterium der Menopause": {
     "poster_url": null,
@@ -5728,10 +5778,20 @@
     "rating": 7.0,
     "tmdb_id": 1756558
   },
+  "Märkische Forschungen; m. Einführung u. Gespräch": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "NCT 127 5th Tour 'Neo City: Seoul - The Redline' in Cinemas": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wLItpgfVeRL4VlqoaQJRQXzUmc1.jpg",
     "rating": null,
     "tmdb_id": 1740257
+  },
+  "NVA": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/ktayJKqGW7xvEPCsIWnQR2UtNv0.jpg",
+    "rating": 5.7,
+    "tmdb_id": 11514
   },
   "Nana (1926) (OmU); m. Live-Musikbegleitung": {
     "poster_url": null,
@@ -6122,6 +6182,11 @@
     "tmdb_id": 516729
   },
   "Painting Dhaka": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Pale Flower (1964) - Kawaita hana (OmU); m. Einführung": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -6638,6 +6703,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Preview: Heimsuchung - Eine Jahrhundertgeschichte; m. Gästen": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Preview: Jeder Acker, jede Fabrik; m. Gästen": {
     "poster_url": null,
     "rating": null,
@@ -6713,6 +6783,11 @@
     "tmdb_id": null
   },
   "Preview: Shaun das Schaf: Spuk im Kürbisfeld": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Preview: Sinn und Sinnlichkeit (2026) - Sense and Sensibility": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -8326,6 +8401,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Theatrical Staging of Refuge": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Thelonious Monk: Straight, No Chaser": {
     "poster_url": "https://image.tmdb.org/t/p/w185/8My1tlPk7Bz5Q6hzIpNZShDj37T.jpg",
     "rating": 7.3,
@@ -9093,6 +9173,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Zem spieva - Die Erde singt": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/2KusoFhq0sM8ssMJqXYY1isIhdA.jpg",
+    "rating": 6.1,
+    "tmdb_id": 266275
   },
   "Zeugin der Anklage (1957) - Witness for the Prosecution": {
     "poster_url": null,
