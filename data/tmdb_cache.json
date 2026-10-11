@@ -2454,6 +2454,11 @@
     "rating": 5.1,
     "tmdb_id": 130957
   },
+  "Die Tribute Von Panem - The Hunger Games": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/8o3MlFkqI9O8PXRXDApyoN4HNPc.jpg",
+    "rating": 7.2,
+    "tmdb_id": 70160
+  },
   "Die Tribute von Panem - The Hunger Games": {
     "poster_url": "https://image.tmdb.org/t/p/w185/8o3MlFkqI9O8PXRXDApyoN4HNPc.jpg",
     "rating": 7.2,
@@ -4921,6 +4926,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Lalka": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/6vN4ppExgYQXuCeyXkrEfnvTqIT.jpg",
+    "rating": 7.4,
+    "tmdb_id": 1321666
+  },
   "Lalka - Die Puppe (2026)": {
     "poster_url": null,
     "rating": null,
@@ -5662,6 +5672,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/coGPvuURqVqXCb4gTpULGuaiFay.jpg",
     "rating": 5.1,
     "tmdb_id": 1005685
+  },
+  "Monster Mia": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
+    "rating": 9.5,
+    "tmdb_id": 1572116
   },
   "Moon, der Panda": {
     "poster_url": "https://image.tmdb.org/t/p/w185/4BnjYJJ39LfqkrC3HjLozYn2sCr.jpg",
