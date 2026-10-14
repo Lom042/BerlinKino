@@ -7874,6 +7874,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Street Fighter (2026)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Stricken im Kino: A la Carte! Freiheit geht durch den Magen": {
     "poster_url": null,
     "rating": null,
@@ -8988,6 +8993,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Whalefall": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
+    "rating": 10.0,
+    "tmdb_id": 1255833
   },
   "When I Go Outside": {
     "poster_url": null,

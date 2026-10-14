@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-14T11:20:05",
+  "screenings": [
+    {
+      "cinema": "Thalia Movie Magic",
+      "address": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
+      "film": "Shaun das Schaf: Spuk im Kürbisfeld",
+      "format_tags": [],
+      "times": [
+        "16:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/shaun-das-schaf-spuk-im-kuerbisfeld-f173102911_154.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/zBwpjYuxiSBTrRo0KBpK5Nl4Pda.jpg",
+      "rating": 6.6,
+      "tmdb_id": 1477104
+    },
+    {
+      "cinema": "Thalia Movie Magic",
+      "address": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
+      "film": "Forgotten Island - Die vergessene Insel",
+      "format_tags": [],
+      "times": [
+        "15:45"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/forgotten-island-die-vergessene-insel-f173157952_154.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/Lr0Ng7Gg02RW1AyfYEL6P0WUvd.jpg",
+      "rating": 8.2,
+      "tmdb_id": 1465063
+    },
+    {
+      "cinema": "Thalia Movie Magic",
+      "address": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
+      "film": "Bibi Blocksberg - Die total verhexte Zeitreise",
+      "format_tags": [],
+      "times": [
+        "16:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/bibi-blocksberg-die-total-verhexte-zeitreise-f172428911_154.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/hiHYrJ9JhCANSnS3BfAOXb71Gmw.jpg",
+      "rating": null,
+      "tmdb_id": 1492574
+    },
+    {
+      "cinema": "Thalia Movie Magic",
+      "address": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
+      "film": "Emil und die Detektive (2026)",
+      "format_tags": [],
+      "times": [
+        "15:45"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/emil-und-die-detektive-2026-f172824218_154.html"
+    },
+    {
+      "cinema": "Thalia Movie Magic",
+      "address": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
+      "film": "Verity - Dunkle Geheimnisse",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/verity-dunkle-geheimnisse-f172694950_154.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/9fHWqNfGTVkkB20shiIAPMR3f7Y.jpg",
+      "rating": 7.7,
+      "tmdb_id": 1283515
+    },
+    {
+      "cinema": "Thalia Movie Magic",
+      "address": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
+      "film": "Eiserne Wildnis - Heart of the Beast",
+      "format_tags": [],
+      "times": [
+        "18:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/eiserne-wildnis-heart-of-the-beast-f173023048_154.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/bl6rLzxl4fUZSNExm637P5fWQKP.jpg",
+      "rating": 7.7,
+      "tmdb_id": 1263337
+    },
+    {
+      "cinema": "Thalia Movie Magic",
+      "address": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
+      "film": "Resident Evil (2026)",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/resident-evil-2026-f173111193_154.html"
+    },
+    {
+      "cinema": "Thalia Movie Magic",
+      "address": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
+      "film": "Alte Liebe (2026)",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/alte-liebe-2026-f173134665_154.html"
+    },
+    {
+      "cinema": "Thalia Movie Magic",
+      "address": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
+      "film": "Street Fighter (2026)",
+      "format_tags": [],
+      "times": [
+        "18:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/street-fighter-2026-f173157158_154.html"
+    },
+    {
+      "cinema": "Thalia Movie Magic",
+      "address": "Kaiser-Wilhelm-Str. 71, 12249 Berlin",
+      "film": "Whalefall",
+      "format_tags": [],
+      "times": [
+        "20:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/whalefall-f173109043_154.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
+      "rating": 10.0,
+      "tmdb_id": 1255833
+    }
+  ]
+}
