@@ -327,6 +327,11 @@
     "rating": 6.0,
     "tmdb_id": 311301
   },
+  "Alte Liebe": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": 970759
+  },
   "Alte Liebe (2026)": {
     "poster_url": null,
     "rating": null,
@@ -4343,6 +4348,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/8LxyuMNFYhmDZNBKvZeZe4RDPun.jpg",
     "rating": 6.8
   },
+  "Jailer 2": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
+    "rating": 6.0,
+    "tmdb_id": 1234139
+  },
   "Jailer II": {
     "poster_url": null,
     "rating": null,
@@ -6627,6 +6637,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Preview: Clayface": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Preview: Coyote vs. ACME": {
     "poster_url": null,
     "rating": null,
@@ -6645,6 +6660,11 @@
   "Preview: Der Klang der Stradivari - Les musiciens: The Musicians": {
     "poster_url": null,
     "rating": null
+  },
+  "Preview: Der perfekte Urlaub": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Preview: Diamanti - Diamonds": {
     "poster_url": null,
@@ -7095,6 +7115,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Ranabaali": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/fmqDwVpmiAk4cav5ElC2KAJRM3F.jpg",
+    "rating": null,
+    "tmdb_id": 1389379
+  },
   "Rashid, l'enfant de Sinjar - Rashid, the Boy from Sinjar (OmenglU); m. Gespräch": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wCfydeDuZwHiMIhFjyqcS5ZFQQd.jpg",
     "rating": 6.0,
@@ -7318,6 +7343,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Sacrifice": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/3EJ67nB4R729cTB0sXtQJUMN3Ya.jpg",
+    "rating": 5.5,
+    "tmdb_id": 1284186
   },
   "Sakr W Canaria": {
     "poster_url": "https://image.tmdb.org/t/p/w185/rj2JlLzKWG8J201cgFODgc8LEed.jpg",
@@ -7586,6 +7616,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Sinn Und Sinnlichkeit": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/czsyPHosFNbh4PPqXfqWu1aBXnA.jpg",
+    "rating": 7.4,
+    "tmdb_id": 1503762
   },
   "Sinn und Sinnlichkeit (2026) - Sense and Sensibility": {
     "poster_url": null,
@@ -7873,6 +7908,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Street Fighter": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/6HNssAfOCjAO4uEqCqhzKHBApxN.jpg",
+    "rating": 6.7,
+    "tmdb_id": 1153576
   },
   "Street Fighter (2026)": {
     "poster_url": null,
