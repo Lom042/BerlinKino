@@ -7722,6 +7722,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Soy": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/rh3HNzV7o8ouH4NnCuL76OFPFBF.jpg",
+    "rating": 8.0,
+    "tmdb_id": 1119090
+  },
   "Soy Cuba - Ich bin Kuba": {
     "poster_url": "https://image.tmdb.org/t/p/w185/p9miBtbnwLCsPNeACHhAZgqEknq.jpg",
     "rating": 7.9,
