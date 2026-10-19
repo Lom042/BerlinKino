@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "generated_at": "2026-10-19T12:20:22",
+  "generated_at": "2026-10-19T19:41:10",
   "screenings": [
     {
       "cinema": "Thalia Movie Magic",
@@ -134,9 +134,24 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Verity - Dunkle Geheimnisse",
+      "format_tags": [
+        "OV"
+      ],
+      "times": [
+        "22:15"
+      ],
+      "film_url": "",
+      "poster_url": "https://image.tmdb.org/t/p/w185/9fHWqNfGTVkkB20shiIAPMR3f7Y.jpg",
+      "rating": 7.7,
+      "tmdb_id": 1283515
+    },
+    {
+      "cinema": "CinemaxX Berlin",
+      "address": "Potsdamer Straße 5, 10785 Berlin",
+      "film": "Verity - Dunkle Geheimnisse",
       "format_tags": [],
       "times": [
-        "14:00"
+        "23:00"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/9fHWqNfGTVkkB20shiIAPMR3f7Y.jpg",
@@ -147,12 +162,11 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Resident Evil",
-      "format_tags": [],
+      "format_tags": [
+        "OV"
+      ],
       "times": [
-        "14:50",
-        "17:40",
-        "20:20",
-        "23:00"
+        "22:10"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/nSezFz6jH9MTiPakXP06ZQLNLqC.jpg",
@@ -163,13 +177,9 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Resident Evil",
-      "format_tags": [
-        "OV"
-      ],
+      "format_tags": [],
       "times": [
-        "17:15",
-        "19:40",
-        "22:10"
+        "23:00"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/nSezFz6jH9MTiPakXP06ZQLNLqC.jpg",
@@ -182,8 +192,6 @@
       "film": "Eiserne Wildnis - Heart Of The Beast",
       "format_tags": [],
       "times": [
-        "16:30",
-        "20:00",
         "22:45"
       ],
       "film_url": "",
@@ -210,12 +218,9 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Street Fighter",
-      "format_tags": [
-        "OV"
-      ],
+      "format_tags": [],
       "times": [
-        "16:45",
-        "19:40"
+        "22:40"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/6HNssAfOCjAO4uEqCqhzKHBApxN.jpg",
@@ -226,10 +231,11 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Street Fighter",
-      "format_tags": [],
+      "format_tags": [
+        "OV"
+      ],
       "times": [
-        "16:45",
-        "20:00"
+        "22:40"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/6HNssAfOCjAO4uEqCqhzKHBApxN.jpg",
@@ -242,86 +248,12 @@
       "film": "Whalefall",
       "format_tags": [],
       "times": [
-        "17:20",
-        "20:15",
         "23:00"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
       "rating": 10.0,
       "tmdb_id": 1255833
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Whalefall",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "19:20"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
-      "rating": 10.0,
-      "tmdb_id": 1255833
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Forgotten Island",
-      "format_tags": [],
-      "times": [
-        "14:15",
-        "17:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/Lr0Ng7Gg02RW1AyfYEL6P0WUvd.jpg",
-      "rating": 8.2,
-      "tmdb_id": 1465063
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Monster Mia",
-      "format_tags": [],
-      "times": [
-        "15:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
-      "rating": 9.5,
-      "tmdb_id": 1572116
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Sinn Und Sinnlichkeit",
-      "format_tags": [],
-      "times": [
-        "15:50",
-        "19:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/czsyPHosFNbh4PPqXfqWu1aBXnA.jpg",
-      "rating": 7.4,
-      "tmdb_id": 1503762
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "The Social Reckoning",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "19:45",
-        "23:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/gK3XBOPgMiUUmdIBWZLctlHVZ3g.jpg",
-      "rating": 8.9,
-      "tmdb_id": 1281331
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -339,43 +271,17 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Corpus Delicti",
-      "format_tags": [],
-      "times": [
-        "16:45"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/8ErdJXLWWCSjHgDV4hHHkwYfcqG.jpg",
-      "rating": null,
-      "tmdb_id": 1477583
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Digger",
+      "film": "The Social Reckoning",
       "format_tags": [
         "OV"
       ],
       "times": [
-        "19:50"
+        "23:00"
       ],
       "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/d8kX0IXh42znJiBGMRb32O9Iq5w.jpg",
-      "rating": 7.3,
-      "tmdb_id": 1248832
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Bibi Blocksberg - Die Total Verhexte Zeitreise",
-      "format_tags": [],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/hiHYrJ9JhCANSnS3BfAOXb71Gmw.jpg",
-      "rating": null,
-      "tmdb_id": 1492574
+      "poster_url": "https://image.tmdb.org/t/p/w185/gK3XBOPgMiUUmdIBWZLctlHVZ3g.jpg",
+      "rating": 8.9,
+      "tmdb_id": 1281331
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -383,8 +289,6 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "15:40",
-        "19:00",
         "22:20"
       ],
       "film_url": "",
@@ -400,7 +304,6 @@
         "OV"
       ],
       "times": [
-        "16:30",
         "22:40"
       ],
       "film_url": "",
@@ -414,8 +317,6 @@
       "film": "Die Odyssee",
       "format_tags": [],
       "times": [
-        "16:20",
-        "19:05",
         "22:10"
       ],
       "film_url": "",
@@ -426,67 +327,15 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Das Gewisse Etwas",
-      "format_tags": [],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/dJnkqo2KE5s5zqRQsg5kvGMMHC1.jpg",
-      "rating": null,
-      "tmdb_id": 1553672
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Primetime",
       "format_tags": [],
       "times": [
-        "19:20",
         "22:15"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/iVtbZFH8QwcPB3U1xYDi9s9laOn.jpg",
       "rating": 6.8,
       "tmdb_id": 1375441
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Zeige Alle Filmzeiten",
-      "format_tags": [],
-      "times": [
-        "19:15",
-        "20:15"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Alte Liebe",
-      "format_tags": [],
-      "times": [
-        "16:30"
-      ],
-      "film_url": "",
-      "poster_url": null,
-      "rating": null,
-      "tmdb_id": 970759
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Heimsuchung - Eine Jahrhundertgeschichte",
-      "format_tags": [],
-      "times": [
-        "16:30",
-        "19:45"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/1ENAoVhIdfacsHuoqDM8MwR6D4Z.jpg",
-      "rating": null,
-      "tmdb_id": 1477572
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -502,32 +351,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
       "rating": 6.0,
       "tmdb_id": 1234139
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Lalka",
-      "format_tags": [],
-      "times": [
-        "15:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/6vN4ppExgYQXuCeyXkrEfnvTqIT.jpg",
-      "rating": 7.4,
-      "tmdb_id": 1321666
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Lügen Über Meine Mutter",
-      "format_tags": [],
-      "times": [
-        "16:40"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/l4RAxjlWLINq5Gs94Um7oN0Jt5S.jpg",
-      "rating": null,
-      "tmdb_id": 1452237
     },
     {
       "cinema": "CinemaxX Berlin",
