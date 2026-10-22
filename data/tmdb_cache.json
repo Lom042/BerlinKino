@@ -726,6 +726,11 @@
     "rating": null,
     "tmdb_id": 1418821
   },
+  "Becoming Kim (OmU); m. Diskussion": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Becoming Kim (OmU); m. Gespräch": {
     "poster_url": null,
     "rating": null,
@@ -1137,6 +1142,11 @@
     "rating": 7.8,
     "tmdb_id": 142
   },
+  "Brot und Tulpen": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/nVBtD2uQY6VXtpu5IrVdGfB7ytb.jpg",
+    "rating": 7.1,
+    "tmdb_id": 552
+  },
   "Bruderland ist abgebrannt (OmenglU) / DDR - Ohne Titel; m. Einführung": {
     "poster_url": null,
     "rating": null,
@@ -1191,6 +1201,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/51MYX08nrjKNDeGBjam6Z8SWoe7.jpg",
     "rating": 6.9,
     "tmdb_id": 212871
+  },
+  "Bürgermeister Anna": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/eupyCGlUXh49URGD8eFDxslIlnJ.jpg",
+    "rating": 9.0,
+    "tmdb_id": 288723
   },
   "Bürgschaft für ein Jahr": {
     "poster_url": "https://image.tmdb.org/t/p/w185/9S7bczUla7ybzKnmUmoeiXBIU9w.jpg",
@@ -1337,6 +1352,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Chopin - Eine Sonate In Paris": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/ftKksa321oPOUrvrcCPJNGLwK0z.jpg",
+    "rating": 6.8,
+    "tmdb_id": 1299799
+  },
   "Chopin: Eine Sonate in Paris": {
     "poster_url": "https://image.tmdb.org/t/p/w185/f4cLh2vVzKH8WCbplPFo6aCMpRC.jpg",
     "rating": 6.8,
@@ -1344,6 +1364,11 @@
   },
   "Chopin: Eine Sonate in Paris - Chopin, Chopin!": {
     "poster_url": "https://image.tmdb.org/t/p/w185/f4cLh2vVzKH8WCbplPFo6aCMpRC.jpg",
+    "rating": 6.8,
+    "tmdb_id": 1299799
+  },
+  "Chopin: Eine Sonate in Paris - Chopin, Chopin! (OmU); m. Einführung u. Gespräch": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/ftKksa321oPOUrvrcCPJNGLwK0z.jpg",
     "rating": 6.8,
     "tmdb_id": 1299799
   },
@@ -2250,6 +2275,11 @@
     "poster_url": null,
     "rating": null
   },
+  "Der alte deutsche Film: Schwarzwaldmädel": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Der gestiefelte Kater: Der letzte Wunsch": {
     "poster_url": "https://image.tmdb.org/t/p/w185/kav9SgYBGE7ikJXO5ktlEILJYPI.jpg",
     "rating": 8.2,
@@ -2390,6 +2420,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Die Andere Seite": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/gbrq83OnulIZVgBTVNbPRwrV2zS.jpg",
+    "rating": null,
+    "tmdb_id": 1419383
+  },
   "Die Auslöschung (2013)": {
     "poster_url": null,
     "rating": null,
@@ -2456,6 +2491,11 @@
     "tmdb_id": null
   },
   "Die Frau mit dem Mikroskop - Filme von Herta Jülich": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Die Freiheit des Erzählens: Das Leben des Gad Beck": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -2643,6 +2683,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/jWUGOQgTqCQ7yzuTrVC729ZTgXY.jpg",
     "rating": 7.6,
     "tmdb_id": 247
+  },
+  "Die Rechte und die linke Hand des Teufels": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/69zeGny8qqh7LTlNnRcPNigM6Iw.jpg",
+    "rating": 7.5,
+    "tmdb_id": 9394
   },
   "Die Rosenkönigin 1968/1979 - La rosière de Pessac 1968/79": {
     "poster_url": null,
@@ -3101,6 +3146,16 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/cyscxKUuLGS67rbl354L8pwvFi7.jpg",
     "rating": 6.3,
     "tmdb_id": 1294706
+  },
+  "Ein Talent fürs Morden - A Talent for Murder (OmU); m. Gästen": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/mstDPKNKgSGFvVFVdfzeMNkcyw2.jpg",
+    "rating": 6.0,
+    "tmdb_id": 1084409
+  },
+  "Ein Unsichtbarer geht durch die Stadt": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/1TcjYwZlKgjiV7TFBSMVoJvs1hW.jpg",
+    "rating": 9.0,
+    "tmdb_id": 79889
   },
   "Ein Volksbürger (2026)": {
     "poster_url": null,
@@ -3670,10 +3725,20 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Filmclub by Luiii: Überraschungsprogramm": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Filme von Skip Norman - Freund und Kameramann": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Filmquiz": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/2IEoScJaXjrlf2jMtbksF33gpLN.jpg",
+    "rating": 6.6,
+    "tmdb_id": 518918
   },
   "Finding Connection": {
     "poster_url": "https://image.tmdb.org/t/p/w185/yXZS73USgzvDR3BdDFWvrqme628.jpg",
@@ -3982,6 +4047,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/jX0i2WufQ8mbPpktylUOGPEyRXb.jpg",
     "rating": null,
     "tmdb_id": 1473148
+  },
+  "Geschichten aus zwölf und einem Jahr": {
+    "poster_url": null,
+    "rating": 9.0,
+    "tmdb_id": 1673202
   },
   "Ghost School": {
     "poster_url": null,
@@ -4445,6 +4515,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/8udWFUoL5NxqKR1xtYinhcxY3gn.jpg",
     "rating": null,
     "tmdb_id": 1797226
+  },
+  "Hälfte des Lebens - Hölderlin": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "I Am the River, the River Is Me; m. Gästen": {
     "poster_url": null,
@@ -5074,6 +5149,11 @@
     "tmdb_id": null
   },
   "Kinderwagenkino: Lebensansichten eines Huhns - Kota: Hen": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Kinderwagenkino: Possible Love (2026) - Ganeunghan sarang": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -5844,6 +5924,11 @@
     "rating": 7.2,
     "tmdb_id": 10860
   },
+  "Malignant": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/7MtE8auHJwWIccRvSlXuCneegO0.jpg",
+    "rating": 6.7,
+    "tmdb_id": 619778
+  },
   "Malina": {
     "poster_url": "https://image.tmdb.org/t/p/w185/63FYlzf7B0vK2WlBOrwAMufSB7Y.jpg",
     "rating": 6.2,
@@ -6183,6 +6268,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Mitasareta seikatsu - A Full Life (OmenglU); m. Einführung": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Mo & Friese - KinderKurzFilmFestival Hamburg": {
     "poster_url": null,
     "rating": null,
@@ -6219,6 +6309,11 @@
     "tmdb_id": null
   },
   "MonGay: Preview: Jim Queen": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "MonGay: Preview: Queens of the Dead": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -6706,6 +6801,11 @@
     "rating": 5.1,
     "tmdb_id": 1437939
   },
+  "Olle Hexe": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/gv8x5tHbPSHtw8DeqZn4Qvz4lJR.jpg",
+    "rating": 7.0,
+    "tmdb_id": 79859
+  },
   "On vous parle de Paris: Maspero, les mots ont un sens - Calling from Paris: Maspero. Words Have a Meaning": {
     "poster_url": null,
     "rating": 5.3,
@@ -6810,6 +6910,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/tRIHKBWKoIADAgALPT2Qu6CYVZF.jpg",
     "rating": 6.8,
     "tmdb_id": 344935
+  },
+  "Ozzy & Black Sabbath: Back to the Beginning": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/iO8vwdtmOivoyUguheJtDLXp2Gq.jpg",
+    "rating": null,
+    "tmdb_id": 1515139
   },
   "Paddington": {
     "poster_url": "https://image.tmdb.org/t/p/w185/rbkTRrKmjUPCVNXGDp2u2OGKX8n.jpg",
@@ -7709,6 +7814,11 @@
     "tmdb_id": null
   },
   "Preview: Forgotten Island - Die vergessene Insel - Forgotten Island": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Preview: Frank & Louis": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -8945,6 +9055,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/l31ROftCkHvaFJmZCdPveYzs6FP.jpg",
     "rating": 6.6,
     "tmdb_id": 1230368
+  },
+  "Spur der Steine": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/xfZxDRlJvJDvlJVGGWpwQs0QdvT.jpg",
+    "rating": 6.3,
+    "tmdb_id": 35620
   },
   "Staatsschutz": {
     "poster_url": "https://image.tmdb.org/t/p/w185/hhLFoA0FSnREDFKCuIHf3KlYZuZ.jpg",
@@ -10534,6 +10649,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Zonenmädchen": {
+    "poster_url": null,
+    "rating": 3.5,
+    "tmdb_id": 235959
   },
   "Zoomania": {
     "poster_url": "https://image.tmdb.org/t/p/w185/e3ustk4Ror6UFqijsEoBxsKzSy2.jpg",
