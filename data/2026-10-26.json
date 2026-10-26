@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "generated_at": "2026-10-26T12:23:50",
+  "generated_at": "2026-10-26T19:46:58",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -7616,7 +7616,9 @@
       "film": "Der Perfekte Urlaub",
       "format_tags": [],
       "times": [
-        "13:30"
+        "20:30",
+        "21:00",
+        "22:30"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/cNSQoDGWbnSVex9bkffBju1a8Lt.jpg",
@@ -7627,13 +7629,11 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Verity - Dunkle Geheimnisse",
-      "format_tags": [],
+      "format_tags": [
+        "OV"
+      ],
       "times": [
-        "13:50",
-        "14:25",
-        "16:50",
-        "19:50",
-        "22:50"
+        "22:05"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/9fHWqNfGTVkkB20shiIAPMR3f7Y.jpg",
@@ -7644,14 +7644,9 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Verity - Dunkle Geheimnisse",
-      "format_tags": [
-        "OV"
-      ],
+      "format_tags": [],
       "times": [
-        "14:10",
-        "16:50",
-        "19:45",
-        "22:05"
+        "22:50"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/9fHWqNfGTVkkB20shiIAPMR3f7Y.jpg",
@@ -7664,9 +7659,6 @@
       "film": "Clayface",
       "format_tags": [],
       "times": [
-        "14:10",
-        "16:40",
-        "19:40",
         "22:40"
       ],
       "film_url": "",
@@ -7692,15 +7684,17 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Shaun Das Schaf - Spuk Im Kürbisfeld",
-      "format_tags": [],
+      "film": "Resident Evil",
+      "format_tags": [
+        "OV"
+      ],
       "times": [
-        "14:15"
+        "22:30"
       ],
       "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/zBwpjYuxiSBTrRo0KBpK5Nl4Pda.jpg",
-      "rating": 6.7,
-      "tmdb_id": 1477104
+      "poster_url": "https://image.tmdb.org/t/p/w185/nSezFz6jH9MTiPakXP06ZQLNLqC.jpg",
+      "rating": 8.4,
+      "tmdb_id": 1423191
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -7708,8 +7702,6 @@
       "film": "Resident Evil",
       "format_tags": [],
       "times": [
-        "16:50",
-        "20:15",
         "22:50"
       ],
       "film_url": "",
@@ -7720,28 +7712,9 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Resident Evil",
-      "format_tags": [
-        "OV"
-      ],
-      "times": [
-        "19:50",
-        "22:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/nSezFz6jH9MTiPakXP06ZQLNLqC.jpg",
-      "rating": 8.4,
-      "tmdb_id": 1423191
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Street Fighter",
-      "format_tags": [
-        "OV"
-      ],
+      "format_tags": [],
       "times": [
-        "13:25",
         "22:30"
       ],
       "film_url": "",
@@ -7753,44 +7726,16 @@
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Street Fighter",
-      "format_tags": [],
+      "format_tags": [
+        "OV"
+      ],
       "times": [
-        "16:00",
-        "19:20",
         "22:30"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/6HNssAfOCjAO4uEqCqhzKHBApxN.jpg",
       "rating": 6.7,
       "tmdb_id": 1153576
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Emil Und Die Detektive",
-      "format_tags": [],
-      "times": [
-        "13:05"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/kDchcw2Q9JnAzPsABAfKQUVgEdX.jpg",
-      "rating": null,
-      "tmdb_id": 1426805
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Eiserne Wildnis - Heart Of The Beast",
-      "format_tags": [],
-      "times": [
-        "16:00",
-        "17:00",
-        "19:55"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/bl6rLzxl4fUZSNExm637P5fWQKP.jpg",
-      "rating": 7.7,
-      "tmdb_id": 1263337
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -7798,68 +7743,12 @@
       "film": "Whalefall",
       "format_tags": [],
       "times": [
-        "20:10",
         "23:00"
       ],
       "film_url": "",
       "poster_url": "https://image.tmdb.org/t/p/w185/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
       "rating": 10.0,
       "tmdb_id": 1255833
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Bibi Blocksberg - Die Total Verhexte Zeitreise",
-      "format_tags": [],
-      "times": [
-        "13:30"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/hiHYrJ9JhCANSnS3BfAOXb71Gmw.jpg",
-      "rating": null,
-      "tmdb_id": 1492574
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Forgotten Island",
-      "format_tags": [],
-      "times": [
-        "13:45"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/Lr0Ng7Gg02RW1AyfYEL6P0WUvd.jpg",
-      "rating": 8.2,
-      "tmdb_id": 1465063
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Heimsuchung - Eine Jahrhundertgeschichte",
-      "format_tags": [],
-      "times": [
-        "14:00",
-        "17:00",
-        "20:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/1ENAoVhIdfacsHuoqDM8MwR6D4Z.jpg",
-      "rating": null,
-      "tmdb_id": 1477572
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Sinn Und Sinnlichkeit",
-      "format_tags": [],
-      "times": [
-        "16:30",
-        "19:20"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/czsyPHosFNbh4PPqXfqWu1aBXnA.jpg",
-      "rating": 7.4,
-      "tmdb_id": 1503762
     },
     {
       "cinema": "CinemaxX Berlin",
@@ -7882,9 +7771,6 @@
       "film": "Spider-Man: Brand New Day",
       "format_tags": [],
       "times": [
-        "13:05",
-        "16:30",
-        "20:15",
         "22:20"
       ],
       "film_url": "",
@@ -7898,8 +7784,6 @@
       "film": "Die Odyssee",
       "format_tags": [],
       "times": [
-        "13:30",
-        "16:20",
         "21:05"
       ],
       "film_url": "",
@@ -7923,57 +7807,6 @@
     {
       "cinema": "CinemaxX Berlin",
       "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Zeige Alle Filmzeiten",
-      "format_tags": [],
-      "times": [
-        "19:00",
-        "19:30"
-      ],
-      "film_url": ""
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Alte Liebe",
-      "format_tags": [],
-      "times": [
-        "13:45"
-      ],
-      "film_url": "",
-      "poster_url": null,
-      "rating": null,
-      "tmdb_id": 970759
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Chopin - Eine Sonate In Paris",
-      "format_tags": [],
-      "times": [
-        "17:15"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/ftKksa321oPOUrvrcCPJNGLwK0z.jpg",
-      "rating": 6.8,
-      "tmdb_id": 1299799
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Die Andere Seite",
-      "format_tags": [],
-      "times": [
-        "17:15",
-        "19:40"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/gbrq83OnulIZVgBTVNbPRwrV2zS.jpg",
-      "rating": null,
-      "tmdb_id": 1419383
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
       "film": "Drishyam 3 - The Conclusion",
       "format_tags": [],
       "times": [
@@ -7983,78 +7816,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/67FsF2kpgEZ1T5Qos4adgqm9dLf.jpg",
       "rating": 10.0,
       "tmdb_id": 1269325
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Hybe Cheering Party",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "19:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/8udWFUoL5NxqKR1xtYinhcxY3gn.jpg",
-      "rating": null,
-      "tmdb_id": 1797226
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Jailer 2",
-      "format_tags": [],
-      "times": [
-        "16:30",
-        "18:50"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
-      "rating": 6.0,
-      "tmdb_id": 1234139
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Ranabaali",
-      "format_tags": [],
-      "times": [
-        "15:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/fmqDwVpmiAk4cav5ElC2KAJRM3F.jpg",
-      "rating": null,
-      "tmdb_id": 1389379
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Seventeen World Tour 'New_'",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "16:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/aourQLTQ57XHpElS299J0X6TETb.jpg",
-      "rating": null,
-      "tmdb_id": 1662735
-    },
-    {
-      "cinema": "CinemaxX Berlin",
-      "address": "Potsdamer Straße 5, 10785 Berlin",
-      "film": "Tomorrow X Together World Tour 'Act : Tomorrow'",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "",
-      "poster_url": "https://image.tmdb.org/t/p/w185/e01GV3NYHRXKsqiTnJ3VAacNPbi.jpg",
-      "rating": 10.0,
-      "tmdb_id": 1105873
     }
   ]
 }
