@@ -984,6 +984,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/tKd0RJaygLmp0TBPXEtso4HBc94.jpg",
     "rating": 6.2
   },
+  "Biermann": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/3E0t0udMFoNcc4HqYfdlKnQdKvx.jpg",
+    "rating": null,
+    "tmdb_id": 1512629
+  },
   "Biermann (2026)": {
     "poster_url": null,
     "rating": null,
@@ -1211,6 +1216,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/cl8uqdLWE4V2U7SuzfaddgHNvWO.jpg",
     "rating": 7.0,
     "tmdb_id": 942
+  },
+  "Bridge of Spies - Der Unterhändler": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/2CjiNeim7U03e87Q4OLddSFO2Th.jpg",
+    "rating": 7.2,
+    "tmdb_id": 296098
   },
   "Bridget Jones: Schokolade zum Frühstück": {
     "poster_url": "https://image.tmdb.org/t/p/w185/pQW8oUZ6prwG0hD3UUQ4FEyFfqg.jpg",
@@ -2416,6 +2426,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Der alte deutsche Film: Die große Nummer": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Der alte deutsche Film: Donner, Blitz und Sonnenschein": {
     "poster_url": null,
     "rating": null,
@@ -3481,6 +3496,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Element of Crime: Wenn es dunkel und kalt wird in Berlin": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/dvMiCSfHFBYupbbXS897l5KDfz3.jpg",
+    "rating": 7.1,
+    "tmdb_id": 1328781
+  },
   "Embodied Chorus": {
     "poster_url": "https://image.tmdb.org/t/p/w185/AssvZM1H5T5gdnl4dcCMXE5XI6O.jpg",
     "rating": null,
@@ -4272,6 +4292,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "GUTS: A Female Expedition Through Africa + Her Wave": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": 1487814
   },
   "Gahanu Lamai - The Girls": {
     "poster_url": null,
@@ -5612,6 +5637,11 @@
     "poster_url": null,
     "rating": null
   },
+  "Kinderwagenkino: The Piano Tuner (2026)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Kinderwagenkino: The Social Reckoning": {
     "poster_url": null,
     "rating": null,
@@ -5690,6 +5720,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/qVtNjGoHzvZs1srCCebDEx1bsmd.jpg",
     "rating": 6.4,
     "tmdb_id": 1222279
+  },
+  "Klara Und Die Sonne": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/xqovj2p6HRsgHxN81qYAYF4StgM.jpg",
+    "rating": 5.8,
+    "tmdb_id": 858035
   },
   "Klara und die Sonne": {
     "poster_url": "https://image.tmdb.org/t/p/w185/xqovj2p6HRsgHxN81qYAYF4StgM.jpg",
@@ -6394,6 +6429,11 @@
     "rating": 7.2,
     "tmdb_id": 10860
   },
+  "Make Light on Film u.a. Kurzfilme; m. Gast": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Malignant": {
     "poster_url": "https://image.tmdb.org/t/p/w185/7MtE8auHJwWIccRvSlXuCneegO0.jpg",
     "rating": 6.7,
@@ -6558,6 +6598,11 @@
     "rating": 7.8,
     "tmdb_id": 393559
   },
+  "Mein Name ist Nobody": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/29E6lvukPPuJWR1a2HqfcW1Mzkf.jpg",
+    "rating": 7.3,
+    "tmdb_id": 9474
+  },
   "Mein Onkel (1958) - Mon Oncle": {
     "poster_url": null,
     "rating": null,
@@ -6663,6 +6708,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Mexiko: Rammstein: Live in Mexico City": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Mexikoplatz": {
     "poster_url": null,
     "rating": null,
@@ -6677,6 +6727,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Mick, mein Freund vom anderen Stern - Mac and Me": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/Aok8FJijh8Qwq67CfnZvIzKY3iu.jpg",
+    "rating": 4.5,
+    "tmdb_id": 20196
   },
   "Mil pedazos": {
     "poster_url": "https://image.tmdb.org/t/p/w185/2IvdJz0fONOU9I50Ub8J4O3iLxk.jpg",
@@ -7445,6 +7500,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/tRIHKBWKoIADAgALPT2Qu6CYVZF.jpg",
     "rating": 6.8,
     "tmdb_id": 344935
+  },
+  "Otto Wallburg; m. Gespräch": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Ozzy & Black Sabbath: Back To The Beginning": {
     "poster_url": "https://image.tmdb.org/t/p/w185/iO8vwdtmOivoyUguheJtDLXp2Gq.jpg",
@@ -8302,12 +8362,22 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Preview: Barrio Triste": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Preview: Bibi Blocksberg - Die total verhexte Zeitreise": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
   },
   "Preview: Biermann (2026)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Preview: Block zehn; m. Gespräch": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -8889,6 +8959,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Rammstein: Live in Mexico City": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/jWASRyL51gUMeQJuZLdgDC3rTKa.jpg",
+    "rating": null,
+    "tmdb_id": 1753205
   },
   "Ranabaali": {
     "poster_url": "https://image.tmdb.org/t/p/w185/fmqDwVpmiAk4cav5ElC2KAJRM3F.jpg",
@@ -9756,6 +9831,11 @@
     "rating": 6.3,
     "tmdb_id": 35620
   },
+  "Spuren - Opfer des NSU": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/A0DiXWqCtXWse9xa4QvsEUxkdIT.jpg",
+    "rating": 7.0,
+    "tmdb_id": 667650
+  },
   "Staatsschutz": {
     "poster_url": "https://image.tmdb.org/t/p/w185/hhLFoA0FSnREDFKCuIHf3KlYZuZ.jpg",
     "rating": null,
@@ -9863,6 +9943,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Strich durch die Rechnung": {
+    "poster_url": null,
+    "rating": 8.0,
+    "tmdb_id": 285894
   },
   "Stricken im Kino: A la Carte! Freiheit geht durch den Magen": {
     "poster_url": null,
@@ -10141,6 +10226,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/pV3ms3vXUxq1GKzPBHtZBdDYguY.jpg",
     "rating": 6.5,
     "tmdb_id": 149720
+  },
+  "Terence Hill & Bud Spencer - Die Troublemaker": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Terminator": {
     "poster_url": "https://image.tmdb.org/t/p/w185/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg",
@@ -10530,6 +10620,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "The Woddafucka Thing": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/utgeDEpHpuxaKJQao9OZXTqNI7a.jpg",
+    "rating": 7.0,
+    "tmdb_id": 972964
   },
   "The last Word from Bave Tayar (OmenglU); m. Gespräch": {
     "poster_url": null,
@@ -11274,6 +11369,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Winnetou - Der Schatz im Silbersee": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/vvK9KaiZ9ZKdbjefN3KaUtKuLB3.jpg",
+    "rating": 7.1,
+    "tmdb_id": 5636
   },
   "Winter kept us warm": {
     "poster_url": "https://image.tmdb.org/t/p/w185/mX10nt5HZQhGFOanpto6LeBAcCk.jpg",
