@@ -1392,6 +1392,11 @@
     "rating": 6.4,
     "tmdb_id": 8839
   },
+  "Catli 2": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/sTUNCIwq8SJhhLPXt2pyHUDBDHS.jpg",
+    "rating": null,
+    "tmdb_id": 1786633
+  },
   "Catli II": {
     "poster_url": null,
     "rating": null,
@@ -8774,6 +8779,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Queens Of The Dead": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
+    "rating": 5.6,
+    "tmdb_id": 1318435
   },
   "Queens of the Dead": {
     "poster_url": "https://image.tmdb.org/t/p/w185/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
