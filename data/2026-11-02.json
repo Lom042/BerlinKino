@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "generated_at": "2026-10-30T19:01:05",
+  "generated_at": "2026-10-31T11:47:36",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -1177,19 +1177,6 @@
     {
       "cinema": "CineMotion Hohenschönhausen",
       "address": "Wartenberger Str. 174, 13051 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "15:20"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_2263266.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "CineMotion Hohenschönhausen",
-      "address": "Wartenberger Str. 174, 13051 Berlin",
       "film": "Other Mommy",
       "format_tags": [],
       "times": [
@@ -1199,6 +1186,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/dDRtLmxorXpXHxTJqxNlMT9rJP9.jpg",
       "rating": 5.8,
       "tmdb_id": 1400837
+    },
+    {
+      "cinema": "CineMotion Hohenschönhausen",
+      "address": "Wartenberger Str. 174, 13051 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "15:20"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_2263266.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "Cineplex Alhambra",
@@ -1318,19 +1318,6 @@
     {
       "cinema": "Cineplex Alhambra",
       "address": "Seestr. 94, 13353 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "14:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_107.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "Cineplex Alhambra",
-      "address": "Seestr. 94, 13353 Berlin",
       "film": "Sneak Preview",
       "format_tags": [],
       "times": [
@@ -1421,6 +1408,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/dDRtLmxorXpXHxTJqxNlMT9rJP9.jpg",
       "rating": 5.8,
       "tmdb_id": 1400837
+    },
+    {
+      "cinema": "Cineplex Alhambra",
+      "address": "Seestr. 94, 13353 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "14:10"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_107.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1574,19 +1574,6 @@
     {
       "cinema": "Cineplex Neukölln Arcaden",
       "address": "Karl-Marx-Str. 66, 12043 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "14:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_5414089.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "Cineplex Neukölln Arcaden",
-      "address": "Karl-Marx-Str. 66, 12043 Berlin",
       "film": "Sneak Preview",
       "format_tags": [
         "OV"
@@ -1649,6 +1636,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/aO4O1dqRoXVTschAwLaw1njdTwv.jpg",
       "rating": 6.5,
       "tmdb_id": 1380417
+    },
+    {
+      "cinema": "Cineplex Neukölln Arcaden",
+      "address": "Karl-Marx-Str. 66, 12043 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "14:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_5414089.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "Cineplex Spandau",
@@ -1790,19 +1790,6 @@
     {
       "cinema": "Cineplex Spandau",
       "address": "Havelstr. 20, 13597 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "10:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_336.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "Cineplex Spandau",
-      "address": "Havelstr. 20, 13597 Berlin",
       "film": "Sneak Preview",
       "format_tags": [],
       "times": [
@@ -1825,6 +1812,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/dDRtLmxorXpXHxTJqxNlMT9rJP9.jpg",
       "rating": 5.8,
       "tmdb_id": 1400837
+    },
+    {
+      "cinema": "Cineplex Spandau",
+      "address": "Havelstr. 20, 13597 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "10:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_336.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "Cineplex Titania Palast",
@@ -1989,19 +1989,6 @@
     {
       "cinema": "Cineplex Titania Palast",
       "address": "Schloßstr. 5-6, 12163 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "10:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_222.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "Cineplex Titania Palast",
-      "address": "Schloßstr. 5-6, 12163 Berlin",
       "film": "Sneak Preview",
       "format_tags": [
         "OV"
@@ -2054,6 +2041,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/8T3CCV6sot8atyf4wjKjpkGmAFb.jpg",
       "rating": 7.8,
       "tmdb_id": 5915
+    },
+    {
+      "cinema": "Cineplex Titania Palast",
+      "address": "Schloßstr. 5-6, 12163 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "10:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_222.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
@@ -2287,19 +2287,6 @@
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
       "address": "Rathausstr. 1, 10178 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_111.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
-      "address": "Rathausstr. 1, 10178 Berlin",
       "film": "Other Mommy",
       "format_tags": [],
       "times": [
@@ -2339,6 +2326,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/3XARNEq4obOjM7Xy6CpAcoyCiEC.jpg",
       "rating": null,
       "tmdb_id": 1220030
+    },
+    {
+      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
+      "address": "Rathausstr. 1, 10178 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_111.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "CineStar Hellersdorf",
@@ -4144,19 +4144,6 @@
     {
       "cinema": "Kino Spreehöfe",
       "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "16:45"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_1537722.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "Kino Spreehöfe",
-      "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
       "film": "Other Mommy",
       "format_tags": [],
       "times": [
@@ -4166,6 +4153,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/dDRtLmxorXpXHxTJqxNlMT9rJP9.jpg",
       "rating": 5.8,
       "tmdb_id": 1400837
+    },
+    {
+      "cinema": "Kino Spreehöfe",
+      "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "16:45"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_1537722.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "Kino Zukunft",
@@ -4300,14 +4300,17 @@
     {
       "cinema": "Lichtblick-Kino",
       "address": "Kastanienallee 77, 10435 Berlin",
-      "film": "xxxxlöschen-With Hasan in Gaza",
+      "film": "Mit Hasan in Gaza",
       "format_tags": [
         "OmenglU"
       ],
       "times": [
         "20:00"
       ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/xxxxloeschen-with-hasan-in-gaza-f171356943_341_OmenglU.html"
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/mit-hasan-in-gaza-f171705156_341_OmenglU.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/wjMb0HRrxkU21aygJO7qR5W9rgA.jpg",
+      "rating": 9.0,
+      "tmdb_id": 1510306
     },
     {
       "cinema": "Moviemento",
@@ -4362,19 +4365,6 @@
     {
       "cinema": "Moviemento",
       "address": "Kottbusser Damm 22, 10967 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "16:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_151.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "Moviemento",
-      "address": "Kottbusser Damm 22, 10967 Berlin",
       "film": "Die Blutgräfin",
       "format_tags": [
         "OmenglU"
@@ -4398,6 +4388,19 @@
         "19:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/orlando-pantera-f173425051_151_OmenglU.html"
+    },
+    {
+      "cinema": "Moviemento",
+      "address": "Kottbusser Damm 22, 10967 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "16:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_151.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "Neues Off",
@@ -5443,19 +5446,6 @@
     {
       "cinema": "UCI East Side Gallery",
       "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "14:20"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_147406361.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
       "film": "Karaoke Murder - An Mang Karaoke",
       "format_tags": [
         "OmenglU"
@@ -5561,6 +5551,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/aO4O1dqRoXVTschAwLaw1njdTwv.jpg",
       "rating": 6.5,
       "tmdb_id": 1380417
+    },
+    {
+      "cinema": "UCI East Side Gallery",
+      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "14:20"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_147406361.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "UCI Kinowelt am Eastgate",
@@ -5717,19 +5720,6 @@
     {
       "cinema": "UCI Kinowelt am Eastgate",
       "address": "Märkische Allee 176-178, 12679 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "14:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_2776029.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "UCI Kinowelt am Eastgate",
-      "address": "Märkische Allee 176-178, 12679 Berlin",
       "film": "Other Mommy",
       "format_tags": [],
       "times": [
@@ -5762,6 +5752,19 @@
         "19:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/das-gewisse-etwas-2026-f173004989_2776029.html"
+    },
+    {
+      "cinema": "UCI Kinowelt am Eastgate",
+      "address": "Märkische Allee 176-178, 12679 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "14:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_2776029.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "UCI Luxe Gropius Passagen",

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "generated_at": "2026-10-30T19:01:20",
+  "generated_at": "2026-10-31T11:47:53",
   "screenings": [
     {
       "cinema": "Acud-Kino",
@@ -1174,19 +1174,6 @@
     {
       "cinema": "CineMotion Hohenschönhausen",
       "address": "Wartenberger Str. 174, 13051 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "15:20"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_2263266.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "CineMotion Hohenschönhausen",
-      "address": "Wartenberger Str. 174, 13051 Berlin",
       "film": "Other Mommy",
       "format_tags": [],
       "times": [
@@ -1206,6 +1193,19 @@
         "20:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/godzilla-minus-zero-f173292629_2263266.html"
+    },
+    {
+      "cinema": "CineMotion Hohenschönhausen",
+      "address": "Wartenberger Str. 174, 13051 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "15:20"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_2263266.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "Cineplex Alhambra",
@@ -1325,19 +1325,6 @@
     {
       "cinema": "Cineplex Alhambra",
       "address": "Seestr. 94, 13353 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_107.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "Cineplex Alhambra",
-      "address": "Seestr. 94, 13353 Berlin",
       "film": "Catli II",
       "format_tags": [
         "OmU"
@@ -1440,6 +1427,19 @@
         "20:15"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/godzilla-minus-zero-f173292629_107_D-Box, Preview.html"
+    },
+    {
+      "cinema": "Cineplex Alhambra",
+      "address": "Seestr. 94, 13353 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_107.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "Cineplex Neukölln Arcaden",
@@ -1598,19 +1598,6 @@
     {
       "cinema": "Cineplex Neukölln Arcaden",
       "address": "Karl-Marx-Str. 66, 12043 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "14:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_5414089.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "Cineplex Neukölln Arcaden",
-      "address": "Karl-Marx-Str. 66, 12043 Berlin",
       "film": "Catli II",
       "format_tags": [
         "OmU"
@@ -1683,6 +1670,19 @@
         "20:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/godzilla-minus-zero-f173292629_5414089.html"
+    },
+    {
+      "cinema": "Cineplex Neukölln Arcaden",
+      "address": "Karl-Marx-Str. 66, 12043 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "14:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_5414089.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "Cineplex Spandau",
@@ -1798,19 +1798,6 @@
     {
       "cinema": "Cineplex Spandau",
       "address": "Havelstr. 20, 13597 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "10:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_336.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "Cineplex Spandau",
-      "address": "Havelstr. 20, 13597 Berlin",
       "film": "Other Mommy",
       "format_tags": [],
       "times": [
@@ -1856,6 +1843,19 @@
         "19:45"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/godzilla-minus-zero-f173292629_336.html"
+    },
+    {
+      "cinema": "Cineplex Spandau",
+      "address": "Havelstr. 20, 13597 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "10:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_336.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "Cineplex Titania Palast",
@@ -2020,19 +2020,6 @@
     {
       "cinema": "Cineplex Titania Palast",
       "address": "Schloßstr. 5-6, 12163 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "10:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_222.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "Cineplex Titania Palast",
-      "address": "Schloßstr. 5-6, 12163 Berlin",
       "film": "Other Mommy",
       "format_tags": [],
       "times": [
@@ -2065,6 +2052,19 @@
         "20:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/godzilla-minus-zero-f173292629_222.html"
+    },
+    {
+      "cinema": "Cineplex Titania Palast",
+      "address": "Schloßstr. 5-6, 12163 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "10:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_222.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
@@ -2284,19 +2284,6 @@
     {
       "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
       "address": "Rathausstr. 1, 10178 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "14:10"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_111.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
-      "address": "Rathausstr. 1, 10178 Berlin",
       "film": "Other Mommy",
       "format_tags": [],
       "times": [
@@ -2358,6 +2345,19 @@
         "20:10"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/godzilla-minus-zero-f173292629_111.html"
+    },
+    {
+      "cinema": "CineStar CUBIX Filmpalast Alexanderplatz",
+      "address": "Rathausstr. 1, 10178 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "14:10"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_111.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "CineStar Hellersdorf",
@@ -2682,19 +2682,6 @@
     {
       "cinema": "CineStar Tegel",
       "address": "Am Borsigturm 2, 13507 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "14:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_2775966.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "CineStar Tegel",
-      "address": "Am Borsigturm 2, 13507 Berlin",
       "film": "Other Mommy",
       "format_tags": [],
       "times": [
@@ -2739,6 +2726,19 @@
         "19:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/rocky-i-f3343370_2775966.html"
+    },
+    {
+      "cinema": "CineStar Tegel",
+      "address": "Am Borsigturm 2, 13507 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "14:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_2775966.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "City Kino Wedding",
@@ -4156,19 +4156,6 @@
     {
       "cinema": "Kino in der Kulturbrauerei",
       "address": "Schönhauser Allee 36, 10435 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "14:05"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_3685765.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "Kino in der Kulturbrauerei",
-      "address": "Schönhauser Allee 36, 10435 Berlin",
       "film": "Klara und die Sonne - Klara and the Sun",
       "format_tags": [
         "OmU"
@@ -4217,6 +4204,19 @@
         "19:30"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/rocky-i-f3343370_3685765_OmU.html"
+    },
+    {
+      "cinema": "Kino in der Kulturbrauerei",
+      "address": "Schönhauser Allee 36, 10435 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "14:05"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_3685765.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "Kino Intimes",
@@ -4413,19 +4413,6 @@
     {
       "cinema": "Kino Spreehöfe",
       "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "16:45"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_1537722.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "Kino Spreehöfe",
-      "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
       "film": "Other Mommy",
       "format_tags": [],
       "times": [
@@ -4445,6 +4432,19 @@
         "19:00"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/godzilla-minus-zero-f173292629_1537722.html"
+    },
+    {
+      "cinema": "Kino Spreehöfe",
+      "address": "Wilhelminenhofstr. 89a, 12459 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "16:45"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_1537722.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "Kino Zukunft",
@@ -4668,6 +4668,18 @@
     {
       "cinema": "Moviemento",
       "address": "Kottbusser Damm 22, 10967 Berlin",
+      "film": "Blind Date Cinema: Die Blutgräfin",
+      "format_tags": [
+        "OmenglU"
+      ],
+      "times": [
+        "19:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-blutgraefin-f171756551_151_OmenglU.html"
+    },
+    {
+      "cinema": "Moviemento",
+      "address": "Kottbusser Damm 22, 10967 Berlin",
       "film": "Das Geheimnis der gestohlenen Maske",
       "format_tags": [],
       "times": [
@@ -4677,18 +4689,6 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
       "rating": null,
       "tmdb_id": 1185537
-    },
-    {
-      "cinema": "Moviemento",
-      "address": "Kottbusser Damm 22, 10967 Berlin",
-      "film": "Blind Date Cinema: Die Blutgräfin",
-      "format_tags": [
-        "OmenglU"
-      ],
-      "times": [
-        "19:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/die-blutgraefin-f171756551_151_OmenglU.html"
     },
     {
       "cinema": "Neues Off",
@@ -5034,18 +5034,6 @@
     {
       "cinema": "Sputnik (Höfe am Südstern)",
       "address": "Hasenheide 54, 10967 Berlin",
-      "film": "Preview: Queens of the Dead",
-      "format_tags": [
-        "OmU"
-      ],
-      "times": [
-        "21:00"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/queens-of-the-dead-f172051991_68_OmU.html"
-    },
-    {
-      "cinema": "Sputnik (Höfe am Südstern)",
-      "address": "Hasenheide 54, 10967 Berlin",
       "film": "Rocky I",
       "format_tags": [
         "OmU"
@@ -5057,6 +5045,18 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/fViZxjUGsR6IQD77FP22PIMfk0R.jpg",
       "rating": null,
       "tmdb_id": 1286656
+    },
+    {
+      "cinema": "Sputnik (Höfe am Südstern)",
+      "address": "Hasenheide 54, 10967 Berlin",
+      "film": "Preview: Queens of the Dead",
+      "format_tags": [
+        "OmU"
+      ],
+      "times": [
+        "21:00"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/queens-of-the-dead-f172051991_68_OmU.html"
     },
     {
       "cinema": "Thalia Babelsberg",
@@ -5653,19 +5653,6 @@
     {
       "cinema": "UCI East Side Gallery",
       "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "14:50"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_147406361.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "UCI East Side Gallery",
-      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
       "film": "Karaoke Murder - An Mang Karaoke",
       "format_tags": [
         "OmenglU"
@@ -5821,6 +5808,19 @@
       "tmdb_id": 1286656
     },
     {
+      "cinema": "UCI East Side Gallery",
+      "address": "Mildred-Harnack-Str. 13, 10243 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "14:50"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_147406361.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
+    },
+    {
       "cinema": "UCI Kinowelt am Eastgate",
       "address": "Märkische Allee 176-178, 12679 Berlin",
       "film": "Der perfekte Urlaub",
@@ -5962,19 +5962,6 @@
     {
       "cinema": "UCI Kinowelt am Eastgate",
       "address": "Märkische Allee 176-178, 12679 Berlin",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "14:30"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_2776029.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "UCI Kinowelt am Eastgate",
-      "address": "Märkische Allee 176-178, 12679 Berlin",
       "film": "Other Mommy",
       "format_tags": [],
       "times": [
@@ -6047,6 +6034,19 @@
       "poster_url": "https://image.tmdb.org/t/p/w185/fViZxjUGsR6IQD77FP22PIMfk0R.jpg",
       "rating": null,
       "tmdb_id": 1286656
+    },
+    {
+      "cinema": "UCI Kinowelt am Eastgate",
+      "address": "Märkische Allee 176-178, 12679 Berlin",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "14:30"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_2776029.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "UCI Luxe Gropius Passagen",
@@ -6335,19 +6335,6 @@
     {
       "cinema": "UCI Luxe Potsdam Center",
       "address": "Babelsberger Str. 10, 14473 Potsdam",
-      "film": "Das Geheimnis der gestohlenen Maske",
-      "format_tags": [],
-      "times": [
-        "14:15"
-      ],
-      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_2987758.html",
-      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
-      "rating": null,
-      "tmdb_id": 1185537
-    },
-    {
-      "cinema": "UCI Luxe Potsdam Center",
-      "address": "Babelsberger Str. 10, 14473 Potsdam",
       "film": "Other Mommy",
       "format_tags": [],
       "times": [
@@ -6405,6 +6392,19 @@
         "20:20"
       ],
       "film_url": "http://kino.veranstaltungen-in-berlin.de/godzilla-minus-zero-f173292629_2987758.html"
+    },
+    {
+      "cinema": "UCI Luxe Potsdam Center",
+      "address": "Babelsberger Str. 10, 14473 Potsdam",
+      "film": "Das Geheimnis der gestohlenen Maske",
+      "format_tags": [],
+      "times": [
+        "14:15"
+      ],
+      "film_url": "http://kino.veranstaltungen-in-berlin.de/das-geheimnis-der-gestohlenen-maske-f173192591_2987758.html",
+      "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+      "rating": null,
+      "tmdb_id": 1185537
     },
     {
       "cinema": "Union Filmtheater",

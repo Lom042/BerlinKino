@@ -1257,6 +1257,11 @@
     "rating": null,
     "tmdb_id": 1314368
   },
+  "Bts World Tour 'Arirang' In São Paulo: Live": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg",
+    "rating": null,
+    "tmdb_id": 1770234
+  },
   "Bugonia": {
     "poster_url": "https://image.tmdb.org/t/p/w185/9RJ4nkXlINBQ3oVKtiwmxnwXgC0.jpg",
     "rating": 7.3,
@@ -5228,6 +5233,11 @@
     "rating": null,
     "tmdb_id": 1489938
   },
+  "Jak Żyć, Żeby Nie Zwariować": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/bk2r12DsNGJyA5vMxTdJf0Plpmy.jpg",
+    "rating": null,
+    "tmdb_id": 1489938
+  },
   "Jamon Jamon": {
     "poster_url": "https://image.tmdb.org/t/p/w185/8SDnqxX2XMOEQMZhBAGMx3kPc8u.jpg",
     "rating": 6.2,
@@ -6012,6 +6022,11 @@
     "tmdb_id": 28391
   },
   "Larp (2026)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Le citta di pianura - Eine letzte Runde": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -11364,6 +11379,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Wildwood": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/oYkGlrvG7QNqrLtss4Q3Bpr1Np6.jpg",
+    "rating": 8.6,
+    "tmdb_id": 791523
   },
   "Wildwood (2026)": {
     "poster_url": null,
