@@ -1898,6 +1898,11 @@
     "rating": 5.9,
     "tmdb_id": 54315
   },
+  "Das Geheimnis Der Gestohlenen Maske": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
+    "rating": null,
+    "tmdb_id": 1185537
+  },
   "Das Geheimnis der gestohlenen Maske": {
     "poster_url": "https://image.tmdb.org/t/p/w185/yWDjqljbcCyk3xod7wVXTPiumTf.jpg",
     "rating": null,
@@ -4462,6 +4467,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/wtc8VETDc5jOZ90E6SzoMqr11ta.jpg",
     "rating": 5.7
   },
+  "Godzilla Minus Zero": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/hZviv9gguqHGw4GK8gS5d5bDhA4.jpg",
+    "rating": 9.5,
+    "tmdb_id": 1381071
+  },
   "Good Boy - Wir wollen nur Dein Bestes": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ziliP7npRNuRnBfnqnzapUexULY.jpg",
     "rating": 7.2,
@@ -4681,6 +4691,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Hasip Ile Nasip": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/9uUCSXafDWDfGhIMhNx1xwmlyUB.jpg",
+    "rating": null,
+    "tmdb_id": 1749435
   },
   "Hasip ile Nasip": {
     "poster_url": "https://image.tmdb.org/t/p/w185/9uUCSXafDWDfGhIMhNx1xwmlyUB.jpg",
