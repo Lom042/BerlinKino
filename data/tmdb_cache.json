@@ -258,6 +258,11 @@
     "rating": null,
     "tmdb_id": 1319115
   },
+  "Adam und Evelyn": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/lE4jrU20GzJpQCQnvQXuqrOIUEM.jpg",
+    "rating": 5.2,
+    "tmdb_id": 538702
+  },
   "Adams Acht": {
     "poster_url": "https://image.tmdb.org/t/p/w185/rHZZ9UJ6uuhkcXkgutv9EBkiGSj.jpg",
     "rating": 6.0,
@@ -453,6 +458,11 @@
     "tmdb_id": null
   },
   "Amrum (2025) (DFmenglU)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Amussu (2019)": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -831,6 +841,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Ben'imana - Les enfants de dieu": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Benjamin Blümchen - Seine schönsten Abenteuer": {
     "poster_url": "https://image.tmdb.org/t/p/w185/iiMHpjg2nQvlGNRusdrDE5GIezn.jpg",
     "rating": 10.0,
@@ -974,6 +989,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/AhNpsHSDhxulwb6C8Dd89sc09T9.jpg",
     "rating": 8.2,
     "tmdb_id": 1517202
+  },
+  "Between My Mind and I": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Bewegte Bilder & Bewegende Bilder: Best of FAB Berlin": {
     "poster_url": null,
@@ -1681,6 +1701,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Congo Boy (OmenglU); m. Gast": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Conjuring - Die Heimsuchung": {
     "poster_url": "https://image.tmdb.org/t/p/w185/pO6PL9Uw2fafe3MaF73FrgjH9tL.jpg",
     "rating": 7.5,
@@ -1987,6 +2012,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/oWvwj0eHeoG8mXryJUIbl4oTGzQ.jpg",
     "rating": 7.5,
     "tmdb_id": 13528
+  },
+  "Das Himmler Projekt": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/gKgRooQCzvKikz4ZS4l5XkDM5ju.jpg",
+    "rating": 9.0,
+    "tmdb_id": 153399
   },
   "Das Hohelied der Liebe - Les anges du peche": {
     "poster_url": "https://image.tmdb.org/t/p/w185/p1B9An05BmTquZ1ML0QFHwkpCqw.jpg",
@@ -2605,6 +2635,11 @@
     "rating": 7.8,
     "tmdb_id": 677558
   },
+  "Der mit dem Wolf tanzt": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/1NiWjDjuRRTd2Beu10K6M6Bk2cs.jpg",
+    "rating": 7.8,
+    "tmdb_id": 581
+  },
   "Der perfekte Schein: Der Fall Bojarski": {
     "poster_url": "https://image.tmdb.org/t/p/w185/wXKBRgtnSgvqRkP8zhVMjNSPTx7.jpg",
     "rating": 7.1,
@@ -2815,6 +2850,16 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Die Geierwally (1956)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Die Geierwally (1987)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Die Geträumten": {
     "poster_url": "https://image.tmdb.org/t/p/w185/tL3W3XUzrEMOK3aYPm5c4beeS1M.jpg",
     "rating": 8.2,
@@ -2879,6 +2924,11 @@
     "rating": 7.6,
     "tmdb_id": 1266800
   },
+  "Die Legende von Ochi": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/loqUPsShyS5bqfHHFuedGS3xq8P.jpg",
+    "rating": 6.1,
+    "tmdb_id": 896536
+  },
   "Die Legende von Paul und Paula": {
     "poster_url": "https://image.tmdb.org/t/p/w185/9LLzDz6QfmDyfiittN0PdQMhgwz.jpg",
     "rating": 5.8,
@@ -2930,6 +2980,11 @@
     "tmdb_id": null
   },
   "Die Mädchen (1968) - Flickorna: The Girls": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Die Männer der \"Vereinten Kraft\"; m. Gast": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -2993,6 +3048,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/leitgbUQZtJEdD85sBc36tny5In.jpg",
     "rating": 6.7,
     "tmdb_id": 805051
+  },
+  "Die Praxis der Liebe (OmenglU); m. Vorfilm u. Gast": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Die Rechnung ging nicht auf - The Killing": {
     "poster_url": "https://image.tmdb.org/t/p/w185/jWUGOQgTqCQ7yzuTrVC729ZTgXY.jpg",
@@ -3104,6 +3164,11 @@
     "rating": 7.0,
     "tmdb_id": 695721
   },
+  "Die Tribute von Panem: The Ballad of Songbirds & Snakes - The Hunger Games: The Ballad of Songbirds and Snakes": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/itogxOvIcuF1pUQbfAaRTC74nCE.jpg",
+    "rating": 7.0,
+    "tmdb_id": 695721
+  },
   "Die Unbefriedigten - Les bonnes femmes": {
     "poster_url": "https://image.tmdb.org/t/p/w185/2AHLnKCeJT766hceHdE5qg2Iz0u.jpg",
     "rating": 6.3,
@@ -3163,6 +3228,11 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "Die allseitig reduzierte Persönlichkeit - Redupers": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/3q2cJgykPVr4XoeWacTXstAvEig.jpg",
+    "rating": 5.5,
+    "tmdb_id": 188165
   },
   "Die andere Seite (2026)": {
     "poster_url": null,
@@ -3347,6 +3417,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/iDC3gejyUdOveUBt079RMdKTMvj.jpg",
     "rating": 6.7,
     "tmdb_id": 1282280
+  },
+  "Dokumentarfilme von Thomas Kuschel: Der letzte Trabbi u.a. Kurzfilme; m. Gespräch": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Dom Dobry - Home Sweet Home": {
     "poster_url": "https://image.tmdb.org/t/p/w185/ezLtPFCzGYYvCp6NPxIBKI43tDs.jpg",
@@ -3584,6 +3659,11 @@
   },
   "Einar Schleef - Ich habe kein Deutschland gefunden": {
     "poster_url": "https://image.tmdb.org/t/p/w185/t0xssaAGiVvlQptcEygIj9iMF47.jpg",
+    "rating": null,
+    "tmdb_id": 1616868
+  },
+  "Einar Schleef - Ich habe kein Deutschland gefunden; m. Gast": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/fNyAq1S63gsIQWdzfhc3UdOUxck.jpg",
     "rating": null,
     "tmdb_id": 1616868
   },
@@ -4558,6 +4638,11 @@
     "rating": 9.0,
     "tmdb_id": 1673202
   },
+  "Gestern Mitte Morgen": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/6WzvL0vBCNYUmOAEwgA925QyPwS.jpg",
+    "rating": null,
+    "tmdb_id": 1439894
+  },
   "Geuk jang jeon - Tale of Cinema": {
     "poster_url": "https://image.tmdb.org/t/p/w185/mHOb6qflJnUc6cMQjhKFiEihfpN.jpg",
     "rating": 6.8,
@@ -4668,6 +4753,11 @@
     "tmdb_id": 220376
   },
   "Gorgona (2025)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Grace - Hiding in Plain Sight (OV); m. Gästen": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -4912,6 +5002,16 @@
     "rating": 7.7,
     "tmdb_id": 14580
   },
+  "Helene Weigel - Revolutionärin im Rampenlicht; m. Einführung": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/pZDiVunb0sPjzxqLcwViYgihPA.jpg",
+    "rating": null,
+    "tmdb_id": 1675935
+  },
+  "Helene Weigel - Revolutionärin im Rampenlicht; m. Gast": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/pZDiVunb0sPjzxqLcwViYgihPA.jpg",
+    "rating": null,
+    "tmdb_id": 1675935
+  },
   "Hell Bent - The Three Bad Men (OmU); m. Live-Musikbegleitung": {
     "poster_url": null,
     "rating": null,
@@ -4952,6 +5052,21 @@
     "rating": 9.0
   },
   "Herz aus Glas (1976)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Herzbergmaschine #1: Gertrud Kolmar - Wege durch Berlin / Herzbergmaschine #2: Das Traumtagebuch von Hilde Wenzel / Herzbergmaschine #3: Sabina Wenzel in Paraty": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Herzbergmaschine #2: Das Traumtagebuch von Hilde Wenzel": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Herzbergmaschine #3: Sabina Wenzel in Paraty": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -5618,6 +5733,16 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Jüdische Filmwoche: Comedian Harmonists (1998)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Jüdische Filmwoche: Comedian Harmonists - Sechs Lebensläufe": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Jüdische Filmwoche: Das siebte Kreuz": {
     "poster_url": null,
     "rating": null,
@@ -6186,6 +6311,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Kurzfilme von Valie Export (OmenglU); m. Gästen": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Kurzfilme zur Berliner Abgeordnetenhauswahl 1967": {
     "poster_url": null,
     "rating": null,
@@ -6235,6 +6365,16 @@
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
+  },
+  "L'arbre de l'authenticite - The Tree of Authenticity": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/EXSeh9GgNE7mY6Fu9pnX4uvakW.jpg",
+    "rating": 8.7,
+    "tmdb_id": 1403861
+  },
+  "L'auberge Espagnole - Barcelona für ein Jahr (EnglF)": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/5oTUOcusmNVLFoeMhhkU5L4d071.jpg",
+    "rating": 7.1,
+    "tmdb_id": 1555
   },
   "La Bola Negra": {
     "poster_url": "https://image.tmdb.org/t/p/w185/t1azKLExwUxKj6v6m2L535evuRa.jpg",
@@ -7193,6 +7333,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "MonGay: Preview: La Bola Negra": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "MonGay: Preview: On the Sea (2026) (OmU); m. Gästen": {
     "poster_url": null,
     "rating": null,
@@ -7807,6 +7952,11 @@
     "tmdb_id": null
   },
   "Open-Air-Kino: Yi Yi - A One and a Two": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Opera national de Paris: Romeo und Julia (2026)": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -8459,6 +8609,11 @@
     "tmdb_id": 531428
   },
   "Portuguese Cinema Days: A Memoria do Cheiro das Coisas": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Portuguese Cinema Days: As Meninas Exemplares": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -9300,6 +9455,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Queerfilmabend: On the Sea (2026)": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Queerfilmabend: Preview: The Beauty of Ballroom": {
     "poster_url": null,
     "rating": null,
@@ -9570,6 +9730,11 @@
     "tmdb_id": null
   },
   "Roter Staub für weißes Gold": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Royal Ballet and Opera in Cinemas: Carmen (2026)": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -10632,6 +10797,11 @@
     "rating": null,
     "tmdb_id": 1177749
   },
+  "Tatis Schützenfest (s/w) - Jour de fete": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Tatort - Das Mädchen von Gegenüber": {
     "poster_url": null,
     "rating": null,
@@ -10736,6 +10906,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/crqI0FEMT2UI1GkrYPlthMf5hB1.jpg",
     "rating": 7.1,
     "tmdb_id": 1287322
+  },
+  "The Answering Machine": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "The Answering Machine (OmenglU); m. Gespräch": {
     "poster_url": null,
@@ -11410,6 +11585,11 @@
     "rating": 10.0,
     "tmdb_id": 786299
   },
+  "Unsichtbare Gegner (1976) (OmenglU); m. Einführung": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
   "Unter dir die Stadt (OmenglU); m. Vorfilm": {
     "poster_url": null,
     "rating": null,
@@ -11884,6 +12064,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/kSdXwwMumjbDHANepqaiqmNaSCp.jpg",
     "rating": null,
     "tmdb_id": 1559090
+  },
+  "With the People; m. Diskussion": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
   },
   "Wohin der Wind uns trägt": {
     "poster_url": "https://image.tmdb.org/t/p/w185/HYQRekbiqgzBDtjIwctAgLvfUa.jpg",
