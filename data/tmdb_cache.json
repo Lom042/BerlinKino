@@ -3393,6 +3393,11 @@
     "rating": 7.4,
     "tmdb_id": 1275779
   },
+  "Disco": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/eRTetv6ZNpUDrJOaSuh69weNnD4.jpg",
+    "rating": 5.3,
+    "tmdb_id": 619687
+  },
   "Disco (2026)": {
     "poster_url": null,
     "rating": null,
@@ -10002,6 +10007,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w185/quKVGPffv7dTxqToe4084P7qVqj.jpg",
     "rating": 4.3,
     "tmdb_id": 565916
+  },
+  "Scene": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/kfc4w3OX8QsFm8f9MPUdmGheNl3.jpg",
+    "rating": 8.8,
+    "tmdb_id": 1402181
   },
   "Scene (2026)": {
     "poster_url": "https://image.tmdb.org/t/p/w185/1O00rW6XKQlWtF3iGW07SgtyLtk.jpg",
