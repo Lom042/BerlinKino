@@ -2677,6 +2677,11 @@
     "rating": null,
     "tmdb_id": null
   },
+  "Der Regenbogenfisch": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/gjrX5FooRmMT3BXd3woiO67qp6p.jpg",
+    "rating": null,
+    "tmdb_id": 1625344
+  },
   "Der Regenmeister": {
     "poster_url": "https://image.tmdb.org/t/p/w185/fgafixcJ8C6Pd8Znv7UGda9bPUO.jpg",
     "rating": 4.5,
@@ -3867,6 +3872,11 @@
     "rating": 7.1,
     "tmdb_id": 22536
   },
+  "Dzien Dziecka Ksiedza Jana Kaczkowskiego": {
+    "poster_url": "https://image.tmdb.org/t/p/w185/baZG5cgmHlDyF87aUQ5mcKlatJY.jpg",
+    "rating": null,
+    "tmdb_id": 1707378
+  },
   "Dzien dziecka ksiedza Jana Kaczkowski ego": {
     "poster_url": null,
     "rating": null,
@@ -4611,6 +4621,11 @@
     "tmdb_id": null
   },
   "Festival of Animation: Internationaler Wettbewerb IV": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Festtagsspass Mit Peppa – Das Kinoerlebnis": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
@@ -7231,6 +7246,11 @@
     "tmdb_id": 1452018
   },
   "Liebhaberinnen; m. Gästen": {
+    "poster_url": null,
+    "rating": null,
+    "tmdb_id": null
+  },
+  "Lieblingsmenschen - Die Aussergewöhnliche Freundschaft Von Agnes Und Amir": {
     "poster_url": null,
     "rating": null,
     "tmdb_id": null
